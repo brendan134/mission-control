@@ -1,0 +1,418 @@
+'use client';
+import { useState, useEffect } from 'react';
+import { 
+  CheckCircle, AlertTriangle, Zap, Target, ArrowRight, 
+  Clock, Play, Pause, Users, Flame, AlertCircle, CheckSquare
+} from 'lucide-react';
+import { getTasks, getBlockedTasks, getCompletedTasks, getActiveTasks } from '@/lib/task-service';
+import { getProjects, getActiveProjects, getProjectProgress, getStaleProjects } from '@/lib/project-service';
+
+interface Task {
+  id: string;
+  title: string;
+  description?: string;
+  status: string;
+  priority: string;
+  blocked: boolean;
+  project_id?: string;
+  primary_owner_id?: string;
+  next_action?: string;
+  due_date?: string;
+  completed_at?: string;
+  created_at: string;
+}
+
+interface Project {
+  id: string;
+  name: string;
+  status: string;
+  progress: number;
+  last_activity?: string;
+}
+
+// Helper: Check if task is due this week
+function isDueThisWeek(task: Task): boolean {
+  if (!task.due_date) return false;
+  const due = new Date(task.due_date);
+  const now = new Date();
+  const endOfWeek = new Date(now);
+  endOfWeek.setDate(now.getDate() + (7 - now.getDay()));
+  return due >= now && due <= endOfWeek;
+}
+
+// Helper: Check if task completed this week
+function isCompletedThisWeek(task: Task): boolean {
+  if (!task.completed_at) return false;
+  const completed = new Date(task.completed_at);
+  const now = new Date();
+  const startOfWeek = new Date(now);
+  startOfWeek.setDate(now.getDate() - now.getDay());
+  return completed >= startOfWeek;
+}
+
+// Helper: Get priority weight
+function getPriorityWeight(priority: string): number {
+  const weights: Record<string, number> = { 
+    Critical: 4, High: 3, Medium: 2, Low: 1 
+  };
+  return weights[priority] || 0;
+}
+
+export default function MyWeek() {
+  const [loading, setLoading] = useState(true);
+  const [tasks, setTasks] = useState<Task[]>([]);
+  const [projects, setProjects] = useState<Project[]>([]);
+  
+  useEffect(() => {
+    loadData();
+  }, []);
+
+  async function loadData() {
+    try {
+      const [tasksData, projectsData] = await Promise.all([
+        getTasks(),
+        getProjects()
+      ]);
+      setTasks(tasksData || []);
+      setProjects(projectsData || []);
+    } catch (err) {
+      console.error("Failed to load My Week data:", err);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  // Compute task groupings
+  const inProgressTasks = tasks.filter(t => t.status === "In Progress" || t.status === "Active");
+  const dueThisWeekTasks = tasks.filter(t => isDueThisWeek(t));
+  const blockedTasks = tasks.filter(t => t.blocked);
+  const completedThisWeek = tasks.filter(t => isCompletedThisWeek(t));
+  const highPriorityTasks = tasks.filter(t => getPriorityWeight(t.priority) >= 3);
+
+  // Weekly Focus: top 5 most important tasks
+  const weeklyFocus = [...tasks]
+    .filter(t => t.status !== "Completed" && t.status !== "Done")
+    .sort((a, b) => getPriorityWeight(b.priority) - getPriorityWeight(a.priority))
+    .slice(0, 5);
+
+  // Project momentum
+  const activeProjects = projects.filter(p => p.status === "Active");
+  const staleProjects = projects.filter(p => {
+    if (!p.last_activity) return true;
+    const daysSince = (Date.now() - new Date(p.last_activity).getTime()) / (1000*60*60*24);
+    return daysSince > 14;
+  });
+
+  if (loading) {
+    return (
+      <div style={{ padding: '24px', maxWidth: '1400px', margin: '0 auto' }}>
+        <div style={{ textAlign: 'center', padding: '60px' }}>
+          <div style={{ fontSize: '18px' }}>Loading My Week...</div>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div style={{ padding: '24px', maxWidth: '1400px', margin: '0 auto' }}>
+      {/* Header */}
+      <div style={{ marginBottom: '32px' }}>
+        <h1 style={{ fontSize: '28px', fontWeight: 600, margin: 0 }}>My Week</h1>
+        <p style={{ color: 'var(--text-muted)', margin: '4px 0 0' }}>Weekly leadership control panel</p>
+        <p style={{ color: 'var(--text-muted)', fontSize: '13px', margin: '8px 0 0' }}>
+          {new Date().toLocaleDateString('en-AU', { weekday: 'long', day: 'numeric', month: 'long' })}
+        </p>
+      </div>
+
+      {/* Summary Bar */}
+      <div style={{ 
+        display: 'grid', 
+        gridTemplateColumns: 'repeat(4, 1fr)', 
+        gap: '16px', 
+        marginBottom: '32px' 
+      }}>
+        <SummaryCard 
+          icon={<Zap size={20} />} 
+          label="Weekly Focus" 
+          value={weeklyFocus.length} 
+          color="#f59e0b"
+        />
+        <SummaryCard 
+          icon={<Clock size={20} />} 
+          label="Due This Week" 
+          value={dueThisWeekTasks.length} 
+          color="#3b82f6"
+        />
+        <SummaryCard 
+          icon={<AlertTriangle size={20} />} 
+          label="Blocked" 
+          value={blockedTasks.length} 
+          color="#ef4444"
+        />
+        <SummaryCard 
+          icon={<CheckCircle size={20} />} 
+          label="Completed" 
+          value={completedThisWeek.length} 
+          color="#22c55e"
+        />
+      </div>
+
+      {/* Weekly Focus */}
+      <Section title="Weekly Focus" icon={<Target size={18} />} color="#f59e0b">
+        {weeklyFocus.length === 0 ? (
+          <p style={{ color: 'var(--text-muted)', fontSize: '14px' }}>
+            No tasks marked for weekly focus. Mark tasks as High or Critical priority.
+          </p>
+        ) : (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+            {weeklyFocus.map(task => (
+              <TaskCard key={task.id} task={task} showProject={true} projects={projects} />
+            ))}
+          </div>
+        )}
+      </Section>
+
+      {/* Execution Grid */}
+      <div style={{ 
+        display: 'grid', 
+        gridTemplateColumns: 'repeat(2, 1fr)', 
+        gap: '24px', 
+        marginTop: '24px' 
+      }}>
+        {/* In Progress */}
+        <Section title="In Progress" icon={<Play size={18} />} color="#3b82f6">
+          {inProgressTasks.length === 0 ? (
+            <p style={{ color: 'var(--text-muted)', fontSize: '14px' }}>No tasks in progress</p>
+          ) : (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              {inProgressTasks.slice(0, 5).map(task => (
+                <TaskRow key={task.id} task={task} compact />
+              ))}
+            </div>
+          )}
+        </Section>
+
+        {/* Due This Week */}
+        <Section title="Due This Week" icon={<Clock size={18} />} color="#8b5cf6">
+          {dueThisWeekTasks.length === 0 ? (
+            <p style={{ color: 'var(--text-muted)', fontSize: '14px' }}>Nothing due this week</p>
+          ) : (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              {dueThisWeekTasks.slice(0, 5).map(task => (
+                <TaskRow key={task.id} task={task} compact />
+              ))}
+            </div>
+          )}
+        </Section>
+
+        {/* Blocked */}
+        <Section title="Blocked" icon={<AlertCircle size={18} />} color="#ef4444">
+          {blockedTasks.length === 0 ? (
+            <p style={{ color: 'var(--text-muted)', fontSize: '14px' }}>No blocked tasks</p>
+          ) : (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              {blockedTasks.slice(0, 5).map(task => (
+                <TaskRow key={task.id} task={task} compact blocked />
+              ))}
+            </div>
+          )}
+        </Section>
+
+        {/* Completed This Week */}
+        <Section title="Completed This Week" icon={<CheckCircle size={18} />} color="#22c55e">
+          {completedThisWeek.length === 0 ? (
+            <p style={{ color: 'var(--text-muted)', fontSize: '14px' }}>Nothing completed yet</p>
+          ) : (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              {completedThisWeek.slice(0, 5).map(task => (
+                <TaskRow key={task.id} task={task} compact completed />
+              ))}
+            </div>
+          )}
+        </Section>
+      </div>
+
+      {/* Project Momentum */}
+      <Section title="Project Momentum" icon={<Flame size={18} />} color="#f97316" style={{ marginTop: '24px' }}>
+        {activeProjects.length === 0 ? (
+          <p style={{ color: 'var(--text-muted)', fontSize: '14px' }}>No active projects</p>
+        ) : (
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '12px' }}>
+            {activeProjects.slice(0, 6).map(project => (
+              <ProjectCard key={project.id} project={project} tasks={tasks} />
+            ))}
+          </div>
+        )}
+      </Section>
+
+      {/* Needs Attention */}
+      {(staleProjects.length > 0 || blockedTasks.length > 0) && (
+        <Section title="Needs Attention" icon={<AlertTriangle size={18} />} color="#ef4444" style={{ marginTop: '24px' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+            {staleProjects.slice(0, 3).map(project => (
+              <AlertRow key={project.id} type="stale" text={`Project "${project.name}" has no recent activity`} />
+            ))}
+            {blockedTasks.slice(0, 3).map(task => (
+              <AlertRow key={task.id} type="blocked" text={`Task "${task.title}" is blocked`} />
+            ))}
+          </div>
+        </Section>
+      )}
+    </div>
+  );
+}
+
+// ==================== SUB-COMPONENTS ====================
+
+function SummaryCard({ icon, label, value, color }: { icon: React.ReactNode; label: string; value: number; color: string }) {
+  return (
+    <div style={{ 
+      background: 'var(--card)', 
+      borderRadius: '12px', 
+      padding: '20px',
+      border: '1px solid var(--border)'
+    }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+        <div style={{ color, padding: '8px', background: color + '15', borderRadius: '8px' }}>{icon}</div>
+        <div>
+          <div style={{ fontSize: '28px', fontWeight: 600 }}>{value}</div>
+          <div style={{ fontSize: '13px', color: 'var(--text-muted)' }}>{label}</div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Section({ title, icon, color, children, style }: { title: string; icon: React.ReactNode; color: string; children: React.ReactNode; style?: React.CSSProperties }) {
+  return (
+    <div style={{ ...style }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px' }}>
+        <span style={{ color }}>{icon}</span>
+        <h2 style={{ fontSize: '18px', fontWeight: 600, margin: 0 }}>{title}</h2>
+      </div>
+      <div style={{ 
+        background: 'var(--card)', 
+        borderRadius: '12px', 
+        padding: '20px',
+        border: '1px solid var(--border)'
+      }}>
+        {children}
+      </div>
+    </div>
+  );
+}
+
+function TaskCard({ task, showProject, projects }: { task: Task; showProject?: boolean; projects: Project[] }) {
+  const project = task.project_id ? projects.find(p => p.id === task.project_id) : null;
+  
+  return (
+    <div style={{ 
+      padding: '16px', 
+      background: 'var(--background)', 
+      borderRadius: '8px',
+      border: '1px solid var(--border)'
+    }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+        <div style={{ flex: 1 }}>
+          <div style={{ fontWeight: 500, marginBottom: '4px' }}>{task.title}</div>
+          {task.description && (
+            <div style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '8px' }}>
+              {task.description.substring(0, 100)}...
+            </div>
+          )}
+          <div style={{ display: 'flex', gap: '12px', fontSize: '12px' }}>
+            <span style={{ 
+              padding: '2px 8px', 
+              borderRadius: '4px',
+              background: task.priority === 'Critical' ? '#fee2e2' : task.priority === 'High' ? '#ffedd5' : '#f3f4f6',
+              color: task.priority === 'Critical' ? '#dc2626' : task.priority === 'High' ? '#ea580c' : '#6b7280'
+            }}>
+              {task.priority}
+            </span>
+            {showProject && project && (
+              <span style={{ color: 'var(--text-muted)' }}>{project.name}</span>
+            )}
+            {task.status && (
+              <span style={{ color: 'var(--text-muted)' }}>{task.status}</span>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TaskRow({ task, compact, blocked, completed }: { task: Task; compact?: boolean; blocked?: boolean; completed?: boolean }) {
+  return (
+    <div style={{ 
+      display: 'flex', 
+      alignItems: 'center', 
+      gap: '12px', 
+      padding: '12px',
+      background: completed ? '#f0fdf4' : blocked ? '#fef2f2' : 'var(--background)',
+      borderRadius: '8px',
+      opacity: completed ? 0.7 : 1
+    }}>
+      <div style={{ 
+        width: '8px', 
+        height: '8px', 
+        borderRadius: '50%', 
+        background: completed ? '#22c55e' : blocked ? '#ef4444' : '#3b82f6' 
+      }} />
+      <div style={{ flex: 1, fontSize: '14px' }}>{task.title}</div>
+      <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>{task.priority}</div>
+    </div>
+  );
+}
+
+function ProjectCard({ project, tasks }: { project: Project; tasks: Task[] }) {
+  const projectTasks = tasks.filter(t => t.project_id === project.id);
+  const inProgress = projectTasks.filter(t => t.status === "In Progress" || t.status === "Active").length;
+  const completed = projectTasks.filter(t => t.status === "Completed" || t.status === "Done").length;
+  
+  return (
+    <div style={{ 
+      padding: '16px', 
+      background: 'var(--background)', 
+      borderRadius: '8px',
+      border: '1px solid var(--border)'
+    }}>
+      <div style={{ fontWeight: 500, marginBottom: '8px' }}>{project.name}</div>
+      <div style={{ display: 'flex', gap: '16px', fontSize: '13px', color: 'var(--text-muted)' }}>
+        <span>{inProgress} in progress</span>
+        <span>{completed} done</span>
+      </div>
+      <div style={{ 
+        height: '4px', 
+        background: 'var(--border)', 
+        borderRadius: '2px', 
+        marginTop: '12px',
+        overflow: 'hidden'
+      }}>
+        <div style={{ 
+          height: '100%', 
+          width: `${project.progress || 0}%`, 
+          background: '#3b82f6',
+          transition: 'width 0.3s'
+        }} />
+      </div>
+    </div>
+  );
+}
+
+function AlertRow({ type, text }: { type: string; text: string }) {
+  return (
+    <div style={{ 
+      display: 'flex', 
+      alignItems: 'center', 
+      gap: '12px', 
+      padding: '12px',
+      background: type === 'stale' ? '#fff7ed' : '#fef2f2',
+      borderRadius: '8px',
+      borderLeft: `3px solid ${type === 'stale' ? '#f97316' : '#ef4444'}`
+    }}>
+      <AlertTriangle size={16} style={{ color: type === 'stale' ? '#f97316' : '#ef4444' }} />
+      <span style={{ fontSize: '14px' }}>{text}</span>
+    </div>
+  );
+}
