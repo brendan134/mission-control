@@ -133,10 +133,7 @@ export default async function CronCalendar() {
           <p style={{ color: 'var(--text-muted)', margin: '4px 0 0' }}>Niles&apos; Automated Routines</p>
         </div>
         <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-          <button className="btn btn-primary" style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <Plus size={16} />
-            New Cron Job
-          </button>
+          {/* New Cron Job button removed - use OpenClaw CLI */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '8px 16px', background: 'var(--background-secondary)', borderRadius: '8px', border: '1px solid var(--border)' }}>
             <span style={{ fontSize: '13px', color: 'var(--text-muted)' }}>Proactive Score</span>
             <span style={{ fontSize: '18px', fontWeight: 600, color: proactiveScore >= 80 ? '#22c55e' : proactiveScore >= 50 ? '#eab308' : '#ef4444' }}>

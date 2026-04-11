@@ -284,7 +284,7 @@ export default function Projects() {
         >
           <Plus size={18} /> New Project
         </button>
-      </div>
+        </div>
 
       {/* Create Modal */}
       {showCreate && (
