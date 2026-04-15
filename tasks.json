@@ -21,7 +21,8 @@
     "review_required": false,
     "id": "task-1776217636460-bl4px6h9n",
     "created_at": "2026-04-15T01:47:16.460Z",
-    "updated_at": "2026-04-15T01:47:16.460Z"
+    "updated_at": "2026-04-15T05:31:26.381Z",
+    "blocked_reason": null
   },
   {
     "title": "This is a new test",
@@ -29,11 +30,11 @@
     "project_id": "proj-1776207926512-3lre5escn",
     "priority": "Low",
     "task_type": "Content",
-    "stage": "Capture",
+    "stage": "Done",
     "primary_owner_id": "Brendan",
     "next_action": "This is a new test",
-    "status": "Blocked",
-    "blocked": true,
+    "status": "Completed",
+    "blocked": false,
     "supporting_owner_ids": [],
     "assigned_agent_ids": [],
     "requires_human_input": false,
@@ -45,7 +46,9 @@
     "review_required": false,
     "id": "task-1776224867383-hpj5iy5ib",
     "created_at": "2026-04-15T03:47:47.383Z",
-    "updated_at": "2026-04-15T04:59:52.410Z",
-    "blocked_reason": "test block"
+    "updated_at": "2026-04-15T05:32:03.270Z",
+    "blocked_reason": null,
+    "due_date": "2026-04-14",
+    "completed_at": "2026-04-15T05:32:03.192Z"
   }
 ]

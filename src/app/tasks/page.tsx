@@ -57,6 +57,7 @@ export default function Tasks() {
     stage: Stage.CAPTURE,
     primary_owner_id: 'Brendan',
     next_action: '',
+    due_date: '',
   });
 
   useEffect(() => {
@@ -91,7 +92,7 @@ export default function Tasks() {
   });
 
   // Stats
-  const activeCount = tasks.filter(t => t.status !== TaskStatus.COMPLETED && t.stage !== Stage.DONE).length;
+  const activeCount = tasks.filter(t => t.status !== TaskStatus.COMPLETED && t.stage !== Stage.DONE && t.status !== TaskStatus.BLOCKED && !t.blocked).length;
   const blockedCount = tasks.filter(t => t.blocked || t.status === TaskStatus.BLOCKED).length;
   const completedCount = tasks.filter(t => t.status === TaskStatus.COMPLETED || t.stage === Stage.DONE).length;
 
@@ -137,6 +138,7 @@ export default function Tasks() {
         stage: Stage.CAPTURE,
         primary_owner_id: 'Brendan',
         next_action: '',
+        due_date: '',
       });
       setShowCreate(false);
       setEditingTask(null);
@@ -175,6 +177,7 @@ export default function Tasks() {
       stage: task.stage,
       primary_owner_id: task.primary_owner_id,
       next_action: task.next_action || '',
+      due_date: task.due_date || '',
     });
     setShowCreate(true);
   };
@@ -418,6 +421,15 @@ export default function Tasks() {
                   onChange={e => setNewTask({...newTask, next_action: e.target.value})}
                   style={inputStyle}
                   placeholder="What's the immediate next step?"
+                />
+              </div>
+              <div>
+                <label style={labelStyle}>Due Date</label>
+                <input 
+                  type="date"
+                  value={newTask.due_date || ''}
+                  onChange={e => setNewTask({...newTask, due_date: e.target.value})}
+                  style={inputStyle}
                 />
               </div>
               <div style={{ display: 'flex', gap: '12px', justifyContent: 'flex-end', marginTop: '8px' }}>
