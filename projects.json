@@ -1,0 +1,41 @@
+[
+  {
+    "name": "High-Impact Leader Club",
+    "description": "Create and record all training modules. Target: full library by June 30. Currently 7 members, goal 10 by end April.",
+    "status": "Active",
+    "priority": "High",
+    "owner": "Brendan",
+    "stage": "Execution",
+    "id": "proj-1776207926512-parbzncb0",
+    "linked_task_ids": [],
+    "progress": 0,
+    "created_at": "2026-04-14T23:05:26.512Z",
+    "updated_at": "2026-04-14T23:05:26.512Z"
+  },
+  {
+    "name": "1:1 Coaching Service Upgrade",
+    "description": "Strengthen Leader By Design 1:1 offer with premium white-glove client experience. Define service standards and touchpoints.",
+    "status": "Active",
+    "priority": "High",
+    "owner": "Brendan",
+    "stage": "Planning",
+    "id": "proj-1776207926512-3lre5escn",
+    "linked_task_ids": [],
+    "progress": 0,
+    "created_at": "2026-04-14T23:05:26.512Z",
+    "updated_at": "2026-04-14T23:05:26.512Z"
+  },
+  {
+    "name": "Podcast SEO Growth",
+    "description": "Increase podcast downloads from ~15-20/week to 500-1,000/week through SEO improvements.",
+    "status": "Active",
+    "priority": "High",
+    "owner": "Brendan",
+    "stage": "Execution",
+    "id": "proj-1776207926512-ic5v7kkd6",
+    "linked_task_ids": [],
+    "progress": 0,
+    "created_at": "2026-04-14T23:05:26.512Z",
+    "updated_at": "2026-04-14T23:05:26.512Z"
+  }
+]

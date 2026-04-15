@@ -6,26 +6,26 @@ import {
   LayoutDashboard, 
   Users, 
   Clock, 
-  Database, 
   Wrench,
   CheckSquare,
   Circle,
   Calendar,
   Zap,
   Settings,
-  Folder
+  Folder,
+  Target,
+  Database
 } from 'lucide-react';
 
 const navItems = [
   { href: '/', label: 'Dashboard', icon: LayoutDashboard },
-  { href: '/my-week', label: 'My Week', icon: Calendar },
-  { href: '/tasks', label: 'Tasks', icon: CheckSquare },
+  { href: '/strategy', label: 'Strategy', icon: Target },
   { href: '/projects', label: 'Projects', icon: Folder },
-  { href: '/agents', label: 'Agents', icon: Users },
+  { href: '/tasks', label: 'Tasks', icon: CheckSquare },
+  { href: '/my-week', label: 'My Week', icon: Calendar },
+  { href: '/agents', label: 'Team', icon: Users },
   { href: '/automations', label: 'Cron Calendar', icon: Clock },
   { href: '/automation-builder', label: 'Automation Builder', icon: Zap },
-  { href: '/packs', label: 'Packs', icon: Database },
-  { href: '/tools', label: 'Tools', icon: Wrench },
 ];
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
