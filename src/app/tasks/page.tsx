@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { 
   CheckSquare, Plus, Filter, AlertTriangle, Clock, 
-  ChevronRight, Play, Pause, CheckCircle, XCircle, Target
+  ChevronRight, Play, Pause, CheckCircle, XCircle, Target, X
 } from 'lucide-react';
 import { 
   getTasks, getTasksByProject, getBlockedTasks, getWeeklyTasks,
@@ -46,6 +46,8 @@ export default function Tasks() {
   const [filterStatus, setFilterStatus] = useState('all');
   const [filterPriority, setFilterPriority] = useState('all');
   const [showCreate, setShowCreate] = useState(false);
+  const [editingTask, setEditingTask] = useState<Task | null>(null);
+  const [deleteConfirm, setDeleteConfirm] = useState<string | null>(null);
   const [newTask, setNewTask] = useState({
     title: '',
     description: '',
@@ -97,40 +99,50 @@ export default function Tasks() {
     if (!newTask.title || !newTask.project_id) return;
     
     try {
-      const res = await fetch('/api/tasks', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          ...newTask,
-          status: TaskStatus.ACTIVE,
-          blocked: false,
-          supporting_owner_ids: [],
-          assigned_agent_ids: [],
-          requires_human_input: false,
-          requires_decision: false,
-          created_by: 'Brendan',
-          primary_owner_type: 'Brendan',
-          related_task_ids: [],
-          tag_ids: [],
-          review_required: false,
-        }),
-      });
-      if (res.ok) {
-        setNewTask({
-          title: '',
-          description: '',
-          project_id: '',
-          priority: Priority.MEDIUM,
-          task_type: TaskType.CONTENT,
-          stage: Stage.CAPTURE,
-          primary_owner_id: 'Brendan',
-          next_action: '',
+      if (editingTask) {
+        // Update existing task
+        await fetch('/api/tasks', {
+          method: 'PATCH',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ id: editingTask.id, ...newTask }),
         });
-        setShowCreate(false);
-        loadData();
+      } else {
+        // Create new task
+        await fetch('/api/tasks', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            ...newTask,
+            status: TaskStatus.ACTIVE,
+            blocked: false,
+            supporting_owner_ids: [],
+            assigned_agent_ids: [],
+            requires_human_input: false,
+            requires_decision: false,
+            created_by: 'Brendan',
+            primary_owner_type: 'Brendan',
+            related_task_ids: [],
+            tag_ids: [],
+            review_required: false,
+          }),
+        });
       }
+      
+      setNewTask({
+        title: '',
+        description: '',
+        project_id: '',
+        priority: Priority.MEDIUM,
+        task_type: TaskType.CONTENT,
+        stage: Stage.CAPTURE,
+        primary_owner_id: 'Brendan',
+        next_action: '',
+      });
+      setShowCreate(false);
+      setEditingTask(null);
+      loadData();
     } catch (err) {
-      console.error('Failed to create task:', err);
+      console.error('Failed to save task:', err);
     }
   };
 
@@ -149,6 +161,31 @@ export default function Tasks() {
       loadData();
     } catch (err) {
       console.error('Failed to complete task:', err);
+    }
+  };
+
+  const handleEdit = (task: Task) => {
+    setEditingTask(task);
+    setNewTask({
+      title: task.title,
+      description: task.description || '',
+      project_id: task.project_id || '',
+      priority: task.priority,
+      task_type: task.task_type,
+      stage: task.stage,
+      primary_owner_id: task.primary_owner_id,
+      next_action: task.next_action || '',
+    });
+    setShowCreate(true);
+  };
+
+  const handleDelete = async (taskId: string) => {
+    try {
+      await fetch(`/api/tasks?id=${taskId}`, { method: 'DELETE' });
+      setDeleteConfirm(null);
+      loadData();
+    } catch (err) {
+      console.error('Failed to delete task:', err);
     }
   };
 
@@ -230,9 +267,9 @@ export default function Tasks() {
         <button 
           onClick={() => setShowCreate(true)}
           style={{ 
-            display: 'flex', alignItems: 'center', gap: '8px',
-            padding: '10px 20px', background: 'var(--accent)', color: 'var(--background-primary)',
-            border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: 500
+            display: 'flex', alignItems: 'center', gap: '6px',
+            padding: '10px 16px', background: 'var(--accent)', color: '#000',
+            border: 'none', borderRadius: '8px', cursor: 'pointer', fontSize: '14px', fontWeight: 500
           }}
         >
           <Plus size={18} /> New Task
@@ -304,12 +341,19 @@ export default function Tasks() {
         </div>
       </div>
 
-      {/* Create Task Modal */}
+      {/* Create/Edit Task Modal */}
       {showCreate && (
-        <div style={modalOverlayStyle}>
-          <div style={modalStyle}>
-            <h2 style={{ marginTop: 0 }}>Create Task</h2>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+        <div style={modalOverlayStyle} onClick={() => { setShowCreate(false); setEditingTask(null); }}>
+          <div style={modalStyle} onClick={e => e.stopPropagation()}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
+              <h3 style={{ fontSize: '18px', fontWeight: '600', margin: 0 }}>
+                {editingTask ? 'Edit Task' : 'New Task'}
+              </h3>
+              <button onClick={() => { setShowCreate(false); setEditingTask(null); }} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--text-secondary)' }}>
+                <X size={20} />
+              </button>
+            </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
               <div>
                 <label style={labelStyle}>Title *</label>
                 <input 
@@ -378,8 +422,53 @@ export default function Tasks() {
               </div>
               <div style={{ display: 'flex', gap: '12px', justifyContent: 'flex-end', marginTop: '8px' }}>
                 <button onClick={() => setShowCreate(false)} style={cancelButtonStyle}>Cancel</button>
-                <button onClick={handleCreateTask} style={createButtonStyle}>Create Task</button>
+                <button onClick={handleCreateTask} style={createButtonStyle}>
+                  {editingTask ? 'Save Changes' : 'Create Task'}
+                </button>
               </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Delete Confirmation Modal */}
+      {deleteConfirm && (
+        <div style={modalOverlayStyle}>
+          <div style={modalStyle}>
+            <h3 style={{ fontSize: '18px', fontWeight: '600', marginBottom: '12px' }}>Delete Task?</h3>
+            <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '20px' }}>
+              Are you sure you want to delete this task? This action cannot be undone.
+            </p>
+            <div style={{ display: 'flex', gap: '12px', justifyContent: 'flex-end' }}>
+              <button
+                onClick={() => setDeleteConfirm(null)}
+                style={{
+                  padding: '10px 16px',
+                  background: 'var(--background-tertiary)',
+                  color: 'var(--text)',
+                  border: '1px solid var(--border)',
+                  borderRadius: '8px',
+                  fontSize: '14px',
+                  cursor: 'pointer',
+                }}
+              >
+                Cancel
+              </button>
+              <button
+                onClick={() => handleDelete(deleteConfirm)}
+                style={{
+                  padding: '10px 16px',
+                  background: '#dc2626',
+                  color: '#fff',
+                  border: 'none',
+                  borderRadius: '8px',
+                  fontSize: '14px',
+                  fontWeight: '500',
+                  cursor: 'pointer',
+                }}
+              >
+                Delete
+              </button>
             </div>
           </div>
         </div>
@@ -482,6 +571,20 @@ export default function Tasks() {
                       <CheckCircle size={16} />
                     </button>
                   )}
+                  <button 
+                    onClick={() => handleEdit(task)}
+                    title="Edit task"
+                    style={actionButtonStyle}
+                  >
+                    <span style={{ fontSize: '14px' }}>✏️</span>
+                  </button>
+                  <button 
+                    onClick={() => setDeleteConfirm(task.id)}
+                    title="Delete task"
+                    style={{ ...actionButtonStyle, color: '#dc2626' }}
+                  >
+                    <span style={{ fontSize: '14px' }}>🗑️</span>
+                  </button>
                 </div>
               </div>
             );
@@ -525,23 +628,26 @@ const modalStyle = {
   background: 'var(--background-secondary)',
   padding: '24px',
   borderRadius: '12px',
-  width: '480px',
+  width: '500px',
   maxWidth: '90vw',
+  maxHeight: '80vh',
+  overflow: 'auto',
+  border: '1px solid var(--border)',
 };
 
 const labelStyle = {
   display: 'block',
-  marginBottom: '4px',
+  marginBottom: '6px',
   fontSize: '13px',
-  fontWeight: 500,
+  color: 'var(--text-secondary)',
 };
 
 const inputStyle = {
   width: '100%',
-  padding: '10px',
-  borderRadius: '6px',
+  padding: '10px 12px',
+  borderRadius: '8px',
   border: '1px solid var(--border)',
-  background: 'var(--background-primary)',
+  background: 'var(--background-tertiary)',
   color: 'var(--text)',
   fontSize: '14px',
 };
