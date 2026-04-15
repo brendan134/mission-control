@@ -15,7 +15,9 @@ import {
   Folder,
   Target,
   Database,
-  Building2
+  Building2,
+  BookOpen,
+  FileText
 } from 'lucide-react';
 
 const navItems = [
@@ -26,6 +28,8 @@ const navItems = [
   { href: '/my-week', label: 'My Week', icon: Calendar },
   { href: '/agents', label: 'Team', icon: Users },
   { href: '/office', label: 'Office', icon: Building2 },
+  { href: '/memory', label: 'Memory', icon: BookOpen },
+  { href: '/documents', label: 'Documents', icon: FileText },
   { href: '/automations', label: 'Cron Calendar', icon: Clock },
   { href: '/automation-builder', label: 'Automation Builder', icon: Zap },
 ];
