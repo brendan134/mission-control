@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Lead Engine (Attract)",
+    "owner": "Brendan",
+    "outcome": "Create a consistent flow of qualified business owners entering the ecosystem.\n\nPossible Linked Projects:\nPodcast Production System\nContent Repurposing Engine\nLead Capture & CTA System",
+    "success_metric": "20+ qualified leads per week 2–5 inbound calls booked per week 2+ podcast/content outputs per week",
+    "timeframe": "31st December 2026",
+    "status": "active",
+    "id": "strat-1776046623770-3zsi6908d",
+    "created_at": "2026-04-13T02:17:03.770Z",
+    "updated_at": "2026-04-13T02:28:58.331Z"
+  },
+  {
+    "name": "Community Growth & Engagement (Engage)",
+    "owner": "Brendan",
+    "outcome": "Build a highly engaged High-Impact Growth Community (formerly High-Impact Leader Community) that drives retention and progression.\n\nPossible Linked Projects:\nCommunity Structure & Channels\nWeekly Engagement Rhythm\nMember Onboarding System",
+    "success_metric": "150+ active members, 50%+ weekly engagement rate, 10%+ conversion to Accelerator",
+    "timeframe": "31st December 2026",
+    "status": "active",
+    "id": "strat-1776047078921-tk16yq6dd",
+    "created_at": "2026-04-13T02:24:38.921Z",
+    "updated_at": "2026-04-13T02:30:44.274Z"
+  },
+  {
+    "name": "Systemised Program Delivery (Deliver)",
+    "owner": "Brendan",
+    "outcome": "Deliver consistent client outcomes using structured frameworks and AI support.\n\nPossible Linked Projects:\nPEOPLE Operating System Build\nCoaching Support AI\nClient Tracking Dashboard",
+    "success_metric": "80%+ program completion rate, Clear before → after outcomes per client, 50%+ reduction in manual delivery time",
+    "timeframe": "31st December 2026",
+    "status": "active",
+    "id": "strat-1776047606356-otwixyfjo",
+    "created_at": "2026-04-13T02:33:26.356Z",
+    "updated_at": "2026-04-13T02:33:26.356Z"
+  },
+  {
+    "name": "Ascension Conversion (Convert)",
+    "owner": "Brendan",
+    "outcome": "Increase conversion across the full product ladder.\n\nPossible Linked Projects:\nOffer Positioning Refinement\nSales Funnel Optimisation\nConversion Tracking System",
+    "success_metric": "10%+ Community → Accelerator, 20%+ Accelerator → Mastermind, 10%+ Mastermind → 1:1, Increase revenue per client",
+    "timeframe": "31st December 2026",
+    "status": "active",
+    "id": "strat-1776050208970-8rk3rkbhi",
+    "created_at": "2026-04-13T03:16:48.970Z",
+    "updated_at": "2026-04-13T03:16:48.970Z"
+  },
+  {
+    "name": "AI Operating System (Scale)",
+    "owner": "Brendan",
+    "outcome": "Build Mission Control into a fully functioning AI-powered operating system.\n\nPossible Linked Projects:\nMission Control Build\nAgent Routing System\nAutomation Builder",
+    "success_metric": "50%+ of workflows handled by AI, 10+ hours saved per week, Reduced cost per output",
+    "timeframe": "31st December 2026",
+    "status": "active",
+    "id": "strat-1776050306440-lyukdbl5t",
+    "created_at": "2026-04-13T03:18:26.440Z",
+    "updated_at": "2026-04-16T09:59:00.133Z"
+  }
+]

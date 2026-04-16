@@ -1,0 +1,16 @@
+2026-04-16T03:37:55Z INF Starting tunnel tunnelID=2f9332a7-defd-4f61-8bcf-6c68291b2fd8
+2026-04-16T03:37:55Z INF Version 2026.3.0 (Checksum 76a662af10e5bbd7db07835bb053df062c66d0464406ee7e7a8a54d6b117a5f6)
+2026-04-16T03:37:55Z INF GOOS: linux, GOVersion: go1.26.1, GoArch: amd64
+2026-04-16T03:37:55Z INF Settings: map[cred-file:/data/.cloudflared/2f9332a7-defd-4f61-8bcf-6c68291b2fd8.json credentials-file:/data/.cloudflared/2f9332a7-defd-4f61-8bcf-6c68291b2fd8.json p:http2 protocol:http2]
+2026-04-16T03:37:55Z INF cloudflared will not automatically update if installed by a package manager.
+2026-04-16T03:37:55Z INF Generated Connector ID: 1ba26e9b-3b24-40c8-9e77-3501be1788e3
+2026-04-16T03:37:55Z INF Initial protocol http2
+2026-04-16T03:37:55Z INF ICMP proxy will use 172.18.0.2 as source for IPv4
+2026-04-16T03:37:55Z INF ICMP proxy will use ::1 in zone lo as source for IPv6
+2026-04-16T03:37:56Z INF ICMP proxy will use 172.18.0.2 as source for IPv4
+2026-04-16T03:37:56Z INF ICMP proxy will use ::1 in zone lo as source for IPv6
+2026-04-16T03:37:56Z INF Starting metrics server on 127.0.0.1:20243/metrics
+2026-04-16T03:37:56Z INF Registered tunnel connection connIndex=0 connection=093dc323-8096-4759-9161-fc47d51b215c event=0 ip=198.41.200.13 location=sin11 protocol=http2
+2026-04-16T03:37:56Z INF Registered tunnel connection connIndex=1 connection=342d142d-2718-4417-a198-15220faa298a event=0 ip=198.41.192.107 location=kul01 protocol=http2
+2026-04-16T03:37:58Z INF Registered tunnel connection connIndex=2 connection=74d3ffdc-6486-4822-8640-dc1712262b95 event=0 ip=198.41.192.167 location=kul01 protocol=http2
+2026-04-16T03:37:58Z INF Registered tunnel connection connIndex=3 connection=50438d8b-ce96-4b2f-b6f8-dd7f91d470b7 event=0 ip=198.41.200.73 location=sin22 protocol=http2

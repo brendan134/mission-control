@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
-import { Target, Plus, Edit2, Trash2, AlertTriangle, Link2, CheckCircle, XCircle, Clock, ChevronRight } from 'lucide-react';
-import { StrategicPriority, getPriorities, createPriority, updatePriority, deletePriority, getProjectAlignment, updateProjectStrategicAlignment, getUnalignedProjects } from '../../lib/strategy-service';
+import { Target, Plus, Edit2, Trash2, Link2, CheckCircle, XCircle, Clock, ChevronRight } from 'lucide-react';
+import { StrategicPriority, getPriorities, createPriority, updatePriority, deletePriority, getProjectAlignment, updateProjectStrategicAlignment } from '../../lib/strategy-service';
 import { Project } from '../../lib/data-model';
 
 const STATUS_OPTIONS = [
@@ -13,7 +13,6 @@ const STATUS_OPTIONS = [
 export default function StrategyPage() {
   const [priorities, setPriorities] = useState<StrategicPriority[]>([]);
   const [projects, setProjects] = useState<(Project & { strategic_priority_id?: string; is_orphaned?: boolean })[]>([]);
-  const [unalignedProjects, setUnalignedProjects] = useState<Project[]>([]);
   const [loading, setLoading] = useState(true);
   const [showCreate, setShowCreate] = useState(false);
   const [editingId, setEditingId] = useState<string | null>(null);
@@ -25,14 +24,12 @@ export default function StrategyPage() {
   const loadData = async () => {
     setLoading(true);
     try {
-      const [prioritiesRes, alignmentRes, unalignedRes] = await Promise.all([
+      const [prioritiesRes, alignmentRes] = await Promise.all([
         fetch('/api/strategy').catch(() => ({ json: () => [] })),
-        fetch('/api/projects').catch(() => ({ json: () => [] })),
-        fetch('/api/strategy/unaligned').catch(() => ({ json: () => [] }))
+        fetch('/api/projects').catch(() => ({ json: () => [] }))
       ]);
       setPriorities(await prioritiesRes.json());
       setProjects(await alignmentRes.json());
-      setUnalignedProjects(await unalignedRes.json());
     } catch (err) { console.error('Failed to load strategy data:', err); }
     setLoading(false);
   };
@@ -117,17 +114,6 @@ export default function StrategyPage() {
           {priorities.length === 0 && <p style={{ color: 'var(--text-muted)', gridColumn: '1/-1' }}>No strategic priorities defined. Add one to get started.</p>}
         </div>
       </div>
-
-      {/* Unaligned Projects Alert */}
-      {unalignedProjects.length > 0 && (
-        <div style={{ background: '#ef444410', border: '1px solid #ef444440', borderRadius: '12px', padding: '16px', marginBottom: '32px' }}>
-          <h3 style={{ fontSize: '14px', fontWeight: 600, color: '#ef4444', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '8px' }}><AlertTriangle size={16} /> Unaligned Projects ({unalignedProjects.length})</h3>
-          <p style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>These projects are not linked to any strategic priority and may need attention.</p>
-          <div style={{ marginTop: '12px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-            {unalignedProjects.map(p => <span key={p.id} style={{ padding: '4px 10px', background: 'var(--background-tertiary)', borderRadius: '4px', fontSize: '12px' }}>{p.name}</span>)}
-          </div>
-        </div>
-      )}
 
       {/* Create/Edit Modal */}
       {showCreate && (

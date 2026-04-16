@@ -1,0 +1,29 @@
+module.exports = {
+  apps: [
+    {
+      name: "mission-control",
+      cwd: "/data/.openclaw/workspace/mission-control",
+      script: "npm",
+      args: "start",
+      env: {
+        PORT: 3000,
+        NODE_ENV: "production"
+      },
+      instances: 1,
+      autorestart: true,
+      watch: false,
+      max_memory_restart: "500M",
+      restart_delay: 5000
+    },
+    {
+      name: "cloudflared",
+      cwd: "/data/.openclaw/workspace",
+      script: "./cloudflared",
+      args: "tunnel run --token eyJhIjoiZWFkZmE0MTc0Y2VjYzAyYjJiOGQwN2Y5YTdkYmFlMzkiLCJ0IjoiNGJhMmNiMzgtMTQ1Mi00YjYzLTk3ZWEtMjA5YmY3MjJhZWJkIiwicyI6Ik9UYzBPRE16WmpndFlURTVNeTAwWmpSakxXRm1ZVEV0WW1FMU5EWXdZelk1WlRWbCJ9",
+      instances: 1,
+      autorestart: true,
+      watch: false,
+      restart_delay: 10000
+    }
+  ]
+};

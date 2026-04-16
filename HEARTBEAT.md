@@ -1,7 +1,16 @@
-# HEARTBEAT.md Template
+# HEARTBEAT.md - Lightweight periodic checks
 
-```markdown
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
+# Run 3x daily: morning (8am), afternoon (1pm), evening (6pm)
+# Each check should take <30 seconds and use low-cost model
 
-# Add tasks below when you want the agent to check something periodically.
-```
+## Morning Check (8 AM Sydney)
+- Check emails (unread, urgent)
+- Any calendar events in next 24h?
+
+## Afternoon Check (1 PM Sydney)
+- GitHub sync status (any unpushed changes?)
+- Check if Mission Control is healthy
+
+## Evening Check (6 PM Sydney)
+- Review memory file exists for today
+- Check for any pending cron failures

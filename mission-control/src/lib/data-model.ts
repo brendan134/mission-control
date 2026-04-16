@@ -109,6 +109,7 @@ export interface Project {
   
   // Relationships
   linked_task_ids: string[];
+  strategic_priority_id?: string;
   
   // Derived (computed)
   progress?: number; // 0-100, derived from tasks

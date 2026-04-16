@@ -6,10 +6,11 @@ import {
 } from 'lucide-react';
 import { 
   getProjects, getActiveProjects, getHighPriorityProjects, getStaleProjects,
-  getProjectProgress, getLastActivity, getNextBestTask, createProject, deleteProject,
+  getProjectProgress, getLastActivity, getNextBestTask, createProject, updateProject, deleteProject,
   initializeSampleProjects
 } from '../../lib/project-service';
 import { Project, ProjectStatus, Priority, Task } from '../../lib/data-model';
+import { StrategicPriority } from '../../lib/strategy-service';
 
 // Sample tasks for demo - in production, fetch from real source
 const sampleTasks: Task[] = [
@@ -66,17 +67,23 @@ export default function Projects() {
   const [loading, setLoading] = useState(false);
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [showCreate, setShowCreate] = useState(false);
+  const [editingProject, setEditingProject] = useState<Project | null>(null);
+  const [deleteConfirm, setDeleteConfirm] = useState<Project | null>(null);
+  const [strategicPriorities, setStrategicPriorities] = useState<StrategicPriority[]>([]);
   const [newProject, setNewProject] = useState({
     name: '',
     description: '',
     priority: 'Medium',
     owner: 'Brendan',
     stage: 'Planning',
+    strategic_priority_id: '',
   });
 
   useEffect(() => {
     initializeSampleProjects();
     loadProjects();
+    // Load strategic priorities
+    fetch('/api/strategy').then(r => r.json()).then(data => setStrategicPriorities(data)).catch(() => {});
     // Fallback timeout in case something hangs
     const timer = setTimeout(() => setLoading(false), 3000);
     return () => clearTimeout(timer);
@@ -105,6 +112,10 @@ export default function Projects() {
 
   const handleCreateProject = () => {
     if (!newProject.name) return;
+    if (!newProject.strategic_priority_id) {
+      alert('Please select a Strategic Priority');
+      return;
+    }
     const created = createProject({
       name: newProject.name,
       description: newProject.description,
@@ -112,10 +123,36 @@ export default function Projects() {
       owner: newProject.owner,
       status: ProjectStatus.ACTIVE,
       stage: newProject.stage as any,
+      strategic_priority_id: newProject.strategic_priority_id || undefined,
     });
     setProjects([...projects, created]);
     setShowCreate(false);
-    setNewProject({ name: '', description: '', priority: 'Medium', owner: 'Brendan', stage: 'Planning' });
+    setNewProject({ name: '', description: '', priority: 'Medium', owner: 'Brendan', stage: 'Planning', strategic_priority_id: '' });
+  };
+
+  const handleEditProject = () => {
+    if (!editingProject || !editingProject.name) return;
+    if (!editingProject.strategic_priority_id) {
+      alert('Please select a Strategic Priority');
+      return;
+    }
+    updateProject(editingProject.id, {
+      name: editingProject.name,
+      description: editingProject.description,
+      priority: editingProject.priority,
+      owner: editingProject.owner,
+      stage: editingProject.stage,
+      strategic_priority_id: editingProject.strategic_priority_id || undefined,
+    });
+    loadProjects();
+    setEditingProject(null);
+  };
+
+  const handleDeleteProject = () => {
+    if (!deleteConfirm) return;
+    deleteProject(deleteConfirm.id);
+    setProjects(projects.filter(p => p.id !== deleteConfirm.id));
+    setDeleteConfirm(null);
   };
 
   const getProjectTasks = (projectId: string) => {
@@ -288,50 +325,47 @@ export default function Projects() {
 
       {/* Create Modal */}
       {showCreate && (
-        <div style={{
-          position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.5)', display: 'flex',
-          alignItems: 'center', justifyContent: 'center', zIndex: 100
-        }}>
-          <div style={{
-            background: 'var(--background-secondary)', padding: '24px', borderRadius: '12px',
-            width: '400px', maxWidth: '90vw'
-          }}>
-            <h2 style={{ marginTop: 0 }}>Create Project</h2>
+        <div style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.7)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 100 }}>
+          <div style={{ background: 'var(--background-secondary)', borderRadius: '16px', padding: '24px', width: '100%', maxWidth: '500px', maxHeight: '90vh', overflow: 'auto' }}>
+            <h2 style={{ fontSize: '18px', fontWeight: 600, marginBottom: '20px' }}>Create Project</h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
               <div>
-                <label style={{ display: 'block', marginBottom: '4px', fontSize: '13px' }}>Name *</label>
+                <label style={{ fontSize: '12px', fontWeight: 500, display: 'block', marginBottom: '6px' }}>Project Name *</label>
                 <input
                   value={newProject.name}
                   onChange={e => setNewProject({...newProject, name: e.target.value})}
-                  style={{
-                    width: '100%', padding: '10px', borderRadius: '6px', border: '1px solid var(--border)',
-                    background: 'var(--background-primary)', color: 'var(--text)'
-                  }}
+                  style={{ width: '100%', padding: '10px 12px', background: 'var(--background-tertiary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', color: '#ffffff' }}
                   placeholder="Project name"
                 />
               </div>
               <div>
-                <label style={{ display: 'block', marginBottom: '4px', fontSize: '13px' }}>Description</label>
+                <label style={{ fontSize: '12px', fontWeight: 500, display: 'block', marginBottom: '6px' }}>Description</label>
                 <textarea
                   value={newProject.description}
                   onChange={e => setNewProject({...newProject, description: e.target.value})}
-                  style={{
-                    width: '100%', padding: '10px', borderRadius: '6px', border: '1px solid var(--border)',
-                    background: 'var(--background-primary)', color: 'var(--text)', minHeight: '80px'
-                  }}
+                  style={{ width: '100%', padding: '10px 12px', background: 'var(--background-tertiary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', color: '#ffffff', minHeight: '80px', resize: 'vertical' }}
                   placeholder="What is this project about?"
                 />
               </div>
+              <div>
+                <label style={{ fontSize: '12px', fontWeight: 500, display: 'block', marginBottom: '6px' }}>Strategic Priority *</label>
+                <select
+                  value={newProject.strategic_priority_id}
+                  onChange={e => setNewProject({...newProject, strategic_priority_id: e.target.value})}
+                  required
+                  style={{ width: '100%', padding: '10px 12px', background: 'var(--background-tertiary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', color: '#ffffff' }}
+                >
+                  <option value="">Select a strategic priority</option>
+                  {strategicPriorities.map(sp => <option key={sp.id} value={sp.id}>{sp.name}</option>)}
+                </select>
+              </div>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
                 <div>
-                  <label style={{ display: 'block', marginBottom: '4px', fontSize: '13px' }}>Priority</label>
+                  <label style={{ fontSize: '12px', fontWeight: 500, display: 'block', marginBottom: '6px' }}>Priority</label>
                   <select
                     value={newProject.priority}
                     onChange={e => setNewProject({...newProject, priority: e.target.value})}
-                    style={{
-                      width: '100%', padding: '10px', borderRadius: '6px', border: '1px solid var(--border)',
-                      background: 'var(--background-primary)', color: 'var(--text)'
-                    }}
+                    style={{ width: '100%', padding: '10px 12px', background: 'var(--background-tertiary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', color: '#ffffff' }}
                   >
                     <option value="High">High</option>
                     <option value="Medium">Medium</option>
@@ -339,14 +373,11 @@ export default function Projects() {
                   </select>
                 </div>
                 <div>
-                  <label style={{ display: 'block', marginBottom: '4px', fontSize: '13px' }}>Stage</label>
+                  <label style={{ fontSize: '12px', fontWeight: 500, display: 'block', marginBottom: '6px' }}>Stage</label>
                   <select
                     value={newProject.stage}
                     onChange={e => setNewProject({...newProject, stage: e.target.value})}
-                    style={{
-                      width: '100%', padding: '10px', borderRadius: '6px', border: '1px solid var(--border)',
-                      background: 'var(--background-primary)', color: 'var(--text)'
-                    }}
+                    style={{ width: '100%', padding: '10px 12px', background: 'var(--background-tertiary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', color: '#ffffff' }}
                   >
                     <option value="Planning">Planning</option>
                     <option value="Execution">Execution</option>
@@ -358,17 +389,113 @@ export default function Projects() {
               <div style={{ display: 'flex', gap: '12px', justifyContent: 'flex-end', marginTop: '8px' }}>
                 <button
                   onClick={() => setShowCreate(false)}
-                  style={{ padding: '10px 20px', border: '1px solid var(--border)', borderRadius: '6px', background: 'transparent', color: 'var(--text)', cursor: 'pointer' }}
+                  style={{ padding: '10px 20px', background: 'var(--background-tertiary)', border: 'none', borderRadius: '8px', fontSize: '14px', cursor: 'pointer' }}
                 >
                   Cancel
                 </button>
                 <button
                   onClick={handleCreateProject}
-                  style={{ padding: '10px 20px', background: 'var(--accent)', border: 'none', borderRadius: '6px', color: 'var(--background-primary)', cursor: 'pointer', fontWeight: 500 }}
+                  style={{ padding: '10px 20px', background: 'var(--accent)', color: 'var(--background-primary)', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 500, cursor: 'pointer' }}
                 >
-                  Create
+                  Create Project
                 </button>
               </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Edit Modal */}
+      {editingProject && (
+        <div style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.7)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 100 }}>
+          <div style={{ background: 'var(--background-secondary)', borderRadius: '16px', padding: '24px', width: '100%', maxWidth: '500px', maxHeight: '90vh', overflow: 'auto' }}>
+            <h2 style={{ fontSize: '18px', fontWeight: 600, marginBottom: '20px' }}>Edit Project</h2>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+              <div>
+                <label style={{ fontSize: '12px', fontWeight: 500, display: 'block', marginBottom: '6px' }}>Project Name *</label>
+                <input
+                  value={editingProject.name}
+                  onChange={e => setEditingProject({...editingProject, name: e.target.value})}
+                  style={{ width: '100%', padding: '10px 12px', background: 'var(--background-tertiary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', color: '#ffffff' }}
+                  placeholder="Project name"
+                />
+              </div>
+              <div>
+                <label style={{ fontSize: '12px', fontWeight: 500, display: 'block', marginBottom: '6px' }}>Description</label>
+                <textarea
+                  value={editingProject.description || ''}
+                  onChange={e => setEditingProject({...editingProject, description: e.target.value})}
+                  style={{ width: '100%', padding: '10px 12px', background: 'var(--background-tertiary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', color: '#ffffff', minHeight: '80px', resize: 'vertical' }}
+                  placeholder="What is this project about?"
+                />
+              </div>
+              <div>
+                <label style={{ fontSize: '12px', fontWeight: 500, display: 'block', marginBottom: '6px' }}>Strategic Priority *</label>
+                <select
+                  value={editingProject.strategic_priority_id || ''}
+                  onChange={e => setEditingProject({...editingProject, strategic_priority_id: e.target.value})}
+                  required
+                  style={{ width: '100%', padding: '10px 12px', background: 'var(--background-tertiary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', color: '#ffffff' }}
+                >
+                  <option value="">Select a strategic priority</option>
+                  {strategicPriorities.map(sp => <option key={sp.id} value={sp.id}>{sp.name}</option>)}
+                </select>
+              </div>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                <div>
+                  <label style={{ fontSize: '12px', fontWeight: 500, display: 'block', marginBottom: '6px' }}>Priority</label>
+                  <select
+                    value={editingProject.priority}
+                    onChange={e => setEditingProject({...editingProject, priority: e.target.value as any})}
+                    style={{ width: '100%', padding: '10px 12px', background: 'var(--background-tertiary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', color: '#ffffff' }}
+                  >
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                  </select>
+                </div>
+                <div>
+                  <label style={{ fontSize: '12px', fontWeight: 500, display: 'block', marginBottom: '6px' }}>Stage</label>
+                  <select
+                    value={editingProject.stage}
+                    onChange={e => setEditingProject({...editingProject, stage: e.target.value as any})}
+                    style={{ width: '100%', padding: '10px 12px', background: 'var(--background-tertiary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', color: '#ffffff' }}
+                  >
+                    <option value="Planning">Planning</option>
+                    <option value="Execution">Execution</option>
+                    <option value="Review">Review</option>
+                    <option value="Complete">Complete</option>
+                  </select>
+                </div>
+              </div>
+              <div style={{ display: 'flex', gap: '12px', justifyContent: 'flex-end', marginTop: '8px' }}>
+                <button
+                  onClick={() => setEditingProject(null)}
+                  style={{ padding: '10px 20px', background: 'var(--background-tertiary)', border: 'none', borderRadius: '8px', fontSize: '14px', cursor: 'pointer' }}
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={handleEditProject}
+                  style={{ padding: '10px 20px', background: 'var(--accent)', color: 'var(--background-primary)', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 500, cursor: 'pointer' }}
+                >
+                  Save Changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Delete Confirmation Modal */}
+      {deleteConfirm && (
+        <div style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.7)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 100 }}>
+          <div style={{ background: 'var(--background-secondary)', borderRadius: '16px', padding: '24px', width: '100%', maxWidth: '400px' }}>
+            <h3 style={{ fontSize: '16px', fontWeight: 600, marginBottom: '12px', color: '#ef4444' }}>Delete Project?</h3>
+            <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: '24px' }}>Are you sure you want to delete "{deleteConfirm.name}"? This action cannot be undone.</p>
+            <div style={{ display: 'flex', gap: '12px', justifyContent: 'flex-end' }}>
+              <button onClick={() => setDeleteConfirm(null)} style={{ padding: '10px 20px', background: 'var(--background-tertiary)', border: 'none', borderRadius: '8px', fontSize: '14px', cursor: 'pointer' }}>Cancel</button>
+              <button onClick={handleDeleteProject} style={{ padding: '10px 20px', background: '#ef4444', color: 'white', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 500, cursor: 'pointer' }}>Delete</button>
             </div>
           </div>
         </div>
@@ -446,29 +573,40 @@ export default function Projects() {
                     position: 'relative'
                   }}
                 >
-                  {/* Delete button */}
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      if (confirm(`Delete "${project.name}"?`)) {
-                        deleteProject(project.id);
-                        initializeSampleProjects();
-    loadProjects();
-                      }
-                    }}
-                    style={{
-                      position: 'absolute', top: '12px', right: '12px',
-                      background: 'transparent', border: 'none',
-                      color: 'var(--text-muted)', cursor: 'pointer',
-                      padding: '4px', opacity: 0.5
-                    }}
-                    title="Delete project"
-                  >
-                    ×
-                  </button>
+                  {/* Edit & Delete buttons */}
+                  <div style={{ position: 'absolute', top: '12px', right: '12px', display: 'flex', gap: '8px' }}>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setEditingProject(project);
+                      }}
+                      style={{
+                        background: 'transparent', border: 'none',
+                        color: 'var(--text-muted)', cursor: 'pointer',
+                        padding: '4px', opacity: 0.5, fontSize: '14px'
+                      }}
+                      title="Edit project"
+                    >
+                      ✎
+                    </button>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setDeleteConfirm(project);
+                      }}
+                      style={{
+                        background: 'transparent', border: 'none',
+                        color: 'var(--text-muted)', cursor: 'pointer',
+                        padding: '4px', opacity: 0.5
+                      }}
+                      title="Delete project"
+                    >
+                      ×
+                    </button>
+                  </div>
 
                   {/* Priority badges */}
-                  <div style={{ display: 'flex', gap: '6px', marginBottom: '12px' }}>
+                  <div style={{ display: 'flex', gap: '6px', marginBottom: '8px', flexWrap: 'wrap' }}>
                     {project.priority === 'High' && (
                       <span style={{
                         fontSize: '10px', padding: '3px 8px', borderRadius: '4px',
@@ -492,10 +630,26 @@ export default function Projects() {
                     {project.name}
                   </h4>
 
+                  {/* Strategic Priority */}
+                  {project.strategic_priority_id && (
+                    <div style={{ marginBottom: '8px' }}>
+                      {(() => {
+                        const sp = strategicPriorities.find(s => s.id === project.strategic_priority_id);
+                        return sp ? (
+                          <span style={{
+                            fontSize: '10px', padding: '3px 8px', borderRadius: '4px',
+                            background: 'rgba(212, 175, 55, 0.15)', color: '#d4af37', fontWeight: 600,
+                            display: 'inline-block'
+                          }}>◆ {sp.name}</span>
+                        ) : null;
+                      })()}
+                    </div>
+                  )}
+
                   {/* Description */}
                   {project.description && (
                     <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: '0 0 16px', lineHeight: 1.4 }}>
-                      {project.description.length > 80 ? project.description.slice(0, 80) + '...' : project.description}
+                      {project.description}
                     </p>
                   )}
 

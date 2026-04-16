@@ -1,0 +1,2 @@
+#!/bin/bash
+/data/.openclaw/workspace/cloudflared tunnel run --token eyJhIjoiZWFkZmE0MTc0Y2VjYzAyYjJiOGQwN2Y5YTdkYmFlMzkiLCJ0IjoiNGJhMmNiMzgtMTQ1Mi00YjYzLTk3ZWEtMjA5YmY3MjJhZWJkIiwicyI6Ik9UYzBPRE16WmpndFlURTVNeTAwWmpSakxXRm1ZVEV0WW1FMU5EWXdZelk1WlRWbCJ9

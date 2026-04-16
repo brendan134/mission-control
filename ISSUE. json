@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Finalise PERCEIVE Lesson 0 training slides",
+    "description": "Part of PERCEIVE pillar in the PEOPLE Operating System.",
+    "project__id": "proj-17",
+    "priority": "High",
+    "task_type": "Client Delivery",
+    "stage": "Capture",
+    "primary_owner_id": "Brendan",
+    "next_action": "Create the lesson 0 slide copy",
+    "status": "Active",
+    "blocked": false,
+    "supporting_owner_ids": [],
+    "assigned_agent_ids": [],
+    "requires_human_input": false,
+    "requires_decision": false,
+    "created_by": "Brendan",
+    "primary_owner_type": "Brendan",
+    "related_task_ids": [],
+    "tag_ids": [],
+    "review_required": false,
+    "id": "task-1775805884163znkxg7t2c",
+    "created_at": "2026-04-10T07:24:44.163Z",
+    "updated_at": "2026-04-10T07:24:44.163Z"
+  }
+]

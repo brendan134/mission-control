@@ -23,7 +23,7 @@ const navItems = [
   { href: '/tasks', label: 'Tasks', icon: CheckSquare },
   { href: '/projects', label: 'Projects', icon: Folder },
   { href: '/strategy', label: 'Strategy', icon: Target },
-  { href: '/agents', label: 'Agents', icon: Users },
+  { href: '/team', label: 'Team', icon: Users },
   { href: '/automations', label: 'Cron Calendar', icon: Clock },
   { href: '/automation-builder', label: 'Automation Builder', icon: Zap },
   { href: '/memory', label: 'Memory', icon: Brain },
