@@ -14,3 +14,4 @@
 ## Evening Check (6 PM Sydney)
 - Review memory file exists for today
 - Check for any pending cron failures
+- **UPDATE:** Run `openclaw cron list` and update backup-crons.md if changes detected
