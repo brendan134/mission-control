@@ -66,6 +66,16 @@ const officeAgents: OfficeAgent[] = [
     tier: 'B'
   },
   {
+    id: 'kaizen',
+    name: 'Kaizen',
+    humanName: 'Kaizen',
+    role: 'Business Improvement',
+    status: 'active',
+    currentTask: 'Analyzing business for improvement opportunities',
+    location: 'desk',
+    tier: 'B'
+  },
+  {
     id: 'messaging',
     name: 'Alex',
     humanName: 'Alex',
