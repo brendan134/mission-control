@@ -11,6 +11,8 @@
 ## Afternoon Check (1 PM Sydney)
 - GitHub sync status (any unpushed changes?)
 - Check if Mission Control is healthy
+- Check PM2 services: `pm2 list`
+- Check tunnel: `pm2 logs cloudflared --lines 3`
 
 ## Evening Check (6 PM Sydney)
 - Review memory file exists for today
@@ -23,3 +25,4 @@
 - Check for any duplicate directories or files with spaces
 - Verify no typo directories (ISSION*, temp_*, workspace-*)
 - Ensure pre-commit hook is active: `cat .git-hooks/pre-commit`
+- Check disk space: `df -h /data`
