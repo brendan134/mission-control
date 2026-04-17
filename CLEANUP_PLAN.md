@@ -5,6 +5,17 @@
 
 ---
 
+## IMPORTANT: Two Repositories to Clean
+
+This plan covers **BOTH** GitHub repositories:
+
+| Repository | Purpose | Current Status |
+|------------|---------|----------------|
+| `brendan134/openclaw` | OpenClaw workspace (VPS running) | Has same mess as below |
+| `brendan134/mission-control` | Mission Control app only | Being cleaned in this plan |
+
+**Both repositories have the same issues and need identical cleanup.**
+
 ## Phase 1: Analysis Complete
 
 ### Current State
