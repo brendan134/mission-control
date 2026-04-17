@@ -52,3 +52,17 @@
   - Mission Control port: Confirmed as port 3003 (per RULES.md)
   - Cron Calendar performance: Use `/api/cron` endpoint with caching instead of direct execSync (reduces 15s+ timeout to fast response)
   - Telegram delivery: Cron jobs need `<chatId>` not phone number in the `to` field for delivery to work
+
+### Skills & Systems
+- Available skills: See `/skills/` directory for automation
+- Key skills:
+  - `mac-mini-setup` - Deploy entire system to new machine
+  - `git-automation` - Safe git workflow (never use git restore/reset)
+  - `backup-automation` - Always backup before risky operations
+  - `system-audit` - Health check & verification
+  - `cron-manager` - Manage scheduled tasks
+  - `content-batch` - Weekly LinkedIn + newsletter creation
+- File structure rules: See FILE_STRUCTURE_RULES.md
+- Safety locks: See SAFETY_LOCK.md (protects against destructive git commands)
+- Cleanup completed Apr 2026: Removed duplicate directories (ISSION-*, workspace, etc.)
+- Canonical directories: mission-control, memory, business, content, packs, curriculum, podcast, projects, workflows, templates, context, scripts, skills
