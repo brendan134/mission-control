@@ -51,5 +51,14 @@ The following Git commands must be avoided to prevent data loss:
 - Do not change PORT without updating documentation
 - Always check if port is in use before starting services
 
+### 6. Core Documentation Files
+- FILE_STRUCTURE_RULES.md - Source of truth for directory structure
+- RULES.md - Operational rules for Mission Control
+- MEMORY.md - Long-term memory (curated)
+- SOUL.md - Assistant persona
+- USER.md - Human user profile
+- Never create directories outside the canonical structure defined in FILE_STRUCTURE_RULES.md
+- Any directory cleanup requires explicit approval
+
 ## Last Verified
-2026-04-17 13:41 UTC
+2026-04-17 13:54 UTC
