@@ -28,12 +28,16 @@
 - Mission Control: Stable (PM2 managed for auto-recovery)
 - My Week: Working with real task/project data
 - Tunnel: PM2 managed, auto-restart on drop
-- Active cron jobs: 6 total
-  - Git Auto-Sync: 8am & 8pm AEST (commits workspace to GitHub)
+- Active cron jobs: 10 total (see below)
+  - Git Auto-Sync: 10pm AEST only (auto-commits workspace to GitHub)
   - Daily News Brief: 7am AEST
-  - Weekly Content Batch: Monday 6am
-  - Weekly Review: Friday 7am
-  - Daily Cost Alert: 8pm (warns >$4)
+  - Daily Dream Reminder: 7:30am AEST
+  - Daily Memory Save Reminder: 8:30pm AEST
+  - Daily Cost Alert: 8pm AEST (warns >$4)
+  - Weekly Content Batch: Monday 6am AEST
+  - Weekly Review: Friday 7am AEST
+  - Weekly Cost Audit: Sunday 8pm AEST
+  - Agent Status JSON Export: every 5 minutes
   - Monthly Cost Review: 1st of month 7am AEST
 - AI routing: OpenRouter only (minimax, kimi, flashlite)
 - Telegram: Secured (allowlist policy)
@@ -47,3 +51,4 @@
   - Auto-backup cron: Changed from every 2 hours to 10 PM only - gives time to review before GitHub sync
   - Mission Control port: Confirmed as port 3003 (per RULES.md)
   - Cron Calendar performance: Use `/api/cron` endpoint with caching instead of direct execSync (reduces 15s+ timeout to fast response)
+  - Telegram delivery: Cron jobs need `<chatId>` not phone number in the `to` field for delivery to work

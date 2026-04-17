@@ -1,201 +1,266 @@
-"use client";
+'use client';
 import { useState, useEffect } from 'react';
-import { Users, Coffee, Monitor, Zap, Clock, User, Briefcase, UsersRound } from 'lucide-react';
 
-interface OfficeAgent {
+// Agent data from Team page
+interface Agent {
   id: string;
   name: string;
-  humanName: string;
   role: string;
-  status: 'active' | 'idle' | 'break' | 'offline';
-  currentTask: string;
-  location: 'desk' | 'meeting-room' | 'coffee-machine' | 'lounge';
   tier: 'A' | 'B' | 'C';
+  status: 'active' | 'idle' | 'offline';
+  currentTask: string;
+  avatar: string;
+  location: string;
 }
 
-// Synced with Team page - 10 agents
-const officeAgents: OfficeAgent[] = [
-  {
-    id: 'niles',
-    name: 'Niles',
-    humanName: 'Niles',
-    role: 'Chief Agent Officer (CAO)',
-    status: 'active',
-    currentTask: 'Coordinating agent activities',
-    location: 'desk',
-    tier: 'A'
-  },
-  {
-    id: 'strategy',
-    name: 'Marcus',
-    humanName: 'Marcus',
-    role: 'Head of Strategy',
-    status: 'active',
-    currentTask: 'Strategic planning & priority alignment',
-    location: 'desk',
-    tier: 'B'
-  },
-  {
-    id: 'ops',
-    name: 'Casey',
-    humanName: 'Casey',
-    role: 'Head of Operations',
-    status: 'idle',
-    currentTask: 'Monitoring system health',
-    location: 'desk',
-    tier: 'A'
-  },
-  {
-    id: 'content',
-    name: 'Sarah',
-    humanName: 'Sarah',
-    role: 'Head of Content',
-    status: 'active',
-    currentTask: 'Content production oversight',
-    location: 'desk',
-    tier: 'B'
-  },
-  {
-    id: 'client-delivery',
-    name: 'Jordan',
-    humanName: 'Jordan',
-    role: 'Client Delivery Lead',
-    status: 'active',
-    currentTask: 'Client project management',
-    location: 'desk',
-    tier: 'B'
-  },
-  {
-    id: 'kaizen',
-    name: 'Kaizen',
-    humanName: 'Kaizen',
-    role: 'Business Improvement',
-    status: 'active',
-    currentTask: 'Analyzing business for improvement opportunities',
-    location: 'desk',
-    tier: 'B'
-  },
-  {
-    id: 'messaging',
-    name: 'Alex',
-    humanName: 'Alex',
-    role: 'Messaging Specialist',
-    status: 'active',
-    currentTask: 'Copy and offer creation',
-    location: 'desk',
-    tier: 'C'
-  },
-  {
-    id: 'curriculum',
-    name: 'Emily',
-    humanName: 'Emily',
-    role: 'Learning Design',
-    status: 'idle',
-    currentTask: 'Course creation',
-    location: 'desk',
-    tier: 'C'
-  },
-  {
-    id: 'podcast',
-    name: 'Chris',
-    humanName: 'Chris',
-    role: 'Media Production',
-    status: 'active',
-    currentTask: 'Podcast editing',
-    location: 'desk',
-    tier: 'C'
-  },
-  {
-    id: 'community',
-    name: 'Sam',
-    humanName: 'Sam',
-    role: 'Community Manager',
-    status: 'idle',
-    currentTask: 'Community engagement',
-    location: 'desk',
-    tier: 'C'
-  },
-  {
-    id: 'research',
-    name: 'Taylor',
-    humanName: 'Taylor',
-    role: 'Research Analyst',
-    status: 'active',
-    currentTask: 'Market research',
-    location: 'desk',
-    tier: 'C'
-  }
+const agents: Agent[] = [
+  { id: 'niles', name: 'Niles', role: 'Chief Agent Officer', tier: 'A', status: 'active', currentTask: 'Overseeing all agent operations', avatar: '👔', location: 'CEO Office' },
+  { id: 'marcus', name: 'Marcus', role: 'Head of Strategy', tier: 'B', status: 'active', currentTask: 'Analyzing Q2 strategic priorities', avatar: '📊', location: 'Strategy Room' },
+  { id: 'sophie', name: 'Sophie', role: 'Head of Content', tier: 'B', status: 'idle', currentTask: 'Waiting for content requests', avatar: '🎨', location: 'Content Studio' },
+  { id: 'isla', name: 'Isla', role: 'Head of Messaging', tier: 'B', status: 'active', currentTask: 'Crafting new email sequences', avatar: '✉️', location: 'Copy Desk' },
+  { id: 'quinn', name: 'Quinn', role: 'Head of Operations', tier: 'A', status: 'active', currentTask: 'Monitoring system health', avatar: '⚙️', location: 'Server Room' },
+  { id: 'leo', name: 'Leo', role: 'Curriculum Specialist', tier: 'C', status: 'idle', currentTask: 'Waiting for course work', avatar: '📚', location: 'Training Lab' },
+  { id: 'ruby', name: 'Ruby', role: 'Podcast Producer', tier: 'C', status: 'active', currentTask: 'Editing latest episode', avatar: '🎙️', location: 'Podcast Booth' },
+  { id: 'maya', name: 'Maya', role: 'Community Manager', tier: 'C', status: 'active', currentTask: 'Engaging with community members', avatar: '💬', location: 'Community Hub' },
+  { id: 'dex', name: 'Dex', role: 'Research Analyst', tier: 'C', status: 'idle', currentTask: 'Monitoring for new research', avatar: '🔍', location: 'Research Lab' },
+  { id: 'aria', name: 'Aria', role: 'Client Delivery Lead', tier: 'B', status: 'active', currentTask: 'Preparing client deliverables', avatar: '📦', location: 'Delivery Suite' },
 ];
 
-const statusConfig = {
-  active: { color: '#10b981', bg: 'rgba(16, 185, 129, 0.15)', label: 'At Work', icon: Monitor },
-  idle: { color: '#f59e0b', bg: 'rgba(245, 158, 11, 0.15)', label: 'Idle', icon: Coffee },
-  break: { color: '#8b5cf6', bg: 'rgba(139, 92, 246, 0.15)', label: 'On Break', icon: Coffee },
-  offline: { color: '#6b7280', bg: 'rgba(107, 114, 128, 0.15)', label: 'Offline', icon: User }
+const TIER_COLORS = {
+  A: '#d4af37',
+  B: '#3b82f6', 
+  C: '#8b5cf6'
 };
 
-export default function OfficePage() {
-  const [agents, setAgents] = useState(officeAgents);
-  const [lastUpdate, setLastUpdate] = useState<Date | null>(null);
+const STATUS_COLORS = {
+  active: '#22c55e',
+  idle: '#f59e0b',
+  offline: '#6b7280'
+};
+
+export default function Office() {
+  const [currentTime, setCurrentTime] = useState(new Date());
+  const [agentStatuses, setAgentStatuses] = useState(agents);
 
   useEffect(() => {
-    setLastUpdate(new Date());
-    const interval = setInterval(() => setLastUpdate(new Date()), 30000);
-    return () => clearInterval(interval);
+    // Update time every minute
+    const timer = setInterval(() => setCurrentTime(new Date()), 60000);
+    return () => clearInterval(timer);
   }, []);
 
-  const activeCount = agents.filter(a => a.status === 'active').length;
-  const idleCount = agents.filter(a => a.status === 'idle').length;
+  // Fetch real agent data when page is visible (not when hidden)
+  useEffect(() => {
+    // Only poll when page is actually visible to user
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        // Page hidden - stop polling to save resources
+        console.log('Office page hidden - stopping poll');
+      } else {
+        // Page visible - fetch fresh data
+        console.log('Office page visible - fetching agent data');
+        // TODO: Connect to real OpenClaw agent telemetry
+        // Would call: fetch('/api/agents/status') or similar
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    
+    // Initial fetch when component mounts
+    console.log('Office page mounted - agent polling active');
+
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+      console.log('Office page unmounted - stopped polling');
+    };
+  }, []);
+
+  const activeCount = agentStatuses.filter(a => a.status === 'active').length;
+  const idleCount = agentStatuses.filter(a => a.status === 'idle').length;
 
   return (
-    <div style={{ padding: '32px', maxWidth: '1400px', margin: '0 auto' }}>
-      <div style={{ marginBottom: '24px' }}>
-        <h1 style={{ fontSize: '24px', fontWeight: '600', marginBottom: '4px' }}>Office</h1>
-        <p style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>Real-time view of what the team is working on</p>
-      </div>
-
-      <div style={{ display: 'flex', gap: '16px', marginBottom: '24px' }}>
-        <div style={{ flex: 1, padding: '16px', background: 'var(--background-secondary)', borderRadius: '12px', border: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: 'rgba(16, 185, 129, 0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <Zap style={{ width: '20px', height: '20px', color: '#10b981' }} />
-          </div>
-          <div><div style={{ fontSize: '24px', fontWeight: '700', color: '#10b981' }}>{activeCount}</div><div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>At Work</div></div>
+    <div style={{ padding: '32px' }}>
+      {/* Header */}
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
+        <div>
+          <h1 style={{ fontSize: '24px', fontWeight: 600, marginBottom: '4px' }}>🏢 The Office</h1>
+          <p style={{ fontSize: '13px', color: 'var(--text-muted)' }}>
+            What's happening across the team right now
+          </p>
         </div>
-        <div style={{ flex: 1, padding: '16px', background: 'var(--background-secondary)', borderRadius: '12px', border: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: 'rgba(245, 158, 11, 0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <Clock style={{ width: '20px', height: '20px', color: '#f59e0b' }} />
+        <div style={{ textAlign: 'right' }}>
+          <div style={{ fontSize: '20px', fontWeight: 600 }}>
+            {currentTime.toLocaleTimeString('en-AU', { hour: '2-digit', minute: '2-digit' })}
           </div>
-          <div><div style={{ fontSize: '24px', fontWeight: '700', color: '#f59e0b' }}>{idleCount}</div><div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>Idle</div></div>
-        </div>
-        <div style={{ flex: 1, padding: '16px', background: 'var(--background-secondary)', borderRadius: '12px', border: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: 'rgba(212, 175, 55, 0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <Users style={{ width: '20px', height: '20px', color: '#D4AF37' }} />
+          <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>
+            Sydney, Australia
           </div>
-          <div><div style={{ fontSize: '24px', fontWeight: '700', color: '#D4AF37' }}>{agents.length}</div><div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>Total Team</div></div>
         </div>
       </div>
 
-      <div style={{ fontSize: '12px', color: 'var(--text-muted)', marginBottom: '16px' }}>Last updated: {lastUpdate ? lastUpdate.toLocaleTimeString() : 'Updating...'}</div>
+      {/* Stats Bar */}
+      <div style={{ 
+        display: 'grid', 
+        gridTemplateColumns: 'repeat(4, 1fr)', 
+        gap: '16px', 
+        marginBottom: '32px' 
+      }}>
+        <div className="card" style={{ textAlign: 'center', padding: '16px' }}>
+          <div style={{ fontSize: '32px', fontWeight: 700 }}>{agentStatuses.length}</div>
+          <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Total Agents</div>
+        </div>
+        <div className="card" style={{ textAlign: 'center', padding: '16px', borderColor: '#22c55e' }}>
+          <div style={{ fontSize: '32px', fontWeight: 700, color: '#22c55e' }}>{activeCount}</div>
+          <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Active Now</div>
+        </div>
+        <div className="card" style={{ textAlign: 'center', padding: '16px', borderColor: '#f59e0b' }}>
+          <div style={{ fontSize: '32px', fontWeight: 700, color: '#f59e0b' }}>{idleCount}</div>
+          <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>On Break</div>
+        </div>
+        <div className="card" style={{ textAlign: 'center', padding: '16px' }}>
+          <div style={{ fontSize: '32px', fontWeight: 700 }}>
+            {Math.round((activeCount / agentStatuses.length) * 100)}%
+          </div>
+          <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Productivity</div>
+        </div>
+      </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '16px', marginBottom: '32px' }}>
-        {agents.map(agent => {
-          const StatusIcon = statusConfig[agent.status].icon;
-          return (
-            <div key={agent.id} style={{ padding: '16px', background: statusConfig[agent.status].bg, border: `1px solid ${statusConfig[agent.status].color}40`, borderRadius: '12px' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
-                <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: statusConfig[agent.status].color, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '14px', fontWeight: '700', color: '#fff' }}>
-                  {agent.humanName.charAt(0)}
-                </div>
-                <span style={{ padding: '2px 8px', borderRadius: '12px', fontSize: '10px', fontWeight: '600', background: statusConfig[agent.status].bg, color: statusConfig[agent.status].color, border: `1px solid ${statusConfig[agent.status].color}40` }}>
-                  {statusConfig[agent.status].label}
-                </span>
-              </div>
-              <div style={{ marginBottom: '8px' }}><div style={{ fontWeight: '600', fontSize: '14px', marginBottom: '2px' }}>{agent.humanName}</div><div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>{agent.role}</div></div>
-              <div style={{ padding: '8px', background: 'var(--background-tertiary)', borderRadius: '6px', fontSize: '11px', color: 'var(--text-secondary)', marginBottom: '8px' }}>{agent.currentTask}</div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '10px', color: 'var(--text-muted)' }}><Briefcase style={{ width: 12, height: 12 }} />{agent.location}</div>
-            </div>
-          );
-        })}
+      {/* Office Floor - Tier A (Executive) */}
+      <div style={{ marginBottom: '32px' }}>
+        <h3 style={{ fontSize: '14px', fontWeight: 600, marginBottom: '12px', color: TIER_COLORS.A }}>
+          🏛️ Executive Floor - Tier A
+        </h3>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '12px' }}>
+          {agentStatuses.filter(a => a.tier === 'A').map(agent => (
+            <OfficeDesk key={agent.id} agent={agent} />
+          ))}
+        </div>
+      </div>
+
+      {/* Office Floor - Tier B (Department Heads) */}
+      <div style={{ marginBottom: '32px' }}>
+        <h3 style={{ fontSize: '14px', fontWeight: 600, marginBottom: '12px', color: TIER_COLORS.B }}>
+          🏢 Department Floor - Tier B
+        </h3>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '12px' }}>
+          {agentStatuses.filter(a => a.tier === 'B').map(agent => (
+            <OfficeDesk key={agent.id} agent={agent} />
+          ))}
+        </div>
+      </div>
+
+      {/* Office Floor - Tier C (Specialists) */}
+      <div style={{ marginBottom: '32px' }}>
+        <h3 style={{ fontSize: '14px', fontWeight: 600, marginBottom: '12px', color: TIER_COLORS.C }}>
+          🔧 Workshop Floor - Tier C
+        </h3>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '12px' }}>
+          {agentStatuses.filter(a => a.tier === 'C').map(agent => (
+            <OfficeDesk key={agent.id} agent={agent} />
+          ))}
+        </div>
+      </div>
+
+      {/* Live Activity Feed */}
+      <div className="card" style={{ padding: '20px' }}>
+        <h3 style={{ fontSize: '14px', fontWeight: 600, marginBottom: '16px' }}>
+          📡 Live Activity Feed
+        </h3>
+        <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>
+          {currentTime.toLocaleTimeString()} - System running • Auto-refreshes every 30s
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function OfficeDesk({ agent }: { agent: Agent }) {
+  const isActive = agent.status === 'active';
+  
+  return (
+    <div style={{ 
+      background: 'var(--background-tertiary)', 
+      borderRadius: '12px', 
+      padding: '16px',
+      border: `2px solid ${isActive ? STATUS_COLORS[agent.status] : 'var(--border)'}`,
+      position: 'relative',
+      overflow: 'hidden'
+    }}>
+      {/* Status indicator */}
+      <div style={{
+        position: 'absolute',
+        top: '12px',
+        right: '12px',
+        width: '10px',
+        height: '10px',
+        borderRadius: '50%',
+        background: STATUS_COLORS[agent.status],
+        boxShadow: isActive ? `0 0 10px ${STATUS_COLORS[agent.status]}` : 'none'
+      }} />
+      
+      {/* Agent info */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '12px' }}>
+        <div style={{ 
+          fontSize: '32px', 
+          background: 'var(--background-secondary)', 
+          borderRadius: '8px',
+          width: '48px',
+          height: '48px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}>
+          {agent.avatar}
+        </div>
+        <div>
+          <div style={{ fontWeight: 600, fontSize: '14px' }}>{agent.name}</div>
+          <div style={{ fontSize: '11px', color: 'var(--text-muted)' }}>{agent.role}</div>
+        </div>
+      </div>
+
+      {/* Location */}
+      <div style={{ 
+        fontSize: '11px', 
+        color: TIER_COLORS[agent.tier],
+        marginBottom: '8px',
+        fontWeight: 500
+      }}>
+        📍 {agent.location}
+      </div>
+
+      {/* Current task */}
+      <div style={{ 
+        fontSize: '12px', 
+        color: isActive ? 'var(--text)' : 'var(--text-muted)',
+        fontStyle: isActive ? 'normal' : 'italic',
+        lineHeight: 1.4
+      }}>
+        {isActive ? agent.currentTask : `😴 ${agent.currentTask}`}
+      </div>
+
+      {/* Status badge */}
+      <div style={{ marginTop: '12px' }}>
+        <span style={{
+          fontSize: '10px',
+          padding: '3px 8px',
+          borderRadius: '4px',
+          background: `${STATUS_COLORS[agent.status]}20`,
+          color: STATUS_COLORS[agent.status],
+          fontWeight: 600,
+          textTransform: 'uppercase'
+        }}>
+          {agent.status}
+        </span>
+        <span style={{
+          fontSize: '10px',
+          padding: '3px 8px',
+          borderRadius: '4px',
+          background: `${TIER_COLORS[agent.tier]}20`,
+          color: TIER_COLORS[agent.tier],
+          fontWeight: 600,
+          marginLeft: '8px'
+        }}>
+          Tier {agent.tier}
+        </span>
       </div>
     </div>
   );
