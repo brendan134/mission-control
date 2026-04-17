@@ -26,3 +26,10 @@
 - Verify no typo directories (ISSION*, temp_*, workspace-*)
 - Ensure pre-commit hook is active: `cat .git-hooks/pre-commit`
 - Check disk space: `df -h /data`
+
+## Monthly Agent Review (1st Friday)
+- Run agent-evaluator skill to review past month's outputs
+- Aggregate scores from business/agent-scorecard.md
+- Identify trends: which agents improving/declining
+- Update SPECIALISTS.md prompts if needed
+- **FUTURE:** Add Agent Scorecard page to Mission Control
