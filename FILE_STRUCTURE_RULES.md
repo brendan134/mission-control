@@ -8,6 +8,19 @@ These rules ensure GitHub remains the single source of truth. They prevent the i
 
 ---
 
+## Scope: All Repositories
+
+These rules apply to **ALL** GitHub repositories owned by this workspace:
+
+| Repository | Purpose |
+|------------|---------|
+| `brendan134/openclaw` | OpenClaw workspace (VPS running) |
+| `brendan134/mission-control` | Mission Control app |
+
+**Any new repositories created must follow these rules.**
+
+---
+
 ## 1. Canonical Directory Structure
 
 Only these directories should exist at workspace root:

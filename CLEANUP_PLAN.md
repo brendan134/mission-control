@@ -16,6 +16,45 @@ This plan covers **BOTH** GitHub repositories:
 
 **Both repositories have the same issues and need identical cleanup.**
 
+---
+
+## REPOSITORY 1: mission-control (Current Cleanup Target)
+
+See phases below.
+
+---
+
+## REPOSITORY 2: openclaw (To Do After mission-control)
+
+The openclaw repository at `github.com/brendan134/openclaw` also needs cleanup. It mirrors the same workspace but is the primary backup for the VPS.
+
+### Known Issues in openclaw repo:
+
+| Issue | Example | Action |
+|-------|---------|--------|
+| Typo directories | `ISSION-*`, `ISSION_*` | DELETE |
+| Files with spaces | `pm2-mc. js`, `teams. json`, `ISSUE. json` | RENAME to kebab-case |
+| Duplicate directories | Same as mission-control | DELETE duplicates |
+| Empty files | `UNFILTERED.`, `testfile` | DELETE |
+
+### Cleanup Steps for openclaw:
+
+```bash
+# After cleaning mission-control repo
+cd /data/.openclaw/workspace
+
+# Check what's in the openclaw repo
+git remote -v  # Should show both repos
+
+# For openclaw, apply same cleanup rules:
+# 1. Delete ISSION-* directories
+# 2. Rename files with spaces
+# 3. Remove duplicates
+# 4. Push clean version
+```
+
+**Note:** The openclaw repo should be cleaned AFTER mission-control is done, and both should follow FILE_STRUCTURE_RULES.md.
+
 ## Phase 1: Analysis Complete
 
 ### Current State
