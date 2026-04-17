@@ -175,7 +175,11 @@ After any system restore:
 ## Enforcement
 
 - **SAFETY_LOCK.md** blocks destructive git commands
-- **Pre-commit hook** prevents committing to protected paths without backup
+- **Pre-commit hook** prevents committing:
+  - Files/directories with spaces
+  - Typo directories (ISSION*, temp_*, workspace-*, mission- )
+  - Duplicate src at root
+  - Sensitive files (.env, *.pem, *.key)
 - **Any violation** of these rules requires explicit user approval
 
 ---

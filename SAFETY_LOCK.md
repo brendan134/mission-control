@@ -6,6 +6,9 @@ This file documents the safety measures that are **intentionally locked** and mu
 
 ### 1. Pre-Commit Hook (.git-hooks/pre-commit)
 - Blocks commit of sensitive files (.env, credentials, *.pem, *.key)
+- Blocks files/directories with spaces in names
+- Blocks typo directories (ISSION*, temp_*, workspace-*, mission- )
+- Blocks duplicate src at root level
 - Auto-creates backup before deleting critical paths
 - Critical paths: mission-*/src, MEMORY.md, business/, content/, curriculum/, packs/, workflows/
 
