@@ -136,9 +136,10 @@ const statusConfig = {
 
 export default function OfficePage() {
   const [agents, setAgents] = useState(officeAgents);
-  const [lastUpdate, setLastUpdate] = useState(new Date());
+  const [lastUpdate, setLastUpdate] = useState<Date | null>(null);
 
   useEffect(() => {
+    setLastUpdate(new Date());
     const interval = setInterval(() => setLastUpdate(new Date()), 30000);
     return () => clearInterval(interval);
   }, []);
@@ -174,7 +175,7 @@ export default function OfficePage() {
         </div>
       </div>
 
-      <div style={{ fontSize: '12px', color: 'var(--text-muted)', marginBottom: '16px' }}>Last updated: {lastUpdate.toLocaleTimeString()}</div>
+      <div style={{ fontSize: '12px', color: 'var(--text-muted)', marginBottom: '16px' }}>Last updated: {lastUpdate ? lastUpdate.toLocaleTimeString() : 'Updating...'}</div>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '16px', marginBottom: '32px' }}>
         {agents.map(agent => {
