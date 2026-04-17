@@ -80,10 +80,10 @@ export default function Projects() {
   });
 
   useEffect(() => {
-    initializeSampleProjects();
-    loadProjects();
+    // Load projects from API
+    fetch('/api/projects').then(r => r.ok ? r.json() : []).then(data => setProjects(data)).catch(() => setProjects([]));
     // Load strategic priorities
-    fetch('/api/strategy').then(r => r.json()).then(data => setStrategicPriorities(data)).catch(() => {});
+    fetch('/api/strategy').then(r => r.ok ? r.json() : []).then(data => setStrategicPriorities(data)).catch(() => setStrategicPriorities([]));
     // Fallback timeout in case something hangs
     const timer = setTimeout(() => setLoading(false), 3000);
     return () => clearTimeout(timer);
