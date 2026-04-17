@@ -43,7 +43,7 @@ crontab -l > ~/cron_jobs_backup_$(date +"%Y-%m-%d_%H-%M-%S").txt
 echo "Cron jobs backed up to ~/cron_jobs_backup_YYYY-MM-DD_HH-MM-SS.txt"
 ```
 
-### Notes
+## Notes
 - Ensure you have sufficient disk space for backups.
 - Store backup archives securely, ideally off-site or in cloud storage.
 - Regularly test the restore process to ensure backups are valid.
