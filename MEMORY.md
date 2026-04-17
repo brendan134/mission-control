@@ -37,7 +37,8 @@
   - Monthly Cost Review: 1st of month 7am AEST
 - AI routing: OpenRouter only (minimax, kimi, flashlite)
 - Telegram: Secured (allowlist policy)
-- GitHub backup: brendan134/openclaw
+- GitHub backup: brendan134/openclaw (workspace)
+- GitHub backup: brendan134/mission-control (Mission Control app)
 - Workflow notes:
   - Mission Control runs in production mode (faster, more stable); dev mode only when actively making changes
   - When fixing Recharts TypeScript errors, explicit type annotations on formatter callbacks are required (e.g., `v: any`)

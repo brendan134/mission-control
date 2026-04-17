@@ -18,8 +18,8 @@ function generateJobColor(index: number): { bg: string; border: string; text: st
 async function getCronJobs() {
   // Use API endpoint (has caching and better timeout handling)
   try {
-    const res = await fetch('/api/cron', { 
-      next: { revalidate: 30 } // Cache for 30 seconds
+    const res = await fetch('http://127.0.0.1:3003/api/cron', { 
+      next: { revalidate: 5 } // Cache for 5 seconds
     });
     if (res.ok) {
       const data = await res.json();

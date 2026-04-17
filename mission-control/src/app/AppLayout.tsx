@@ -13,6 +13,7 @@ import {
   Calendar,
   Zap,
   Settings,
+  Building2,
   Folder,
   Brain, FileText, Target
 } from 'lucide-react';
@@ -24,6 +25,7 @@ const navItems = [
   { href: '/projects', label: 'Projects', icon: Folder },
   { href: '/strategy', label: 'Strategy', icon: Target },
   { href: '/team', label: 'Team', icon: Users },
+  { href: '/office', label: 'Office', icon: Building2 },
   { href: '/automations', label: 'Cron Calendar', icon: Clock },
   { href: '/automation-builder', label: 'Automation Builder', icon: Zap },
   { href: '/memory', label: 'Memory', icon: Brain },
