@@ -16,3 +16,10 @@
 - Review memory file exists for today
 - Check for any pending cron failures
 - **UPDATE:** Run `openclaw cron list` and update backup-crons.md if changes detected
+
+## Weekly Audit (Friday afternoon)
+- Run `git status` - should be clean or just today's memory
+- Run `ls -d */ | sort` - verify canonical structure
+- Check for any duplicate directories or files with spaces
+- Verify no typo directories (ISSION*, temp_*, workspace-*)
+- Ensure pre-commit hook is active: `cat .git-hooks/pre-commit`
