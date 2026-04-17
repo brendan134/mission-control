@@ -66,3 +66,13 @@
 - Safety locks: See SAFETY_LOCK.md (protects against destructive git commands)
 - Cleanup completed Apr 2026: Removed duplicate directories (ISSION-*, workspace, etc.)
 - Canonical directories: mission-control, memory, business, content, packs, curriculum, podcast, projects, workflows, templates, context, scripts, skills
+
+### Niles Performance Reviews
+
+**Schedule:** Quarterly (April, July, October, January)
+
+| Quarter | Period | Rating | Notes |
+|---------|--------|--------|-------|
+| Q2 2026 | Apr-Jun 2026 | - | Coming |
+
+*See `memory/reviews/` for detailed quarterly reviews.*

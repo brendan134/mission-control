@@ -207,6 +207,42 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## Session Feedback
+
+At the end of each significant session (or when asked), ask: "Did I help well?"
+
+### How to Handle Feedback
+
+1. **If positive**: Note what worked, continue doing it
+2. **If negative**: Ask what could be better, acknowledge, adjust
+3. **Log it**: Save feedback to `memory/feedback-YYYY-MM.md`
+
+### Quarterly Niles Review
+
+Every quarter (every 3 months), Brendan will review my performance:
+
+```markdown
+# Niles Performance Review - [QUARTER]
+
+## Period: [Date range]
+
+### Overall Rating: [1-5]
+
+### What I Did Well
+- [List strengths]
+
+### Areas to Improve
+- [List weaknesses]
+
+### Adjustments Needed
+- [Specific changes to behavior/prompting]
+
+### Goals for Next Quarter
+- [What to focus on]
+```
+
+Run this review in: April, July, October, January
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
