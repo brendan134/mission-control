@@ -1,53 +1,49 @@
----
-name: backup-manager
-description: Verify GitHub backup status and data integrity. Use when: (1) checking if backups are working, (2) verifying sync status, (3) troubleshooting GitHub sync issues, (4) reviewing backup schedules.
----
+# Backup & Restore
 
-# Backup Manager
+## Purpose
+Create backups of workspace files, cron jobs, and configurations.
+Restore from a backup archive.
 
-## GitHub Repos
+## When to Use
+- Before major system changes
+- To protect against data loss on the VPS
+- To move configuration to a new machine
 
-- **Workspace**: `brendan134/openclaw`
-- **Mission Control**: `brendan134/mission-control`
+## Commands
 
-## Check Sync Status
-
-### Last commit
+### Backup Workspace
 ```bash
-cd /data/.openclaw/workspace && git log -1 --oneline
-```
-
-### Unpushed changes
-```bash
-cd /data/.openclaw/workspace && git status
-```
-
-### Push to GitHub
-```bash
-cd /data/.openclaw/workspace && git add . && git commit -m "Update" && git push
-```
-
-## Cron Backup Jobs
-
-List active backup cron jobs:
-```bash
-openclaw cron list
-```
-
-Check backup-related jobs:
-- Auto-Backup to GitHub (10pm Sydney)
-- Daily Cost Alert (8pm Sydney)
-
-## Verify Backup Worked
-
-1. Check cron ran: `openclaw cron runs <job-id>`
-2. Check GitHub for recent commit
-3. Check `git log --oneline` matches GitHub
-
-## Manual Backup
-```bash
+# Navigate to the workspace root
 cd /data/.openclaw/workspace
-git add -A
-git commit -m "Manual backup $(date)"
-git push
+
+# Create a timestamped archive
+TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
+tar -czvf backup_$TIMESTAMP.tar.gz .
+echo "Backup created: backup_$TIMESTAMP.tar.gz"
+
+# Optionally, also backup cron jobs
+# (Requires access to cron config, which may vary based on VPS setup)
+# Example: crontab -l > cron_backup_$TIMESTAMP.txt
 ```
+
+### Restore Workspace
+```bash
+# IMPORTANT: This will overwrite existing files! Be careful.
+# Upload your backup archive (e.g., backup_YYYY-MM-DD_HH-MM-SS.tar.gz) to the VPS.
+# Navigate to the desired restoration directory (e.g., /data/.openclaw/workspace)
+# untar -xzvf your_backup_archive.tar.gz
+```
+
+### Backup Cron Jobs (Example - requires adjustment)
+```bash
+# This is a simplified example. Actual cron setup varies by host.
+# On Linux, crontab -l can list current jobs.
+# To save them:
+crontab -l > ~/cron_jobs_backup_$(date +"%Y-%m-%d_%H-%M-%S").txt
+echo "Cron jobs backed up to ~/cron_jobs_backup_YYYY-MM-DD_HH-MM-SS.txt"
+```
+
+### Notes
+- Ensure you have sufficient disk space for backups.
+- Store backup archives securely, ideally off-site or in cloud storage.
+- Regularly test the restore process to ensure backups are valid.
