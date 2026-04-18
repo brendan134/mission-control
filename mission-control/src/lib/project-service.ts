@@ -175,36 +175,47 @@ export function getNextBestTask(projectId: string, tasks: Task[]): NextBestTaskR
 
 // ==================== INITIALIZE WITH SAMPLE DATA ====================
 
+const SAMPLE_PROJECT_NAMES = [
+  'High-Impact Leader Club',
+  '1:1 Coaching Service Upgrade',
+  'Podcast SEO Growth',
+];
+
 export function initializeSampleProjects(): void {
-  if (projects.size > 0) return;
-  
-  // Q2 2026 Projects - from quarterly plan
-  createProject({
-    name: 'High-Impact Leader Club',
-    description: 'Create and record all training modules. Target: full library by June 30. Currently 7 members, goal 10 by end April.',
-    status: ProjectStatus.ACTIVE,
-    priority: Priority.HIGH,
-    owner: 'Brendan',
-    stage: 'Execution',
-  });
-  
-  createProject({
-    name: '1:1 Coaching Service Upgrade',
-    description: 'Strengthen Leader By Design 1:1 offer with premium white-glove client experience. Define service standards and touchpoints.',
-    status: ProjectStatus.ACTIVE,
-    priority: Priority.HIGH,
-    owner: 'Brendan',
-    stage: 'Planning',
-  });
-  
-  createProject({
-    name: 'Podcast SEO Growth',
-    description: 'Increase podcast downloads from ~15-20/week to 500-1,000/week through SEO improvements.',
-    status: ProjectStatus.ACTIVE,
-    priority: Priority.HIGH,
-    owner: 'Brendan',
-    stage: 'Execution',
-  });
+  // Only add missing sample projects, don't recreate deleted ones
+  const existingNames = new Set(Array.from(projects.values()).map(p => p.name));
+  const sampleProjects = [
+    {
+      name: 'High-Impact Leader Club',
+      description: 'Create and record all training modules. Target: full library by June 30. Currently 7 members, goal 10 by end April.',
+      status: ProjectStatus.ACTIVE,
+      priority: Priority.HIGH,
+      owner: 'Brendan',
+      stage: 'Execution' as const,
+    },
+    {
+      name: '1:1 Coaching Service Upgrade',
+      description: 'Strengthen Leader By Design 1:1 offer with premium white-glove client experience. Define service standards and touchpoints.',
+      status: ProjectStatus.ACTIVE,
+      priority: Priority.HIGH,
+      owner: 'Brendan',
+      stage: 'Planning' as const,
+    },
+    {
+      name: 'Podcast SEO Growth',
+      description: 'Increase podcast downloads from ~15-20/week to 500-1,000/week through SEO improvements.',
+      status: ProjectStatus.ACTIVE,
+      priority: Priority.HIGH,
+      owner: 'Brendan',
+      stage: 'Execution' as const,
+    },
+  ];
+
+  for (const proj of sampleProjects) {
+    if (!existingNames.has(proj.name)) {
+      createProject(proj);
+    }
+  }
 }
 
 // Initialize on import

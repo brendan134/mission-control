@@ -20,10 +20,10 @@ import {
 
 const navItems = [
   { href: '/', label: 'Dashboard', icon: LayoutDashboard },
-  { href: '/my-week', label: 'My Week', icon: Calendar },
-  { href: '/tasks', label: 'Tasks', icon: CheckSquare },
-  { href: '/projects', label: 'Projects', icon: Folder },
   { href: '/strategy', label: 'Strategy', icon: Target },
+  { href: '/projects', label: 'Projects', icon: Folder },
+  { href: '/tasks', label: 'Tasks', icon: CheckSquare },
+  { href: '/my-week', label: 'My Week', icon: Calendar },
   { href: '/team', label: 'Team', icon: Users },
   { href: '/office', label: 'Office', icon: Building },
   { href: '/automations', label: 'Cron Calendar', icon: Clock },
