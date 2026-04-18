@@ -92,12 +92,12 @@
 
 ## 6. Podcast Agent
 **ID:** `podcast`
-**Role:** Titles, episode outlines, descriptions, clips, repurposing map
+**Role:** High-Impact Leader Podcast — titles, episode outlines, descriptions, clips, repurposing
 **Default Tier:** B (minimax)
 **Escalation Tier:** C (kimi)
 **Cost Ceiling:** $2/episode
 **Use For:**
-- Episode titles
+- High-Impact Leader episode titles
 - Show notes
 - Clips extraction
 - Repurposing maps
@@ -109,12 +109,14 @@
 
 ## 7. Community Agent
 **ID:** `community`
-**Role:** The Local Link, member posts, engagement, launch content
+**Role:** The Local Link (free) + High-Impact Growth Club (paid) — member posts, engagement, launches
 **Default Tier:** B (minimax)
 **Cost Ceiling:** $1/task
 **Use For:**
-- The Local Link posts
-- Engagement prompts
+- The Local Link posts and events
+- High-Impact Growth Club posts and engagement
+- Member engagement prompts
+- Launch content for both communities
 - Launch content
 - Email reminders
 - Event follow-up
