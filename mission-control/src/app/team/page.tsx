@@ -121,13 +121,13 @@ const agentProfiles: Record<string, {
   },
   podcast: {
     role: 'Podcast Producer',
-    whatItOwns: ['Podcast editing', 'Video content', 'Audio quality'],
+    whatItOwns: ['High-Impact Leader Podcast (solo + occasional Growth Club guests)', 'Titles', 'Show notes', 'Clips', 'Repurposing'],
     whatItDoesntOwn: ['Content strategy (Sophie)', 'Technical ops (Casey)', 'Strategic direction (Marcus)'],
     handoffTo: 'Content for distribution, Community for promotion',
-    successMeasures: ['Episode ready to record', 'X assets per episode', 'Titles attract target listener'],
+    successMeasures: ['Episode ready to record', 'X assets per episode', 'Titles optimized for click-through (drives downloads)'],
     qualityBar: { draft: 'Raw audio/video', ready: 'Edited, shownotes done, ready to publish', refined: 'Clips extracted, repurposed, distributed' },
-    inputStandard: 'Episode topic, guest info, desired length, target listener',
-    thinkingApproach: 'Listener-value: What will they learn or feel after listening?'
+    inputStandard: 'Episode topic, guest info (if Growth Club member), desired length, target listener',
+    thinkingApproach: 'Listener-value: What will they learn or feel after listening? Business impact: Titles must drive downloads; content must support Growth Club attraction'
   },
   community: {
     role: 'Community Manager',
