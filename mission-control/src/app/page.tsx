@@ -188,13 +188,26 @@ export default async function Dashboard() {
         </div>
       )}
 
-      {/* Quick Actions - Note */}
+      {/* Quick Commands */}
       <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: '16px', marginTop: '24px' }}>
         <div className="card">
-          <h3 style={{ fontSize: '14px', fontWeight: 600, marginBottom: '16px' }}>Quick Actions</h3>
-          <div style={{ fontSize: '13px', color: 'var(--text-muted)', padding: '12px', background: 'var(--background-tertiary)', borderRadius: '8px' }}>
-            Run interactive commands from the Automations page or via Telegram. Use <code style={{ background: 'var(--background-primary)', padding: '2px 6px', borderRadius: '4px' }}>openclaw gateway doctor</code> for system checks.
+          <h3 style={{ fontSize: '14px', fontWeight: 600, marginBottom: '16px' }}>⚡ Quick Commands</h3>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '8px' }}>
+            {[
+              { cmd: 'openclaw status', desc: 'System status' },
+              { cmd: 'openclaw cron list', desc: 'Scheduled jobs' },
+              { cmd: 'pm2 list', desc: 'Running services' },
+              { cmd: 'pm2 restart mission-control', desc: 'Restart MC' },
+              { cmd: 'openclaw gateway doctor', desc: 'Diagnostics' },
+              { cmd: 'pm2 logs cloudflared --lines 5', desc: 'Tunnel status' },
+            ].map(({ cmd, desc }) => (
+              <div key={cmd} style={{ padding: '10px 12px', background: 'var(--background-tertiary)', borderRadius: '6px', border: '1px solid var(--border)' }}>
+                <div style={{ fontSize: '12px', fontWeight: 500, color: 'var(--accent)', fontFamily: 'monospace' }}>{cmd}</div>
+                <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginTop: '2px' }}>{desc}</div>
+              </div>
+            ))}
           </div>
+          <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginTop: '12px' }}>Run via Telegram or terminal</div>
         </div>
 
         {/* System Status */}

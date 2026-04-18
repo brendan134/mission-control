@@ -27,7 +27,6 @@ const navItems = [
   { href: '/team', label: 'Team', icon: Users },
   { href: '/office', label: 'Office', icon: Building },
   { href: '/automations', label: 'Cron Calendar', icon: Clock },
-  { href: '/automation-builder', label: 'Automation Builder', icon: Zap },
   { href: '/memory', label: 'Memory', icon: Brain },
   { href: '/documents', label: 'Documents', icon: FileText },
 ];

@@ -16,8 +16,8 @@ interface Agent {
 const agents: Agent[] = [
   { id: 'brendan', name: 'Brendan', role: 'Founder', tier: 'A', status: 'active', currentTask: 'Leading the business', avatar: '👨‍💼', location: 'Executive Office' },
   { id: 'niles', name: 'Niles', role: 'Chief Agent Officer', tier: 'A', status: 'active', currentTask: 'Overseeing all agent operations', avatar: '👔', location: 'CAO Office' },
-  { id: 'kaizen', name: 'Kaizen', role: 'Head of Improvement', tier: 'B', status: 'active', currentTask: 'Analyzing business processes', avatar: '🔄', location: 'Improvement Lab' },
-  { id: 'ops', name: 'Casey', role: 'Head of Operations', tier: 'B', status: 'active', currentTask: 'Monitoring system health', avatar: '⚙️', location: 'Operations Center' },
+  { id: 'kaizen', name: 'Kaizen', role: 'Head of Improvement', tier: 'B', status: 'active', currentTask: 'Analyzing business processes, routing technical to Casey', avatar: '🔄', location: 'Improvement Lab' },
+  { id: 'ops', name: 'Casey', role: 'Head of Operations', tier: 'B', status: 'active', currentTask: 'Implementing proactive technical improvements', avatar: '⚙️', location: 'Operations Center' },
   { id: 'strategy', name: 'Marcus', role: 'Head of Strategy', tier: 'B', status: 'active', currentTask: 'Analyzing Q2 strategic priorities', avatar: '📊', location: 'Strategy Room' },
   { id: 'content', name: 'Sophie', role: 'Head of Content', tier: 'B', status: 'idle', currentTask: 'Waiting for content requests', avatar: '🎨', location: 'Content Studio' },
   { id: 'messaging', name: 'Brandon', role: 'Head of Messaging', tier: 'B', status: 'active', currentTask: 'Crafting new email sequences', avatar: '✉️', location: 'Copy Desk' },
