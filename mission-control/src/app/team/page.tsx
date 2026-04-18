@@ -28,6 +28,16 @@ const teamMembers: TeamMember[] = [
   { id: 'research', name: 'Tim', role: 'Research Analyst', tier: 'C', model: 'flashlite', reportsTo: 'strategy', responsibilities: ['Market research', 'Data analysis', 'Competitive intelligence'] }
 ];
 
+// Human Team Members (external staff)
+const humanTeamMembers = [
+  { id: 'kriz', name: 'Kriz', role: 'Team Leader (Philippines)', location: 'Philippines', reportsTo: 'brendan', responsibilities: ['Slide designer for Growth Club curriculum', 'Leads Philippines VA team', 'Course Creator 360 oversight'] },
+  { id: 'dom', name: 'Dom', role: 'General VA', location: 'Philippines', reportsTo: 'kriz', responsibilities: ['General administration', 'Course Creator 360 processes & tools', 'Basic video/reel editing'] },
+  { id: 'lazelle', name: 'Lazelle', role: 'General VA', location: 'Philippines', reportsTo: 'kriz', responsibilities: ['General administration support', 'As-needed VA duties'] },
+  { id: 'phoenix', name: 'Phoenix', role: 'Copywriter', location: 'Philippines', reportsTo: 'brendan', responsibilities: ['2 blogs per month', 'Web copy', 'Content writing'] },
+  { id: 'eunice', name: 'Eunice', role: 'Social Media Manager', location: 'Philippines', reportsTo: 'brendan', responsibilities: ['Create social media posts', 'Schedule posts', 'Social strategy support'] },
+  { id: 'mervyn', name: 'Mervyn', role: 'Video/Audio Editor', location: 'India', reportsTo: 'brendan', responsibilities: ['High-Impact Leader Podcast editing', 'Audio cleanup', 'Video editing'] },
+];
+
 // Agent Framework Profiles
 const agentProfiles: Record<string, {
   role: string;
@@ -289,6 +299,30 @@ export default function TeamPage() {
                 <div style={{ fontWeight: 500, fontSize: '13px', color: '#10b981' }}>{member.name}</div>
                 <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>{member.role}</div>
                 <button onClick={(e) => { e.stopPropagation(); setProfileId(member.id); }} style={{ marginTop: '6px', padding: '3px 8px', fontSize: '9px', background: '#10b981', color: '#fff', border: 'none', borderRadius: '3px', cursor: 'pointer' }}>Profile</button>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Human Team Section */}
+      <div style={{ marginTop: '48px', paddingTop: '32px', borderTop: '1px solid var(--border)' }}>
+        <h2 style={{ fontSize: '20px', fontWeight: 600, marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <span style={{ fontSize: '20px' }}>👥</span> Human Team
+        </h2>
+        <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '24px' }}>External team members who support Leader By Design operations</p>
+        
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px' }}>
+          {humanTeamMembers.map(member => (
+            <div key={member.id} style={{ padding: '16px', background: 'var(--background-secondary)', borderRadius: '8px', border: '1px solid var(--border)' }}>
+              <div style={{ fontWeight: 600, fontSize: '14px', marginBottom: '4px' }}>{member.name}</div>
+              <div style={{ fontSize: '12px', color: 'var(--accent)', marginBottom: '8px' }}>{member.role}</div>
+              <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '4px' }}>📍 {member.location}</div>
+              <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '8px' }}>Reports to: {member.reportsTo}</div>
+              <div style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>
+                {member.responsibilities.map((r, i) => (
+                  <div key={i} style={{ marginBottom: '2px' }}>• {r}</div>
+                ))}
               </div>
             </div>
           ))}
