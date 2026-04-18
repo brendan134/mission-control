@@ -57,6 +57,60 @@ Modular email sequence broken into 4 "bricks":
 
 ---
 
+## Hook Templates (100 Verbal Hooks + 10 Types + 8 Forms + Written/Verbal)
+
+**Source:** Stockton's Hook Templates Drive Folder
+
+### 10 Hook Types
+
+| Hook Type | Psychological Trigger | Definition | Example |
+|-----------|----------------------|------------|----------|
+| Stop / Warning | Loss-Aversion | Front-loads negative verb to signal imminent loss | "Stop batch-filming Reels—it's crushing your watch-time" |
+| Secret / Hack Reveal | Curiosity Gap | Signals insider/hidden knowledge | "Hidden Canva shortcut that trims edit time by 70%" |
+| Big Promise / Result Flex | Aspirational Desire | Promises concrete outcome with numbers/timeframe | "How I hit $50k MRR in 90 days" |
+| Authority / Cred Proof | Authority & Social Proof | Uses credentials, stats, expertise | "After auditing 3k webinars, I found one slide doubles sales" |
+| Contrarian / Hot Take | Cognitive Dissonance | Challenges mainstream beliefs | "The sales funnel is dead" |
+| Pain Call-Out / Question | Problem Recognition | Names pain audience feels | "Still struggling with writer's block?" |
+| Mistake / Myth Bust | Error-Fear | Points out costly error or false belief | "Myth: you need big budgets to run ads" |
+| Urgency / FOMO | Scarcity & Time Pressure | Creates urgency or scarcity | "Doors close in 12 hours" |
+| List / Framework Teaser | Cognitive Fluency | Numbered structure for easy digest | "You only need 3 pages to sell a course" |
+| Analogy / Story | Narrative Transport | Uses metaphors or mini-stories | "Pricing is like sushi—smaller rolls sell"
+
+### 10 Content Formats
+
+| Format | What It Is | Use When |
+|--------|------------|----------|
+| Story / Case Study | Personal/client transformation narrative | Building trust, showing proof |
+| Hot Take / Polarizer | Bold contrarian opinion | Sparking debate, engagement |
+| Mindset / Principle | Reframed belief or guiding principle | Creating "aha" moments |
+| Show & Tell / Demo | Visual step-by-step demonstration | Teaching a process clearly |
+| Framework / Method | Named repeatable system/workflow | Packaging knowledge into memorable process |
+| Mistake / Warning / Myth | Calls out costly error or misconception | Preventing failure, correcting misinformation |
+| Quick Win / Tip | Bite-sized actionable advice | Fast value, quick results |
+| Tool / Resource | External app, template, or resource | Recommending useful shortcuts |
+| Breakdown / Dissection | Analysis of external business/funnel | Teaching by reverse-engineering success |
+| Trend / News-Jack | Ties to current event or cultural moment | Timeliness, relevance, discovery |
+
+### Written vs Verbal Hooks
+
+**Written Hooks:**
+- Headline fragments, can omit subject/verb
+- Compressed, punchy, can use buzzwords/title case
+- Works for silent reading
+
+**Verbal Hooks:**
+- Full sentences with subject + verb
+- Conversational language (I, you, we, this, here's how)
+- Must sound natural when spoken, 6-12 words max
+
+**Adaptation Rules:**
+1. Turn fragments into full sentences
+2. Add conversational pronouns
+3. Make it sound natural aloud
+4. Anchor vague hype with specifics
+
+---
+
 ## Hook Templates (100 Verbal Hooks + 8 Forms)
 
 **Source:** Likely Stockton / Course Creator 360
