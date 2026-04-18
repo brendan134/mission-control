@@ -57,6 +57,69 @@ Modular email sequence broken into 4 "bricks":
 
 ---
 
+## Hook Templates (100 Verbal Hooks + 8 Forms)
+
+**Source:** Likely Stockton / Course Creator 360
+
+### The 100 Hook Templates
+Used for video content (reels, YouTube, TikTok, ads, VSLs). Variable placeholders: [avatar], [desire], [pain], [result], [outcome], [vehicle], [method]
+
+**Pattern Examples:**
+1. "You wanna know why [vehicle] doesn't work when you're trying to [desire]?"
+2. "Here are the top questions I get about how to [desire]"
+3. "[X] ways to [desire] in [timeframe]"
+4. "[X] things you should NEVER do if you want [desire]"
+5. "The #1 [topic] mistake keeping people from [desire] is [error]"
+6. "Here's how [avatar] are [desire] without [pain]"
+7. "Here's what [common enemy] PRAY you never learn"
+8. "If you're struggling to [desire], stop [vehicle] because it's [pain-point]"
+9. "Trying to [desire]? Stop [widely used vehicle]. Sounds wild—here's why."
+10. "Did you know every time you [mistake] you're [cost]?"
+11. "What if I told you you can [desire] without [pain]—and it's NOTHING to do with [belief]?"
+12. "Want [desire]? Fastest change: stop [ineffective tactic] and start [new tactic]"
+13. "I generated [result] in [time] for [client type]—here's the breakdown"
+14. "Stop using [old method]. Here's an easier path to [result]"
+15. "If you still [outdated action], you're losing [valuable asset]"
+
+*(Full 100 templates in source doc)*
+
+### Psychological Triggers
+
+| Trigger | Bias Leveraged | One-Line Definition |
+|---------|----------------|---------------------|
+| Loss-Aversion | Prospect Theory | People act faster to avoid pain than gain pleasure |
+| Curiosity Gap | Information-Gap Theory | Unanswered question creates tension to resolve |
+| Aspirational Desire | Dopamine Loop | Vivid future payoff pulls toward outcome |
+| Authority & Social Proof | Cialdini's Authority | Hard numbers/credentials signal trust |
+| Cognitive Dissonance | Dissonance Theory | Challenging belief forces reconciling |
+| Problem Recognition | Mirror Effect | Mirroring struggle = "this is for me" |
+| Error-Fear | Mistake Aversion | Tune in to avoid looking foolish |
+| Cognitive Fluency | Chunking, Rule of Three | Numbered structures feel easy to digest |
+| Scarcity & FOMO | Scarcity Bias | Closing window magnifies urgency |
+| Narrative Transport | Storytelling Heuristic | Mini-stories pull into mental movie |
+
+### 8 Hook Forms
+
+**1 - Statements**
+Declarative claims with numbers/timeframes/contrarian twist. Examples:
+- "[Result] without [Pain]"
+- "You don't need [X]; you need [Y]"
+- "The #1 lever for [Goal] is [Mechanism]"
+- "Every [Avatar] who wins does [Behavior]"
+- "If [Metric] is stuck, it's not [Assumption]; it's [Cause]"
+
+**2 - Commands**
+Imperative openers telling viewer what to do. Examples:
+- "Stop [Action]—it's [Consequence]"
+- "Never [Action] without [Crucial Step]"
+- "Do [Action] before [Deadline]"
+- "Steal my [N]-step [Process]"
+- "Copy this [Script] that got [Result]"
+
+*(6 more hook forms in full doc)*
+
+---
+
 ## Brandon Lucero - New Generation Mastery / Built to Convert
 
 ### Core Frameworks Used
