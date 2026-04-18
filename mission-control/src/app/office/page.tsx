@@ -14,16 +14,18 @@ interface Agent {
 }
 
 const agents: Agent[] = [
-  { id: 'niles', name: 'Niles', role: 'Chief Agent Officer', tier: 'A', status: 'active', currentTask: 'Overseeing all agent operations', avatar: '👔', location: 'CEO Office' },
-  { id: 'marcus', name: 'Marcus', role: 'Head of Strategy', tier: 'B', status: 'active', currentTask: 'Analyzing Q2 strategic priorities', avatar: '📊', location: 'Strategy Room' },
-  { id: 'sophie', name: 'Sophie', role: 'Head of Content', tier: 'B', status: 'idle', currentTask: 'Waiting for content requests', avatar: '🎨', location: 'Content Studio' },
-  { id: 'isla', name: 'Isla', role: 'Head of Messaging', tier: 'B', status: 'active', currentTask: 'Crafting new email sequences', avatar: '✉️', location: 'Copy Desk' },
-  { id: 'quinn', name: 'Quinn', role: 'Head of Operations', tier: 'A', status: 'active', currentTask: 'Monitoring system health', avatar: '⚙️', location: 'Server Room' },
-  { id: 'leo', name: 'Leo', role: 'Curriculum Specialist', tier: 'C', status: 'idle', currentTask: 'Waiting for course work', avatar: '📚', location: 'Training Lab' },
-  { id: 'ruby', name: 'Ruby', role: 'Podcast Producer', tier: 'C', status: 'active', currentTask: 'Editing latest episode', avatar: '🎙️', location: 'Podcast Booth' },
-  { id: 'maya', name: 'Maya', role: 'Community Manager', tier: 'C', status: 'active', currentTask: 'Engaging with community members', avatar: '💬', location: 'Community Hub' },
-  { id: 'dex', name: 'Dex', role: 'Research Analyst', tier: 'C', status: 'idle', currentTask: 'Monitoring for new research', avatar: '🔍', location: 'Research Lab' },
-  { id: 'aria', name: 'Aria', role: 'Client Delivery Lead', tier: 'B', status: 'active', currentTask: 'Preparing client deliverables', avatar: '📦', location: 'Delivery Suite' },
+  { id: 'brendan', name: 'Brendan', role: 'Founder', tier: 'A', status: 'active', currentTask: 'Leading the business', avatar: '👨‍💼', location: 'Executive Office' },
+  { id: 'niles', name: 'Niles', role: 'Chief Agent Officer', tier: 'A', status: 'active', currentTask: 'Overseeing all agent operations', avatar: '👔', location: 'CAO Office' },
+  { id: 'kaizen', name: 'Kaizen', role: 'Head of Improvement', tier: 'B', status: 'active', currentTask: 'Analyzing business processes', avatar: '🔄', location: 'Improvement Lab' },
+  { id: 'ops', name: 'Casey', role: 'Head of Operations', tier: 'B', status: 'active', currentTask: 'Monitoring system health', avatar: '⚙️', location: 'Operations Center' },
+  { id: 'strategy', name: 'Marcus', role: 'Head of Strategy', tier: 'B', status: 'active', currentTask: 'Analyzing Q2 strategic priorities', avatar: '📊', location: 'Strategy Room' },
+  { id: 'content', name: 'Sophie', role: 'Head of Content', tier: 'B', status: 'idle', currentTask: 'Waiting for content requests', avatar: '🎨', location: 'Content Studio' },
+  { id: 'messaging', name: 'Brandon', role: 'Head of Messaging', tier: 'B', status: 'active', currentTask: 'Crafting new email sequences', avatar: '✉️', location: 'Copy Desk' },
+  { id: 'client-delivery', name: 'Jerry', role: 'Client Delivery Lead', tier: 'B', status: 'active', currentTask: 'Preparing client deliverables', avatar: '📦', location: 'Delivery Suite' },
+  { id: 'curriculum', name: 'Kathy', role: 'Curriculum Specialist', tier: 'C', status: 'idle', currentTask: 'Waiting for course work', avatar: '📚', location: 'Training Lab' },
+  { id: 'podcast', name: 'Ruby', role: 'Podcast Producer', tier: 'C', status: 'active', currentTask: 'Editing latest episode', avatar: '🎙️', location: 'Podcast Booth' },
+  { id: 'community', name: 'Lawrie', role: 'Community Manager', tier: 'C', status: 'active', currentTask: 'Engaging with community members', avatar: '💬', location: 'Community Hub' },
+  { id: 'research', name: 'Tim', role: 'Research Analyst', tier: 'C', status: 'idle', currentTask: 'Monitoring for new research', avatar: '🔍', location: 'Research Lab' },
 ];
 
 const TIER_COLORS = {

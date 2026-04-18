@@ -14,17 +14,18 @@ interface TeamMember {
 }
 
 const teamMembers: TeamMember[] = [
-  { id: 'niles', name: 'Niles', role: 'Chief Agent Officer (CAO)', tier: 'A', model: 'Sonnet', reportsTo: 'brendan', responsibilities: ['Oversee all agent operations', 'Task allocation and routing', 'Quality assurance', 'Agent performance management'] },
-  { id: 'strategy', name: 'Marcus', role: 'Head of Strategy', tier: 'B', model: 'kimi', reportsTo: 'niles', responsibilities: ['Strategic priority management', 'Project alignment to goals', 'North Star metric tracking'] },
+  { id: 'brendan', name: 'Brendan', role: 'Founder - Leader By Design', tier: 'A', model: 'human', reportsTo: 'none', responsibilities: ['Oversees the business', 'Sets strategic direction', 'Leads the team'] },
+  { id: 'niles', name: 'Niles', role: 'Chief Agent Officer (CAO)', tier: 'A', model: 'minimax', reportsTo: 'brendan', responsibilities: ['Oversee all agent operations', 'Task allocation and routing', 'Quality assurance', 'Agent performance management'] },
+  { id: 'kaizen', name: 'Kaizen', role: 'Head of Improvement', tier: 'B', model: 'kimi', reportsTo: 'niles', responsibilities: ['Daily business improvement suggestions', 'Align initiatives with purpose', 'Identify efficiency opportunities', 'Challenge status quo'] },
   { id: 'ops', name: 'Casey', role: 'Head of Operations', tier: 'B', model: 'flashlite', reportsTo: 'niles', responsibilities: ['System maintenance', 'Cron job management', 'Data integrity', 'Automation workflows'] },
-  { id: 'content', name: 'Sarah', role: 'Head of Content', tier: 'B', model: 'minimax', reportsTo: 'niles', responsibilities: ['Content production oversight', 'LinkedIn posts & newsletters', 'Content strategy alignment'] },
-  { id: 'client-delivery', name: 'Jordan', role: 'Client Delivery Lead', tier: 'B', model: 'kimi', reportsTo: 'niles', responsibilities: ['Client project delivery', 'Quality assurance', 'Stakeholder communication'] },
-  { id: 'kaizen', name: 'Kaizen', role: 'Business Improvement', tier: 'B', model: 'kimi', reportsTo: 'niles', responsibilities: ['Daily business improvement suggestions', 'Align initiatives with purpose', 'Identify efficiency opportunities', 'Challenge status quo'] },
-  { id: 'messaging', name: 'Alex', role: 'Messaging Specialist', tier: 'C', model: 'kimi', reportsTo: 'niles', responsibilities: ['Copy and offer creation', 'Brand voice consistency', 'Email marketing content'] },
-  { id: 'curriculum', name: 'Emily', role: 'Learning Design', tier: 'C', model: 'kimi', reportsTo: 'content', responsibilities: ['Course creation', 'Training material development', 'Learning path design'] },
-  { id: 'podcast', name: 'Chris', role: 'Media Production', tier: 'C', model: 'kimi', reportsTo: 'content', responsibilities: ['Podcast editing and production', 'Video content creation', 'Audio quality management'] },
-  { id: 'community', name: 'Sam', role: 'Community Manager', tier: 'C', model: 'kimi', reportsTo: 'niles', responsibilities: ['Community engagement', 'Member support', 'Event coordination'] },
-  { id: 'research', name: 'Taylor', role: 'Research Analyst', tier: 'C', model: 'kimi', reportsTo: 'strategy', responsibilities: ['Market research', 'Data analysis', 'Competitive intelligence'] }
+  { id: 'strategy', name: 'Marcus', role: 'Head of Strategy', tier: 'B', model: 'kimi', reportsTo: 'niles', responsibilities: ['Strategic priority management', 'Project alignment to goals', 'North Star metric tracking'] },
+  { id: 'content', name: 'Sophie', role: 'Head of Content', tier: 'B', model: 'flashlite', reportsTo: 'niles', responsibilities: ['Content production oversight', 'LinkedIn posts & newsletters', 'Content strategy alignment'] },
+  { id: 'messaging', name: 'Brandon', role: 'Head of Messaging', tier: 'C', model: 'kimi', reportsTo: 'niles', responsibilities: ['Copy and offer creation', 'Brand voice consistency', 'Email marketing content'] },
+  { id: 'client-delivery', name: 'Jerry', role: 'Client Delivery Lead', tier: 'B', model: 'flashlite', reportsTo: 'niles', responsibilities: ['Client project delivery', 'Quality assurance', 'Stakeholder communication'] },
+  { id: 'curriculum', name: 'Kathy', role: 'Curriculum Specialist', tier: 'C', model: 'kimi', reportsTo: 'content', responsibilities: ['Course creation', 'Training material development', 'Learning path design'] },
+  { id: 'podcast', name: 'Ruby', role: 'Podcast Producer', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['Podcast editing and production', 'Video content creation', 'Audio quality management'] },
+  { id: 'community', name: 'Lawrie', role: 'Community Manager', tier: 'C', model: 'flashlite', reportsTo: 'niles', responsibilities: ['Community engagement', 'Member support', 'Event coordination'] },
+  { id: 'research', name: 'Tim', role: 'Research Analyst', tier: 'C', model: 'flashlite', reportsTo: 'strategy', responsibilities: ['Market research', 'Data analysis', 'Competitive intelligence'] }
 ];
 
 export default function TeamPage() {
