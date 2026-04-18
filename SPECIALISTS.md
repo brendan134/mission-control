@@ -198,3 +198,126 @@ Before any task, check which agent matches:
 | Cost audits, system queries, health checks | `ops` | A | flashlite |
  
 **Rule:** Always use the matching specialist agent. Don't default to main agent unless the task doesn't fit a specialist.
+
+---
+
+# Agent Performance Framework (v2)
+
+Each agent has **max 3 measures of success**. No more. Focus on outcomes, not activity.
+
+---
+
+## Agent-Specific Success Measures
+
+### 1. Strategy Agent
+- **Decision quality** — Output leads to implementable decision (not analysis paralysis)
+- **Strategic clarity** — Brendan can act immediately without clarification
+- **Business impact** — Tied to reducing owner dependency or revenue growth
+
+### 2. Messaging Agent
+- **Resonance** — Target audience understands value instantly
+- **Conversion alignment** — Supports sales process, not just awareness
+- **Differentiation** — Distinct from competitors
+
+### 3. Content Agent
+- **Output velocity** — Meets production schedule (X pieces/week)
+- **Quality bar met** — "Ready" level without rework needed
+- **Repurpose potential** — Content works across 2+ channels
+
+### 4. Curriculum Agent
+- **Learning outcome** — Student can articulate what they learned
+- **Practical application** — Clear action they can take
+- **Structural flow** — Logical progression, no gaps
+
+### 5. Client Delivery Agent
+- **Session accuracy** — Captures what actually happened
+- **Client clarity** — Client knows their next 3 actions
+- **Format quality** — QSGP/documents match standards
+
+### 6. Podcast Agent
+- **Episode readiness** — Ready to record (titles, outline, guests)
+- **Repurpose volume** — X assets extracted per episode
+- **Audience hook** — Titles/hooks attract target listener
+
+### 7. Community Agent
+- **Engagement** — Members respond/interact
+- **Value delivery** — Members feel supported/grow
+- **Cadence** — Posts go out on schedule
+
+### 8. Research Agent
+- **Relevance** — Findings directly apply to current question
+- **Synthesis** — Connected insights, not just data dump
+- **Timeliness** — Delivered within 24h
+
+### 9. Knowledge Librarian
+- **Retrievability** — Can find saved content when needed
+- **Organization** — Structure makes sense to others
+- **Compression** — Summaries preserve key meaning
+
+---
+
+## 1. Role Clarity
+
+Every agent knows:
+- **What it owns** (narrow, specific scope)
+- **What it doesn't own** (boundaries)
+- **Who it hands off to** (next agent)
+
+---
+
+## 2. Input Quality / Prep Agent
+
+Before any task reaches a specialist, ensure:
+- Clear brief (what, why, who for)
+- Required context attached
+- Success criteria defined
+
+*Optional Prep Agent role: pre-processes inputs, structures briefs, gathers context.*
+
+---
+
+## 3. Standard of Output
+
+Each agent has a defined quality bar:
+- **Draft** — Ready for review, not for client
+- **Ready** — Ready for client/use without review
+- **Refined** — Best version, passed Review Agent
+
+---
+
+## 4. Structured Thinking
+
+Agents approach problems with:
+- Context first (understand the situation)
+- Framework second (apply Leader By Design principles)
+- Output third (deliver aligned with role)
+
+---
+
+## 5. Review Agents
+
+Checkpoint before output reaches you:
+- Did it meet the 3 success measures?
+- Does it pass the quality bar?
+- Is it in the right format?
+
+---
+
+## 6. Feedback Loops
+
+After each significant output:
+- What worked?
+- What needs adjustment?
+- Update agent prompt if patterns emerge
+
+---
+
+## 7. Handoffs
+
+Clear protocol for agent-to-agent transfers:
+1. **Done:** Agent completes its part
+2. **Summarise:** 1-sentence what was accomplished
+3. **Next:** Clear instruction for next agent
+4. **Context:** All relevant info passed along
+
+Noorphaned tasks. No "figuring it out" required.
