@@ -31,6 +31,16 @@ Things like:
 - Default speaker: Kitchen HomePod
 ```
 
+## Mission Control
+
+- **Port:** 3003
+- **Always restart using ecosystem config:**
+  ```bash
+  pm2 start /data/.openclaw/workspace/ecosystem.config.js
+  ```
+- **Don't use:** `pm2 start npm --name "mission-control" -- start` (missing PORT var)
+- **Check status:** `pm2 list` or `curl -s -o /dev/null -w "%{http_code}" http://localhost:3003`
+
 ## Why Separate?
 
 Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
