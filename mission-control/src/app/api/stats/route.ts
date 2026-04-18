@@ -2,11 +2,19 @@ import { NextResponse } from 'next/server';
 import { execSync } from 'child_process';
 import { BUDGET_CONFIG } from '@/lib/config';
 
+// ==================== Constants ====================
+const CACHE_TTL_MS = 5 * 60 * 1000; // 5 minutes
+const DAYS_TO_FETCH = 7;
+const EXEC_TIMEOUT_MS = 3000;
+
 export const dynamic = 'force-dynamic';
 
-// Cache for 5 minutes
-let cache: { data: any; timestamp: number } | null = null;
-const CACHE_TTL = 5 * 60 * 1000;
+// In-memory cache
+interface CacheEntry {
+  data: unknown;
+  timestamp: number;
+}
+let cache: CacheEntry | null = null;
 
 async function fetchOpenRouterActivity(dateStr: string) {
   const apiKey = process.env.OPENROUTER_MANAGEMENT_KEY;
@@ -25,7 +33,7 @@ async function fetchOpenRouterActivity(dateStr: string) {
 
 export async function GET() {
   // Check cache first
-  if (cache && Date.now() - cache.timestamp < CACHE_TTL) {
+  if (cache && Date.now() - cache.timestamp < CACHE_TTL_MS) {
     return NextResponse.json(cache.data);
   }
 
@@ -39,9 +47,9 @@ export async function GET() {
     const monthlyMap = new Map<string, number>();
     const modelMap = new Map<string, number>();
 
-    // Fetch last 7 days only (was 30 - too slow)
+    // Fetch last N days only (was 30 - too slow)
     const dateStrings = [];
-    for (let i = 0; i < 7; i++) {
+    for (let i = 0; i < DAYS_TO_FETCH; i++) {
       const date = new Date(now);
       date.setDate(date.getDate() - i);
       dateStrings.push(date.toISOString().split('T')[0]);
@@ -89,7 +97,7 @@ export async function GET() {
     let gatewayStatus = 'unknown';
     
     try {
-      const statusOutput = execSync('openclaw status --json', { encoding: 'utf8', timeout: 3000 });
+      const statusOutput = execSync('openclaw status --json', { encoding: 'utf8', timeout: EXEC_TIMEOUT_MS });
       const status = JSON.parse(statusOutput);
       
       agents = status.agents?.agents?.length || 1;
@@ -118,15 +126,19 @@ export async function GET() {
     cache = { data: response, timestamp: Date.now() };
 
     return NextResponse.json(response);
-  } catch (error: any) {
-    console.error('Error fetching stats:', error.message);
+  } catch (error: unknown) {
+    // Structured logging for debugging
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+    console.error('[Stats API] Error:', { message: errorMessage, timestamp: new Date().toISOString() });
+    
     return NextResponse.json({
       todaySpend: 0,
       monthSpend: 0,
       budget: BUDGET_CONFIG.monthly,
       messages: 0,
       agents: 1,
-      gatewayStatus: 'unknown',
+      gatewayStatus: 'error',
+      error: 'Failed to fetch stats',
     });
   }
 }
