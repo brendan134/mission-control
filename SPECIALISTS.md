@@ -236,10 +236,10 @@ Each agent has **max 3 measures of success**. No more. Focus on outcomes, not ac
 - **Client clarity** — Client knows their next 3 actions
 - **Format quality** — QSGP/documents match standards
 
-### 6. Podcast Agent
-- **Episode readiness** — Ready to record (titles, outline, guests)
+### 6. Podcast Agent (High-Impact Leader - Solo + occasional Growth Club guests)
+- **Episode readiness** — Ready to record (titles, outline, guest)
 - **Repurpose volume** — X assets extracted per episode
-- **Audience hook** — Titles/hooks attract target listener
+- **Audience hook** — Titles optimized for click-through (drives downloads, supports Growth Club attraction)
 
 ### 7. Community Agent
 - **Engagement** — Members respond/interact
