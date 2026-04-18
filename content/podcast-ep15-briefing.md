@@ -92,13 +92,25 @@ When business grows faster than leadership design, things break. The fix isn't w
 ## Episode Structure (Required)
 1. Opening Hook (20-30 sec) - Name felt experience, no hype
 2. Leadership Pattern - Describe the pattern, use leader language
-3. How This Shows Up Day-to-Day (REQUIRED) - Subtle everyday signs
+3. How This Shows Up Day-to-Day (REQUIRED) - Subtle everyday signs, inner dialogue
 4. Why This Pattern Persists - Why it made sense earlier, why it breaks now
-5. What This Costs Over Time (REQUIRED) - Leadership load, decision drag
+5. What This Costs Over Time (REQUIRED) - Leadership load, decision drag, team confidence
 6. What High-Impact Leaders Do Differently - Shift to designing, not fixing
-7. Reflection Moment - 1-2 thoughtful questions
-8. Explicit Episode CTA - Mention Growth Club naturally
-9. Close with: "Design your leadership. Build your team. Lead with impact."
+7. Reflection Moment - 1-2 thoughtful questions, no action plans
+8. Explicit Episode CTA (LOCKED): "This is exactly the kind of leadership work we focus on inside the High-Impact Leader Club. It's a community for business owners and leaders who want self-managing teams, clear accountability, and leadership that feels calmer and more sustainable. If you're ready to move from carrying everything yourself to designing leadership that actually scales, you'll find the details in the show notes."
+9. Signature Close (LOCKED): "Design your leadership. Build your team. Lead with impact."
+
+## SEO Keywords (LOCKED - Same for every episode)
+- leadership podcast
+- business leadership
+- business owners
+- leaders
+- team performance
+- accountability
+- self-managing teams
+- leadership design
+- team engagement
+- scalable leadership
 
 ## Weekly Content Rhythm
 - 1 Podcast episode
