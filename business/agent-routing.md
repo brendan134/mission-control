@@ -135,12 +135,10 @@ For critical strategy calls, you can use GPT-4o for higher quality.
 - High-stakes offer design
 - Complex growth decisions
 - When kimi's output isn't quite right
+- **When I recommend it:** If kimi's response doesn't meet world-class standards, I'll flag it and ask before upgrading
 
 **How to use:**
 - Ask: "Use GPT-4o for this strategy task"
+- Or wait for my suggestion: "This is complex - want me to run it through GPT-4o for better quality?"
 - Cost: ~$2-5 per task (significant jump from kimi's ~$0.15)
-
-**Monthly budget consideration:**
-- Your $20/month plan + $48.43 credits
-- Use GPT-4o sparingly (5-10 strategic calls/month max)
-- All other tasks stay on kimi/minimax/flashlite
+- **Always get your approval first** before using GPT-4o
