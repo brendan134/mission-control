@@ -99,7 +99,7 @@ const agentProfiles: Record<string, {
     inputStandard: 'Product/offer details, target audience, desired action, competitors to differentiate from',
     thinkingApproach: 'Belief-first: What needs to change in their mind for them to act?'
   },
-  clientDelivery: {
+  'client-delivery': {
     role: 'Client Delivery Lead',
     whatItOwns: ['Client projects', 'QA', 'Stakeholder communication'],
     whatItDoesntOwn: ['Strategy (Marcus)', 'Content creation (Sophie)', 'Technical ops (Casey)'],
