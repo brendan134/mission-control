@@ -67,6 +67,35 @@
 - Cleanup completed Apr 2026: Removed duplicate directories (ISSION-*, workspace, etc.)
 - Canonical directories: mission-control, memory, business, content, packs, curriculum, podcast, projects, workflows, templates, context, scripts, skills
 
+### Agent Framework (7 Pillars)
+- Added to SPECIALISTS.md on Apr 18:
+  1. Role Clarity
+  2. Input Quality / Prep Agent
+  3. Standard of Output (Draft/Ready/Refined)
+  4. Structured Thinking
+  5. Review Agents
+  6. Feedback Loops
+  7. Handoffs (Done → Summarise → Next → Context)
+
+### AgentMail Integration (Apr 2026)
+- Email: aisystem@agentmail.to
+- Flow: Gmail → forward → Niles processes → drafts reply → Brendan sends
+- Human always in loop for sending
+- Future: Agents send directly; Jerry sends client deliverables
+
+### Task Accountability System (Kaizen Proposal)
+- 24h waiting → flag
+- 48h → escalate to Niles
+- 72h → escalate to Brendan
+- Signal Feed API for blocked/stale tasks
+- Weekly accountability review (Friday)
+
+### Team Structure (Apr 2026)
+- **Tier A:** Brendan (Founder), Niles (CAO)
+- **Tier B:** Kaizen (Head of Improvement), Casey, Marcus, Sophie, Brandon, Jerry
+- **Tier C:** Kathy, Ruby, Lawrie, Tim
+- Human team: Kriz, Dom, Lazelle, Phoenix, Eunice, Mervyn
+
 ### Niles Performance Reviews
 
 **Schedule:** Quarterly (April, July, October, January)

@@ -64,6 +64,31 @@ When business grows faster than leadership design, things break. The fix isn't w
 
 ---
 
+## Format (DECODED)
+**Episode 15 = Leadership Pattern (LP)**
+- **What it does:** Names invisible patterns, explains why capable leaders keep getting pulled back in
+- **Primary belief addressed:** "We just need to grow through this phase."
+- **Secondary belief:** "Leadership issues fix themselves later."
+
+## Format Types
+| Prefix | Name | % | Description |
+|--------|------|---|-------------|
+| LP | Leadership Pattern | 15% | Names invisible patterns |
+| TR | Thought Reversal | 15% | Challenges assumptions |
+| E | Educational | 35% | What to do / how to |
+| C | Connection | 25% | "You get me" / emotional |
+| Exp/Story | Experimental | 10% | Real stories |
+
+## Rotation Rules
+- Max 2 Educational back-to-back
+- Connection every 3-4 weeks
+- Story ~1x per quarter
+- LP + TR never clustered
+
+## Past Episodes Reference
+- Google Drive folder: https://drive.google.com/drive/folders/1pVQ-qonN3IL3IrWniS75PE2alfFQ3Zmq
+- Content Schedule Doc: https://docs.google.com/document/d/1bV8Hf0ZSF7JIMdslEILrGabqLzmGCqSSecglaTEkk9E/edit
+
 ## Notes
 - No episode number in title or shownotes
 - Solo episode (no guest)
