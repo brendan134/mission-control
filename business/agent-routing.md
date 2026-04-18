@@ -6,7 +6,7 @@ When to use which agent for maximum effectiveness.
 
 | Need | Use Agent | Tier | Model |
 |------|-----------|------|-------|
-| Business strategy, decisions, growth | **Marcus** (strategy) | C | kimi |
+| Business strategy, decisions, growth | **Marcus** (strategy) | C | kimi (or gpt-4o for critical) |
 | Copy, hooks, offers, messaging | **Alex** (messaging) | C | kimi |
 | LinkedIn posts, emails, content | **Sarah** (content) | B | minimax |
 | Lessons, worksheets, courses | **Emily** (curriculum) | C | kimi |
@@ -125,3 +125,22 @@ Default: Niles decides
 ## Quick Reminder
 
 If unsure, ask Niles to route to the right agent. That's what I'm here for.
+
+## Premium Model: GPT-4o
+
+For critical strategy calls, you can use GPT-4o for higher quality.
+
+**When to use:**
+- Major business pivots
+- High-stakes offer design
+- Complex growth decisions
+- When kimi's output isn't quite right
+
+**How to use:**
+- Ask: "Use GPT-4o for this strategy task"
+- Cost: ~$2-5 per task (significant jump from kimi's ~$0.15)
+
+**Monthly budget consideration:**
+- Your $20/month plan + $48.43 credits
+- Use GPT-4o sparingly (5-10 strategic calls/month max)
+- All other tasks stay on kimi/minimax/flashlite
