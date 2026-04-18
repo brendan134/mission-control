@@ -89,6 +89,31 @@ When business grows faster than leadership design, things break. The fix isn't w
 - Google Drive folder: https://drive.google.com/drive/folders/1pVQ-qonN3IL3IrWniS75PE2alfFQ3Zmq
 - Content Schedule Doc: https://docs.google.com/document/d/1bV8Hf0ZSF7JIMdslEILrGabqLzmGCqSSecglaTEkk9E/edit
 
+## Episode Structure (Required)
+1. Opening Hook (20-30 sec) - Name felt experience, no hype
+2. Leadership Pattern - Describe the pattern, use leader language
+3. How This Shows Up Day-to-Day (REQUIRED) - Subtle everyday signs
+4. Why This Pattern Persists - Why it made sense earlier, why it breaks now
+5. What This Costs Over Time (REQUIRED) - Leadership load, decision drag
+6. What High-Impact Leaders Do Differently - Shift to designing, not fixing
+7. Reflection Moment - 1-2 thoughtful questions
+8. Explicit Episode CTA - Mention Growth Club naturally
+9. Close with: "Design your leadership. Build your team. Lead with impact."
+
+## Weekly Content Rhythm
+- 1 Podcast episode
+- 3 LinkedIn posts:
+  - Post 1: Thought Reversal (Pattern + Cost)
+  - Post 2: Connection (Day-to-Day recognition)
+  - Post 3: What To Do (Reframe, not instruction)
+- 1 Community prompt (Growth Club)
+
+## Ecosystem Frameworks
+- Impact Triangle: Lead Yourself, Lead the Team, Lead the Business
+- PEOPLE OS: PERCEIVE, ENVISION, OPTIMISE, PERFORM, LEVERAGE, EVALUATE
+- Growth Path: 7 milestones
+- 5 Stages: Hands-On Hustler → Organised Operator → Emerging Leader → Team Performance Leader → High-Impact Leader
+
 ## Notes
 - No episode number in title or shownotes
 - Solo episode (no guest)
