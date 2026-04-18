@@ -101,16 +101,8 @@ When business grows faster than leadership design, things break. The fix isn't w
 9. Signature Close (LOCKED): "Design your leadership. Build your team. Lead with impact."
 
 ## SEO Keywords (LOCKED - Same for every episode)
-- leadership podcast
-- business leadership
-- business owners
-- leaders
-- team performance
-- accountability
-- self-managing teams
-- leadership design
-- team engagement
-- scalable leadership
+**Primary:** team engagement, accountability, team performance, business leadership
+**Secondary:** leadership podcast, business owners, leaders, self-managing teams, leadership design, scalable leadership, business owners and leaders, Leadership patterns, Leadership rhythm, Decision making, Managing up, Leadership clarity, Ownership and accountability, Leading through people, Leadership load, High-impact leadership
 
 ## Weekly Content Rhythm
 - 1 Podcast episode
