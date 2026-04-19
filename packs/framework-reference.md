@@ -735,6 +735,285 @@ Address common buyer objections directly with:
 
 ---
 
+## James Wedmore - Your First 100 Leads
+
+**Source:** Your First 100 Leads Course (16 Lessons + Extras)
+
+---
+
+### Lesson 1: Goal Setting & Mindset
+
+- **Begin with the End in Mind** — Define desired outcome before tactics
+- **Outcome-Based Goal Setting** — Specific target (100 leads) + deadline creates focus
+- **Gratitude as Receiving State** — Frame goals as if already achieved
+- **Accountability Through Public Commitment** — Share goal to increase follow-through
+- **Parallel Reality Visualization** — Imagine goal achieved, work backward
+- **Reflective Journaling** — Short prompts for insight
+- **What Did I Do Differently?** — Identify effective behaviors
+- **What Did I Let Go Of?** — Release limiting beliefs
+- **Why-Driven Motivation** — Deeper emotional reason sustains action
+- **Entrepreneurial Thinking** — Think for yourself, don't wait for answers
+
+---
+
+### Lesson 2: TLC (Traffic → Leads → Customers)
+
+- **TLC Method** — Traffic → Leads → Customers (big-picture for online business)
+- **Traffic-Lead-Customer Sequence** — Business growth follows specific order
+- **Begin With the End in Mind** — Start with paying customers, work backward
+- **Lead Definition / Raised Hand** — Someone who showed interest, took action
+- **Behavioral Segmenting** — Use actions to identify interest, not guessing
+- **Direct Response Marketing** — Clear, measurable responses show interest
+- **Nurture to Convert** — Build trust until they become customers
+
+---
+
+### Lesson 3: Lead Magnets & Freebies
+
+- **Freebie Should Feel Paid** — Value worth paying for, not "free fluff"
+- **Audience Intelligence** — Treat audience as smart/savvy
+- **Differentiate by Value** — Stand out by giving more, not louder sales
+- **Lead Magnet as Exchange** — Gift in exchange for contact info
+- **Teach Something People Would Pay For** — Topics with real market value
+- **Better Than Competitors' Paid** — Outperform what others charge for
+- **Mini-Course as Lead Magnet** — Free mini-course outperforms PDFs
+- **Specificity Over Medium** — Focus on topic first, not format
+- **Five-Idea Brainstorm** — Generate 5 topics → narrow to top 2-3
+
+---
+
+### Lesson 4: Offer-First Strategy
+
+- **Offer-First Strategy** — Build lead gen around paid offer, not other way
+- **Lead Magnet Must Create Demand** — Increase desire for paid offer
+- **TLC** — Content moves through funnel, not just list growth
+- **A-to-B Transformation** — Where they are now → where they want to be
+- **Gap-Closing** — Bridge gap with clear path and offer
+- **External Outcome** — Tangible, visible result
+- **Internal Outcome** — Emotional benefit (freedom, success, fulfillment)
+- **Specificity Principle** — Unusually specific = stronger copy
+- **"What Does That Give Them?" Ladder** — Surface result → deeper emotional values
+
+---
+
+### Lesson 5: Messaging & Positioning
+
+- **A/B Point Transformation** — Problem state (A) → desired outcome (B)
+- **Vehicle** — Method/process that gets from A to B
+- **Domino Belief** — One core belief that makes buying feel obvious
+- **Superlative Positioning** — "most effective," "fastest," "best"
+- **Reporter + Lawyer** — Observe what works → build persuasive case
+- **Offer Alignment** — Teach how to use vehicle, not just be the vehicle
+- **Freebie as Setup** — Introduce/prove domino belief
+- **Demand Creation via Messaging** — Use freebie to increase desire
+
+---
+
+### Lesson 6: Marketing Before Content
+
+- **Create Marketing Before Content** — Positioning first, then build content
+- **Validate Demand Before Building** — Test with market first
+- **Lead Magnet as Buying Audience Builder** — Attract right audience likely to buy
+- **Title** — Name clearly communicating what it is
+- **Headline** — Grabs attention, communicates value
+- **Hook** — Scroll-stopping angle in posts/ads/lives
+- **Hook-Headline-Title Funnel** — Hook attracts → Headline converts → Title defines
+- **Objection-Aware Copy** — Address objections, not just benefits
+- **Specific Outcome Positioning** — Promise concrete first step
+
+---
+
+### Lesson 7: Title & Positioning
+
+- **Medium Is Secondary** — Prioritize result delivery, not format
+- **Clarity Trumps Creativity** — Instantly understandable > clever
+- **Outcome-Driven Titling** — Name based on transformation, not format
+- **Specificity Sells** — "Your First 100 Leads" > vague
+- **"So That" Copy** — "Do X so that Y happens"
+- **Differentiate Through Positioning** — New angle/perspective
+- **"Without" Differentiation** — "How to do X without Y"
+- **Find the Unspoken Angle** — What's missing? What problem not addressed?
+- **Brainstorm Quantity First** — 30+ titles to push past obvious
+
+---
+
+### Lesson 8: Headlines
+
+- **Headline-Title Alignment** — Both reinforce same promise
+- **Avatar Callout** — Signal who page is for immediately
+- **Outcome Promise** — Clearly state desired result
+- **Objection Handling** — Include/address main barrier or fear
+- **Specificity** — Concrete details, numbers, precise language
+- **"Discover how to..." Template** — "Discover how to X so you can Y without Z"
+- **"Finally, a proven way to..." Template** — Frame as trustworthy solution
+- **Case Study Headline** — Person + result + timeframe
+- **Contrast/Before-After** — Shift from problem to desired result
+- **High-Energy Copy** — Enthusiastic language, quotes, exclamation points
+
+---
+
+### Lesson 9: Hooks
+
+- **Hook as Scroll-Stopper** — Interrupt attention, stop scroll, get noticed
+- **Title-Headline-Hook Alignment** — Three elements work together
+- **Mistake-Based Hooking** — Call out biggest mistake preventing results
+- **Belief Behind the Behavior** — Identify incorrect belief causing mistake
+- **Consequence of the Mistake** — Show negative result to increase urgency
+- **Better Way Reframe** — Present correct method that solves problem
+- **New Belief + New Behavior + New Outcome** — Method + mindset + result
+- **Reverse Engineering from Offer** — Start with paid offer → work backward
+- **Pain-to-Promise Messaging** — Frame problem → consequence → solution
+- **Practice-Based Mastery** — Hooks get easier with implementation
+
+---
+
+### Lesson 10: Validation & Testing
+
+- **Test Before You Build** — Validate with existing audience before creating
+- **Backwards Traffic Strategy** — Offer → lead magnet → traffic
+- **Use What You Already Have** — Post on current channels, don't wait
+- **Copy-and-Paste Validation Post** — Simple prewritten post to gauge interest
+- **Problem → Mistake → Solution → CTA** — Frame message this way
+- **Question-Based Interest Check** — "Would this be of interest?"
+- **Low-Friction CTA** — Easy response: comment, DM, poll
+- **People Love Free** — Lead with free training/mini-course/ebook
+- **Engagement as Reality Check** — Reactions signal if idea resonates
+
+---
+
+### Lesson 11: Opt-In & Thank You Pages
+
+- **Opt-in Page Purpose** — Get visitors to click and opt in; keep simple
+- **Two-Step Opt-in** — Click CTA first → then enter email
+- **Conversion Benchmark** — 20-50% (cold ~20%, warm ~35-50%)
+- **Above-the-Fold Design** — Minimal: headline, CTA, footer
+- **Thank You Page as Prime Real Estate** — Highest user excitement after opt-in
+- **Confirmation Headline** — Reassure opt-in worked
+- **Next-Step CTA Strategy** — Direct to: waitlist, call, webinar, community
+- **Waitlist Launch Model** — Push to waitlist for first access
+- **Low-Ticket OTO** — Fast, irresistible offer after opt-in
+- **Immediate Email + Follow-Up** — Send freebie right away
+
+---
+
+### Lesson 12: Traffic Generation
+
+- **Traffic Generation Trifecta** — Content, paid ads, affiliate/JV partnerships
+- **Foundation vs. Distribution** — Message stays consistent, channels change
+- **Content vs. Paid Tradeoff** — Content = time/consistency; Paid = scalable
+- **Simple Ad-to-Lead Funnel** — Ad → Landing → Thank You → Email capture
+- **One-Platform Focus** — Go all-in on one channel
+- **Podcast Commercial CTA** — Recurring "commercial" directs to URL
+- **YouTube Description Funnel** — Clickable links in description
+- **Instagram Link-in-Bio Hub** — Custom bio link routes to opt-in
+- **Comment-to-DM Automation** — ManyChat triggers DMs from comments
+- **Repurposed Content as Freebies** — Repackage existing content
+
+---
+
+### Lesson 13: Instagram Automation
+
+- **Weekly IG Lead Magnet Reuse** — Turn one piece into weekly freebie
+- **Clarity Over Creativity** — Simple, direct titles/hooks
+- **Tiny Tweaks, Big Results** — Frame around small improvements
+- **Comment-to-DM Automation** — Trigger word → auto DM lead capture
+- **ManyChat-Style Flow** — Ask for email in DM → send freebie
+- **Randomized Auto-Reply** — Rotate different reply messages
+- **Zapier + Email Integration** — Chat → Zapier → email platform
+- **Copy-Once, Duplicate-Many** — Build one flow → reuse
+- **Best-Performer Amplification** — Top reel → reuse as freebie or ads
+- **Organic-to-Paid Expansion** — Start organic → scale with ads
+
+---
+
+### Lesson 14: Live Content
+
+- **Six-Step Live Formula** — Topic → Intro → CTA → Reinforce → Teach → Close
+- **Begin With the End in Mind** — Build around specific freebie
+- **Mistake-Based Topics** — Create from common mistakes
+- **Mistake → Consequence → Better Way** — Name mistake → show downside → promise alternative
+- **Authority + Intro Formula** — Who you are + what you do + who you help
+- **Engagement CTA Early** — Prompt like/comment/share at start
+- **Challenge Belief, Then Teach** — Discredit old thinking → new approach
+- **Focus Beats Spreading Thin** — Do less on fewer platforms
+- **Simple, Specific CTA Link** — Short, memorable URL
+- **Content Quality Overrides Distribution** — Strong content first
+
+---
+
+### Lesson 15: Newsletter & Launches
+
+- **Weekly "Blank" Newsletter** — Recurring around weekly theme
+- **Consistency Over One-Off** — Ongoing value builds habit
+- **Audience Open-Rate Training** — Regular newsletters condition subscribers
+- **CTA Inside Value Content** — Strategic CTAs move readers
+- **Daily Tip via Text** — Higher-frequency, delivered by SMS
+- **Launch as List Builder** — Webinars, challenges, lives = strongest lead gen
+- **Small Audience, Big Launch** — Internet-facing launch attracts signups
+- **Quarterly Launch Cadence** — Run launch every quarter
+- **Multi-Entry List Capture** — Lead magnet, chatbot, podcast ads, paid ads
+- **Launches = Leads + Sales** — Both list-building AND sales
+
+---
+
+### Lesson 16: Mindset & Motivation
+
+- **Finish Course, Then Take Action** — Progress from implementation
+- **Low-Barrier, High-Discipline** — Start with little money = persistence
+- **Counterintuitive Marketing** — Direct-response works opposite of "feels natural"
+- **Impact-Driven Motivation** — Helping others is deepest motivation
+- **Freedom as Business Outcome** — Flexibility, location independence
+- **Recurring Revenue + Launch Models** — Memberships and launches
+- **Money as Secondary Driver** — Impact matters more than income
+- **"Aha" Moment Economy** — Creating breakthroughs is core value
+- **Responsibility to Help** — Withholding help = abandoning them
+- **Consistency of Purpose Over Ego** — Purpose guides action
+
+---
+
+### Extra: The Live Formula
+
+1. **Introduce New Way of Thinking** — Reframe assumptions, new perspective
+2. **Discredit Mistake** — Common mistake → why it causes failure
+3. **Introduction** — Name + what you do + quick CTA + promise
+4. **Mistake (Consequence)** — State mistake + negative outcome
+5. **Promise** — Result/transformation they can expect
+6. **Promise Breakdown** — Break into components for credibility
+7. **Steps/How-To's** — Actionable steps to achieve result
+8. **Hook + CTA** — Attention-grabbing + move to next step
+9. **Intro Template** — Reusable: who you are + who you help + topic
+
+---
+
+## James Wedmore - Nailing Your Domino Belief
+
+**Source:** Domino Belief Training (2 Parts)
+
+### Part 1: Core Concepts & Examples
+
+- **Domino Belief** — A single core belief that acts as the "first domino" driving results
+- **Key Formula:** Fastest/Most Effective way to [Desired Outcome]
+- **Examples by niche:**
+  - Running Plan: Fastest way to improve + prevent injury
+  - Hormone Healing: Fastest path to weight loss, energy, cycle regulation
+  - FB Ad Manager Business: Best way for moms to build flexible income
+  - Social Scripting: Reduce nervousness with prepared language
+  - 3 R Framework: Spiritual growth model (Spirit Team)
+
+### Part 2: Positioning Frameworks
+
+- **Outcome-Driven Positioning** — Frame around specific result they want
+- **Fastest/Only Way Framing** — "Fastest," "most effective," "only way" language
+- **Niche-Specific Transformation** — Very specific audience + problem
+- **Mechanism-Based Selling** — Highlight method/process, not just result
+- **High-Ticket Offer Strategy** — Premium offers = path to growth
+- **Skill Mastery as Leverage** — Mastery of key skill → larger success
+- **Problem Root-Cause Resolution** — Fix underlying cause, not symptoms
+- **Transformation Through Capacity Building** — Building capability → lasting change
+- **Authority via Real Examples** — Live examples across industries
+
+---
+
 ## How Agents Use This
 
 When working on content, agents should:
