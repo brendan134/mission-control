@@ -226,7 +226,65 @@ Imperative openers telling viewer what to do. Examples:
 
 ---
 
-## Brandon Lucero - New Generation Mastery / Built to Convert
+## Brandon Lucero - New Generation Mastery
+
+**Source:** New Generation Mastery Workbook
+
+### Core Philosophy
+> "Go inward first, discover the real message, remove external conditioning, claim personal power, then express and evolve the message through action and mastery."
+
+### 6 Invisible Messaging Elements
+1. **Silence** - Turning down internal chatter, fear, overthinking
+2. **Subconscious vs Conscious** - Understanding automatic beliefs vs deliberate choice
+3. **Remembering Who You Are** - Shedding external conditioning (parents, society, culture)
+4. **Personal Power** - Internal strength to trust your message
+5. **Evolution** - Messaging grows and adapts over time
+6. **Mastery** - Deep experience, not just theory
+
+### Discovery + Doing Framework
+- **Discovery** = internal, intuitive, invisible (feminine energy)
+- **Doing** = execution, structure, frameworks (masculine energy)
+- Best results = blend both
+
+### Thinking Mind vs Receiving Mind
+| Thinking Mind | Receiving Mind |
+|--------------|----------------|
+| Uses past knowledge | Open to new insight |
+| Creates fear/limitations | Aligned with purpose |
+| Resists the unknown | More intuitive |
+| Defaults to "what worked before" | Less constrained by fear |
+
+### The Automation Model
+How beliefs form:
+1. Trusted authority says something
+2. Repeated information reinforces it
+3. Established patterns become assumed truth
+
+**Messaging implication:** Break automation, expose outdated beliefs, replace with better ones.
+
+### Audience Transformation Formula
+**Unaware → Aware → Changed Belief → New Action**
+
+### Powerful Content vs Insecure Content
+| Insecure Content | Powerful Content |
+|-----------------|------------------|
+| Calling people out | Clear service |
+| Complaining | Timeless message |
+| Making others wrong | Confident expression |
+| Reacting to trends | Grounded perspective |
+| Bending to approval | Focus on impact |
+
+### Personal Power Formula
+**Consciousness + Critical Thinking + Boundaries + Compassion = Personal Power**
+
+### Key Formulas
+- **Powerful Messaging:** Silence + Self-discovery + Personal Power + Execution + Evolution
+- **Authenticity:** Remembering who you are + Shedding external conditioning
+- **Content Quality:** Must speak to subconscious, not just inform
+
+---
+
+## Brandon Lucero - Built to Convert
 
 ### Core Frameworks Used
 
