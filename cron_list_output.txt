@@ -1,0 +1,15 @@
+ID                                   Name                     Schedule                         Next       Last       Status    Target    Agent ID   Model               
+7bc7b2a2-6cb4-4b02-b09c-1ae9bb49ecbd Agent Status JSON Export every 5m                         in 60m     <1m ago    error     isolated  main       -
+ea577e1a-8b50-42c1-8a9d-fcb84657a9ad Daily News Brief         cron 0 7 * * * @ Australia/Sy... in 7h      17h ago    ok        isolated  main       -
+bc4569f9-a49a-4bea-8824-f94b4891c08e Daily Dream Reminder     cron 0 30 7 * * * @ Australia... in 7h      17h ago    error     isolated  main       -
+4fb12570-a308-4621-992a-c6aa4a3d4a11 Podcast Production       cron 0 8 * * 1 @ Australia/Sy... in 8h      -          idle      main      main       -
+355888fc-899f-4cab-80cc-1c0121d86ac7 More Quotes Reminder     cron 0 9 * * * @ Australia/Sy... in 9h      -          idle      main      main       -
+41d05fba-8c43-4e67-8fbd-e11d715e3f2a Conversion Cards Remi... cron 0 9 * * * @ Australia/Sy... in 9h      -          idle      main      main       -
+819d6780-09bd-424a-b5b8-217366ad635f Kaizen Morning - Busi... cron 0 9 * * * @ Australia/Sy... in 9h      15h ago    ok        isolated  main       kimi
+e7d5fa36-fec8-444b-8aa6-b9e62feee811 Kaizen Evening - Busi... cron 0 18 * * * @ Australia/S... in 18h     6h ago     ok        isolated  main       kimi
+35c4b1d8-354c-472d-955f-8bd42695746a Daily Cost Alert         cron 0 20 * * * @ Australia/S... in 20h     4h ago     ok        isolated  main       -
+b7aaaf0a-837f-42fa-a045-fe9fb6171880 Daily Memory Save Rem... cron 30 20 * * * @ Australia/... in 20h     4h ago     ok        isolated  main       -
+c93eee39-1e08-4ea6-a75c-09d81857e819 Auto-Backup to GitHub    cron 0 22 * * * @ Australia/S... in 22h     2h ago     error     isolated  main       -
+39f7678e-f5a3-46a8-826b-ce53841d6827 Weekly Review            cron 0 7 * * 5 @ Australia/Sy... in 4d      2d ago     ok        isolated  main       -
+36d2383d-58bb-49e9-906b-f6aa971a710c Weekly Cost Audit        cron 0 20 * * 0 @ Australia/S... in 7d      4h ago     ok        isolated  main       -
+e5c4f813-eb25-4db8-b42c-9c74868de96c Monthly Cost Review      cron 0 7 1 * * @ Australia/Sy... in 11d     -          idle      main      -          -
