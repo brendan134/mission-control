@@ -523,6 +523,129 @@ Track total revenue across product path (Product A → B → C) divided by origi
 
 ---
 
+## James Wedmore - Attraction Module
+
+**Source:** Business By Design - Attraction Module
+
+---
+
+### Content Platform Strategy
+
+**Goal:** Turn content into a Traffic Magnet
+
+**Two Purposes of Building Your Platform:**
+1. **Attract New People** (Traffic)
+2. **Build Your Email List** (Leads)
+
+**The 3-Step Process:**
+
+**Step 1: Create High-Value Content Your Audience CRAVES**
+- Content = BEACON that attracts people seeking answers
+- Positions you as Authority (Law of Reciprocity)
+- Creates MASSIVE RAPPORT
+
+**Step 2: Promote The CRAPOLA Out Of Your Amazing Content**
+- Don't be everywhere — pick your spots
+- Use social media TOOLS to distribute YOUR content
+
+**Step 3: Use "Content Upgrades" To Turn Consumers Into Subscribers**
+- Free content = teaser
+- PDF or Video = the "more" they opt-in for
+- Easiest way to build your list
+
+**Platform Options:**
+- Podcast
+- YouTube (Search Engine)
+- Facebook Group (Community)
+- Blog (You own it)
+- Instagram (Promote other content)
+
+---
+
+### Attraction Episode 1: Become Worth Attracting
+
+#### Core Principles
+1. **Tools Don't Create Audiences** — Platforms/tactics don't attract — your presence does
+2. **Attraction Starts With You** — Become "worth attracting" first
+3. **Follower-Seeking → Leadership** — Question: "How do I be a leader worth following?"
+
+#### The Framework
+1. **Study Who You Admire** — Identify 3-5 influencers, list their specific qualities
+2. **Self-Assessment** — Rate yourself honestly on desired traits
+3. **Close the Gap** — Define what a "10" looks like in specific, real-life behaviors
+4. **Mindset Shapes Reality** — Internal beliefs project outward
+5. **Consistency of Energy** — People drawn to your energy, authenticity, courage
+
+---
+
+### Attraction Episode 2: Traffic & Leads (TLC)
+
+#### The Core Business Flow
+**TLC = Traffic → Leads → Customers**
+
+#### Traffic Types
+
+**Tortoise Traffic** (Slow, Organic)
+- Grows over time through consistent content
+- Word-of-mouth driven
+- Examples: Blog, Podcast, YouTube
+
+**Hare Traffic** (Fast, Paid)
+- Immediate visibility through ads
+- Examples: Facebook Ads, YouTube Ads, AdWords
+
+#### Traffic Sources
+| Source | Type | Notes |
+|--------|------|-------|
+| Free Content Platform | Tortoise | Primary channel you own |
+| Organic Search | Tortoise | SEO, discovery |
+| Social Shares | Tortoise | Word-of-mouth |
+| Paid Advertising | Hare | Requires budget, can scale |
+| Retargeting | Hare | Show ads to warm visitors |
+| Affiliates / Joint Ventures | Hare | Partners driving traffic for commission |
+
+---
+
+### Attraction Episode 3: Content as Bait
+
+#### Core Concept
+**Content should act like fishing bait** — attracting the right audience by matching the product they're likely to buy.
+
+#### The Mistake Framework
+
+**Step 1: Identify Audience Mistakes**
+- Find 10+ incorrect beliefs or ineffective behaviors your audience has
+
+**Step 2: Score by Severity**
+- Rank each mistake by how obvious or mind-blowing
+- Focus on less obvious, more polarizing ones
+
+**Step 3: Frame It**
+- **Mistake → Consequence → Identity**
+- Attach specific negative consequence
+- Connect to unwanted identity (without attacking)
+
+**Step 4: Discredit the Old Way**
+- Prove why common belief/method is wrong
+
+**Step 5: Present New Way + Benefits**
+- Your method as better alternative
+- Concrete benefits
+
+#### Content Framework / Outline
+```
+1. Attention (hook)
+2. Mistake (what they're doing wrong)
+3. Consequence (what it costs them)
+4. Discredit (why the old way doesn't work)
+5. New Way (your method)
+6. Benefits (what they gain)
+7. Content (the value/ teaching)
+8. Call to Action
+```
+
+---
+
 ## How Agents Use This
 
 When working on content, agents should:
@@ -534,7 +657,7 @@ When working on content, agents should:
 
 ## To Do
 
-- [ ] Populate Brandon Lucero frameworks
-- [ ] Populate James Wedmore frameworks  
+- [x] Populate Brandon Lucero frameworks (New Generation Mastery)
+- [x] Populate James Wedmore frameworks (Business By Design + Attraction Module)
 - [ ] Add any other training programs you use
 - [ ] Review and approve for agent use
