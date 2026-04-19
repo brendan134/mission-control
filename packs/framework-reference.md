@@ -684,6 +684,57 @@ Real money comes after first purchase — coaching, premium support, segmented o
 
 ---
 
+## James Wedmore - Irresistible Offer Example (Podcast Blueprint)
+
+**Source:** James Wedmore - Worked Example
+
+### The Process (Step-by-Step)
+
+**Step 1: Promise-First Offer Framework**
+Start with what the market already wants, then position the offer as the path to that outcome.
+
+**Step 2: Vehicle Framework**
+Define the mechanism or method that delivers the promise (e.g., podcasting, YouTube, etc.)
+
+**Step 3: Domino Belief Framework**
+Add a strong belief statement that makes the vehicle seem like the most effective path to the desired transformation.
+
+**Step 4: DB Argument Framework**
+Support the domino belief with proof:
+- Stats
+- Case studies
+- Testimonials
+- Benefits vs alternatives
+
+**Step 5: ABCD Framework**
+Build context with facts, then ask: "How can someone achieve the desired result WITHOUT the vehicle?"
+
+**Step 6: Market Predicament Question**
+Frame the market's problem as a question that highlights why the vehicle is necessary.
+
+**Step 7: Irresistible Offer Pivot**
+Shift from broader market problem into a specific offer that solves the vehicle-related problem.
+
+**Step 8: Chunked Promise Structure**
+Break the main promise into smaller, specific outcomes:
+- Launch
+- Tech simplicity
+- Content creation
+- Marketing
+- Monetization
+
+**Step 9: Newsworthy Price Reveal**
+Present the price using value anchoring and relativity so it feels justified and compelling.
+
+**Step 10: Objection-Buster Framework**
+Address common buyer objections directly with:
+- Targeted solutions
+- Bonuses
+- Tools
+- Support
+
+---
+
 ## How Agents Use This
 
 When working on content, agents should:
