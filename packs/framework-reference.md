@@ -111,6 +111,58 @@ Modular email sequence broken into 4 "bricks":
 
 ---
 
+## System Naming Methodologies (8 Types)
+
+**Source:** Stockton's Framework & System Naming Drive Folder
+
+| Type | Formula | Example |
+|------|---------|----------|
+| **1. Client Identity** | [Avatar] [Modifier] [Benefit] [Action Word] | Freelancer Focus Formula, Fitness-Mom Fat-Loss Framework |
+| **2. Acronym** | [Anchor Word] [Descriptor] Framework | S.P.A.R.K. Ideation System, F.O.C.U.S. Productivity Protocol |
+| **3. Anti / No** | [Negative Prefix][Resented Norm] [Outcome] | Anti-Algorithm Growth Strategy, Zero-Ads Traffic Blueprint |
+| **4. Counter Intuitive / Weird** | [Weird Hook] [Context] [Benefit] [Action] | Nap-Time Networking Method, One-Email Launch System |
+| **5. Number-Phase / Pillar** | [#] [Unit] [Benefit] [Action] | 3-Step Viral Hook Formula, 5-Pillar Brand Authority |
+| **6. Alliteration Hook** | [Consonant] [Consonant] [Process/Method] | Profit Pathway Process, Focus-Filter Framework |
+| **7. Result-in-Time** | [#-TimeUnit] [Outcome] [Roadmap] | 7-Day Funnel Sprint, 30-Day Monetization Map |
+| **8. Hybrid** | Blend 2+ naming formulas | C.L.I.M.B. Ladder, No-Pitch 5-Step Webinar Path |
+
+---
+
+## Methodology Naming Formulas
+
+| Formula | When to Use | Example |
+|---------|-------------|---------|
+| **[#] Steps to [Outcome]** | Linear, step-by-step change | 7 Steps to Financial Freedom |
+| **[#] Phases to [Outcome]** | Linear with milestones | 5 Phases to Launch |
+| **The [#] Pillars/Tenets of [Topic]** | Non-linear, modular | The 5 Pillars of Leadership |
+| **The [Topic] Framework/Method/System** | Broad, flexible | The Growth Framework |
+| **The [Topic] Growth Cycle/Routine** | Cyclical, ongoing | The Daily Growth Routine |
+| **[Branded] Framework/Method** | Custom branded | The S.O.U.R.C.E. Method |
+
+---
+
+## 5 System Archetypes
+
+| Archetype | What Makes It Unique | Example |
+|-----------|---------------------|----------|
+| **Client-Identity Method** | Signals target audience | The Multi-Passionate Creator Method |
+| **Acronym Method** | Easy to remember, branded | The S.O.U.R.C.E. Marketing Method |
+| **Anti Method** | Contrasts with common approaches | The Anti-Hustle Scaling Method |
+| **Weird/Counter-Intuitive** | Challenges conventional wisdom | The Faceless YouTube Cashflow System |
+| **#-Phase System** | Clear sequential framework | The 4-Phase Magnetic Marketing Model |
+
+---
+
+## 3 Types of Systems
+
+| Type | Description | Example |
+|------|-------------|----------|
+| **Linear** | Finite one-way sequence (A→B→C→done) | Course curriculum |
+| **Non-linear** | Independent elements in any order | Toolkit, principles library |
+| **Cyclical** | Closed loop, repeats continuously | Flywheel, habit loop |
+
+---
+
 ## Hook Templates (100 Verbal Hooks + 8 Forms)
 
 **Source:** Likely Stockton / Course Creator 360
