@@ -107,6 +107,7 @@ export const dynamic = 'force-dynamic';
 export default async function Dashboard() {
   const stats = await getStats();
   const spendData = await getSpendData();
+  const dailyQuote = getDailyQuote();
   
   const formatCurrency = (amount: number) => {
     return new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'USD' }).format(amount);
@@ -137,22 +138,17 @@ export default async function Dashboard() {
       </div>
 
       {/* Quote of the Day */}
-      {(() => {
-        const quote = getDailyQuote();
-        return (
-          <div className="card" style={{ marginBottom: '32px', background: 'linear-gradient(135deg, var(--background-tertiary) 0%, var(--background-secondary) 100%)', borderColor: 'var(--accent)' }}>
-            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px' }}>
-              <Quote size={24} style={{ color: 'var(--accent)', flexShrink: 0, marginTop: '4px' }} />
-              <div>
-                <div style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '1px', color: 'var(--accent)', marginBottom: '8px', fontWeight: 600 }}>Quote of the Day</div>
-                <blockquote style={{ fontSize: '18px', fontStyle: 'italic', margin: '0 0 12px 0', lineHeight: 1.6, color: 'var(--text-primary)' }}>"{quote.text}"</blockquote>
-                <div style={{ fontSize: '13px', color: 'var(--text-muted)' }}>— {quote.author}</div>
-                <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginTop: '8px' }}>Category: {quote.category}</div>
-              </div>
-            </div>
+      <div className="card" style={{ marginBottom: '32px', background: 'linear-gradient(135deg, var(--background-tertiary) 0%, var(--background-secondary) 100%)', borderColor: 'var(--accent)' }}>
+        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px' }}>
+          <Quote size={24} style={{ color: 'var(--accent)', flexShrink: 0, marginTop: '4px' }} />
+          <div>
+            <div style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '1px', color: 'var(--accent)', marginBottom: '8px', fontWeight: 600 }}>Quote of the Day</div>
+            <blockquote style={{ fontSize: '18px', fontStyle: 'italic', margin: '0 0 12px 0', lineHeight: 1.6, color: 'var(--text-primary)' }}>"{dailyQuote.text}"</blockquote>
+            <div style={{ fontSize: '13px', color: 'var(--text-muted)' }}>— {dailyQuote.author}</div>
+            <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginTop: '8px' }}>Category: {dailyQuote.category}</div>
           </div>
-        );
-      })()}
+        </div>
+      </div>
 
       {/* Stats Grid */}
       <div style={{ 
