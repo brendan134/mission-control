@@ -313,27 +313,213 @@ How beliefs form:
 
 ## James Wedmore - Business By Design
 
-### Core Frameworks Used
+**Source:** Business By Design Manual (Full Course)
 
-**Digital CEO Model**
-- [ ] Key elements of the model
-- [ ] How you apply it
+---
 
-**Course Design**
-- [ ] Your course structure approach
-- [ ] Module/lesson framework
+### Module 1: Business By Design
 
-**Launch Framework**
-- [ ] Your launch sequence
-- [ ] Key phases
+#### Be-Do-Have vs Have-Do-Be
+| Mindset | Description |
+|---------|-------------|
+| **Be-Do-Have** | Become the person first, do the actions, then have the result |
+| **Have-Do-Be** | Wait to have resources before acting (limiting belief) |
 
-**Messaging & Positioning**
-- [ ] How you position offers
-- [ ] Story frameworks
+#### Four Phases of Business
+Stage-based model categorizing business growth lifecycle.
 
-**Funnel Philosophy**
-- [ ] Your approach to funnels
-- [ ] Key templates
+#### Intend-Commit-Detach
+- **Intend:** Define the goal
+- **Commit:** Take full ownership
+- **Detach:** Release emotional attachment to exact path/timeline
+
+#### Meeting Your Future Self
+Guided visualization to connect with future identity for vision alignment.
+
+---
+
+### Module 2: Working By Design
+
+#### Elevating Your Role (Digital CEO)
+- **Core principle:** "The Less I Do, The More I Make"
+- **5%/95% Activity Audit:** Identify the 5% activities yielding 95% of results
+- **Key question:** What is spending time on everything else costing you?
+
+#### Mount Everest Exercise (90-Day Cycles)
+Treat major goals as "summits" broken into 90-day execution cycles.
+
+#### Know Thy Numbers
+Track core business metrics for performance and profitability.
+
+#### Ascension Model
+Product ladder for customer progression:
+1. **DIY Course** — Complete A-Z system
+2. **Coaching** — Faster/easier results with guidance
+3. **Mastermind** — Community, proximity, transformation
+4. **YOU** — Highest value, premium access
+
+#### D.A.D. Framework
+**Delegate, Automate, or Delete** — decision method for any task.
+
+#### Two Essential Ingredients for Getting Anything Done
+Self-assessment framework: Rate each ingredient 1-10, identify what would make it a 10.
+
+---
+
+### Module 3: Offer By Design
+
+#### Irresistible Offer Components
+1. **Promise** — Who it's for, problem solved, transformation
+2. **Process** — How transformation is delivered (VIP day, program, etc.)
+3. **Price** — Cost
+4. **Bundling & Bonuses** — Extra value
+5. **Risk Reversal** — Reduces perceived buyer risk
+6. **Scarcity & Urgency** — Encourages action now
+7. **Story** — Narrative that helps buyer identify with the offer
+
+#### Nailing the Promise
+- Your offer is NOT your product
+- Use "designed to" language vs guarantees
+- Responsible for deliverables, not customer results
+
+#### Transformation Promise vs Deliverables
+- **You provide:** Method, support, inputs
+- **Customer provides:** Actions, results
+
+#### Consequence-Based Selling
+"What is the consequence of NOT solving this problem?"
+
+#### Emotional State Mapping
+| Before | After |
+|--------|-------|
+| Frustrated, Confused, Isolated, Overwhelmed | Confident, Energized, Optimistic, Inspired |
+
+#### Identity Shift
+"Who ARE they now?" — people buy identity changes, not just tactics.
+
+#### Camera Test
+"If we took a video camera, what would it capture?" — makes abstract tangible.
+
+---
+
+### Module 4: Sales By Design
+
+#### Sales System Flow
+Messaging Gate → Free Experience → Dismantle Objections → Present Offer → Deadline
+
+#### Avatar/Ideal Customer Mapping
+- Specific problem/struggle
+- How they describe it in their own words
+- Current circumstances
+- What they have that they don't want
+- What they don't have that they do want
+- Internal thoughts and feelings
+- Why they haven't solved it yet
+- Consequence of not solving
+- Transformation/after-state
+
+#### Struggle Framework (3 Levels)
+1. **External Problem** — What's happening on surface
+2. **Internal Problem** — How they feel about it
+3. **Consequence** — What happens if it continues
+
+#### Transformation Framework (3 Levels)
+1. **External Result** — Tangible outcome
+2. **Internal State** — How they feel after
+3. **Future Possibilities** — What becomes possible next
+
+#### Missing Ingredient Framework
+Identify the ONE essential thing that gets people to transformation.
+- Use absolutes, market data, case studies
+- Create "domino belief"
+- Frame as superlative/best path
+
+#### Origin Story Structure
+1. The problem you were struggling with
+2. The low point
+3. The turning point
+4. The result
+5. The ripple effect
+
+#### Content That Sells
+Identify 2-4 "chunks" of content that drive quick wins.
+
+---
+
+### Module 5: Team By Design
+
+#### Phase Awareness
+Are you: Doing it yourself? Outsourcing? In-house team?
+
+#### Role Clarity
+Define who is in each role and the KPIs tied to that role.
+
+#### Hiring Process
+- Clear job post with specific requirements
+- 7-14 day trial period before long-term hire
+- Skype interview for experience/availability/systems assessment
+- Screen-capture training (Jing, Snagit)
+
+#### Team Personality Fit (Use Working Genius / DiSC Instead of MBTI)
+- **Customer Support:** Empathetic, patient, organized (F + J)
+- **Community Manager:** Outgoing, encouraging, supportive (E + F)
+- **Project Manager:** Structured, decisive, deadline-driven (J + T)
+- **Personal Assistant:** Hardworking, loyal, self-sufficient
+- **Sales:** Outgoing extroverts excel in person/phone
+
+#### Getting Stuff Done
+Project-based execution framework for team productivity.
+
+---
+
+### Module 6: Scale By Design
+
+#### Scalability Litmus Test
+A business is scalable if serving 10x more customers does NOT require 10x more of your personal time.
+
+#### Psychology of Scaling
+Mindset: reframe guilt/perfectionism to build bigger without internal blocks.
+
+#### Structure Creates Freedom
+More processes and systems = more space and flexibility in life/business.
+
+#### 5-Step Launch Planning
+1. **Dream It** — Set goals (Hairy Scary, Middle, Wimpy)
+2. **Map It** — Draw the launch map
+3. **Book It** — Put dates on calendar
+4. **Chunk It** — Create 8-12 mini-projects with owner + due date
+5. **Do It!** — Execute
+
+#### Launch Validation Methods
+- **Shot Across the Bow:** Announce idea, measure interest
+- **Waitlist Page:** Capture warm leads
+- **Beta Launch:** Sell first, then build
+
+#### Post-Launch Debrief
+Review: offer performance, revenue, timelines, upsells, webinar/video results.
+
+#### Launch Failure Analysis
+Diagnose root cause across: the offer, the sales mechanism, the numbers.
+
+#### Performance > Results
+Focus on improving each funnel step and identifying biggest bottleneck, not just final sales.
+
+---
+
+### Key Formulas
+
+**Earnings Per Lead (EPL)**
+```
+EPL = Total Revenue Generated ÷ Total Launch List Size
+```
+
+**Lifetime Customer Value (LCV)**
+Track total revenue across product path (Product A → B → C) divided by original buyer cohort.
+
+---
+
+### User Preferences (IMPORTANT)
+- Use **Working Genius** (Patrick Lencioni) and **DiSC** (Wiley) for personality assessments — NOT MBTI
 
 ---
 
