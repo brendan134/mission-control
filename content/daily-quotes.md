@@ -12,6 +12,14 @@ A collection of quotes for inspiration, content, and community.
 
 > "The mind is everything. What you think you become." — Buddha
 
+> "Principles inform. Practice transforms." — Unknown
+
+> "Don't worry about perfect. Focus on progress." — Unknown
+
+> "Learn a little. Do a little." — Unknown
+
+> "Enjoy the journey." — Unknown
+
 ---
 
 ## Business
@@ -29,6 +37,18 @@ A collection of quotes for inspiration, content, and community.
 > "A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: we did it ourselves." — Lao Tzu
 
 > "The growth and development of people is the highest calling of leadership." — Harvey Firestone
+
+> "Be the leader you wish you had" — Unknown
+
+> "Leadership is a culture you have to develop." — Brendan Rogers
+
+> "Leadership is not what you say, it's how you behave." — Brendan Rogers
+
+---
+
+## High Performance
+
+> "High Performance is a RACE (Resilience, Alignment, Collaboration, Empowerment)" — Unknown
 
 ---
 
@@ -58,6 +78,7 @@ A collection of quotes for inspiration, content, and community.
 - entrepreneurship
 - sales
 - life
+- high-performance
 
 ---
 

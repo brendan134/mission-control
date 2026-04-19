@@ -16,6 +16,14 @@ const QUOTES = [
   { text: "Don't be afraid to give up the good to go for the great.", author: "John D. Rockefeller", category: "business" },
   { text: "The growth and development of people is the highest calling of leadership.", author: "Harvey Firestone", category: "leadership" },
   { text: "Content is king, but distribution is queen.", author: "Maria Guarneri", category: "marketing" },
+  { text: "Be the leader you wish you had", author: "Unknown", category: "leadership" },
+  { text: "Principles inform. Practice transforms.", author: "Unknown", category: "mindset" },
+  { text: "High Performance is a RACE (Resilience, Alignment, Collaboration, Empowerment)", author: "Unknown", category: "high-performance" },
+  { text: "Don't worry about perfect. Focus on progress.", author: "Unknown", category: "mindset" },
+  { text: "Learn a little. Do a little.", author: "Unknown", category: "mindset" },
+  { text: "Enjoy the journey.", author: "Unknown", category: "mindset" },
+  { text: "Leadership is a culture you have to develop.", author: "Brendan Rogers", category: "leadership" },
+  { text: "Leadership is not what you say, it's how you behave.", author: "Brendan Rogers", category: "leadership" },
 ];
 
 function getDailyQuote() {
