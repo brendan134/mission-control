@@ -87,6 +87,14 @@
 ## Migration Notes
 When moving to Mac Mini:
 1. Install OpenClaw
-2. Recreate these cron jobs with same schedules/payloads
-3. Ensure Telegram chat ID is configured (8637899728)
+2. Restore `backup-openclaw-config.json` to `~/.openclaw/openclaw.json`
+3. Restart gateway: `openclaw gateway restart`
 4. API keys stored in environment, re-enter as needed
+
+---
+
+## Config Backup
+**File:** `backup-openclaw-config.json`
+**Contains:** All cron jobs, channel configs, secrets refs, gateway settings
+**Last backed up:** 2026-04-19
+**To update:** `cp ~/.openclaw/openclaw.json /data/.openclaw/workspace/backup-openclaw-config.json`

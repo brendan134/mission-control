@@ -1,0 +1,243 @@
+{
+  "channels": {
+    "telegram": {
+      "dmPolicy": "pairing",
+      "groupPolicy": "allowlist",
+      "streaming": {
+        "mode": "partial"
+      },
+      "botToken": "8624716123:AAGD0N-bQZe4UEtktQ43guk6zOTXYHu7b_A",
+      "enabled": true
+    }
+  },
+  "plugins": {
+    "allow": [
+      "whatsapp",
+      "discord",
+      "telegram",
+      "slack",
+      "nostr",
+      "googlechat",
+      "openrouter",
+      "openai",
+      "browser",
+      "memory-core"
+    ],
+    "entries": {
+      "discord": {
+        "enabled": true,
+        "config": {}
+      },
+      "imessage": {
+        "enabled": false
+      },
+      "telegram": {
+        "enabled": true,
+        "config": {}
+      },
+      "slack": {
+        "enabled": true,
+        "config": {}
+      },
+      "nostr": {
+        "enabled": true,
+        "config": {}
+      },
+      "signal": {
+        "enabled": false
+      },
+      "googlechat": {
+        "enabled": true,
+        "config": {}
+      },
+      "openrouter": {
+        "enabled": true
+      },
+      "openai": {
+        "enabled": true
+      },
+      "browser": {
+        "enabled": true
+      }
+    }
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.4.12",
+    "lastTouchedAt": "2026-04-19T04:07:54.978Z"
+  },
+  "update": {
+    "channel": "stable",
+    "checkOnStart": false
+  },
+  "browser": {
+    "headless": true,
+    "noSandbox": true,
+    "defaultProfile": "openclaw"
+  },
+  "models": {
+    "mode": "merge"
+  },
+  "agents": {
+    "defaults": {
+      "model": "openrouter/google/gemini-2.5-flite",
+      "models": {
+        "openrouter/minimax/minimax-m2.5": {
+          "alias": "minimax"
+        },
+        "openrouter/deepseek/deepseek-v3.2": {
+          "alias": "deepseek"
+        },
+        "openrouter/moonshotai/kimi-k2.5": {
+          "alias": "kimi"
+        },
+        "openrouter/z-ai/glm-5": {
+          "alias": "glm"
+        },
+        "openrouter/google/gemini-2.5-flash-lite": {
+          "alias": "flashlite"
+        },
+        "openrouter/google/gemini-2.5-flash": {
+          "alias": "flash"
+        },
+        "openrouter/anthropic/claude-haiku-4-5": {
+          "alias": "haiku"
+        },
+        "openrouter/anthropic/claude-sonnet-4-6": {
+          "alias": "sonnet"
+        },
+        "openrouter/anthropic/claude-opus-4-6": {
+          "alias": "opus"
+        },
+        "openrouter/openai/gpt-5-mini": {
+          "alias": "gpt"
+        },
+        "openrouter/openai/gpt-5-nano": {
+          "alias": "nano"
+        },
+        "openai/gpt-5.4": {
+          "alias": "ChatGPT 5.4"
+        },
+        "openai/gpt-5.4-pro": {
+          "alias": "ChatGPT 5.4 Pro"
+        },
+        "openai/gpt-5.2": {
+          "alias": "ChatGPT 5.2"
+        },
+        "openai/gpt-5.1-codex": {
+          "alias": "ChatGPT 5.1 Codex"
+        },
+        "openai/gpt-4.1": {
+          "alias": "ChatGPT 4.1"
+        },
+        "openrouter/google/gemini-2.5-flite": {
+          "alias": "flashlite"
+        },
+        "openai/gpt-4o": {
+          "alias": "gpt-4o"
+        }
+      },
+      "contextPruning": {
+        "mode": "cache-ttl",
+        "ttl": "1h"
+      },
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "thinkingDefault": "low",
+      "heartbeat": {
+        "every": "60m",
+        "model": "openrouter/google/gemini-2.5-flash-lite",
+        "target": "last",
+        "directPolicy": "allow"
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "name": "Main Agent",
+        "model": "openrouter/minimax/minimax-m2.5"
+      },
+      {
+        "id": "strategy",
+        "name": "Strategy Agent",
+        "model": "openrouter/moonshotai/kimi-k2.5"
+      },
+      {
+        "id": "messaging",
+        "name": "Messaging Agent",
+        "model": "openrouter/moonshotai/kimi-k2.5"
+      },
+      {
+        "id": "content",
+        "name": "Content Agent",
+        "model": "openrouter/google/gemini-2.5-flite"
+      },
+      {
+        "id": "curriculum",
+        "name": "Curriculum Agent",
+        "model": "openrouter/moonshotai/kimi-k2.5"
+      },
+      {
+        "id": "client-delivery",
+        "name": "Client Delivery Agent",
+        "model": "openrouter/google/gemini-2.5-flite"
+      },
+      {
+        "id": "podcast",
+        "name": "Podcast Agent",
+        "model": "openrouter/google/gemini-2.5-flite"
+      },
+      {
+        "id": "community",
+        "name": "Community Agent",
+        "model": "openrouter/google/gemini-2.5-flite"
+      },
+      {
+        "id": "research",
+        "name": "Research Agent",
+        "model": "openrouter/google/gemini-2.5-flite"
+      },
+      {
+        "id": "knowledge",
+        "name": "Knowledge Librarian",
+        "model": "openrouter/google/gemini-2.5-flite"
+      },
+      {
+        "id": "ops",
+        "name": "System Operations Agent",
+        "model": "openrouter/google/gemini-2.5-flite"
+      }
+    ]
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "bash": true,
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "hooks": {
+    "token": "hooks_w32UUwT2Ylm5znCyQ5B2qzjDuctiuf66"
+  },
+  "gateway": {
+    "mode": "local",
+    "controlUi": {
+      "allowedOrigins": [
+        "http://localhost:18789",
+        "http://127.0.0.1:18789"
+      ]
+    },
+    "auth": {
+      "mode": "token",
+      "token": "w32UUwT2Ylm5znCyQ5B2qzjDuctiuf66",
+      "rateLimit": {
+        "maxAttempts": 10,
+        "windowMs": 60000,
+        "lockoutMs": 300000
+      }
+    },
+    "remote": {
+      "token": "w32UUwT2Ylm5znCyQ5B2qzjDuctiuf66"
+    }
+  }
+}
