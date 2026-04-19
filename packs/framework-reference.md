@@ -1014,6 +1014,97 @@ Address common buyer objections directly with:
 
 ---
 
+## James Wedmore - Get Coaching Clients Fast
+
+**Source:** ScribeHow Tutorial - 5-Step Planning Process
+
+### The 5-Step Process
+
+| Step | Focus |
+|------|-------|
+| **1. Dream It** | Set revenue goal, track KPIs (applications, calls, closes) |
+| **2. Map It** | Lifecycle: Entry → Apply → Call → Close → Pay |
+| **3. Book It** | Deadline for applicants, schedule calls within 24-48h |
+| **4. Chunk It** | Projects: Package, Entry Point, Application, Checkout, Phone Script |
+| **5. Do It** | Execute: create offer → entry point → application → close |
+
+### Coaching Package Framework (Three P's)
+
+**Promise:** The Result, Goal or Outcome You Are Working Towards
+
+**Process:**
+- How long is the coaching arrangement?
+- How many sessions are included?
+- How long are the sessions?
+- What is the format (medium, structure)?
+- Is there anything else included?
+
+**Price:** Package rate (NOT hourly) — Remember, working with coaching clients is NOT scalable
+
+### Pricing Examples
+
+| Format | Structure | Rate |
+|--------|-----------|------|
+| VIP Day | Full-day in-person | $3K-5K (James: $15K+ minimum) |
+| Weekly Coaching | Base + monthly (min 3 months) | $4K-10K base + $2K/mo |
+| 6-Month Package | 3x90min sessions/month + support | $25K |
+| 12-Month Package | 3 sessions/month + Kajabi/Voxer | $40K or $3,800/mo |
+| 12-Week Package | 6 calls over 12 weeks | $1,500 |
+
+### Entry Points
+- **Webinar** — Free training then direct to application
+- **Email Series** — Nurture list, pitch coaching
+- **Blog** — Content attracts interested readers
+- **Instagram** — Bio link, DM conversations, Stories with CTAs
+- **Podcast** — Mention in show or audio commercial
+
+### Application & Checkout
+
+**Application Purpose:** Determine if good fit for both parties
+
+**Thank You Page Options:**
+- Schedule call (Calendly), OR
+- Refundable deposit checkout
+
+**Checkout Page Must-Haves:**
+1. Sell Your Offer
+2. Eliminate Risk (clear refund policy)
+3. Make Action Easy
+
+### 4-Phase Sales Call Structure
+
+**1. The Frame (1-5 min)**
+- Establish rapport
+- Thank them for their time
+- Set the plan: "I'm going to ask questions... then I'll share what I've got... sound good?"
+
+**2. The Gap (8-25 min)**
+- Elicit highest values: "How specifically do I think I can help?" → "What does that give you?"
+- Elicit other goals: "What else? What other outcomes do you have?"
+- Elicit the gap: "Where are you NOW? How long have you tried? What's preventing you?"
+
+**3. The Recap (1-3 min)**
+- Summarize their situation back to them
+
+**4. The Offer (2-10 min)**
+- "Would you like help with that?"
+- Let them ask questions
+- Dismantle objections
+- Offer fast-action bonus: "If you sign up on the call, I'll take $XXX off"
+
+### Objection Handling
+
+| Objection | Response |
+|-----------|----------|
+| "Not in budget" | "What's in your budget right now?" / "Is it the money or I haven't conveyed the value?" |
+| "Not the right time" | "When is the right time? How will you know?" |
+| "I'm not ready" | "How do you know you're not ready? Has there been a time you weren't ready but took the leap?" |
+| "Need to talk to spouse" | "How can I help you equip your spouse to support this?" |
+| "What's different?" | "There must be a reason you chose to chat with me — why me?" |
+| "Will I make it back?" | "I can't predict the future or guarantee anything. Our intention is ROI as soon as possible." |
+
+---
+
 ## Mel H. Abraham - Business Breakthrough Academy / Thought Leaders IP
 
 **Source:** Program Design & Framework Training Slides
