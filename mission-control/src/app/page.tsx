@@ -1,6 +1,31 @@
-import { CreditCard, Users, Clock, Zap, Activity, TrendingUp, AlertCircle, Shield } from 'lucide-react';
+import { CreditCard, Users, Clock, Zap, Activity, TrendingUp, AlertCircle, Shield, Quote } from 'lucide-react';
 import { BUDGET_CONFIG } from '@/lib/config';
 import { getTodayAndMonthSpend } from '@/lib/spend-service';
+
+// Daily quotes - rotates based on day of year
+const QUOTES = [
+  { text: "The only way to do great work is to love what you do.", author: "Steve Jobs", category: "mindset" },
+  { text: "Success is not final, failure is not fatal: it is the courage to continue that counts.", author: "Winston Churchill", category: "mindset" },
+  { text: "Your network is your net worth.", author: "Porter Gale", category: "business" },
+  { text: "The best time to plant a tree was 20 years ago. The second best time is now.", author: "Chinese Proverb", category: "business" },
+  { text: "A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: we did it ourselves.", author: "Lao Tzu", category: "leadership" },
+  { text: "People don't buy what you do; they buy why you do it.", author: "Simon Sinek", category: "marketing" },
+  { text: "The way to get started is to quit talking and begin doing.", author: "Walt Disney", category: "productivity" },
+  { text: "It's not that I'm so smart, it's just that I stay with problems longer.", author: "Albert Einstein", category: "productivity" },
+  { text: "The mind is everything. What you think you become.", author: "Buddha", category: "mindset" },
+  { text: "Don't be afraid to give up the good to go for the great.", author: "John D. Rockefeller", category: "business" },
+  { text: "The growth and development of people is the highest calling of leadership.", author: "Harvey Firestone", category: "leadership" },
+  { text: "Content is king, but distribution is queen.", author: "Maria Guarneri", category: "marketing" },
+];
+
+function getDailyQuote() {
+  const now = new Date();
+  const start = new Date(now.getFullYear(), 0, 0);
+  const diff = now.getTime() - start.getTime();
+  const oneDay = 1000 * 60 * 60 * 24;
+  const dayOfYear = Math.floor(diff / oneDay);
+  return QUOTES[dayOfYear % QUOTES.length];
+}
 
 // Server-side data fetching
 async function getStats() {
@@ -102,6 +127,24 @@ export default async function Dashboard() {
         <h1 style={{ fontSize: '24px', fontWeight: 600, marginBottom: '4px' }}>Dashboard</h1>
         <p style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>Your AI system at a glance</p>
       </div>
+
+      {/* Quote of the Day */}
+      {(() => {
+        const quote = getDailyQuote();
+        return (
+          <div className="card" style={{ marginBottom: '32px', background: 'linear-gradient(135deg, var(--background-tertiary) 0%, var(--background-secondary) 100%)', borderColor: 'var(--accent)' }}>
+            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px' }}>
+              <Quote size={24} style={{ color: 'var(--accent)', flexShrink: 0, marginTop: '4px' }} />
+              <div>
+                <div style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '1px', color: 'var(--accent)', marginBottom: '8px', fontWeight: 600 }}>Quote of the Day</div>
+                <blockquote style={{ fontSize: '18px', fontStyle: 'italic', margin: '0 0 12px 0', lineHeight: 1.6, color: 'var(--text-primary)' }}>"{quote.text}"</blockquote>
+                <div style={{ fontSize: '13px', color: 'var(--text-muted)' }}>— {quote.author}</div>
+                <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginTop: '8px' }}>Category: {quote.category}</div>
+              </div>
+            </div>
+          </div>
+        );
+      })()}
 
       {/* Stats Grid */}
       <div style={{ 
