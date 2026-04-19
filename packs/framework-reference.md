@@ -1014,6 +1014,174 @@ Address common buyer objections directly with:
 
 ---
 
+## Mel H. Abraham - Business Breakthrough Academy / Thought Leaders IP
+
+**Source:** Program Design & Framework Training Slides
+
+### The Framework Formula™
+**Tagline:** "Orchestration Gives it Life"
+
+| Component | Focus |
+|-----------|-------|
+| Formation | Foundation |
+| Emotion | Feelings embedded in decisions |
+| Orchestration | Organizing into usable system |
+| Information | Data/knowledge |
+| Process | Systems |
+| Value | Worth delivered |
+| Principle | Core beliefs |
+| Evolution | Growth over time |
+| Immediacy | Quick wins |
+| Brilliance | Excellence |
+
+### Problem Framework
+- **People Don't Get It** — Unclear messaging
+- **Not Memorable** — Forgettable businesses
+- **No Depth** — Shallow operations
+- **Living in Bullet Hell** — Intense overwhelm
+- **Make Complex Simple** — Reducing complexity
+
+### Teaching Framework
+- **Easily Duplicated** — Content simple enough for others to repeat
+- **Teach in Layers** — Basics first, then deeper detail
+- **Distinct & Unforgettable** — Memorable, differentiated message
+
+### Business Frameworks
+
+**First Things First (Covey-inspired)**
+- Urgency vs Importance matrix
+- Plan / Do / Delegate / Eliminate
+
+**The Entrepreneur's Solution Quadrants**
+- Sustainable vs Unsustainable
+- Mediocre vs Entrepreneurial
+- Status Quo / Manager / Task Mechanic / Creative Saboteur / Entrepreneurial Superstar
+
+**The Money Chaos Navigator™**
+- 3 Keys: Stabilize, Surplus, Strategy
+- States: Fearful/Frozen → Clueless/Aimless → Rising Clarity → Chaos
+
+### Positioning & Influence Frameworks
+
+**Triangle Framework Map™**
+- 3 pillars + current state → desired state + problem promise
+
+**Influencer Acceleration Matrix™**
+- Notoriety vs Knowledge matrix
+- Profiles: Influencer, Great Imposter, Task Junkie, Bookworm
+
+**Expertise Progression**
+- Dabbler → Worker → Expert → Influencer → Movement-maker
+- Multipliers: 1x, 3x, 6x, 10x, -2x
+
+---
+
+## Program Design & Delivery Frameworks
+
+**Source:** Program Design Masterclass - James Wedmore + Learning Styles Training
+
+### Transformational Teaching Framework™
+
+**4 Primary Learning Styles**
+| Style | Preference |
+|-------|------------|
+| Aural | Verbal instruction, discussion, talking through ideas |
+| Visual | Graphs, pictures, lists, demonstrations |
+| Kinesthetic | Learn by doing, touching, moving, building |
+| Note Taker/Reader | Reading and taking notes |
+
+**4 Types of Thinkers**
+| Thinker Type | Question Style |
+|--------------|----------------|
+| What? | Facts, what is it |
+| What if? | Possibilities, hypotheticals |
+| How? | Implementation, steps |
+| Why? | Purpose, reasons, significance |
+
+**Content Quadrants**
+- #1 Dense — High info, high structure
+- #2 Fluffy — Low info, low structure
+- #3 Dead End — High info, low action
+- #4 Magnetic — High actionable, high ease
+
+### Lesson Structure Framework (Why-What-How-What If)
+
+**What people want to know:**
+- Overall goals, specific outcomes, facts, Do's/Don'ts, common mistakes
+
+**How people want to know:**
+- Steps, frameworks, diagrams, details, exercises, learning by doing
+
+**What if people want to know:**
+- Alternatives, edge cases, "Now you might be thinking..." questions
+
+### Program Design: 13 Epic Cool Stuff
+
+| # | Element | Details |
+|---|---------|---------|
+| 1 | Welcome Video | Welcome, re-state promise, future pacing, quick win |
+| 2 | Modules + Videos | 4-8 modules, benefit-driven names, ~12 min/video |
+| 3 | Exercises | Ask questions + give examples |
+| 4 | Unique Experience | Meditations, visualizations, affirmations, life exercises |
+| 5 | Tools | Software, calculators |
+| 6 | Resources | Buyers guides, checklists, visual maps, step-by-step processes |
+| 7 | Swipe Files | Real examples of completed work |
+| 8 | Getting Physical | Online → offline, physical materials |
+| 9 | Virtual Community | Facebook group for support |
+| 10 | Virtual Coaching | Extra support, 1:1 or group |
+| 11 | In-Real-Life | Live events, meetups |
+| 12 | Guest Experts | Outside experts to add value |
+| 13 | Program Ending | Congrats, Recap, Future Pace |
+
+### Belief Change Framework
+
+**Core Principle:** To change behavior, first change the belief
+
+**Influence Framework:**
+- Mistake/Belief → Unwanted Identity → Consequence
+- → Shift Belief → New Behavior → Desired Identity → Benefits → Specific Action
+
+**3 Ways to Change a Belief:**
+1. Change the meaning — "Saying means things = bad" → "No, it means I'm honest"
+2. Change the cause — "Cancer causes death" → "No, giving up causes death"
+3. Challenge comparisons — "It's too expensive" → "Compared to what?"
+
+**3 Tools for Belief Change:**
+- Consequence — Cost of inaction
+- Counter Example — Exception to the rule
+- Metaphor — Use familiar idea to explain new concept
+
+**Limiting Beliefs to Address:**
+- Charging what you're worth, Selling, Visibility, Hiring
+- Spending money, Making money, Deserving it
+- Failure, Mistakes, Looking stupid
+
+### Program Creation Worksheets
+
+**Intention Setting:**
+- "It is now [date] and I am so grateful that I have: _____"
+- What does that GIVE you?
+- Revenue planning: Price × units/month
+
+**ICA (Ideal Customer Avatar) Mistakes:**
+1. Market to everyone (Planet Fitness example)
+2. Niche = fewer people (Ocean story)
+3. Stuck, can't choose ("I chose 1!")
+
+**Niching Formula:** "I help [X] with [Y] so they can [Z]" — Aim for 70% clarity
+
+### Commitment & Overcoming Objections
+
+**Common Objections:**
+- "I don't know how!"
+- "I'm not an expert!"
+- "It's not perfect / customers won't get it!"
+- "Someone else is already doing it!"
+
+**Commitment:** Unconditional — "whatever it takes, no matter what"
+
+---
+
 ## How Agents Use This
 
 When working on content, agents should:
