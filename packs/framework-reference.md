@@ -646,6 +646,44 @@ Track total revenue across product path (Product A → B → C) divided by origi
 
 ---
 
+## James Wedmore - 15 Tiny Tweaks That Produce Big Results
+
+**Source:** James Wedmore - Marketing Guide
+
+### Core Philosophy
+**Leverage over Labor** — Get bigger results without proportionally more time/effort.
+
+**New Definition of Success:**
+> Get what you said you would get with as little effort as possible.
+
+### Key Frameworks
+
+#### 1. Business-Owner Mindset
+Work **on** the business, not **in** it. Focus on growth, not just tasks.
+
+#### 2. Profit First
+Prioritize revenue-generating activity before everything else.
+
+#### 3. TLC (Traffic → Leads → Customers)
+Core funnel: attract traffic → convert to leads → turn into customers.
+
+#### 4. Metrics That Matter
+Track conversion rates, attendance — not everything.
+
+#### 5. Low-Hanging Fruit
+Identify easy changes with outsized results.
+
+#### 6. Urgency & Deadlines
+Countdown timers, limited-time offers motivate action.
+
+#### 7. Upsell Strategy
+Stealth upsells, one-click upsells to raise average order value.
+
+#### 8. Backend Monetization
+Real money comes after first purchase — coaching, premium support, segmented offers.
+
+---
+
 ## How Agents Use This
 
 When working on content, agents should:
