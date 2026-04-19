@@ -6,7 +6,7 @@
 ## Morning Check (8 AM Sydney)
 - Check emails (unread, urgent)
 - Any calendar events in next 24h?
-- **TODO:** Add Kaizen to Team page and Office page in Mission Control
+- ~~**TODO:** Add Kaizen to Team page and Office page in Mission Control~~ (DONE)
 
 ## Afternoon Check (1 PM Sydney)
 - GitHub sync status (any unpushed changes?)
