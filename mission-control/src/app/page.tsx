@@ -24,6 +24,7 @@ const QUOTES = [
   { text: "Enjoy the journey.", author: "Unknown", category: "mindset" },
   { text: "Leadership is a culture you have to develop.", author: "Brendan Rogers", category: "leadership" },
   { text: "Leadership is not what you say, it's how you behave.", author: "Brendan Rogers", category: "leadership" },
+  { text: "Just because you can do more, doesn't mean you should.", author: "Unknown", category: "productivity" },
 ];
 
 function getDailyQuote() {

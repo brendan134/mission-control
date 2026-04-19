@@ -66,6 +66,8 @@ A collection of quotes for inspiration, content, and community.
 
 > "It's not that I'm so smart, it's just that I stay with problems longer." — Albert Einstein
 
+> "Just because you can do more, doesn't mean you should." — Unknown
+
 ---
 
 ## Categories (for tagging)
