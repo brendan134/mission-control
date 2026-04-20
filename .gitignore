@@ -47,3 +47,4 @@ temp_mc/
 **/.next/**/turbopack/**
 .spend-cache.json
 memory/.dreams/
+.spend-cache.json
