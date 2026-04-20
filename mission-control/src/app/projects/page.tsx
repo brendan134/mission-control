@@ -130,28 +130,52 @@ export default function Projects() {
     setNewProject({ name: '', description: '', priority: 'Medium', owner: 'Brendan', stage: 'Planning', strategic_priority_id: '' });
   };
 
-  const handleEditProject = () => {
+  const handleEditProject = async () => {
     if (!editingProject || !editingProject.name) return;
+    
+    // Require Strategic Priority to be linked
     if (!editingProject.strategic_priority_id) {
-      alert('Please select a Strategic Priority');
+      alert('Please select a Strategic Priority before saving');
       return;
     }
-    updateProject(editingProject.id, {
-      name: editingProject.name,
-      description: editingProject.description,
-      priority: editingProject.priority,
-      owner: editingProject.owner,
-      stage: editingProject.stage,
-      strategic_priority_id: editingProject.strategic_priority_id || undefined,
-    });
-    loadProjects();
+    
+    try {
+      const res = await fetch('/api/projects', {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          id: editingProject.id,
+          name: editingProject.name,
+          description: editingProject.description,
+          priority: editingProject.priority,
+          owner: editingProject.owner,
+          stage: editingProject.stage,
+          strategic_priority_id: editingProject.strategic_priority_id,
+        }),
+      });
+      if (res.ok) {
+        loadProjects();
+        // Also update local state immediately to prevent card disappearing
+        setProjects(projects.map(p => 
+          p.id === editingProject.id ? { ...p, strategic_priority_id: editingProject.strategic_priority_id } : p
+        ));
+      }
+    } catch (err) {
+      console.error('Failed to update project:', err);
+    }
     setEditingProject(null);
   };
 
-  const handleDeleteProject = () => {
+  const handleDeleteProject = async () => {
     if (!deleteConfirm) return;
-    deleteProject(deleteConfirm.id);
-    setProjects(projects.filter(p => p.id !== deleteConfirm.id));
+    try {
+      const res = await fetch(`/api/projects?id=${deleteConfirm.id}`, { method: 'DELETE' });
+      if (res.ok) {
+        setProjects(projects.filter(p => p.id !== deleteConfirm.id));
+      }
+    } catch (err) {
+      console.error('Failed to delete project:', err);
+    }
     setDeleteConfirm(null);
   };
 

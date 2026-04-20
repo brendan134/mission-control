@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getProjects, createProject } from '../../../lib/project-service';
+import { getProjects, createProject, updateProject, deleteProject } from '../../../lib/project-service';
 import { Project } from '../../../lib/data-model';
 
 // GET /api/projects - List all projects
@@ -20,5 +20,34 @@ export async function POST(request: NextRequest) {
     return NextResponse.json(project, { status: 201 });
   } catch (err) {
     return NextResponse.json({ error: 'Failed to create project' }, { status: 500 });
+  }
+}
+
+// PATCH /api/projects - Update a project
+export async function PATCH(request: NextRequest) {
+  try {
+    const { id, ...updates } = await request.json();
+    const project = updateProject(id, updates as Partial<Project>);
+    if (!project) {
+      return NextResponse.json({ error: 'Project not found' }, { status: 404 });
+    }
+    return NextResponse.json(project);
+  } catch (err) {
+    return NextResponse.json({ error: 'Failed to update project' }, { status: 500 });
+  }
+}
+
+// DELETE /api/projects - Delete a project
+export async function DELETE(request: NextRequest) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const id = searchParams.get('id');
+    if (!id) {
+      return NextResponse.json({ error: 'Project ID required' }, { status: 400 });
+    }
+    deleteProject(id);
+    return NextResponse.json({ success: true });
+  } catch (err) {
+    return NextResponse.json({ error: 'Failed to delete project' }, { status: 500 });
   }
 }

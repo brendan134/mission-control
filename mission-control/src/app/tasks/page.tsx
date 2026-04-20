@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { 
   CheckSquare, Plus, Filter, AlertTriangle, Clock, 
-  ChevronRight, Play, Pause, CheckCircle, XCircle, Target
+  ChevronRight, Play, Pause, CheckCircle, XCircle, Target, LayoutGrid, List
 } from 'lucide-react';
 import { 
   getTasks, getTasksByProject, getBlockedTasks, getWeeklyTasks,
@@ -46,6 +46,8 @@ export default function Tasks() {
   const [filterStatus, setFilterStatus] = useState('all');
   const [filterPriority, setFilterPriority] = useState('all');
   const [showCreate, setShowCreate] = useState(false);
+  const [editingTask, setEditingTask] = useState<Task | null>(null);
+  const [viewMode, setViewMode] = useState<'list' | 'kanban'>('list');
   const [newTask, setNewTask] = useState({
     title: '',
     description: '',
@@ -134,6 +136,32 @@ export default function Tasks() {
     }
   };
 
+  const handleUpdateTask = async () => {
+    if (!editingTask || !editingTask.title || !editingTask.project_id) return;
+    try {
+      const res = await fetch('/api/tasks', {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          id: editingTask.id,
+          title: editingTask.title,
+          description: editingTask.description,
+          project_id: editingTask.project_id,
+          priority: editingTask.priority,
+          stage: editingTask.stage,
+          next_action: editingTask.next_action,
+          due_date: editingTask.due_date || undefined,
+        }),
+      });
+      if (res.ok) {
+        setEditingTask(null);
+        loadData();
+      }
+    } catch (err) {
+      console.error('Failed to update task:', err);
+    }
+  };
+
   const handleComplete = async (taskId: string) => {
     try {
       await fetch('/api/tasks', {
@@ -201,6 +229,33 @@ export default function Tasks() {
       loadData();
     } catch (err) {
       console.error('Failed to unblock task:', err);
+    }
+  };
+
+  const handleDelete = async (taskId: string) => {
+    if (!confirm('Are you sure you want to delete this task?')) return;
+    try {
+      const res = await fetch(`/api/tasks?id=${taskId}`, { method: 'DELETE' });
+      if (res.ok) {
+        setTasks(tasks.filter(t => t.id !== taskId));
+      }
+    } catch (err) {
+      console.error('Failed to delete task:', err);
+    }
+  };
+
+  const handleStageChange = async (taskId: string, newStage: Stage) => {
+    try {
+      const res = await fetch('/api/tasks', {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: taskId, stage: newStage }),
+      });
+      if (res.ok) {
+        loadData();
+      }
+    } catch (err) {
+      console.error('Failed to move task:', err);
     }
   };
 
@@ -298,7 +353,39 @@ export default function Tasks() {
           <option value="Low">Low</option>
         </select>
 
-        <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text-muted)', fontSize: '13px' }}>
+        {/* View Toggle */}
+        <div style={{ display: 'flex', gap: '4px', marginLeft: 'auto' }}>
+          <button
+            onClick={() => setViewMode('list')}
+            title="List view"
+            style={{
+              ...filterSelectStyle,
+              display: 'flex',
+              alignItems: 'center',
+              gap: '4px',
+              background: viewMode === 'list' ? 'var(--accent-blue)' : 'transparent',
+              color: viewMode === 'list' ? '#fff' : 'var(--text)',
+            }}
+          >
+            <List size={14} />
+          </button>
+          <button
+            onClick={() => setViewMode('kanban')}
+            title="Kanban view"
+            style={{
+              ...filterSelectStyle,
+              display: 'flex',
+              alignItems: 'center',
+              gap: '4px',
+              background: viewMode === 'kanban' ? 'var(--accent-blue)' : 'transparent',
+              color: viewMode === 'kanban' ? '#fff' : 'var(--text)',
+            }}
+          >
+            <LayoutGrid size={14} />
+          </button>
+        </div>
+
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text-muted)', fontSize: '13px' }}>
           <Filter size={14} />
           {filteredTasks.length} task{filteredTasks.length !== 1 ? 's' : ''}
         </div>
@@ -385,7 +472,87 @@ export default function Tasks() {
         </div>
       )}
 
-      {/* Task List */}
+      {/* Edit Task Modal */}
+      {editingTask && (
+        <div style={modalOverlayStyle}>
+          <div style={modalStyle}>
+            <h2 style={{ marginTop: 0 }}>Edit Task</h2>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+              <div>
+                <label style={labelStyle}>Title *</label>
+                <input 
+                  value={editingTask.title}
+                  onChange={e => setEditingTask({...editingTask, title: e.target.value})}
+                  style={inputStyle}
+                  placeholder="What needs to be done?"
+                />
+              </div>
+              <div>
+                <label style={labelStyle}>Project *</label>
+                <select 
+                  value={editingTask.project_id || ''}
+                  onChange={e => setEditingTask({...editingTask, project_id: e.target.value})}
+                  style={inputStyle}
+                >
+                  <option value="">Select project...</option>
+                  {projects.map(p => (
+                    <option key={p.id} value={p.id}>{p.name}</option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label style={labelStyle}>Stage</label>
+                <select 
+                  value={editingTask.stage}
+                  onChange={e => setEditingTask({...editingTask, stage: e.target.value as Stage})}
+                  style={inputStyle}
+                >
+                  {STAGES.map(s => (
+                    <option key={s.value} value={s.value}>{s.label}</option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label style={labelStyle}>Priority</label>
+                <select 
+                  value={editingTask.priority}
+                  onChange={e => setEditingTask({...editingTask, priority: e.target.value as any})}
+                  style={inputStyle}
+                >
+                  <option value="High">High</option>
+                  <option value="Medium">Medium</option>
+                  <option value="Low">Low</option>
+                </select>
+              </div>
+              <div>
+                <label style={labelStyle}>Next Action</label>
+                <input 
+                  value={editingTask.next_action || ''}
+                  onChange={e => setEditingTask({...editingTask, next_action: e.target.value})}
+                  style={inputStyle}
+                  placeholder="What is the next step?"
+                />
+              </div>
+              <div>
+                <label style={labelStyle}>Due Date</label>
+                <input 
+                  type="date"
+                  value={editingTask.due_date || ''}
+                  onChange={e => setEditingTask({...editingTask, due_date: e.target.value})}
+                  style={inputStyle}
+                />
+              </div>
+              <div style={{ display: 'flex', gap: '12px', justifyContent: 'flex-end', marginTop: '8px' }}>
+                <button onClick={() => setEditingTask(null)} style={cancelButtonStyle}>Cancel</button>
+                <button onClick={handleUpdateTask} style={createButtonStyle}>Save Changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Task Display - List or Kanban */}
+      {viewMode === 'list' ? (
       <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
         {filteredTasks.length === 0 ? (
           <div style={{ textAlign: 'center', padding: '48px', color: 'var(--text-muted)' }}>
@@ -400,6 +567,7 @@ export default function Tasks() {
             return (
               <div 
                 key={task.id}
+                onClick={() => setEditingTask(task)}
                 style={{ 
                   padding: '16px 20px',
                   background: isDone ? 'rgba(34, 197, 94, 0.05)' : isBlocked ? 'rgba(239, 68, 68, 0.05)' : 'var(--background-secondary)',
@@ -409,6 +577,7 @@ export default function Tasks() {
                   alignItems: 'center',
                   gap: '16px',
                   opacity: isDone ? 0.7 : 1,
+                  cursor: 'pointer',
                 }}
               >
                 {/* Priority Indicator */}
@@ -482,12 +651,121 @@ export default function Tasks() {
                       <CheckCircle size={16} />
                     </button>
                   )}
+                  <button 
+                    onClick={() => handleDelete(task.id)}
+                    title="Delete task"
+                    style={{ ...actionButtonStyle, color: '#ef4444' }}
+                  >
+                    <XCircle size={16} />
+                  </button>
                 </div>
               </div>
             );
           })
         )}
       </div>
+      ) : (
+        /* Kanban Board View */
+        <div style={{ display: 'flex', gap: '16px', overflowX: 'auto', paddingBottom: '16px' }}>
+          {STAGES.map(stage => {
+            const stageTasks = filteredTasks.filter(t => t.stage === stage.value);
+            return (
+              <div key={stage.value} style={{ 
+                minWidth: '280px', 
+                maxWidth: '280px',
+                background: 'var(--background-secondary)', 
+                borderRadius: '12px', 
+                padding: '12px',
+                border: '1px solid var(--border)'
+              }}>
+                <div style={{ 
+                  display: 'flex', 
+                  alignItems: 'center', 
+                  justifyContent: 'space-between',
+                  marginBottom: '12px',
+                  paddingBottom: '8px',
+                  borderBottom: '1px solid var(--border)'
+                }}>
+                  <span style={{ fontWeight: 600, fontSize: '13px' }}>{stage.label}</span>
+                  <span style={{ 
+                    background: 'var(--accent-blue)', 
+                    color: '#fff', 
+                    borderRadius: '10px', 
+                    padding: '2px 8px',
+                    fontSize: '11px'
+                  }}>{stageTasks.length}</span>
+                </div>
+                <div 
+                  style={{ display: 'flex', flexDirection: 'column', gap: '8px', minHeight: '100px' }}
+                  onDragOver={(e) => e.preventDefault()}
+                  onDrop={(e) => {
+                    e.preventDefault();
+                    const taskId = e.dataTransfer.getData('taskId');
+                    if (taskId) handleStageChange(taskId, stage.value);
+                  }}
+                >
+                  {stageTasks.map(task => {
+                    const isDone = task.stage === Stage.DONE || task.status === TaskStatus.COMPLETED;
+                    return (
+                    <div 
+                      key={task.id} 
+                      draggable={!isDone}
+                      onDragStart={(e) => {
+                        e.dataTransfer.setData('taskId', task.id);
+                      }}
+                      onClick={() => setEditingTask(task)}
+                      style={{ 
+                      padding: '12px',
+                      background: isDone ? 'rgba(34, 197, 94, 0.1)' : 'var(--background-primary)',
+                      borderRadius: '8px',
+                      border: '1px solid var(--border)',
+                      cursor: isDone ? 'default' : 'grab',
+                      opacity: isDone ? 0.7 : 1,
+                    }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '4px' }}>
+                        <span style={{ fontSize: '13px', fontWeight: 500 }}>{task.title}</span>
+                      </div>
+                      <div style={{ fontSize: '11px', color: 'var(--text-muted)' }}>
+                        {getProjectName(task.project_id)}
+                        {task.priority === Priority.HIGH && <span style={{ color: '#ef4444', marginLeft: '8px' }}>HIGH</span>}
+                      </div>
+                      {task.next_action && (
+                        <div style={{ fontSize: '11px', color: 'var(--accent-gold)', marginTop: '4px' }}>
+                          → {task.next_action}
+                        </div>
+                      )}
+                      <div style={{ display: 'flex', gap: '4px', marginTop: '8px' }}>
+                        {!isDone && (
+                          <button 
+                            onClick={(e) => { e.stopPropagation(); handleComplete(task.id); }}
+                            title="Complete"
+                            style={{ ...actionButtonStyle, color: '#22c55e', padding: '4px' }}
+                          >
+                            <CheckCircle size={14} />
+                          </button>
+                        )}
+                        <button 
+                          onClick={(e) => { e.stopPropagation(); handleDelete(task.id); }}
+                          title="Delete"
+                          style={{ ...actionButtonStyle, color: '#ef4444', padding: '4px' }}
+                        >
+                          <XCircle size={14} />
+                        </button>
+                      </div>
+                    </div>
+                  );
+                  })}
+                  {stageTasks.length === 0 && (
+                    <div style={{ textAlign: 'center', padding: '16px', color: 'var(--text-muted)', fontSize: '12px' }}>
+                      No tasks
+                    </div>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
 
       <style>{`
         .stat-card {

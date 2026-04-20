@@ -41,8 +41,10 @@
   - Monthly Cost Review: 1st of month 7am AEST
 - AI routing: OpenRouter only (minimax, kimi, flashlite)
 - Telegram: Secured (allowlist policy)
-- GitHub backup: brendan134/openclaw (workspace)
-- GitHub backup: brendan134/mission-control (Mission Control app)
+- GitHub repos (Apr 20):
+  - `brendan134/mission-control` (public) - Website
+  - `brendan134/mission-control-internal` (private) - Full workspace
+  - `brendan134/openclaw` (private) - OpenClaw config
 - Workflow notes:
   - Mission Control runs in production mode (faster, more stable); dev mode only when actively making changes
   - When fixing Recharts TypeScript errors, explicit type annotations on formatter callbacks are required (e.g., `v: any`)
@@ -76,6 +78,16 @@
   5. Review Agents
   6. Feedback Loops
   7. Handoffs (Done → Summarise → Next → Context)
+
+### High-Impact Leader Ecosystem (Apr 20)
+- Core frameworks: Impact Triangle, PEOPLE OS, Growth Path, 5 Leadership Stages
+- Diagnostic layer maps symptoms → problems → growth step sequencing
+- Recommendation engine for coaching moves, offers, content angles
+- Files: `packs/high-impact-leader-*.md`
+
+### Conversion Cards (Apr 20)
+- All 54 James Wedmore cards captured
+- Files: `packs/conversion-cards.md`, `prompts/conversion-cards-agent.md`, `cards/`
 
 ### AgentMail Integration (Apr 2026)
 - Email: aisystem@agentmail.to
