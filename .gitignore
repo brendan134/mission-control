@@ -45,3 +45,5 @@ temp_mc/
 # Next.js / Turbopack cache
 **/.next/dev/cache/**
 **/.next/**/turbopack/**
+.spend-cache.json
+memory/.dreams/
