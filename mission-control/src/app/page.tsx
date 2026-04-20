@@ -1,4 +1,5 @@
 import { CreditCard, Users, Clock, Zap, Activity, TrendingUp, AlertCircle, Shield, Quote } from 'lucide-react';
+import SignalFeed from '@/components/SignalFeed';
 import { BUDGET_CONFIG } from '@/lib/config';
 import { getTodayAndMonthSpend } from '@/lib/spend-service';
 
@@ -137,6 +138,9 @@ export default async function Dashboard() {
         <h1 style={{ fontSize: '24px', fontWeight: 600, marginBottom: '4px' }}>Dashboard</h1>
         <p style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>Your AI system at a glance</p>
       </div>
+
+      {/* Signal Feed - Task Accountability */}
+      <SignalFeed />
 
       {/* Quote of the Day */}
       <div className="card" style={{ marginBottom: '32px', background: 'linear-gradient(135deg, var(--background-tertiary) 0%, var(--background-secondary) 100%)', borderColor: 'var(--accent)' }}>
