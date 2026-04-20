@@ -1,170 +1,220 @@
-# Strategic Growth Plan: Akhil Rodrigues
-## The Infants Home — Marketing & Engagement Manager
+# LEADERSHIP ENERGY REDESIGN
+## Strategic Growth Plan for The Infants Home
 
 ---
 
-## Page 1: Cover
-
-**STRATEGIC GROWTH PLAN**
-
-### Akhil Rodrigues
-#### Marketing & Engagement Manager, The Infants Home
-
-**Prepared by:** Brendan Rogers, Leader By Design  
-**Date:** April 2026  
-**90-Day Transformation Roadmap**
+*(Page 1 - Cover: Stock standard with company name)*
 
 ---
 
-## Page 2: Executive Summary
+## Page 2 — Introduction
 
-### The Challenge
+Akhil,
 
-Akhil is a high-impact leader operating at the intersection of marketing, volunteer management, and community engagement at The Infants Home. He thrives when rallying people around ideas and enabling others to succeed — but struggles when pulled into operational detail work that drains his energy.
+During our recent coaching session we explored your role at The Infants Home and the leadership challenges you are navigating.
 
-His current reality:
+What became clear is that you are a leader who thrives on enabling others and rallying people around ideas — but you are currently spending too much time in operational detail work that drains your energy.
 
-- Overseeing multiple high-profile projects (branding, outdoor classroom, marketing)
-- Transitioning from "doing" to "enabling" — but still catching himself in the detail
-- Managing volunteer programs and tour groups while maintaining strategic oversight
-- Risk of overusing his Enablement genius — taking on too much because he loves supporting others
+Your role as Marketing & Engagement Manager has you overseeing multiple projects: branding, the outdoor classroom, marketing, volunteers, and tour groups. You excel at the strategic oversight — setting direction, enabling others, and creating impact — but you become frustrated when you have to dive into the operational detail yourself.
 
-### The Opportunity
+This document outlines:
 
-By leaning fully into his Working Genius (Enablement + Galvanizing), Akhil can:
+- The current leadership design challenge
+- The future leadership role that aligns with your strengths
+- The hidden growth opportunity inside The Infants Home
+- A 90-day implementation plan to move you toward that future
 
-1. **Transform his team** from dependency to autonomy
-2. **Scale his impact** without doing the work himself
-3. **Create systems** that outlive his direct involvement
-4. **Position himself** for senior leadership within the organisation
+The goal is simple:
 
-### The Path Forward
-
-This 90-day plan moves Akhil from "hands-on enablement" to "strategic empowerment" — creating a self-managing team that executes while he focuses on vision, culture, and growth.
+Design your role so your impact multiplies because of your genius — not despite it.
 
 ---
 
-## Page 3: The Leader By Design Framework
+## Page 3 — Leader By Design Framework
 
-*[Stock standard framework page — same as Peter's plan]*
+*(Stock standard framework - no change)*
 
-### The 5 Stages of Leadership Growth
+The work we are doing together follows the High-Impact Leader Ecosystem™ — a leadership system designed to help business owners build self-managing, scalable businesses.
 
-1. **Hands-On Hustler** — Doing the work yourself
-2. **Evolving Operator** — Starting to delegate some tasks
-3. **Emerging Leader** — Building systems and processes
-4. **Thriving Team Leader** — Leading leaders, not doers
-5. **High-Impact Leader** — Creating multiplicative impact
+This ecosystem is built on four integrated frameworks:
 
-### The Growth Path
+**The Impact Triangle™**
+High-impact leadership balances three areas:
 
-- **Stability** → **Purpose** → **Systemize** → **Capability** → **Rhythm** → **Multiply** → **Legacy**
+- LEADER — TEAM — BUSINESS
 
----
+When one side becomes overloaded, the entire system becomes unstable.
 
-## Page 4: Current State Analysis
+**The PEOPLE Operating System™**
+A six-stage leadership system:
 
-### Where Akhil Is Today
+- PERCEIVE → ENVISION → OPTIMISE → PERFORM → LEVERAGE → EVALUATE
 
-| Dimension | Current State |
-|-----------|---------------|
-| **Balance** | Team-Priority (focused on people, sometimes at expense of business systems) |
-| **Capability** | Strong in relationship-building, weak in systems/processes |
-| **Growth Step** | Step 4-5: Moving from Capability-building to Rhythm |
-| **Stage** | Stage 2-3: Evolving Operator → Emerging Leader |
+**The High-Impact Growth Path™**
+Seven milestones that businesses move through as they grow:
 
-### Working Genius Profile: EG "Empathetic Galvanizer"
+- Build Stability → Define Purpose & People → Systemise for Consistency → Develop Capability → Create Rhythm → Multiply Impact → Design Legacy & Freedom
 
-**Genius Zone (Energy Givers):**
-- **Enablement** — Providing encouragement and assistance to help others succeed
-- **Galvanizing** — Rallying and inspiring people to take action
+**Leadership Identity Evolution**
+As the business grows, the owner must evolve through five leadership identities:
 
-**Competency Zone (Capable But Draining):**
-- **Wonder** — Pondering possibilities and greater potential
-- **Discernment** — Using intuition to evaluate ideas and people
-
-**Frustration Zone (Energy Drainers):**
-- **Tenacity** — Pushing projects through to completion
-- **Invention** — Creating original, novel solutions
-
-### The Alignment Insight
-
-Akhil's genius (Enablement + Galvanizing) perfectly matches his role's highest-value activities:
-
-- Rallying volunteers and community groups ✓
-- Enabling his team to take ownership ✓
-- Overseeing multiple projects strategically ✓
-- Creating emotional connections with stakeholders ✓
-
-**The problem:** When he drifts into operational detail (tenacity territory), he hits his frustration zone and loses energy.
+- Hands-On Hustler → Organised Operator → Emerging Leader → Team Performance Leader → High-Impact Leader
 
 ---
 
-## Page 5: Target Role & Hidden Growth Opportunity
+## Page 4 — Where The Infants Home Is Today
 
-### Target Role: Strategic Engagement Leader
+Based on our discussion, you are currently transitioning between the Emerging Leader and Team Performance Leader stages.
 
-**In 90 days, Akhil will be:**
+You have already moved beyond the Organised Operator stage, where the focus is on systems and processes.
 
-- The visionary leader who sets direction for marketing, volunteers, and community engagement
-- A coach/enabler who builds others' capacity rather than doing the work
-- A systems-thinker who creates repeatable processes that scale
-- The bridge between leadership vision and frontline execution
+However, you have not yet fully transitioned into the Team Performance Leader stage, where you lead leaders and create multiplicative impact.
 
-### Hidden Growth Opportunity
+This is creating tension inside the Impact Triangle™.
 
-**The Insight:** Akhil's greatest growth isn't in doing more — it's in **creating systems that multiply his impact without him**.
+### Impact Triangle Area — Current State
 
-**The Hidden Opportunity:** Build a "Leadership Rhythm" where:
+| Area | Current State |
+|------|---------------|
+| **Leader** | Energy drained from operational detail work; over-using enablement genius by doing too much |
+| **Team** | Capable team members who could take on more ownership with right frameworks |
+| **Business** | Marketing, volunteers, and tours dependent on your direct involvement; not yet self-managing |
 
-1. Weekly strategic reviews (not operational updates)
-2. Delegation frameworks that transfer ownership
-3. Volunteer and tour programs that run without his direct involvement
-4. Marketing systems that the team executes
-
-**This solves:**
-- His tenacity frustration (less operational detail)
-- His over-enablement tendency (creates self-managing team)
-- Organisational dependency on his direct involvement
+This imbalance is the root cause of the frustration you described.
 
 ---
 
-## Page 6: The Vision & Phase 1
+### Your Working Genius Alignment
 
-### The Vision Statement
+Your Working Genius profile provides a powerful insight into where your energy and value truly sit.
 
-*"I am a strategic leader who empowers others to deliver exceptional experiences at The Infants Home. My role is to set direction, enable my team, and create systems that scale — not to do the work myself."*
+Your primary geniuses are:
+
+- **ENABLEMENT** — Providing encouragement and assistance to help others succeed. You get energy from supporting and empowering people.
+- **GALVANIZING** — Rallying and inspiring people to take action around ideas. You thrive on bringing people together and creating momentum.
+
+These strengths make you naturally suited to roles such as:
+
+- Team coach and enabler
+- Community engagement leader
+- Strategic overseer
+- Volunteer and stakeholder manager
+
+However, much of your current workload is dominated by activities that sit in your frustration areas, such as:
+
+- Writing scripts and creating content
+- Operational execution of marketing tasks
+- Day-to-day tour and volunteer management
+- Pushing projects through to completion
+
+This misalignment is the real driver behind the exhaustion you described.
+
+When leaders spend most of their time in frustration work, their energy quickly drains — even when the work itself is meaningful.
 
 ---
 
-### Phase 1: Foundation & Self-Awareness (Weeks 1-4)
+## Page 5 — The Leadership Role The Infants Home Actually Needs
 
-**Focus:** Audit current activities, establish boundaries, and define the "Strategic vs. Operational" line.
+To unlock the next stage of growth, The Infants Home needs you operating primarily as a:
+
+### Strategic Engagement Leader
+
+Your role should focus on:
+
+- Setting direction for marketing, volunteers, and community engagement
+- Creating systems and frameworks that scale
+- Enabling team members to take ownership
+- Building relationships with stakeholders and partners
+- Measuring and refining impact
+
+Your role should not primarily involve:
+
+- Writing social media content yourself
+- Running tours personally
+- Training volunteers on every detail
+- Managing operational day-to-day tasks
+
+Those are operational roles.
+
+When a leader performs operational work, they become constrained by their own time.
+
+When a leader operates as a strategic enabler, their impact multiplies.
+
+---
+
+### The Hidden Growth Opportunity in The Infants Home
+
+One of the most important insights from our conversation is that you already naturally operate at a strategic level — you love overseeing multiple projects, giving direction, and enabling others to execute.
+
+This is the hidden opportunity inside The Infants Home.
+
+Right now your enablement is personal — you are the one who makes things happen.
+
+However, it can become far more powerful:
+
+- **Delegation Frameworks** — Systems for handing off work that actually stick
+- **Team Autonomy** — Building a team that runs programs without your direct involvement
+- **Process Documentation** — Creating playbooks that outlive any single person
+- **Leadership Multiplication** — Developing other leaders who can enable others
+
+These approaches shift from:
+
+**PERSONAL ENABLEMENT → SYSTEMATIC EMPOWERMENT**
+
+That change dramatically increases the impact you can have — without increasing your workload.
+
+---
+
+## Page 6 — The Future Vision for The Infants Home
+
+The long-term vision is for The Infants Home to have a fully empowered marketing and engagement function that runs without dependency on any single person.
+
+Instead of being seen as the person who "does everything," you become known as the leader who builds teams and systems that deliver exceptional results.
+
+You focus on strategy and empowerment.
+
+Your team focuses on execution and delivery.
+
+This aligns your role with your natural genius for Enablement and Galvanizing.
+
+In this model, you operate as Strategic Engagement Director — driving impact through your genius for enabling and rallying people — while the team handles execution.
+
+---
+
+### 90-Day Strategic Action Plan
+
+The next 90 days should focus on redesigning your role and creating systems that scale.
+
+The goal is not doing more.
+
+The goal is clarity, delegation, and leverage.
+
+---
+
+#### Phase 1 — Foundation & Self-Awareness
+
+**Weeks 1–4**
+
+The first priority is understanding exactly where your time goes and establishing clear boundaries.
 
 **Key Actions:**
 
-1. **Activity Audit** — Map all current activities (meetings, projects, tasks) and rate each: Strategic, Operational, or Should Delegate
-2. **Boundary Definition** — Establish what Akhil will and won't do personally
+1. **Activity Audit** — Map all current activities and categorise: Strategic, Operational, or Should Delegate
+2. **Boundary Definition** — Establish what you will and won't do personally
 3. **Team Capacity Assessment** — Identify who can take on more responsibility
 4. **Delegation Framework** — Create a simple framework for handoffs (what, why, when, how)
 
-**Success Metrics:**
-
-- 50% reduction in operational tasks Akhil personally executes
-- Clear delegation criteria established
-- Team members have defined expanded responsibilities
-
-**Phase 1 Quote:**
-
-> "The highest-level use of my genius is not doing the work — it's creating the conditions for others to do the work brilliantly."
+**Success Metric by Week 4:** 50% reduction in operational tasks you personally execute
 
 ---
 
-## Page 7: Phases 2-3 & Identity Shift
+## Page 7 — 90-Day Plan Continued
 
-### Phase 2: System Building (Weeks 5-8)
+#### Phase 2 — System Building
 
-**Focus:** Create repeatable systems for marketing, volunteers, and tours.
+**Weeks 5–8**
+
+The second phase focuses on creating repeatable systems that can run without your direct involvement.
 
 **Key Actions:**
 
@@ -173,17 +223,15 @@ Akhil's genius (Enablement + Galvanizing) perfectly matches his role's highest-v
 3. **Tour Experience** — Design tour framework that any team member can deliver
 4. **Weekly Leadership Rhythm** — Implement 30-min strategic check-ins (not operational updates)
 
-**Success Metrics:**
-
-- At least 3 documented processes that can run without Akhil
-- Team member delivers a tour independently
-- Weekly rhythm established and sustained
+**Success Metric by Week 8:** At least 3 documented processes that can run without you; team member delivers a tour independently
 
 ---
 
-### Phase 3: Multiplication (Weeks 9-12)
+#### Phase 3 — Multiplication
 
-**Focus:** Step back further, measure impact, refine systems.
+**Weeks 9–12**
+
+The final phase is about stepping back further, measuring impact, and refining systems.
 
 **Key Actions:**
 
@@ -192,53 +240,52 @@ Akhil's genius (Enablement + Galvanizing) perfectly matches his role's highest-v
 3. **System Refinement** — Iterate based on what worked/didn't in Phases 1-2
 4. **90-Day Review** — Celebrate wins, plan next quarter
 
-**Success Metrics:**
-
-- Akhil's direct involvement in operations reduced by 70%
-- Team autonomously running marketing, volunteer, and tour programs
-- Clear metrics showing impact maintained/grown without direct involvement
+**Success Metric by Week 12:** Your direct involvement in operations reduced by 70%; team autonomously running programs
 
 ---
 
-### Identity Shift
+### The Leadership Identity Shift
 
-**From:** "I'm the one who makes things happen"  
-**To:** "I'm the one who creates the conditions for others to make things happen"
+This transition is about more than changing tasks.
 
-This is the critical mindset shift: **leadership impact is measured by what happens when you're NOT there**, not by how much you do yourself.
+It is about evolving your leadership identity.
 
----
+Right now The Infants Home still relies heavily on you as the operational enabler.
 
-## Page 8: Final Thoughts
+The next stage requires you to step into the role of:
 
-### The Promise
+### Team Performance Leader
 
-This plan isn't about doing less — it's about **multiplying impact**. By leaning into your Working Genius (Enablement + Galvanizing) and building systems that scale, you can:
+A leader who:
 
-- Achieve more than you could ever do yourself
-- Build a team that thrives without dependency on you
-- Position yourself for senior leadership
-- Create lasting change at The Infants Home
+- Sets strategic direction
+- Empowers others to deliver the work
+- Creates systems that scale
+- Multiplies impact through leadership rather than personal effort
 
-### The Commitment
-
-Your commitment:
-
-1. **Protect your genius time** — At least 5 hours/week on enablement/galvanizing activities
-2. **Build before you bail** — Create a system before stepping back from any task
-3. **Embrace the discomfort** — Delegating means accepting different ways of doing things
-4. **Measure what matters** — Track team capability, not just output
-
-### The First Step
-
-**This week:** Block 1 hour for your Activity Audit. List everything you did this week. Categorise each as Strategic, Operational, or Delegable.
+This shift is what ultimately leads to becoming a High-Impact Leader.
 
 ---
 
-**Next Session:** Review the Activity Audit and define your delegation boundaries.
+## Page 8 — Final Thoughts
+
+Akhil,
+
+The Infants Home already has strong foundations in marketing, volunteer management, and community engagement.
+
+Your role is not to do the work — it is to create the conditions for others to do the work brilliantly.
+
+By building systems, empowering your team, and focusing on your genius for Enablement and Galvanizing, you can dramatically increase your impact without sacrificing your energy.
+
+The key is building a self-managing engagement function while you focus on what you do best: enabling others, rallying the team, and creating strategic direction.
+
+That's the real goal of leadership design:
+
+**Impact that multiplies without consuming the leader.**
+
+I'm looking forward to working through this transition with you over the coming months.
 
 ---
 
-*Strategic Growth Plan prepared by Leader By Design*  
-*For Akhil Rodrigues, The Infants Home*  
-*April 2026*
+Brendan Rogers
+Founder — Leader By Design
