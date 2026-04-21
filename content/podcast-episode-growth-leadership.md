@@ -3,7 +3,7 @@
 **Episode:** 15
 **Topic:** When Growth Outpaces Leadership Design
 **Duration:** 10-13 minutes
-**Format:** Educational (What To Do)
+**Format:** Leadership Pattern
 **Date:** April 2026
 **Status:** PENDING APPROVAL
 
