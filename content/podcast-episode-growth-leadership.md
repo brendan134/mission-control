@@ -60,7 +60,7 @@ The business grows. The leadership stays the same. That's the gap. That's what c
 
 ---
 
-### WHAT HTIS COSTS OVER TIME (COST OF NOT ADDRESSING)
+### WHAT THIS COSTS OVER TIME (COST OF NOT ADDRESSING)
 Let me be direct about what this actually costs. You're losing your best people. I watched a new client lose their top performer last month — four years of investment, gone in a two-week notice period. Top performers don't leave because of money. They leave because they can't grow. They leave because they're not led. They leave because you're too busy to develop them.
 
 You're losing your health. The constant firefighting. The Sunday scaries. The endless to-do list that never gets shorter. That tightness in your chest? Your body keeps score.
@@ -119,7 +119,20 @@ go to leaderbydesign.au/club and take a look.
 
 ---
 
-Add SUMMARY here: This is where we need to add the SUMMARY (relinked to core episode purpose)
+### SUMMARY
+So here's what I want you to take away from today's episode.
+
+Your business grew. Your leadership didn't.
+
+That's not a failure. It's a signal.
+
+The gap between how your business operates and how you lead is where the friction lives. And that friction shows up as overwhelm, as team members waiting on you, as decisions that should be made by others still landing on your desk.
+
+But here's the thing — this isn't about working harder or pushing your team harder. It's about redesigning how you lead so that your leadership matches the ambition of your business.
+
+High-impact leaders don't carry more. They design better.
+
+Design your leadership. Build your team. Lead with impact.
 
 ---
 
