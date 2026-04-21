@@ -564,6 +564,16 @@ export default function Tasks() {
             const isDone = task.stage === Stage.DONE || task.status === TaskStatus.COMPLETED;
             const isBlocked = task.blocked || task.status === TaskStatus.BLOCKED;
             
+            // Calculate stale level based on updated_at
+            const now = Date.now();
+            const updatedAt = new Date(task.updated_at).getTime();
+            const hoursSinceUpdate = (now - updatedAt) / (1000 * 60 * 60);
+            const daysSinceUpdate = Math.floor(hoursSinceUpdate / 24);
+            let staleLevel = null;
+            if (daysSinceUpdate >= 3) staleLevel = 'critical';
+            else if (daysSinceUpdate >= 2) staleLevel = 'warning';
+            else if (daysSinceUpdate >= 1 && !isDone) staleLevel = 'yellow';
+            
             return (
               <div 
                 key={task.id}
@@ -592,6 +602,23 @@ export default function Tasks() {
                     <span style={{ fontWeight: 500, textDecoration: isDone ? 'line-through' : 'none' }}>
                       {task.title}
                     </span>
+                    {/* Stale/Alert Indicator */}
+                    {staleLevel && (
+                      <span title={`${staleLevel.toUpperCase()}: ${daysSinceUpdate} days since update`} style={{
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '4px',
+                        background: staleLevel === 'critical' ? 'rgba(239, 68, 68, 0.15)' : staleLevel === 'warning' ? 'rgba(245, 158, 11, 0.15)' : 'rgba(234, 179, 8, 0.15)',
+                        color: staleLevel === 'critical' ? '#ef4444' : staleLevel === 'warning' ? '#f59e0b' : '#eab308',
+                        borderRadius: '4px',
+                        padding: '2px 6px',
+                        fontSize: '10px',
+                        fontWeight: 600,
+                        textTransform: 'uppercase'
+                      }}>
+                        {staleLevel === 'critical' ? '⚠' : staleLevel === 'warning' ? '⏰' : '🏴'} {daysSinceUpdate}d
+                      </span>
+                    )}
                     {isBlocked && <AlertTriangle size={14} color="#ef4444" />}
                     {task.priority === Priority.HIGH && (
                       <span style={priorityBadgeStyle}>HIGH</span>
