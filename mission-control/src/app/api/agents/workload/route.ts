@@ -1,7 +1,10 @@
 import { NextResponse } from 'next/server';
-import { getTasks } from '../../../lib/task-service';
+import { getTasks } from '../../../../lib/task-service';
+import { TaskStatus } from '../../../../lib/data-model';
 import fs from 'fs';
 import path from 'path';
+
+const AGENTS_DIR = '/data/.openclaw/workspace/agents';
 
 // GET /api/agents/workload - Get workload status for all agents
 export async function GET() {
@@ -9,17 +12,24 @@ export async function GET() {
     const tasks = getTasks();
     
     // Load agent configs to get workload settings
-    const agentsDir = path.join(process.cwd(), '../../../../agents');
-    const agentFiles = fs.readdirSync(agentsDir).filter(f => f.endsWith('/config.json'));
+    const dirContents = fs.readdirSync(AGENTS_DIR, { withFileTypes: true });
+    
+    const agentFiles = dirContents
+      .filter(f => f.isDirectory() && !['templates', 'podcast'].includes(f.name))
+      .map(d => path.join(d.name, 'config.json'));
+    
+    if (agentFiles.length === 0) {
+      return NextResponse.json({ error: 'No agent directories found' });
+    }
     
     const agentWorkloads = agentFiles.map(file => {
       try {
-        const configPath = path.join(agentsDir, file);
+        const configPath = path.join(AGENTS_DIR, file);
         const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
         
         const agentId = config.agent_id || file.replace('/config.json', '');
-        const agentTasks = tasks.filter(t => t.assignee === agentId);
-        const activeTasks = agentTasks.filter(t => t.status !== 'done' && t.status !== 'cancelled');
+        const agentTasks = tasks.filter(t => (t.assigned_agent_ids || []).includes(agentId));
+        const activeTasks = agentTasks.filter(t => t.status !== TaskStatus.COMPLETED && t.status !== TaskStatus.ARCHIVED);
         
         const capacity = config.workload?.workload_capacity || 5;
         const currentQueue = config.workload?.current_queue || activeTasks.length;
@@ -38,10 +48,10 @@ export async function GET() {
           status: activeTasks.length >= capacity ? 'overloaded' : 
                   activeTasks.length >= capacity * 0.8 ? 'busy' : 'available'
         };
-      } catch (e) {
+      } catch (e: any) {
         return null;
       }
-    }).filter(Boolean);
+    }).filter(Boolean) as { agentId: string; name: string; role: string; capacity: number; currentQueue: number; activeCount: number; utilization: number; autoClaimEnabled: boolean; specializationTags: string[]; status: string }[];
 
     // Sort by utilization
     agentWorkloads.sort((a, b) => b.utilization - a.utilization);
