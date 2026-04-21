@@ -1,6 +1,7 @@
 {
   "agent_id": "mia-newsletter-producer",
   "name": "Mia",
+  "reports_to": "content",
   "version": "2.0.0",
   "status": "active",
   "owner": {

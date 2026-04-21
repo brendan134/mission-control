@@ -1,6 +1,7 @@
 {
   "agent_id": "lucas-video-producer",
   "name": "Lucas",
+  "reports_to": "content",
   "version": "2.0.0",
   "status": "active",
   "owner": {

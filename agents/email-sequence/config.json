@@ -1,6 +1,7 @@
 {
   "agent_id": "zoe-email-sequence-producer",
   "name": "Zoe",
+  "reports_to": "messaging",
   "version": "2.0.0",
   "status": "active",
   "owner": {

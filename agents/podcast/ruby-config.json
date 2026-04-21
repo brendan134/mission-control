@@ -1,6 +1,7 @@
 {
   "agent_id": "ruby-podcast-producer",
   "name": "Ruby",
+  "reports_to": "content",
   "version": "2.0.0",
   "status": "active",
   "owner": {
