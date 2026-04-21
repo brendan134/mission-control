@@ -47,7 +47,7 @@ export default function Tasks() {
   const [filterPriority, setFilterPriority] = useState('all');
   const [showCreate, setShowCreate] = useState(false);
   const [editingTask, setEditingTask] = useState<Task | null>(null);
-  const [viewMode, setViewMode] = useState<'list' | 'kanban'>('list');
+  const [viewMode, setViewMode] = useState<'list' | 'kanban'>('kanban');
   const [newTask, setNewTask] = useState({
     title: '',
     description: '',
