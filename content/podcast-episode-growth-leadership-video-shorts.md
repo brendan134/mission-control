@@ -1,8 +1,8 @@
 # Video Shorts: When Growth Outpaces Leadership Design
 
 **Episode:** 15
-**Platform:** YouTube Shorts / Reels
-**Script Writer:** Ruby (with Lucas)
+**Platform:** YouTube Shorts (primary) - with Reels/Shorts adaptations
+**Note:** All content is STANDALONE - does not require listening to podcast
 
 ---
 
@@ -12,17 +12,17 @@
 Why your leadership feels harder the more successful you become
 
 **Caption Banner (Bottom Text):**
-It's not your fault — it's your system
+It's not your fault - it's your system
 
 ---
 
-### Script
+### Script (60 seconds)
 
 **[Opening - Visual: Close-up, direct to camera]**
 
 You ever notice something weird?
 
-The more successful your business gets…
+The more successful your business gets...
 
 The harder leadership feels.
 
@@ -44,31 +44,40 @@ Their business grew. Their leadership didn't.
 
 That's not a failure. It's a signal.
 
-**[Visual: Simple graphic - business growing, leadership staying flat]**
-
 Your business is telling you it's ready to level up.
 
 The question is: is your leadership designed for it?
 
 This is the gap. This is where the friction lives.
 
-And this is exactly what we unpack in the latest episode of The High-Impact Leader Podcast.
-
-🎧 Link in bio to listen.
+And this is something every growing business owner needs to understand.
 
 ---
 
-### Production Notes
+### YouTube SEO
 
-| Element | Details |
-|---------|---------|
-| **Duration** | 45-60 seconds |
-| **Visual Style** | Clean, minimal, direct-to-camera with simple B-roll overlays |
-| **Typography** | Bold, white text on dark background for banners |
-| **Music** | Upbeat but calm instrumental (no lyrics) |
-| **Hook** | First 3 seconds must grab attention |
-| **CTA** | End with "Link in bio" or similar |
-| **Hashtags (Description)** | #LeadershipDesign #BusinessGrowth #ScalingLeadership #HighImpactLeader #Leadership |
+**Title:**
+Why Leadership Gets HARDER As Your Business Grows (Not Easier)
+
+**Description:**
+Here's what no one tells you about growing a business...
+
+Your leadership doesn't automatically get better just because your business gets bigger. In fact, it's usually the opposite.
+
+In this video, I'm breaking down why this happens and what high-impact leaders do differently.
+
+If you're a business owner or leader feeling like you're carrying too much, this one's for you.
+
+Chapters:
+0:00 - The reality of growing leadership
+0:20 - What most people get wrong
+0:35 - The signal your business is sending you
+0:50 - What to do about it
+
+#Leadership #BusinessGrowth #Entrepreneur #LeadershipDesign #ScalingBusiness
+
+**Tags:**
+leadership, business growth, entrepreneur, leadership development, scaling business, team management, self-managing teams, leadership clarity, business owners, leadership overload
 
 ---
 
@@ -82,19 +91,17 @@ Number 3 will surprise you
 
 ---
 
-### Script
+### Script (60-75 seconds)
 
 **[Opening - Visual: Countdown graphic]**
 
-If your business has outgrown your leadership…
+If your business has outgrown your leadership...
 
 Here's what high-impact leaders do differently.
 
-**[Visual: Each point appears as text on screen]**
-
 **One: They design clarity.**
 
-Not just tasks — decisions. Who decides what. Clear decision rights.
+Not just tasks - decisions. Who decides what. Clear decision rights.
 
 **Two: They build ownership.**
 
@@ -108,32 +115,40 @@ Sustainable cadence. Daily standups. Weekly reviews. Monthly planning.
 
 They don't push harder. They redesign the system.
 
-**[Cut to visual]**
-
 Here's the shift:
 
-From carrying everything yourself…
+From carrying everything yourself...
 
 To designing a leadership system that runs without you.
 
 That's what high-impact leadership looks like.
 
-**[CTA]**
-Full episode — link in bio.
-
 ---
 
-### Production Notes
+### YouTube SEO
 
-| Element | Details |
-|---------|---------|
-| **Duration** | 60-75 seconds |
-| **Visual Style** | Text-forward, each point appears on screen with brief visual |
-| **Typography** | Large, readable numbers (1, 2, 3, 4) |
-| **Music** | Calm instrumental throughout |
-| **Pacing** | Slower than Reel 1, educational tone |
-| **CTA** | End with "Full episode - link in bio" |
-| **Hashtags (Description)** | #LeadershipDesign #ScalableLeadership #LeadershipClarity #OwnershipAndAccountability #LeadershipRhythm |
+**Title:**
+4 Leadership Habits That Change Everything (High-Impact Leaders Do This)
+
+**Description:**
+Most leaders try to do MORE. High-impact leaders design BETTER.
+
+In this video, I'm sharing the 4 things that separate leaders who scale from leaders who burn out.
+
+Whether you're leading a team of 3 or 30, these principles apply.
+
+Chapters:
+0:00 - The problem with trying to do more
+0:15 - Thing 1: Design clarity
+0:25 - Thing 2: Build ownership
+0:35 - Thing 3: Install rhythm
+0:45 - Thing 4: Lead through design
+0:55 - The shift
+
+#Leadership #HighPerformance #TeamLeadership #LeadershipSkills #ScalableBusiness
+
+**Tags:**
+leadership, high performance, team leadership, leadership skills, scalable business, leadership clarity, ownership culture, leadership rhythm, business scaling, management
 
 ---
 
@@ -147,7 +162,7 @@ Now you're working more than ever
 
 ---
 
-### Script
+### Script (60-75 seconds)
 
 **[Opening - Visual: Direct to camera, reflective tone]**
 
@@ -175,8 +190,6 @@ Instead, you've never been more trapped.
 
 Sound familiar?
 
-**[Reflective pause]**
-
 Here's the truth:
 
 Your business grew. Your leadership didn't.
@@ -185,50 +198,83 @@ That's the gap. That's where the friction lives.
 
 But it doesn't have to be this way.
 
-**[End frame - Podcast cover + listen prompt]**
+---
 
-This episode unpacks exactly why this happens — and what to do about it.
+### YouTube SEO
 
-The High-Impact Leader Podcast. Search now.
+**Title:**
+The Truth About Why You're Working More Than Ever (And What To Do)
+
+**Description:**
+You built your business for freedom. Now you're working weekends. Sound familiar?
+
+In this video, I'm unpacking why this happens and how to break the cycle.
+
+If you feel like you're carrying your business instead of leading it, watch this.
+
+Chapters:
+0:00 - The entrepreneur's reality
+0:20 - How growth changes everything
+0:35 - The freedom trap
+0:50 - The truth about leadership
+1:00 - The way forward
+
+#Entrepreneur #BusinessStruggle #LeadershipLife #WorkLifeBalance #BusinessFreedom
+
+**Tags:**
+entrepreneur, business struggle, leadership life, work life balance, business freedom, leadership overload, burnout prevention, business leadership, founder mindset, leadership growth
 
 ---
 
-### Production Notes
+## Production Notes
 
 | Element | Details |
 |---------|---------|
-| **Duration** | 60-75 seconds |
-| **Visual Style** | Emotional, relatable, mix of B-roll and direct-to-camera |
-| **Music** | Reflective, building to hopeful |
-| **Tone** | Connection first, then authority |
-| **Hook** | "You started your business..." - relatable opening |
-| **CTA** | "Search: The High-Impact Leader Podcast" |
-| **Hashtags (Description)** | #LeadershipPatterns #BusinessLeadership #LeadershipLoad #SelfManagingTeams #HighImpactLeadership |
+| **Duration** | 45-75 seconds per reel |
+| **Visual Style** | Clean, minimal, direct-to-camera with B-roll overlays |
+| **Typography** | Bold, white text on dark background for banners |
+| **Music** | Upbeat but calm instrumental (no lyrics) |
+| **Hook** | First 3 seconds must grab attention |
+| **CTA** | Podcast link goes in YouTube DESCRIPTION only, not in video |
+| **Hashtags** | In description, not on screen |
 
 ---
 
-## Summary: All 3 Reels
+## YouTube Description Template
 
-| Reel | Type | Hook | Focus |
-|------|------|------|-------|
-| **1** | Thought Reversal | "Why leadership feels harder..." | Problem awareness |
-| **2** | Educational | "4 things high-impact leaders do" | Solution/framework |
-| **3** | Connection | "You built for freedom..." | Emotional resonance |
+For each video, use this structure:
+
+```
+[Hook sentence from video]
+
+In this video, I'm breaking down [topic].
+
+If you're a business owner or leader feeling [pain point], this one's for you.
+
+Chapters:
+[Add timestamps]
+
+Listen to the full podcast episode: [link]
+
+#hashtags #hashtags #hashtags
+```
 
 ---
 
-## YouTube/SEO Notes
+## Standalone Content Rules
 
-- **Titles:** Include primary keywords
-- **Descriptions:** First 100 characters must hook
-- **Tags:** leadership design, business growth, scaling leadership, self-managing teams
-- **Thumbnails:** Bold text, high contrast, face + message
-- **End Screens:** Encourage full episode listen
+| Rule | Details |
+|------|---------|
+| **Self-contained** | Viewer should understand full message without podcast |
+| **No podcast dependency** | CTA only in description, not video |
+| **YouTube-first** | Optimize for YouTube search and algorithm |
+| **Searchable** | Titles and tags should match what people search for |
 
 ---
 
 ## Credits
 
-- **Ruby** — Created script
-- **Lucas** — Video script writer + production notes
+- **Ruby** - Podcast producer, concept
+- **Lucas** - Video script writer + production notes
+- **YouTube SEO** - Optimized for searchability
 - **Episode:** 15 "When Growth Outpaces Leadership Design"
