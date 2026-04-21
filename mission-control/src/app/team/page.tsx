@@ -27,7 +27,7 @@ const teamMembers: TeamMember[] = [
   { id: 'newsletter', name: 'Mia', role: 'Newsletter Writer', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['Weekly leadership newsletters', 'Deep dive content', 'Case study features'] },
   { id: 'linkedin', name: 'Ethan', role: 'LinkedIn Content Strategist', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['LinkedIn post creation', 'Thought leadership content', 'Engagement optimisation'] },
   { id: 'video', name: 'Lucas', role: 'Video Script Writer', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['Video script writing', 'Short-form content', 'YouTube long-form content'] },
-  { id: 'youtube', name: 'Jay', role: 'YouTube Specialist', tier: 'C', model: 'flashlite', reportsTo: 'video', responsibilities: ['YouTube SEO', 'Thumbnail optimization', 'Video descriptions', 'Channel strategy'] },
+  { id: 'youtube', name: 'Jay', role: 'YouTube Specialist', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['YouTube SEO', 'Thumbnail optimization', 'Video descriptions', 'Channel strategy'] },
   { id: 'email-sequence', name: 'Zoe', role: 'Email Sequence Strategist', tier: 'C', model: 'flashlite', reportsTo: 'messaging', responsibilities: ['Nurture sequences', 'Launch sequences', 'Welcome sequences', 'Follow-up sequences'] },
   { id: 'community', name: 'Lawrie', role: 'Community Manager', tier: 'C', model: 'flashlite', reportsTo: 'niles', responsibilities: ['Community engagement', 'Member support', 'Event coordination'] },
   { id: 'research', name: 'Tim', role: 'Research Analyst', tier: 'C', model: 'flashlite', reportsTo: 'strategy', responsibilities: ['Market research', 'Data analysis', 'Competitive intelligence'] }
