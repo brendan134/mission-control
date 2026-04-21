@@ -23,7 +23,11 @@ const teamMembers: TeamMember[] = [
   { id: 'messaging', name: 'Brandon', role: 'Head of Messaging', tier: 'B', model: 'kimi', reportsTo: 'niles', responsibilities: ['Copy and offer creation', 'Brand voice consistency', 'Email marketing content'] },
   { id: 'client-delivery', name: 'Jerry', role: 'Client Delivery Lead', tier: 'B', model: 'flashlite', reportsTo: 'niles', responsibilities: ['Client project delivery', 'Quality assurance', 'Stakeholder communication'] },
   { id: 'curriculum', name: 'Kathy', role: 'Curriculum Specialist', tier: 'C', model: 'kimi', reportsTo: 'content', responsibilities: ['Course creation', 'Training material development', 'Learning path design'] },
-  { id: 'podcast', name: 'Ruby', role: 'Podcast Producer', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['Podcast editing and production', 'Video content creation', 'Audio quality management'] },
+  { id: 'podcast', name: 'Ruby', role: 'Podcast Producer', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['High-Impact Leader Podcast production', 'Episode scripting and editing', 'Video content creation', 'Audio quality management'] },
+  { id: 'newsletter', name: 'Newsletter Producer', role: 'Newsletter Writer', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['Weekly leadership newsletters', 'Deep dive content', 'Case study features'] },
+  { id: 'linkedin', name: 'LinkedIn Writer', role: 'LinkedIn Content Strategist', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['LinkedIn post creation', 'Thought leadership content', 'Engagement optimisation'] },
+  { id: 'video', name: 'Video Producer', role: 'Video Script Writer', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['Video script writing', 'Short-form content', 'YouTube long-form content'] },
+  { id: 'email-sequence', name: 'Email Sequence Producer', role: 'Email Sequence Strategist', tier: 'C', model: 'flashlite', reportsTo: 'messaging', responsibilities: ['Nurture sequences', 'Launch sequences', 'Welcome sequences', 'Follow-up sequences'] },
   { id: 'community', name: 'Lawrie', role: 'Community Manager', tier: 'C', model: 'flashlite', reportsTo: 'niles', responsibilities: ['Community engagement', 'Member support', 'Event coordination'] },
   { id: 'research', name: 'Tim', role: 'Research Analyst', tier: 'C', model: 'flashlite', reportsTo: 'strategy', responsibilities: ['Market research', 'Data analysis', 'Competitive intelligence'] }
 ];
@@ -138,6 +142,46 @@ const agentProfiles: Record<string, {
     qualityBar: { draft: 'Raw audio/video', ready: 'Edited, shownotes done, ready to publish', refined: 'Clips extracted, repurposed, distributed' },
     inputStandard: 'Episode topic, guest info (if Growth Club member), desired length, target listener',
     thinkingApproach: 'Listener-value: What will they learn or feel after listening? Business impact: Titles must drive downloads; content must support Growth Club attraction'
+  },
+  newsletter: {
+    role: 'Newsletter Writer',
+    whatItOwns: ['Weekly leadership newsletters', 'Deep dive content', 'Case study features', 'Email sequence copy'],
+    whatItDoesntOwn: ['Content strategy (Sophie)', 'Technical ops (Casey)', 'Strategic direction (Marcus)'],
+    handoffTo: 'Content for distribution, Messaging for sequence strategy',
+    successMeasures: ['X newsletters per week', 'Quality bar met', 'Engagement rates maintained'],
+    qualityBar: { draft: 'First draft complete', ready: 'Edited, formatted, ready to send', refined: 'Tested subject lines, optimized, tracked' },
+    inputStandard: 'Topic, target audience, key message, email type (newsletter/sequence)',
+    thinkingApproach: 'Reader-value: What leadership insight will they gain? What action will they take?'
+  },
+  linkedin: {
+    role: 'LinkedIn Content Strategist',
+    whatItOwns: ['LinkedIn posts', 'Thought leadership content', 'Engagement optimisation'],
+    whatItDoesntOwn: ['Content strategy (Sophie)', 'Technical ops (Casey)', 'Community management (Lawrie)'],
+    handoffTo: 'Content for distribution, Community for engagement support',
+    successMeasures: ['X posts per week', 'Engagement rate target', 'Follower growth'],
+    qualityBar: { draft: 'Post drafted', ready: 'Edited, hashtags added, ready to publish', refined: 'Tested, engagement-optimized, repurposed' },
+    inputStandard: 'Topic, format (insight/story/list/question), target audience, key message',
+    thinkingApproach: 'Scroll-stopping: What makes them stop? Valuable: What makes them engage? Shareable: What makes them amplify?'
+  },
+  video: {
+    role: 'Video Script Writer',
+    whatItOwns: ['Video scripts (short + long form)', 'Video descriptions', 'Thumbnail concepts'],
+    whatItDoesntOwn: ['Content strategy (Sophie)', 'Technical ops (Casey)', 'Video editing (Mervyn)'],
+    handoffTo: 'Content for distribution, Podcast for cross-promotion',
+    successMeasures: ['X scripts per week', 'Timing compliance (60-90s short, 5-10m long)', 'Viewer retention design'],
+    qualityBar: { draft: 'Script outline complete', ready: 'Full script, timing checked, ready to record', refined: 'Recorded, edited, published' },
+    inputStandard: 'Topic, format (short/medium), duration target, key takeaway',
+    thinkingApproach: 'First-5-seconds: Hook captures attention. Last-10-seconds: CTA drives action. Everything else: deliver value.'
+  },
+  'email-sequence': {
+    role: 'Email Sequence Strategist',
+    whatItOwns: ['Nurture sequences', 'Launch sequences', 'Welcome sequences', 'Follow-up sequences'],
+    whatItDoesntOwn: ['Content strategy (Sophie)', 'Technical ops (Casey)', 'Strategic direction (Marcus)'],
+    handoffTo: 'Messaging for strategy, Content for copy review',
+    successMeasures: ['Sequence performs to target', 'Conversion optimisation', 'List trust maintained'],
+    qualityBar: { draft: 'Sequence outline complete', ready: 'All emails written, timing set, ready to test', refined: 'Tested, optimised, automated' },
+    inputStandard: 'Sequence type, target audience, objective, email count, timing',
+    thinkingApproach: 'Subscriber-journey: What do they need to hear? When? What action should they take?'
   },
   community: {
     role: 'Community Manager',
