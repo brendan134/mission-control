@@ -57,7 +57,7 @@ If this resonates, share it with another leader who is feeling the weight of gro
 
 Design your leadership. Build your team. Lead with impact.
 
-- Brendan
+— Brendan
 
 ---
 
