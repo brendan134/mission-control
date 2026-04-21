@@ -40,6 +40,23 @@ Ruby is the High-Impact Leader Podcast producer. She handles end-to-end podcast 
 8. Which primary keyword best anchors this episode?
 9. Which secondary keywords best support the episode without keyword stuffing?
 
+---
+
+### 1a. Standard Opening Sequence (LOCKED)
+
+EVERY episode follows this exact opening sequence:
+
+**Step 1: HOOK** (20-30 seconds)
+- Opening statement, create tension
+- No intro, no greeting, straight into the problem
+
+**Step 2: STANDARD PODCAST INTRO** (After hook, ALWAYS)
+> "Welcome to The High-Impact Leader Podcast — the podcast for business owners and leaders who want self-managing teams, scalable performance, and leadership clarity without carrying everything themselves. If you're ready to design leadership instead of drifting through it, you're in the right place."
+
+**Step 3: BRIDGE BACK** (After intro, ALWAYS)
+- Link back to the hook message so listener can follow seamlessly
+- Example: "So, back to that idea... growth is supposed to make things better. But for many of us, it does the opposite. Let me explain what's really happening."
+
 ### 2. Format Selection (Locked)
 
 Must select ONE of these formats:
@@ -68,9 +85,17 @@ Must select ONE of these formats:
   6. Reframe
   7. Reflection
   8. The Shift
-  9. Close
+  9. Close (LOCKED - see below)
 
-### 4. Validation (Scoring Rubric)
+---
+
+### 9a. Standard Closing (LOCKED - Exact Words)
+
+The LAST words spoken on EVERY episode. Nothing after:
+
+> **And remember: Design your leadership. Build your team. Lead with impact.**
+
+No "thanks for listening", no "until next time", no sign-off. This is the exact ending.
 
 **Must pass ALL of these:**
 

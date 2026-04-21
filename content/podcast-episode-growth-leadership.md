@@ -1,15 +1,36 @@
-# Podcast Episode: When Growth Outpaces Leadership Design
+# Episode Format Template (v2.0)
 
-**Episode Topic:** When Growth Outpaces Leadership Design
-**Duration:** 10-13 minutes
-**Date:** April 2026
+**LOCKED ELEMENTS - Never Change:**
+
+### Standard Opening Sequence
+1. **HOOK** (20-30 seconds) - Opening statement, create tension
+2. **STANDARD PODCAST INTRO** - ALWAYS after hook:
+   > "Welcome to The High-Impact Leader Podcast — the podcast for business owners and leaders who want self-managing teams, scalable performance, and leadership clarity without carrying everything themselves. If you're ready to design leadership instead of drifting through it, you're in the right place."
+3. **BRIDGE BACK** - After intro, link to hook message:
+   > "So, back to that idea... [restate hook premise]. Let me explain..."
+
+### Standard Closing (LOCKED)
+The LAST words spoken on EVERY episode:
+> **And remember: Design your leadership. Build your team. Lead with impact.**
+
+Nothing comes after this. No "thanks for listening", no "until next time", no sign-off.
 
 ---
 
-## 1. PODCAST SCRIPT
+## Content Structure (9 Steps)
 
-### HOOK (20-30 seconds)
-> "Growth is supposed to make things better. More revenue. More people. More opportunity. But for a lot of business owners and leaders, growth does the opposite — especially inside fast-moving business leadership environments. Leadership feels heavier. Decisions pile up. Your team needs you more, not less. If your business has grown, but leadership feels harder than it did before, this episode is for you."
+### 1. HOOK (20-30 sec)
+
+---
+
+### STANDARD PODCAST INTRO
+*\[Backing music fades in\]*
+
+Welcome to The High-Impact Leader Podcast — the podcast for business owners and leaders who want self-managing teams, scalable performance, and leadership clarity without carrying everything themselves. If you're ready to design leadership instead of drifting through it, you're in the right place.
+
+*\[Backing music fades out\]*
+
+So, back to that idea... growth is supposed to make things better. But for many of us, it does the opposite. Let me explain what's really happening.
 
 ---
 
@@ -22,18 +43,24 @@ And here's the thing about growth: it doesn't wait until you're ready.
 
 You might have mastered your craft. You might be brilliant at delivering your service. But nobody teaches you this part — the part where your business grows beyond your ability to lead it. And the frustrating thing is, the more successful you become, the heavier it gets.
 
+**And that brings us to what this actually looks like in practice...**
+
 ---
 
 ### DAY-TO-DAY (What It Looks Like)
-Let me paint a picture of what this looks like in reality...
+Let me paint a picture of what this actually looks like...
 
-It's Tuesday morning. You wake up already behind. Thirty-seven unread messages overnight. Two team members have questions only you can answer. Your calendar is blocked with meetings that could have been emails. You're making decisions on the fly — who to hire, what to prioritize, how to handle a客户 complaint.
+It's Tuesday morning. You wake up already behind. Thirty-seven unread messages overnight. Two team members have questions only you can answer. Your calendar is blocked with meetings that could have been emails. You're making decisions on the fly — who to hire, what to prioritize, how to handle a customer complaint that could cost you the account.
 
 You're everywhere but present.
 
-Your best people are waiting for clarity you're too busy to give. Your clients are wondering why responses take longer. Your family wonders why you're working weekends again. And the irony? You built this business to have more freedom. Instead, you've never been more trapped.
+Your best people — the ones you invested months training — are waiting for clarity you're too busy to give. They start making decisions without you, then face the consequences. Your clients are wondering why responses take days instead of hours. Your family wonders why you're working weekends again.
+
+And the irony? You built this business to have more freedom. Instead, you've never been more trapped.
 
 Sound familiar?
+
+**But why does this keep happening? Let me break it down...**
 
 ---
 
@@ -42,26 +69,30 @@ Why does this keep happening? Why do so many successful leaders feel like they'r
 
 Three reasons...
 
-**First, we equate growth with success.** More revenue. More team members. More locations. We keep pushing for bigger without asking whether we've built the foundation to support it.
+**First, we equate growth with success.** More revenue. More team members. More locations. We keep pushing for bigger without asking whether we've built the foundation to support it. We celebrate revenue milestones but ignore the leadership debt accumulating behind them.
 
-**Second, we resist what got us here.** We hired ourselves because we were the best at the work. But now we need to lead. And leading feels like abandoning the work we love.
+**Second, we resist what got us here.** We hired ourselves because we were the best at the work. The work is our identity. But now we need to lead. And leading feels like abandoning the work we love — like betraying the skill that made us successful.
 
-**Third, there's no roadmap.** Your industry taught you how to deliver your service. Nobody taught you how to build a leadership system that scales with your business.
+**Third, there's no roadmap.** Your industry taught you how to deliver your service. Your MBA taught you strategy. But nobody taught you how to build a leadership system that scales with your business — how to go from leading three people to leading thirty.
 
 The business grows. The leadership stays the same. That's the gap. That's what creates the friction.
+
+**And that friction has a cost...**
 
 ---
 
 ### COST (What's Lost)
-Let me be direct about what this costs...
+Let me be direct about what this actually costs...
 
-**You're losing your best people.** Top performers don't leave because of money. They leave because they can't grow. They leave because they're not led. They leave because you're too busy to develop them.
+**You're losing your best people.** I watched a client lose their top performer last month — four years of investment, gone in a two-week notice. Top performers don't leave because of money. They leave because they can't grow. They leave because they're not led. They leave because you're too busy to develop them.
 
-**You're losing your health.** The constant firefighting. The Sunday scaries. The endless to-do list that never gets shorter. Your body keeps score.
+**You're losing your health.** The constant firefighting. The Sunday scaries. The endless to-do list that never gets shorter. That tightness in your chest? Your body keeps score.
 
-**You're losing your business's potential.** A team that isn't aligned is a team that doesn't execute. Every day you spend putting out fires is a day you're not building something sustainable.
+**You're losing your business's potential.** A team that isn't aligned is a team that doesn't execute. Every day you spend putting out fires is a day you're not building something sustainable. You're surviving instead of scaling.
 
-**You're losing your family.** Not just time — presence. When you're physically home but mentally at work, they feel it. They know.
+**You're losing your family.** Not just time — presence. When you're physically home but mentally at still replying to Slack messages, they feel it. They know.
+
+**But here's what I've learned after working with hundreds of leaders...**
 
 ---
 
@@ -72,7 +103,9 @@ Growing pains aren't signs you're doing something wrong. They're signs you're do
 
 Leadership isn't a sacrifice. It's not choosing between doing the work and leading the team. It's a completely different game with different rules. And like any game, you can learn it.
 
-The leaders who scale aren't the ones who work harder. They're the ones who design their leadership the same way they designed their business — with intention, systems, and continuous improvement.
+The leaders who scale aren't the ones who work harder. They're the ones who **design their leadership** the same way they designed their business — with intention, systems, and continuous improvement.
+
+**And that design starts with a simple framework...**
 
 ---
 
@@ -90,18 +123,14 @@ This isn't about working harder. It's about designing a leadership practice that
 ### CTA
 Here's what I want you to do next...
 
-If this resonates — if you've been feeling the weight of growth, the frustration of being everywhere but effective — then let's talk about it. Head to brendanrogers.com/contact and share what's been on your mind. Or if you're ready for more, check out the Leader By Design programs where we help build self-managing, high-performing teams.
+If this resonates — if you've been feeling the weight of growth — head to brendanrogers.com/contact and share what's been on your mind. Or check out the Leader By Design programs to build self-managing, high-performing teams.
 
-And if this episode made you think, I'd love to hear from you. Reply to this episode. Share your biggest takeaway. Let's keep the conversation going.
+Reply to this episode. Share your biggest takeaway. Let's keep the conversation going.
 
 ---
 
 ### CLOSE
-Thanks for listening to the High-Impact Leader podcast. I'm Brendan Rogers, and I'll see you in the next episode.
-
-Remember: Leadership isn't about having all the answers. It's about creating the conditions where the right answers can emerge.
-
-Until next time — lead on.
+**And remember: Design your leadership. Build your team. Lead with impact.**
 
 ---
 
