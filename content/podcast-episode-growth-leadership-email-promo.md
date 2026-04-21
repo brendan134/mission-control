@@ -20,17 +20,15 @@ Why does leadership get harder the more successful you become?
 
 Your business grew. Your leadership didn't. Here is why that matters.
 
-Hey,
+Hey (insert first name),
 
-Quick question: have you ever noticed that the more successful your business becomes, the harder leadership feels?
+Quick question - have you ever noticed that the more successful your business becomes, the harder leadership feels?
 
 More decisions. More people needing you. More overwhelm.
 
 It is not just you. It is a pattern.
 
-Here is what I see all the time with business owners:
-
-You started your business because you were brilliant at something. Really good at what you do.
+Here is what I see all the time with business owners. You started your business because you were brilliant at something. Really good at what you do.
 
 And that business grew. Maybe faster than you expected.
 
@@ -44,12 +42,9 @@ You built this business for freedom.
 
 Instead, you have never been more trapped.
 
-That is exactly what we unpack in the latest episode of The High-Impact Leader Podcast:
-
-"When Growth Outpaces Leadership Design"
+That is exactly what we unpack in the latest episode of The High-Impact Leader Podcast: "When Growth Outpaces Leadership Design"
 
 In this episode, you will discover:
-
 - Why growth actually makes leadership harder (the hidden pattern silently destroying your team's performance)
 - The three reasons leaders stay stuck in overwhelm
 - What high-impact leaders do differently to design clarity, build ownership, and install sustainable rhythm
