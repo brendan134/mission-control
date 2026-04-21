@@ -51,7 +51,7 @@ In this episode, you will discover:
 
 This episode is for leaders ready to stop carrying everything themselves and start designing a leadership system that scales.
 
-Listen Now
+[Link to the episode]
 
 If this resonates, share it with another leader who is feeling the weight of growth.
 
@@ -69,7 +69,7 @@ Design your leadership. Build your team. Lead with impact.
 | **Reply-To** | brendan@leaderbydesign.au |
 | **Preheader** | 50-80 characters |
 | **Word Count** | 250 words |
-| **CTA Button** | One primary (Listen Now) |
+| **CTA Button** | One primary (Link to the episode) |
 | **Link** | Podcast episode link |
 | **Footer** | Unsubscribe, physical address (required) |
 
