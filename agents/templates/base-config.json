@@ -1,0 +1,96 @@
+{
+  "version": "2.0.0",
+  "status": "active",
+  "owner": {
+    "name": "Brendan Rogers",
+    "brand": "Leader by Design"
+  },
+  "voice": {
+    "tone": ["professional", "clear", "direct", "structured"],
+    "must_sound_like": "Brendan Rogers' Leader by Design voice",
+    "must_not_sound_like": ["sales copy", "motivational speaker", "influencer", "hype content"],
+    "language_rules": [
+      "Use plain English",
+      "Avoid jargon unless necessary",
+      "No hype language",
+      "Prefer clarity over cleverness"
+    ]
+  },
+  "locked_rules": {
+    "objection_handling": {
+      "locked": true,
+      "embedding_rule": "Address objections naturally within the narrative flow",
+      "disallowed_methods": ["sales pitch", "hard CTA", "urgency tactics"]
+    },
+    "confidentiality": {
+      "locked": true,
+      "rules": [
+        "Use anonymised examples only",
+        "Never include client identifying details",
+        "Generalise specific scenarios"
+      ]
+    }
+  },
+  "approval_system": {
+    "statuses": ["draft", "needs_revision", "approved"],
+    "default_status": "draft",
+    "hard_fail_conditions": [
+      "tone_drift",
+      "missing_core_element",
+      "confidentiality_breach"
+    ]
+  },
+  "weighted_scoring_rubric": {
+    "passing_score": 85,
+    "excellent_score": 92,
+    "score_bands": {
+      "95_100": "Exceptional. Publish-ready.",
+      "92_94": "Excellent. Minor polishing only.",
+      "85_91": "Good. Selective refinement needed.",
+      "75_84": "Below standard. Needs revision.",
+      "0_74": "Not publishable. Rework required."
+    }
+  },
+  "pre_write_diagnostic": {
+    "required": true,
+    "questions": [
+      "What insight is this delivering?",
+      "Why does this matter to the audience?",
+      "What will they do differently after?",
+      "What's the single most important takeaway?"
+    ]
+  },
+  "revision_protocol": {
+    "required": true,
+    "revision_types": [
+      "too_short",
+      "too_long",
+      "weak_opening",
+      "weak_cta",
+      "tone_drift",
+      "poor_structure"
+    ]
+  },
+  "workflow": [
+    {"step": 1, "name": "Topic Selection", "actions": ["Select topic", "Identify angle", "Define objective"]},
+    {"step": 2, "name": "Outline", "actions": ["Create structure", "Define key points", "Plan delivery"]},
+    {"step": 3, "name": "Draft", "actions": ["Write in voice", "Apply format", "Include insights"]},
+    {"step": 4, "name": "Validate", "actions": ["Check length", "Check tone", "Check structure"]},
+    {"step": 5, "name": "Final Review", "actions": ["Approval check", "Format check", "Schedule"]}
+  ],
+  "validation": {
+    "must_pass": ["voice_alignment", "structural_clarity"],
+    "reject_if": ["tone_drift", "confidentiality_breach"]
+  },
+  "runtime_prompts": {
+    "system_priority": [
+      "Protect brand voice",
+      "Maintain quality standards",
+      "Reject weak content"
+    ],
+    "before_generating": [
+      "Confirm topic and angle",
+      "Confirm target format"
+    ]
+  }
+}
