@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { Search, Folder, X, FileText } from 'lucide-react';
+import { Search, Folder, X, FileText, ExternalLink } from 'lucide-react';
 
 interface Doc {
   title: string;
@@ -68,6 +68,14 @@ export default function DocumentsPage() {
       <div style={{ marginBottom: '24px' }}>
         <h1 style={{ fontSize: '28px', fontWeight: 600, margin: 0 }}>Documents</h1>
         <p style={{ color: 'var(--text-muted)', margin: '4px 0 0' }}>{docs.length} documents in your library</p>
+      </div>
+
+      <div style={{ marginBottom: '24px', padding: '16px', background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(16, 185, 129, 0.05))', borderRadius: '12px', border: '1px solid rgba(16, 185, 129, 0.3)' }}>
+        <div style={{ fontSize: '12px', fontWeight: 600, color: '#10b981', marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '1px' }}>Workflow Checklists</div>
+        <p style={{ fontSize: '14px', color: 'var(--text-secondary)', margin: '0 0 12px' }}>Episode delivery checklists for tracking team tasks and approvals</p>
+        <a href="https://github.com/brendan134/mission-control-internal/tree/master/content/checklists" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '8px 16px', background: '#10b981', color: '#fff', borderRadius: '6px', textDecoration: 'none', fontSize: '13px', fontWeight: 500 }}>
+          View Checklists <ExternalLink size={14} />
+        </a>
       </div>
 
       <div style={{ display: 'flex', gap: '12px', marginBottom: '24px' }}>
