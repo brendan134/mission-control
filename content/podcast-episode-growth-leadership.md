@@ -76,11 +76,39 @@ But here's what I've learned after working with hundreds of leaders.
 ### REFRAME
 What if I told you this isn't a problem to solve — it's a transition to make? Growing pains aren't signs you're doing something wrong. They're signs you're doing something right. Your business is telling you it's ready to level up. The question is: are you ready to level up with it?
 
-Leadership isn't a sacrifice. It's not choosing between doing the work and leading the team. It's a completely different game with different rules. And like any game, you can learn it.
+---
 
-The leaders who scale aren't the ones who work harder. They're the ones who design their leadership the same way they designed their business — with intention, systems, and continuous improvement.
+### EXPLICIT EPISODE CTA
+If you're recognising this leadership pattern in your business right now, here's what I want you to understand:
 
-And that design starts with a simple framework.
+This isn't a team problem.
+It's not a motivation problem.
+And it's not a capability problem.
+
+It's a leadership design problem.
+
+And leadership design problems have leadership design solutions.
+
+Because when leadership is designed for a smaller business but operating at a higher level…
+ ownership and accountability don't happen.
+ Team engagement drops.
+ And team performance becomes inconsistent.
+
+If you want help unpacking this properly —
+ and reducing your leadership load…
+ so you can build self-managing teams with stronger accountability, higher team engagement, and more consistent team performance…
+
+This is exactly what we work through inside the High-Impact Leader Club.
+
+It's where business owners and leaders build scalable leadership through structure — not pressure.
+
+Inside, we unpack leadership patterns,
+ create leadership clarity,
+ improve decision making,
+ and install a leadership rhythm that supports real ownership across your team.
+
+If that's the shift you're ready to make,
+go to leaderbydesign.au/club and take a look.
 
 ---
 
@@ -91,10 +119,7 @@ This isn't about working harder. It's about designing a leadership practice that
 
 ---
 
-### CTA
-Here's what I want you to do next. If this resonates — if you've been feeling the weight of growth — head to brendanrogers.com/contact and share what's been on your mind. Or check out the Leader By Design programs to build self-managing, high-performing teams.
-
-Reply to this episode. Share your biggest takeaway. Let's keep the conversation going.
+If this resonated, share it with another business leader who's feeling the weight of growth but can't figure out why leadership feels harder the more successful they become.
 
 ---
 
