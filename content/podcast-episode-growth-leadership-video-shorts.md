@@ -1,4 +1,4 @@
-# Video Shorts: When Growth Outpaces Leadership Design
+# Video Shorts: When Growth Outpaces Leadership Design | Scalable Performance Secrets
 
 **Episode:** 15
 **Platform:** YouTube Shorts (primary) - with Reels/Shorts adaptations
@@ -256,4 +256,4 @@ entrepreneur, business struggle, leadership life, work life balance, business fr
 - **Ruby** - Podcast producer, concept
 - **Lucas** - Video script writer + production notes
 - **YouTube SEO** - Optimized for searchability
-- **Episode:** 15 "When Growth Outpaces Leadership Design"
+- **Episode:** 15 "When Growth Outpaces Leadership Design | Scalable Performance Secrets"

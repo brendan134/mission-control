@@ -1,4 +1,4 @@
-# Episode Description: When Growth Outpaces Leadership Design
+# Episode Description: When Growth Outpaces Leadership Design | Scalable Performance Secrets
 
 **Episode:** 15
 **Podcast:** The High-Impact Leader Podcast

@@ -1,4 +1,4 @@
-# Email Promotion: When Growth Outpaces Leadership Design
+# Email Promotion: When Growth Outpaces Leadership Design | Scalable Performance Secrets
 
 **Episode:** 15
 **Purpose:** Convert email readers to podcast listeners
@@ -42,7 +42,7 @@ You built this business for freedom.
 
 Instead, you have never been more trapped.
 
-That is exactly what we unpack in the latest episode of The High-Impact Leader Podcast: "When Growth Outpaces Leadership Design"
+That is exactly what we unpack in the latest episode of The High-Impact Leader Podcast: "When Growth Outpaces Leadership Design | Scalable Performance Secrets"
 
 In this episode, you will discover:
 - Why growth actually makes leadership harder (the hidden pattern silently destroying your team's performance)
@@ -95,4 +95,4 @@ Design your leadership. Build your team. Lead with impact.
 ## Credits
 
 - **Zoe** - Email sequence strategist (template)
-- **Episode:** 15 "When Growth Outpaces Leadership Design"
+- **Episode:** 15 "When Growth Outpaces Leadership Design | Scalable Performance Secrets"

@@ -1,4 +1,4 @@
-# Social Media Posts: When Growth Outpaces Leadership Design
+# Social Media Posts: When Growth Outpaces Leadership Design | Scalable Performance Secrets
 
 **Episode:** 15
 **Platforms:** LinkedIn (primary) + Instagram + Facebook

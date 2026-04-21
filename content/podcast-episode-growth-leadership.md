@@ -1,7 +1,7 @@
-# Podcast Episode: When Growth Outpaces Leadership Design
+# Podcast Episode: When Growth Outpaces Leadership Design | Scalable Performance Secrets
 
 **Episode:** 15
-**Topic:** When Growth Outpaces Leadership Design
+**Topic:** When Growth Outpaces Leadership Design | Scalable Performance Secrets
 **Duration:** 10-13 minutes
 **Format:** Leadership Pattern
 **Date:** April 2026
