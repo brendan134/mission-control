@@ -5,7 +5,7 @@
 
 ---
 
-## POST 1 — THOUGHT REVERSAL
+## POST 1 - THOUGHT REVERSAL
 
 ### LinkedIn
 
@@ -13,7 +13,7 @@
 Your business grew. Your leadership didn't.
 
 **Subtext:**
-That's not a failure — it's a signal.
+That's not a failure - it's a signal.
 
 **Caption:**
 Most business owners assume more growth = better leadership. More revenue, more team members, more success.
@@ -72,19 +72,22 @@ But after working with hundreds of leaders, I've learned this: growth doesn't au
 
 Here's the truth: your business grew. Your leadership didn't.
 
-That's not a failure — it's a signal. It's telling you that your leadership needs to level up too.
+That's not a failure - it's a signal. It's telling you that your leadership needs to level up too.
 
 This isn't about working harder. It's about redesigning how you lead so it matches the ambition of your business.
 
 High-impact leaders don't carry more. They design better.
 
-🎧 Listen to the full episode: [link]
+Listen to the full episode: link in comments below 👇
 
+---
+
+**Hashtags:**
 #LeadershipDesign #BusinessGrowth #ScalingLeadership #SelfManagingTeams #HighImpactLeadership
 
 ---
 
-## POST 2 — EDUCATIONAL (WHAT TO DO)
+## POST 2 - EDUCATIONAL (WHAT TO DO)
 
 ### LinkedIn
 
@@ -100,7 +103,7 @@ They design clarity. They don't wait for clarity to emerge from chaos. They inte
 
 They build ownership. They don't carry the weight alone. They give their team permission to own decisions, to fail, to learn, and to grow.
 
-They install rhythm. High-impact leaders don't run on adrenaline. They build sustainable rhythms — daily standups, weekly reviews, monthly planning — so the team moves together.
+They install rhythm. High-impact leaders don't run on adrenaline. They build sustainable rhythms - daily standups, weekly reviews, monthly planning - so the team moves together.
 
 They lead through design, not pressure. They don't push harder. They redesign clarity, ownership, and rhythm so performance doesn't rely on them being in the middle of everything.
 
@@ -121,10 +124,10 @@ Listen to the full episode: link in comments below 👇
 4 things high-impact leaders do differently
 
 **Caption:**
-1. Design clarity — define decisions, not just tasks
-2. Build ownership — invite responsibility, don't protect from it
-3. Install rhythm — sustainable cadence, not adrenaline
-4. Lead through design — not pressure
+1. Design clarity - define decisions, not just tasks
+2. Build ownership - invite responsibility, don't protect from it
+3. Install rhythm - sustainable cadence, not adrenaline
+4. Lead through design - not pressure
 
 From carrying everything yourself → to designing a system that runs without you.
 
@@ -143,27 +146,30 @@ From carrying everything yourself → to designing a system that runs without yo
 4 things high-impact leaders do differently
 
 **Caption:**
-If your business has outgrown your leadership, you haven't failed — you've outgrown your system.
+If your business has outgrown your leadership, you haven't failed - you've outgrown your system.
 
 Here's what high-impact leaders do differently:
 
-1. Design clarity — define what's important, what's not, and who decides. No ambiguity.
+1. Design clarity - define what's important, what's not, and who decides. No ambiguity.
 
-2. Build ownership — give your team permission to own decisions, fail, and learn. Invite responsibility.
+2. Build ownership - give your team permission to own decisions, fail, and learn. Invite responsibility.
 
-3. Install rhythm — build sustainable cadences so the team moves together.
+3. Install rhythm - build sustainable cadences so the team moves together.
 
-4. Lead through design, not pressure — redesign your systems so performance doesn't depend on you.
+4. Lead through design, not pressure - redesign your systems so performance doesn't depend on you.
 
 The shift: from doing the work yourself to designing the leadership system that runs without you.
 
-🎧 Full episode: [link]
+Listen to the full episode: link in comments below 👇
 
+---
+
+**Hashtags:**
 #LeadershipDesign #ScalableLeadership #LeadershipClarity #OwnershipAndAccountability #LeadershipRhythm
 
 ---
 
-## POST 3 — CONNECTION
+## POST 3 - CONNECTION
 
 ### LinkedIn
 
@@ -178,7 +184,7 @@ You're not alone. And it's not your fault.
 **Caption:**
 It goes like this:
 
-You started your business because you were good at something. Really good. And that business grew. Maybe faster than you expected. Revenue came in. You hired your first team member. Then another. Suddenly you're not just doing the work — you're responsible for people.
+You started your business because you were good at something. Really good. And that business grew. Maybe faster than you expected. Revenue came in. You hired your first team member. Then another. Suddenly you're not just doing the work - you're responsible for people.
 
 Here's the thing about growth: it doesn't wait until you're ready.
 
@@ -240,9 +246,9 @@ You built your business for freedom. Now you're working more than ever.
 **Caption:**
 It goes like this:
 
-You started your business because you were brilliant at something. And that business grew — maybe faster than you expected.
+You started your business because you were brilliant at something. And that business grew - maybe faster than you expected.
 
-Revenue came in. You hired team members. Suddenly you're not doing the work — you're responsible for people.
+Revenue came in. You hired team members. Suddenly you're not doing the work - you're responsible for people.
 
 Here's the thing about growth: it doesn't wait until you're ready.
 
@@ -256,8 +262,11 @@ That's the gap. That's where the friction lives.
 
 But this isn't about working harder. It's about redesigning how you lead so it matches your business's ambition.
 
-🎧 Listen to the full episode: [link]
+Listen to the full episode: link in comments below 👇
 
+---
+
+**Hashtags:**
 #LeadershipPatterns #BusinessLeadership #LeadershipLoad #SelfManagingTeams #HighImpactLeadership
 
 ---
