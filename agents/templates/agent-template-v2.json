@@ -1,0 +1,451 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaw.local/schemas/agent-template-v2.json",
+  "title": "OpenClaw Content Agent Template v2.0",
+  "description": "Reusable template for high-quality content production agents. Apply this framework to newsletters, LinkedIn, videos, emails, courses, and other content formats.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "agent_id",
+    "name",
+    "version",
+    "content_type",
+    "agent_profile",
+    "voice",
+    "locked_rules",
+    "approval_system",
+    "weighted_scoring_rubric",
+    "validation"
+  ],
+  "properties": {
+    "agent_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "examples": ["newsletter-producer", "linkedin-writer", "video-producer"]
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable agent name"
+    },
+    "version": {
+      "type": "string",
+      "const": "2.0.0"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "paused", "archived"]
+    },
+    "owner": {
+      "type": "object",
+      "properties": {
+        "name": {"type": "string"},
+        "brand": {"type": "string"}
+      }
+    },
+    "content_type": {
+      "type": "string",
+      "enum": ["podcast", "newsletter", "linkedin", "video", "email", "course", "blog", "social", "other"]
+    },
+    "agent_profile": {
+      "type": "object",
+      "required": ["role", "mission", "operating_mode"],
+      "properties": {
+        "role": {"type": "string"},
+        "mission": {"type": "string"},
+        "operating_mode": {
+          "type": "string",
+          "enum": ["structure_first", "creative_first", "hybrid"]
+        },
+        "creative_rule": {"type": "string"},
+        "core_priorities": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "voice": {
+      "type": "object",
+      "required": ["tone", "must_sound_like", "must_not_sound_like"],
+      "properties": {
+        "tone": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "must_sound_like": {"type": "string"},
+        "must_not_sound_like": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "language_rules": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "formats": {
+      "type": "array",
+      "description": "Content formats specific to this agent type",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "locked": {"type": "boolean"},
+          "purpose": {"type": "string"},
+          "subtypes": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "locked_rules": {
+      "type": "object",
+      "description": "Content-specific constraints that cannot be changed",
+      "properties": {
+        "length": {
+          "type": "object",
+          "properties": {
+            "min": {"type": "number"},
+            "max": {"type": "number"},
+            "unit": {"type": "string"},
+            "locked": {"type": "boolean"}
+          }
+        },
+        "structure_template": {
+          "type": "object",
+          "properties": {
+            "locked": {"type": "boolean"},
+            "sections": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "objection_handling": {
+          "type": "object",
+          "properties": {
+            "locked": {"type": "boolean"},
+            "primary_required": {"type": "boolean"},
+            "secondary_required": {"type": "boolean"},
+            "embedding_rule": {"type": "string"},
+            "disallowed_methods": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "confidentiality": {
+          "type": "object",
+          "properties": {
+            "locked": {"type": "boolean"},
+            "rules": {"type": "array", "items": {"type": "string"}}
+          }
+        }
+      }
+    },
+    "approval_system": {
+      "type": "object",
+      "required": ["statuses", "default_status", "hard_fail_conditions"],
+      "properties": {
+        "statuses": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "default_status": {"type": "string"},
+        "approval_rule": {"type": "string"},
+        "hard_fail_conditions": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "decision_logic": {
+          "type": "object",
+          "additionalProperties": {"type": "string"}
+        }
+      }
+    },
+    "weighted_scoring_rubric": {
+      "type": "object",
+      "required": ["passing_score", "excellent_score", "weights", "score_bands"],
+      "properties": {
+        "passing_score": {"type": "number"},
+        "excellent_score": {"type": "number"},
+        "weights": {
+          "type": "object",
+          "additionalProperties": {"type": "number"}
+        },
+        "score_bands": {
+          "type": "object",
+          "additionalProperties": {"type": "string"}
+        },
+        "scoring_rules": {
+          "type": "object",
+          "additionalProperties": {"type": "string"}
+        }
+      }
+    },
+    "metadata_protocol": {
+      "type": "object",
+      "description": "Required fields for each content piece",
+      "properties": {
+        "required": {"type": "boolean"},
+        "required_fields": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "rules": {
+          "type": "object",
+          "additionalProperties": {"type": "string"}
+        }
+      }
+    },
+    "quality_benchmarks": {
+      "type": "object",
+      "properties": {
+        "opening_standard": {
+          "type": "object",
+          "properties": {
+            "required_elements": {"type": "array", "items": {"type": "string"}},
+            "must_not_do": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "closing_standard": {
+          "type": "object",
+          "properties": {
+            "required_elements": {"type": "array", "items": {"type": "string"}},
+            "must_not_do": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "strong_examples": {
+          "type": "object",
+          "additionalProperties": {"type": "string"}
+        },
+        "weak_markers": {
+          "type": "object",
+          "additionalProperties": {"type": "string"}
+        }
+      }
+    },
+    "pre_write_diagnostic": {
+      "type": "object",
+      "required": ["required", "questions"],
+      "properties": {
+        "required": {"type": "boolean"},
+        "questions": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "rule": {"type": "string"}
+      }
+    },
+    "revision_protocol": {
+      "type": "object",
+      "required": ["required", "revision_types", "rules"],
+      "properties": {
+        "required": {"type": "boolean"},
+        "revision_types": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "rules": {
+          "type": "object",
+          "additionalProperties": {"type": "string"}
+        }
+      }
+    },
+    "strategic_validation": {
+      "type": "object",
+      "required": ["required", "questions"],
+      "properties": {
+        "required": {"type": "boolean"},
+        "questions": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "rule": {"type": "string"}
+      }
+    },
+    "release_sequencing": {
+      "type": "object",
+      "description": "Rules for scheduling and sequencing content releases",
+      "properties": {
+        "required": {"type": "boolean"},
+        "rules": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "sequencing_fields": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "anti_repetition": {
+      "type": "object",
+      "description": "Track and avoid repetitive patterns",
+      "properties": {
+        "required": {"type": "boolean"},
+        "track": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "rules": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "title_generation": {
+      "type": "object",
+      "description": "Rules for generating titles/headlines",
+      "properties": {
+        "required": {"type": "boolean"},
+        "rules": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "banned_patterns": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "preferred_characteristics": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "description_template": {
+      "type": "object",
+      "description": "Canonical template for descriptions/summaries",
+      "properties": {
+        "required": {"type": "boolean"},
+        "structure": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "rules": {
+          "type": "object",
+          "additionalProperties": {"type": "string"}
+        },
+        "length_guidance": {
+          "type": "object",
+          "properties": {
+            "min_words": {"type": "number"},
+            "max_words": {"type": "number"}
+          }
+        }
+      }
+    },
+    "confidentiality_filter": {
+      "type": "object",
+      "properties": {
+        "required": {"type": "boolean"},
+        "checks": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "rule": {"type": "string"}
+      }
+    },
+    "tone_protection": {
+      "type": "object",
+      "description": "Phrases to avoid or downgrade",
+      "properties": {
+        "downgrade_or_block_phrases": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "rule": {"type": "string"}
+      }
+    },
+    "human_review": {
+      "type": "object",
+      "description": "Manual review requirements",
+      "properties": {
+        "required_for_first_n": {"type": "number"},
+        "checklist": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "rule": {"type": "string"}
+      }
+    },
+    "seo_system": {
+      "type": "object",
+      "description": "SEO requirements (for discoverable content)",
+      "properties": {
+        "priority_level": {
+          "type": "string",
+          "enum": ["critical", "high", "medium", "low"]
+        },
+        "principle": {"type": "string"},
+        "primary_keywords": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "secondary_keywords": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "workflow": {
+      "type": "array",
+      "description": "Production workflow steps",
+      "items": {
+        "type": "object",
+        "properties": {
+          "step": {"type": "number"},
+          "name": {"type": "string"},
+          "actions": {
+            "type": "array",
+            "items": {"type": "string"}
+          }
+        }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "required": ["must_pass", "reject_if"],
+      "properties": {
+        "must_pass": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "reject_if": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "content_inputs": {
+      "type": "object",
+      "description": "Allowed input sources and rules",
+      "properties": {
+        "transcript_use": {
+          "type": "object",
+          "properties": {
+            "enabled": {"type": "boolean"},
+            "mode": {"type": "string"},
+            "rules": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "common_patterns": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "output_defaults": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "runtime_prompts": {
+      "type": "object",
+      "properties": {
+        "system_priority": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "before_generating": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "before_approving": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    }
+  }
+}
