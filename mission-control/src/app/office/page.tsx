@@ -27,6 +27,7 @@ const agents: Agent[] = [
   { id: 'newsletter', name: 'Mia', role: 'Newsletter Writer', tier: 'C', status: 'idle', currentTask: 'Waiting for newsletter request', avatar: '📰', location: 'Content Studio' },
   { id: 'linkedin', name: 'Ethan', role: 'LinkedIn Content Strategist', tier: 'C', status: 'idle', currentTask: 'Waiting for post request', avatar: '💼', location: 'Content Studio' },
   { id: 'video', name: 'Lucas', role: 'Video Script Writer', tier: 'C', status: 'idle', currentTask: 'Waiting for video request', avatar: '🎬', location: 'Content Studio' },
+  { id: 'youtube', name: 'Jay', role: 'YouTube Specialist', tier: 'C', status: 'idle', currentTask: 'Waiting for YouTube request', avatar: '📺', location: 'Content Studio' },
   { id: 'email-sequence', name: 'Zoe', role: 'Email Sequence Strategist', tier: 'C', status: 'idle', currentTask: 'Waiting for sequence request', avatar: '📧', location: 'Copy Desk' },
   { id: 'community', name: 'Lawrie', role: 'Community Manager', tier: 'C', status: 'active', currentTask: 'Engaging with community members', avatar: '💬', location: 'Community Hub' },
   { id: 'research', name: 'Tim', role: 'Research Analyst', tier: 'C', status: 'idle', currentTask: 'Monitoring for new research', avatar: '🔍', location: 'Research Lab' },
