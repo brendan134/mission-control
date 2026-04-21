@@ -240,27 +240,6 @@ entrepreneur, business struggle, leadership life, work life balance, business fr
 
 ---
 
-## YouTube Description Template
-
-For each video, use this structure:
-
-```
-[Hook sentence from video]
-
-In this video, I'm breaking down [topic].
-
-If you're a business owner or leader feeling [pain point], this one's for you.
-
-Chapters:
-[Add timestamps]
-
-Listen to the full podcast episode: [link]
-
-#hashtags #hashtags #hashtags
-```
-
----
-
 ## Standalone Content Rules
 
 | Rule | Details |
