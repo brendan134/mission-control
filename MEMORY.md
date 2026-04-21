@@ -24,6 +24,12 @@
   - enable scalable performance
 - Business target: $1–2M revenue with strong margins
 
+### System Review Decisions (Apr 2026)
+- **Database**: Plan for future, no rush (Q3+)
+- **Auto-routing**: Yes - Niles remains CAO, routing should learn best-fit agent assignment
+- **Testing**: Start with 50% coverage on critical API paths
+- **Timeline**: Spread across Q2-Q3, may extend to Q4
+
 ### System Status (Apr 2026)
 - Mission Control: Stable (PM2 managed for auto-recovery)
 - My Week: Working with real task/project data
@@ -107,6 +113,13 @@
 - **Tier B:** Kaizen (Head of Improvement), Casey, Marcus, Sophie, Brandon, Jerry
 - **Tier C:** Kathy, Ruby, Lawrie, Tim
 - Human team: Kriz, Dom, Lazelle, Phoenix, Eunice, Mervyn
+
+### Ruby Podcast Producer v2.0 Standards (Apr 2026)
+- Created world-class podcast producer for High-Impact Leader Podcast
+- Key features: Approval system (draft/needs_revision/approved), weighted scoring rubric (85 pass, 92 excellent), episode metadata protocol (16 fields), pre-write diagnostic (9 questions), revision protocol (12 types), strategic validation
+- Tone protection: 11 phrases blocked ("just", "game changer", "crush it", etc.)
+- Naming convention locked: Always use "Ruby" for podcast producer
+- Episode 15 "When Growth Outpaces Leadership Design" approved with ~90/100 score
 
 ### Niles Performance Reviews
 
