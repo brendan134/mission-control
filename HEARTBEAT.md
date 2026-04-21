@@ -26,6 +26,11 @@
 - Verify no typo directories (ISSION*, temp_*, workspace-*)
 - Ensure pre-commit hook is active: `cat .git-hooks/pre-commit`
 - Check disk space: `df -h /data`
+- **FULL REPO SYNC:**
+  - [ ] workspace → origin (public): `git push origin master`
+  - [ ] workspace → internal (private): `git push internal master`
+  - [ ] openclaw config: `cd /data/.openclaw && git push origin master`
+  - Verify all 3 repos are at same commit
 
 ## Monthly Agent Review (1st Friday)
 - Run agent-evaluator skill to review past month's outputs
