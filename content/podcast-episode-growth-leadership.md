@@ -76,6 +76,20 @@ But here's what I've learned after working with hundreds of leaders.
 ### WHAT HIGH-IMPACT LEADERS DO DIFFERENTLY
 What if I told you this isn't a problem to solve — it's a transition to make? Growing pains aren't signs you're doing something wrong. They're signs you're doing something right. Your business is telling you it's ready to level up. The question is: are you ready to level up with it?
 
+Here's what high-impact leaders do differently.
+
+**They design clarity.** Rather than waiting for clarity to emerge from chaos, they intentionally define what's important, what's not, and who decides what. They create crystal-clear decision rights so their team can move without waiting.
+
+**They build ownership.** They don't carry the weight alone. They install ownership at every level — giving their team permission to own decisions, to fail, to learn, and to grow. They're not protecting their team from responsibility. They're inviting it.
+
+**They install rhythm.** High-impact leaders don't run on adrenaline. They build sustainable rhythms — daily standups, weekly reviews, monthly planning — so the team moves together, not in chaos.
+
+**They lead through design, not pressure.** They don't push harder. They redesign clarity, ownership, and rhythm so that performance doesn't rely on them being in the middle of everything.
+
+That's the shift. From doing the work yourself… to designing the leadership system that allows your team to do the work without you needing to be everywhere.
+
+That's what high-impact leaders do differently.
+
 ---
 
 ### REFLECTION MOMENT
@@ -131,8 +145,6 @@ The gap between how your business operates and how you lead is where the frictio
 But here's the thing — this isn't about working harder or pushing your team harder. It's about redesigning how you lead so that your leadership matches the ambition of your business.
 
 High-impact leaders don't carry more. They design better.
-
-Design your leadership. Build your team. Lead with impact.
 
 ---
 
