@@ -29,6 +29,7 @@ const navItems = [
   { href: '/automations', label: 'Cron Calendar', icon: Clock },
   { href: '/memory', label: 'Memory', icon: Brain },
   { href: '/documents', label: 'Documents', icon: FileText },
+  { href: '/checklists', label: 'Checklists', icon: CheckSquare },
 ];
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
