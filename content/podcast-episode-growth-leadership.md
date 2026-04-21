@@ -97,6 +97,8 @@ So I want you to ask yourself this. What if the bottleneck isn't your team? What
 
 This isn't about working harder. It's about designing a leadership practice that matches the ambition of your business.
 
+Now, if this resonates with you, here's what I want to offer...
+
 ---
 
 ### EXPLICIT EPISODE CTA
