@@ -198,7 +198,7 @@ const agentProfiles: Record<string, {
     role: 'Community Manager',
     whatItOwns: ['Community engagement', 'Member support', 'Event coordination'],
     whatItDoesntOwn: ['Content creation (Sophie)', 'Technical ops (Casey)', 'Strategic direction (Marcus)'],
-    handoffTo: 'Content for posts, Niles for escalations',
+    handoffTo: 'Content for posts, Jerry for escalations',
     successMeasures: ['Members engage', 'Value delivered (members feel supported)', 'Cadence maintained'],
     qualityBar: { draft: 'Post drafted', ready: 'Engagement-focused, scheduled', refined: 'Interaction driven, feedback captured' },
     inputStandard: 'Community name (Local Link / Growth Club), post purpose, key message, deadline',

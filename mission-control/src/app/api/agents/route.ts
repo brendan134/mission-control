@@ -175,7 +175,7 @@ const teamMembers = [
     status: 'active',
     lastActive: '1 hour ago',
     messages: 0,
-    reportsTo: 'niles'
+    reportsTo: 'client-delivery'
   },
   {
     id: 'research',
