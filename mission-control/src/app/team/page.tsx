@@ -353,7 +353,7 @@ export default function TeamPage() {
               <div onClick={() => setExpandedId(expandedId === member.id ? null : member.id)} style={{ padding: '12px 16px', background: 'var(--background-secondary)', borderRadius: '8px', border: '2px solid #10b981', cursor: 'pointer', minWidth: '140px' }}>
                 <div style={{ fontWeight: 500, fontSize: '13px', color: '#10b981' }}>{member.name}</div>
                 <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>{member.role}</div>
-                <div style={{ fontSize: '9px', color: 'var(--text-muted)', marginTop: '2px' }}>Reports to: {member.reportsTo === 'content' ? 'Sophie' : member.reportsTo === 'messaging' ? 'Brandon' : member.reportsTo === 'strategy' ? 'Marcus' : member.reportsTo}</div>
+                <div style={{ fontSize: '9px', color: 'var(--text-muted)', marginTop: '2px' }}>Reports to: {member.reportsTo === 'content' ? 'Sophie' : member.reportsTo === 'messaging' ? 'Brandon' : member.reportsTo === 'strategy' ? 'Marcus' : member.reportsTo === 'client-delivery' ? 'Jerry' : member.reportsTo === 'niles' ? 'Niles' : member.reportsTo}</div>
                 <button onClick={(e) => { e.stopPropagation(); setProfileId(member.id); }} style={{ marginTop: '6px', padding: '3px 8px', fontSize: '9px', background: '#10b981', color: '#fff', border: 'none', borderRadius: '3px', cursor: 'pointer' }}>Profile</button>
               </div>
             </div>
@@ -374,7 +374,7 @@ export default function TeamPage() {
               <div style={{ fontWeight: 600, fontSize: '14px', marginBottom: '4px' }}>{member.name}</div>
               <div style={{ fontSize: '12px', color: 'var(--accent)', marginBottom: '8px' }}>{member.role}</div>
               <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '4px' }}>📍 {member.location}</div>
-              <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '8px' }}>Reports to: {member.reportsTo}</div>
+              <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '8px' }}>Reports to: {member.reportsTo === 'content' ? 'Sophie' : member.reportsTo === 'messaging' ? 'Brandon' : member.reportsTo === 'strategy' ? 'Marcus' : member.reportsTo === 'client-delivery' ? 'Jerry' : member.reportsTo === 'niles' ? 'Niles' : member.reportsTo === 'brendan' ? 'Brendan' : member.reportsTo}</div>
               <div style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>
                 {member.responsibilities.map((r, i) => (
                   <div key={i} style={{ marginBottom: '2px' }}>• {r}</div>
