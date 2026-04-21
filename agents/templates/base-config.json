@@ -1,6 +1,13 @@
 {
   "version": "2.0.0",
   "status": "active",
+  "workload": {
+    "workload_capacity": 5,
+    "current_queue": 0,
+    "specialization_tags": [],
+    "auto_claim_enabled": false,
+    "max_concurrent_tasks": 3
+  },
   "owner": {
     "name": "Brendan Rogers",
     "brand": "Leader by Design"
