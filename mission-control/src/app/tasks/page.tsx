@@ -90,6 +90,33 @@ export default function Tasks() {
     return true;
   });
 
+  // Sort: stale tasks first, then by priority, then by updated_at
+  const sortedTasks = [...filteredTasks].sort((a, b) => {
+    const getStaleScore = (t: Task) => {
+      const now = Date.now();
+      const updatedAt = new Date(t.updated_at).getTime();
+      const days = Math.floor((now - updatedAt) / (1000 * 60 * 60 * 24));
+      const isDone = t.stage === Stage.DONE || t.status === TaskStatus.COMPLETED;
+      if (isDone) return 0;
+      if (days >= 3) return 4; // critical
+      if (days >= 2) return 3; // warning
+      if (days >= 1) return 2; // yellow
+      return 0;
+    };
+    const aScore = getStaleScore(a);
+    const bScore = getStaleScore(b);
+    if (aScore !== bScore) return bScore - aScore; // stale first
+    
+    // Then by priority (HIGH first)
+    const priorityOrder = { [Priority.HIGH]: 3, [Priority.MEDIUM]: 2, [Priority.LOW]: 1 };
+    const aPrio = priorityOrder[a.priority as Priority] || 0;
+    const bPrio = priorityOrder[b.priority as Priority] || 0;
+    if (aPrio !== bPrio) return bPrio - aPrio;
+    
+    // Then by updated_at (most recent first)
+    return new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime();
+  });
+
   // Stats
   const activeCount = tasks.filter(t => t.status !== TaskStatus.COMPLETED && t.stage !== Stage.DONE).length;
   const blockedCount = tasks.filter(t => t.blocked || t.status === TaskStatus.BLOCKED).length;
@@ -554,13 +581,13 @@ export default function Tasks() {
       {/* Task Display - List or Kanban */}
       {viewMode === 'list' ? (
       <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-        {filteredTasks.length === 0 ? (
+        {sortedTasks.length === 0 ? (
           <div style={{ textAlign: 'center', padding: '48px', color: 'var(--text-muted)' }}>
             <CheckSquare size={48} style={{ opacity: 0.3, marginBottom: '16px' }} />
             <p>No tasks yet. Create your first task to start executing.</p>
           </div>
         ) : (
-          filteredTasks.map(task => {
+          sortedTasks.map(task => {
             const isDone = task.stage === Stage.DONE || task.status === TaskStatus.COMPLETED;
             const isBlocked = task.blocked || task.status === TaskStatus.BLOCKED;
             
@@ -695,7 +722,7 @@ export default function Tasks() {
         /* Kanban Board View */
         <div style={{ display: 'flex', gap: '16px', overflowX: 'auto', paddingBottom: '16px' }}>
           {STAGES.map(stage => {
-            const stageTasks = filteredTasks.filter(t => t.stage === stage.value);
+            const stageTasks = sortedTasks.filter(t => t.stage === stage.value);
             return (
               <div key={stage.value} style={{ 
                 minWidth: '280px', 
@@ -733,6 +760,18 @@ export default function Tasks() {
                 >
                   {stageTasks.map(task => {
                     const isDone = task.stage === Stage.DONE || task.status === TaskStatus.COMPLETED;
+                    const isBlocked = task.blocked || task.status === TaskStatus.BLOCKED;
+                    
+                    // Calculate stale level
+                    const now = Date.now();
+                    const updatedAt = new Date(task.updated_at).getTime();
+                    const hoursSinceUpdate = (now - updatedAt) / (1000 * 60 * 60);
+                    const daysSinceUpdate = Math.floor(hoursSinceUpdate / 24);
+                    let staleLevel = null;
+                    if (daysSinceUpdate >= 3) staleLevel = 'critical';
+                    else if (daysSinceUpdate >= 2) staleLevel = 'warning';
+                    else if (daysSinceUpdate >= 1 && !isDone) staleLevel = 'yellow';
+                    
                     return (
                     <div 
                       key={task.id} 
@@ -743,14 +782,30 @@ export default function Tasks() {
                       onClick={() => setEditingTask(task)}
                       style={{ 
                       padding: '12px',
-                      background: isDone ? 'rgba(34, 197, 94, 0.1)' : 'var(--background-primary)',
+                      background: isDone ? 'rgba(34, 197, 94, 0.1)' : isBlocked ? 'rgba(239, 68, 68, 0.05)' : staleLevel ? (staleLevel === 'critical' ? 'rgba(239, 68, 68, 0.08)' : staleLevel === 'warning' ? 'rgba(245, 158, 11, 0.08)' : 'rgba(234, 179, 8, 0.08)') : 'var(--background-primary)',
                       borderRadius: '8px',
-                      border: '1px solid var(--border)',
+                      border: `1px solid ${staleLevel === 'critical' ? 'rgba(239, 68, 68, 0.3)' : staleLevel === 'warning' ? 'rgba(245, 158, 11, 0.3)' : staleLevel === 'yellow' ? 'rgba(234, 179, 8, 0.3)' : 'var(--border)'}`,
                       cursor: isDone ? 'default' : 'grab',
                       opacity: isDone ? 0.7 : 1,
                     }}>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '4px' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '4px', flexWrap: 'wrap' }}>
                         <span style={{ fontSize: '13px', fontWeight: 500 }}>{task.title}</span>
+                        {/* Stale Badge for Kanban */}
+                        {staleLevel && (
+                          <span title={`${staleLevel.toUpperCase()}: ${daysSinceUpdate} days`} style={{
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            gap: '2px',
+                            background: staleLevel === 'critical' ? 'rgba(239, 68, 68, 0.15)' : staleLevel === 'warning' ? 'rgba(245, 158, 11, 0.15)' : 'rgba(234, 179, 8, 0.15)',
+                            color: staleLevel === 'critical' ? '#ef4444' : staleLevel === 'warning' ? '#f59e0b' : '#eab308',
+                            borderRadius: '3px',
+                            padding: '1px 4px',
+                            fontSize: '9px',
+                            fontWeight: 600
+                          }}>
+                            {staleLevel === 'critical' ? '⚠' : staleLevel === 'warning' ? '⏰' : '🏴'}
+                          </span>
+                        )}
                       </div>
                       <div style={{ fontSize: '11px', color: 'var(--text-muted)' }}>
                         {getProjectName(task.project_id)}
