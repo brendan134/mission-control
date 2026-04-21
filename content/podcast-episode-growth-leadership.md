@@ -23,12 +23,12 @@ Welcome to The High-Impact Leader Podcast — the podcast for business owners an
 
 [Backing music fades out]
 
-So, back to that idea... growth is supposed to make things better. But for many of us, it does the opposite. Let me explain what's really happening.
+G'day, I'm Brendan Rogers. So, let's get back to that idea... growth is supposed to make things better. But for many of us, it does the opposite. Let me explain what's really happening.
 
 ---
 
 ### PATTERN
-Here's what I see happening all the time with business owners. You started your business because you had expertise. You had a skill. You had a vision. And that business grew — maybe faster than you expected. Revenue came in. You hired your first team member. Then another. Suddenly you're not just doing the work — you're responsible for people.
+Here's what I see all the time with business owners. You started your business because you had expertise. You had a skill. You had a vision. And that business grew — maybe faster than you expected. Revenue came in. You hired your first team member. Then another. Suddenly you're not just doing the work — you're responsible for people.
 
 And here's the thing about growth: it doesn't wait until you're ready. You might have mastered your craft. You might be brilliant at delivering your service. But nobody teaches you this part — the part where your business grows beyond your ability to lead it. And the frustrating thing is, the more successful you become, the heavier it gets.
 
@@ -61,7 +61,7 @@ The business grows. The leadership stays the same. That's the gap. That's what c
 ---
 
 ### COST
-Let me be direct about what this actually costs. You're losing your best people. I watched a client lose their top performer last month — four years of investment, gone in a two-week notice. Top performers don't leave because of money. They leave because they can't grow. They leave because they're not led. They leave because you're too busy to develop them.
+Let me be direct about what this actually costs. You're losing your best people. I watched a new client lose their top performer last month — four years of investment, gone in a two-week notice. Top performers don't leave because of money. They leave because they can't grow. They leave because they're not led. They leave because you're too busy to develop them.
 
 You're losing your health. The constant firefighting. The Sunday scaries. The endless to-do list that never gets shorter. That tightness in your chest? Your body keeps score.
 
