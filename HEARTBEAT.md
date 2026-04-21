@@ -10,6 +10,9 @@
 
 ## Afternoon Check (1 PM Sydney)
 - GitHub sync status (any unpushed changes?)
+  - Run `git status` in workspace AND `/data/.openclaw`
+  - Push if ahead: `git push origin master && git push internal master` (workspace)
+  - Push if ahead: `cd /data/.openclaw && git push origin master` (config)
 - Check if Mission Control is healthy
 - Check PM2 services: `pm2 list`
 - Check tunnel: `pm2 logs cloudflared --lines 3`
