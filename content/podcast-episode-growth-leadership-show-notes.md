@@ -21,9 +21,38 @@ This episode is for leaders ready to stop carrying everything themselves and sta
 
 ---
 
-If this resonated, share it with another leader who's feeling the weight of growth.
+## About This Podcast
 
-Learn more at leaderbydesign.au/club
+This leadership podcast is for business owners and leaders who want self-managing teams, stronger accountability, and scalable leadership without carrying everything themselves.
+
+Each episode explores leadership design, scalable leadership systems, and the leadership patterns that influence team engagement, decision making, and team performance.
+
+We focus on:
+
+- Leadership patterns that shape team engagement and accountability
+- Leadership clarity and its impact on team performance
+- Decision making and leadership rhythm for consistent execution
+- Ownership and accountability across teams
+- Leading through people instead of carrying the business
+- Reducing leadership load through scalable leadership design
+
+If you want stronger team engagement, clearer accountability, and consistent team performance, this podcast is for you.
+
+---
+
+## Want Help Implementing This In Your Business?
+
+Inside the High-Impact Leader Club, Brendan Rogers works with business owners and leaders to redesign their leadership approach so they can reduce leadership load, improve decision making, and build self-managing teams with real accountability and stronger team engagement.
+
+We focus on:
+
+- Building scalable leadership design frameworks
+- Creating leadership clarity and consistent decision making
+- Developing self-managing teams through ownership and accountability
+- Strengthening team performance and team engagement
+- Reducing your leadership load through structured leadership systems
+
+Learn more at: 👉 leaderbydesign.au/club
 
 ---
 
