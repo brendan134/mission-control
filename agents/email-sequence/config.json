@@ -1,6 +1,6 @@
 {
-  "agent_id": "email-sequence",
-  "name": "Email Sequence Producer",
+  "agent_id": "zoe-email-sequence-producer",
+  "name": "Zoe",
   "version": "2.0.0",
   "status": "active",
   "owner": {

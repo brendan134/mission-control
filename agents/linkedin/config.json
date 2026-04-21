@@ -1,6 +1,6 @@
 {
-  "agent_id": "linkedin-writer",
-  "name": "LinkedIn Writer",
+  "agent_id": "ethan-linkedin-writer",
+  "name": "Ethan",
   "version": "2.0.0",
   "status": "active",
   "owner": {

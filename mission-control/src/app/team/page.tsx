@@ -24,10 +24,10 @@ const teamMembers: TeamMember[] = [
   { id: 'client-delivery', name: 'Jerry', role: 'Client Delivery Lead', tier: 'B', model: 'flashlite', reportsTo: 'niles', responsibilities: ['Client project delivery', 'Quality assurance', 'Stakeholder communication'] },
   { id: 'curriculum', name: 'Kathy', role: 'Curriculum Specialist', tier: 'C', model: 'kimi', reportsTo: 'content', responsibilities: ['Course creation', 'Training material development', 'Learning path design'] },
   { id: 'podcast', name: 'Ruby', role: 'Podcast Producer', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['High-Impact Leader Podcast production', 'Episode scripting and editing', 'Video content creation', 'Audio quality management'] },
-  { id: 'newsletter', name: 'Newsletter Producer', role: 'Newsletter Writer', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['Weekly leadership newsletters', 'Deep dive content', 'Case study features'] },
-  { id: 'linkedin', name: 'LinkedIn Writer', role: 'LinkedIn Content Strategist', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['LinkedIn post creation', 'Thought leadership content', 'Engagement optimisation'] },
-  { id: 'video', name: 'Video Producer', role: 'Video Script Writer', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['Video script writing', 'Short-form content', 'YouTube long-form content'] },
-  { id: 'email-sequence', name: 'Email Sequence Producer', role: 'Email Sequence Strategist', tier: 'C', model: 'flashlite', reportsTo: 'messaging', responsibilities: ['Nurture sequences', 'Launch sequences', 'Welcome sequences', 'Follow-up sequences'] },
+  { id: 'newsletter', name: 'Mia', role: 'Newsletter Writer', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['Weekly leadership newsletters', 'Deep dive content', 'Case study features'] },
+  { id: 'linkedin', name: 'Ethan', role: 'LinkedIn Content Strategist', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['LinkedIn post creation', 'Thought leadership content', 'Engagement optimisation'] },
+  { id: 'video', name: 'Lucas', role: 'Video Script Writer', tier: 'C', model: 'flashlite', reportsTo: 'content', responsibilities: ['Video script writing', 'Short-form content', 'YouTube long-form content'] },
+  { id: 'email-sequence', name: 'Zoe', role: 'Email Sequence Strategist', tier: 'C', model: 'flashlite', reportsTo: 'messaging', responsibilities: ['Nurture sequences', 'Launch sequences', 'Welcome sequences', 'Follow-up sequences'] },
   { id: 'community', name: 'Lawrie', role: 'Community Manager', tier: 'C', model: 'flashlite', reportsTo: 'niles', responsibilities: ['Community engagement', 'Member support', 'Event coordination'] },
   { id: 'research', name: 'Tim', role: 'Research Analyst', tier: 'C', model: 'flashlite', reportsTo: 'strategy', responsibilities: ['Market research', 'Data analysis', 'Competitive intelligence'] }
 ];
@@ -342,6 +342,7 @@ export default function TeamPage() {
               <div onClick={() => setExpandedId(expandedId === member.id ? null : member.id)} style={{ padding: '12px 16px', background: 'var(--background-secondary)', borderRadius: '8px', border: '2px solid #10b981', cursor: 'pointer', minWidth: '140px' }}>
                 <div style={{ fontWeight: 500, fontSize: '13px', color: '#10b981' }}>{member.name}</div>
                 <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>{member.role}</div>
+                <div style={{ fontSize: '9px', color: 'var(--text-muted)', marginTop: '2px' }}>Reports to: {member.reportsTo === 'content' ? 'Sophie' : member.reportsTo === 'messaging' ? 'Brandon' : member.reportsTo === 'strategy' ? 'Marcus' : member.reportsTo}</div>
                 <button onClick={(e) => { e.stopPropagation(); setProfileId(member.id); }} style={{ marginTop: '6px', padding: '3px 8px', fontSize: '9px', background: '#10b981', color: '#fff', border: 'none', borderRadius: '3px', cursor: 'pointer' }}>Profile</button>
               </div>
             </div>

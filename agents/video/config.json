@@ -1,6 +1,6 @@
 {
-  "agent_id": "video-producer",
-  "name": "Video Producer",
+  "agent_id": "lucas-video-producer",
+  "name": "Lucas",
   "version": "2.0.0",
   "status": "active",
   "owner": {
