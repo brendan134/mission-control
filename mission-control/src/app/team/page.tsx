@@ -174,6 +174,16 @@ const agentProfiles: Record<string, {
     inputStandard: 'Topic, format (short/medium), duration target, key takeaway',
     thinkingApproach: 'First-5-seconds: Hook captures attention. Last-10-seconds: CTA drives action. Everything else: deliver value.'
   },
+  youtube: {
+    role: 'YouTube Specialist',
+    whatItOwns: ['YouTube SEO', 'Thumbnail optimization', 'Video descriptions', 'Channel strategy', 'Video publishing'],
+    whatItDoesntOwn: ['Script writing (Lucas)', 'Video editing (Mervyn)', 'Content strategy (Sophie)'],
+    handoffTo: 'Lucas for scripts, Sophie for content strategy',
+    successMeasures: ['SEO ranking', 'Click-through rate', 'Watch time', 'Subscriber growth'],
+    qualityBar: { draft: 'SEO keywords identified', ready: 'Title, description, tags, thumbnail ready', refined: 'Published, analytics tracked' },
+    inputStandard: 'Video title, script or outline, target keywords, upload date',
+    thinkingApproach: 'Discovery: How do people find this? Thumbnails: Does it stop the scroll? Retention: Does it keep watching?'
+  },
   'email-sequence': {
     role: 'Email Sequence Strategist',
     whatItOwns: ['Nurture sequences', 'Launch sequences', 'Welcome sequences', 'Follow-up sequences'],
