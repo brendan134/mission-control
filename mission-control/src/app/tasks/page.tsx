@@ -651,9 +651,21 @@ export default function Tasks() {
                       <span style={priorityBadgeStyle}>HIGH</span>
                     )}
                   </div>
-                  <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>
-                    {getProjectName(task.project_id)} • {task.stage} • {task.primary_owner_id}
-                    {task.due_date && ` • Due ${formatDate(task.due_date)}`}
+                  <div style={{ fontSize: '12px', color: 'var(--text-muted)', display: 'flex', gap: '8px', flexWrap: 'wrap', alignItems: 'center' }}>
+                    <span>{getProjectName(task.project_id)} • {task.stage}</span>
+                    <span style={{ 
+                      display: 'inline-flex', 
+                      padding: '1px 6px', 
+                      borderRadius: '4px', 
+                      fontSize: '10px', 
+                      fontWeight: 500,
+                      background: task.primary_owner_type === 'AI Agent' ? 'rgba(139, 92, 246, 0.15)' : 'rgba(16, 185, 129, 0.15)',
+                      color: task.primary_owner_type === 'AI Agent' ? '#8b5cf6' : '#10b981'
+                    }}>
+                      {task.primary_owner_type === 'AI Agent' ? '🤖 AI' : task.primary_owner_type === 'PH Team' ? '👥 Team' : task.primary_owner_type === 'Brendan' ? '👤 Brendan' : '👤 Human'}
+                    </span>
+                    <span>{task.primary_owner_id}</span>
+                    {task.due_date && <span>• Due {formatDate(task.due_date)}</span>}
                   </div>
                   {task.next_action && (
                     <div style={{ fontSize: '12px', color: 'var(--accent-gold)', marginTop: '4px' }}>
@@ -662,7 +674,12 @@ export default function Tasks() {
                   )}
                   {task.blocked_reason && (
                     <div style={{ fontSize: '12px', color: '#ef4444', marginTop: '4px' }}>
-                      Blocked: {task.blocked_reason}
+                      🚫 Blocked: {task.blocked_reason}
+                    </div>
+                  )}
+                  {task.escalation_history && task.escalation_history.length > 0 && (
+                    <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginTop: '4px' }}>
+                      📜 Escalations: {task.escalation_history.length} ({task.escalation_history.map((e: any) => e.level).join(', ')})
                     </div>
                   )}
                 </div>

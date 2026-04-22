@@ -168,6 +168,16 @@ export interface Task {
   work_in_progress_order?: number;
   review_required: boolean;
   reviewed_by?: string;
+  
+  // Accountability
+  escalation_history?: EscalationRecord[];
+}
+
+export interface EscalationRecord {
+  timestamp: string;
+  level: 'yellow' | 'warning' | 'critical';
+  note?: string;
+  escalated_to: string; // 'Niles' or 'Brendan'
 }
 
 export interface Agent {
