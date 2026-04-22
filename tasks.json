@@ -310,5 +310,19 @@
     "id": "task-1776690511387-4zrulamgy",
     "created_at": "2026-04-20T13:08:31.387Z",
     "updated_at": "2026-04-20T13:08:31.387Z"
+  },
+  {
+    "title": "Do Kase's nails",
+    "description": "One-off reminder for Kade's nail appointment",
+    "dueDate": "2026-04-22T18:00:00+10:00",
+    "priority": "medium",
+    "status": "pending",
+    "tags": [
+      "personal",
+      "reminder"
+    ],
+    "id": "task-1776822740130-tb3icv96y",
+    "created_at": "2026-04-22T01:52:20.130Z",
+    "updated_at": "2026-04-22T01:52:20.130Z"
   }
 ]
