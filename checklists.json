@@ -1,0 +1,19 @@
+{
+  "Episode 15": {
+    "title": "When Growth Outpaces Leadership Design",
+    "items": [
+      { "id": "ep15-1", "text": "Edit audio episode for approval", "assignee": "Mervyn", "done": false },
+      { "id": "ep15-2", "text": "Schedule written social media posts (LinkedIn, Insta, FB)", "assignee": "Dom", "done": false },
+      { "id": "ep15-3", "text": "Schedule shorts/reels social media posts", "assignee": "Dom", "done": false },
+      { "id": "ep15-4", "text": "Schedule podcast in Castos (title, show notes, keywords)", "assignee": "Dom", "done": false },
+      { "id": "ep15-5", "text": "Schedule email marketing message for approval", "assignee": "Dom", "done": false },
+      { "id": "ep15-6", "text": "Schedule YouTube shorts (titles, descriptions, tags)", "assignee": "Dom", "done": false },
+      { "id": "ep15-7", "text": "Brendan: Review & approve audio edit", "assignee": "Brendan", "done": false },
+      { "id": "ep15-8", "text": "Brendan: Approve written social posts", "assignee": "Brendan", "done": false },
+      { "id": "ep15-9", "text": "Brendan: Approve shorts/reels", "assignee": "Brendan", "done": false },
+      { "id": "ep15-10", "text": "Brendan: Approve Castos schedule", "assignee": "Brendan", "done": false },
+      { "id": "ep15-11", "text": "Brendan: Approve email marketing", "assignee": "Brendan", "done": false },
+      { "id": "ep15-12", "text": "Brendan: Approve YouTube shorts", "assignee": "Brendan", "done": false }
+    ]
+  }
+}

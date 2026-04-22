@@ -11,27 +11,12 @@ interface ChecklistItem {
 }
 
 interface Checklist {
-  episode: string;
   title: string;
   items: ChecklistItem[];
 }
 
-const STORAGE_KEY = 'checklist-state';
-
-const loadChecklists = (): Record<string, ChecklistItem[]> => {
-  if (typeof window === 'undefined') return {};
-  const saved = localStorage.getItem(STORAGE_KEY);
-  return saved ? JSON.parse(saved) : {};
-};
-
-const saveChecklists = (state: Record<string, ChecklistItem[]>) => {
-  if (typeof window === 'undefined') return;
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-};
-
-const INITIAL_CHECKLISTS: Checklist[] = [
-  {
-    episode: 'Episode 15',
+const INITIAL_CHECKLISTS: Record<string, Checklist> = {
+  'Episode 15': {
     title: 'When Growth Outpaces Leadership Design',
     items: [
       { id: 'ep15-1', text: 'Edit audio episode for approval', assignee: 'Mervyn', done: false },
@@ -48,44 +33,86 @@ const INITIAL_CHECKLISTS: Checklist[] = [
       { id: 'ep15-12', text: 'Brendan: Approve YouTube shorts', assignee: 'Brendan', done: false },
     ],
   },
-];
+};
 
 export default function ChecklistsPage() {
   const [expanded, setExpanded] = useState<string | null>('Episode 15');
-  const [checklistState, setChecklistState] = useState<Record<string, ChecklistItem[]>>({});
+  const [checklistState, setChecklistState] = useState<Record<string, Checklist>>({});
   const [mounted, setMounted] = useState(false);
+  const [loading, setLoading] = useState(true);
 
+  // Load from API on mount
   useEffect(() => {
     setMounted(true);
-    const saved = loadChecklists();
-    const merged: Record<string, ChecklistItem[]> = {};
-    INITIAL_CHECKLISTS.forEach(checklist => {
-      if (saved[checklist.episode]) {
-        merged[checklist.episode] = saved[checklist.episode];
-      } else {
-        merged[checklist.episode] = checklist.items;
-      }
-    });
-    setChecklistState(merged);
+    fetch('/api/checklists')
+      .then(r => r.json())
+      .then(data => {
+        if (data.checklists && Object.keys(data.checklists).length > 0) {
+          setChecklistState(data.checklists);
+        } else {
+          // Initialize with default data if no saved data
+          setChecklistState(INITIAL_CHECKLISTS);
+        }
+      })
+      .catch(() => {
+        setChecklistState(INITIAL_CHECKLISTS);
+      })
+      .finally(() => setLoading(false));
   }, []);
 
-  const toggleItem = (episode: string, itemId: string) => {
-    const updated = { ...checklistState };
-    updated[episode] = updated[episode].map(item =>
-      item.id === itemId ? { ...item, done: !item.done } : item
-    );
+  const toggleItem = async (episode: string, itemId: string) => {
+    const currentChecklist = checklistState[episode];
+    if (!currentChecklist) return;
+
+    const item = currentChecklist.items.find(i => i.id === itemId);
+    if (!item) return;
+
+    const newDone = !item.done;
+
+    // Optimistic update
+    const updated = {
+      ...checklistState,
+      [episode]: {
+        ...currentChecklist,
+        items: currentChecklist.items.map(i =>
+          i.id === itemId ? { ...i, done: newDone } : i
+        ),
+      },
+    };
     setChecklistState(updated);
-    saveChecklists(updated);
+
+    // Save to API
+    try {
+      await fetch('/api/checklists', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ episodeId: episode, itemId, done: newDone }),
+      });
+    } catch (err) {
+      console.error('Failed to save checklist state:', err);
+    }
   };
 
   const getProgress = (episode: string) => {
-    const items = checklistState[episode] || [];
-    if (items.length === 0) return 0;
-    const done = items.filter(i => i.done).length;
-    return Math.round((done / items.length) * 100);
+    const checklist = checklistState[episode];
+    if (!checklist || checklist.items.length === 0) return 0;
+    const done = checklist.items.filter(i => i.done).length;
+    return Math.round((done / checklist.items.length) * 100);
   };
 
-  if (!mounted) return null;
+  if (!mounted || loading) {
+    return (
+      <div style={{ padding: '24px', maxWidth: '900px', margin: '0 auto' }}>
+        <div style={{ textAlign: 'center', padding: '48px', color: 'var(--text-muted)' }}>
+          Loading checklists...
+        </div>
+      </div>
+    );
+  }
+
+  const episodes = Object.keys(checklistState).length > 0 
+    ? Object.keys(checklistState) 
+    : Object.keys(INITIAL_CHECKLISTS);
 
   return (
     <div style={{ padding: '24px', maxWidth: '900px', margin: '0 auto' }}>
@@ -97,14 +124,16 @@ export default function ChecklistsPage() {
       </div>
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-        {INITIAL_CHECKLISTS.map(checklist => {
-          const isExpanded = expanded === checklist.episode;
-          const progress = getProgress(checklist.episode);
-          const items = checklistState[checklist.episode] || checklist.items;
+        {episodes.map(episode => {
+          const checklist = checklistState[episode] || INITIAL_CHECKLISTS[episode];
+          if (!checklist) return null;
+          
+          const isExpanded = expanded === episode;
+          const progress = getProgress(episode);
 
           return (
             <div
-              key={checklist.episode}
+              key={episode}
               style={{
                 background: 'var(--background-secondary)',
                 borderRadius: '12px',
@@ -113,7 +142,7 @@ export default function ChecklistsPage() {
               }}
             >
               <button
-                onClick={() => setExpanded(isExpanded ? null : checklist.episode)}
+                onClick={() => setExpanded(isExpanded ? null : episode)}
                 style={{
                   width: '100%',
                   padding: '16px 20px',
@@ -136,7 +165,7 @@ export default function ChecklistsPage() {
                   }}
                 />
                 <div style={{ flex: 1 }}>
-                  <div style={{ fontWeight: 600, fontSize: '15px' }}>{checklist.episode}</div>
+                  <div style={{ fontWeight: 600, fontSize: '15px' }}>{episode}</div>
                   <div style={{ fontSize: '13px', color: 'var(--text-muted)' }}>{checklist.title}</div>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -167,7 +196,7 @@ export default function ChecklistsPage() {
               {isExpanded && (
                 <div style={{ padding: '0 20px 20px 52px' }}>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                    {items.map(item => (
+                    {checklist.items.map(item => (
                       <label
                         key={item.id}
                         style={{
@@ -185,7 +214,7 @@ export default function ChecklistsPage() {
                         <input
                           type="checkbox"
                           checked={item.done}
-                          onChange={() => toggleItem(checklist.episode, item.id)}
+                          onChange={() => toggleItem(episode, item.id)}
                           style={{ display: 'none' }}
                         />
                         {item.done ? (
@@ -224,6 +253,12 @@ export default function ChecklistsPage() {
           );
         })}
       </div>
+
+      {episodes.length === 0 && (
+        <div style={{ padding: '48px', textAlign: 'center', color: 'var(--text-muted)' }}>
+          No checklists available
+        </div>
+      )}
     </div>
   );
 }
