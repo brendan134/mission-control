@@ -36,7 +36,7 @@ const INITIAL_CHECKLISTS: Record<string, Checklist> = {
 };
 
 export default function ChecklistsPage() {
-  const [expanded, setExpanded] = useState<string | null>('Episode 15');
+  const [expanded, setExpanded] = useState<string | null>(null);
   const [checklistState, setChecklistState] = useState<Record<string, Checklist>>({});
   const [mounted, setMounted] = useState(false);
   const [loading, setLoading] = useState(true);
