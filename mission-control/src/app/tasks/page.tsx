@@ -820,13 +820,24 @@ export default function Tasks() {
                             fontSize: '9px',
                             fontWeight: 600
                           }}>
-                            {staleLevel === 'critical' ? '⚠' : staleLevel === 'warning' ? '⏰' : '🏴'}
+                            {staleLevel === 'critical' ? '⚠' : staleLevel === 'warning' ? '⏰' : '🏴'} {daysSinceUpdate}d
                           </span>
                         )}
                       </div>
-                      <div style={{ fontSize: '11px', color: 'var(--text-muted)' }}>
-                        {getProjectName(task.project_id)}
-                        {task.priority === Priority.HIGH && <span style={{ color: '#ef4444', marginLeft: '8px' }}>HIGH</span>}
+                      <div style={{ fontSize: '11px', color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
+                        <span>{getProjectName(task.project_id)}</span>
+                        <span style={{ 
+                          display: 'inline-flex', 
+                          padding: '0px 4px', 
+                          borderRadius: '3px', 
+                          fontSize: '9px', 
+                          fontWeight: 500,
+                          background: task.primary_owner_type === 'AI Agent' ? 'rgba(139, 92, 246, 0.15)' : 'rgba(16, 185, 129, 0.15)',
+                          color: task.primary_owner_type === 'AI Agent' ? '#8b5cf6' : '#10b981'
+                        }}>
+                          {task.primary_owner_type === 'AI Agent' ? '🤖' : task.primary_owner_type === 'PH Team' ? '👥' : '👤'}
+                        </span>
+                        {task.priority === Priority.HIGH && <span style={{ color: '#ef4444' }}>HIGH</span>}
                       </div>
                       {task.next_action && (
                         <div style={{ fontSize: '11px', color: 'var(--accent-gold)', marginTop: '4px' }}>
