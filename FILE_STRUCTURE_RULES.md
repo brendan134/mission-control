@@ -138,6 +138,13 @@ git push origin master
 - **Use PM2** for running/stopping (not manual node commands)
 - **Port**: Always 3003 (configured in ecosystem.config.js)
 
+### Content & Checklists
+- **Content files**: `/content/` at workspace root (synced to both repos)
+- **Checklists**: `/content/checklists/` - single location only
+- **Never create subfolders** like `mission-control/content/checklists/`
+- **The Documents page links to** `content/checklists/` - keep it in sync with Mission Control
+- When updating checklists, update `/content/checklists/` only
+
 ### Configuration Files
 - **ecosystem.config.js** — PM2 config (one file, at root)
 - **cloudflared** — tunnel binary (at root, no extension)
