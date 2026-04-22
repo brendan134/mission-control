@@ -1,0 +1,7 @@
+tunnel: d3b88dbf-f4fc-4a90-b193-283c9cd7974e
+credentials-file: /data/.cloudflared/d3b88dbf-f4fc-4a90-b193-283c9cd7974e.json
+
+ingress:
+  - hostname: mc.brendanrogers.au
+    service: http://127.0.0.1:3003
+  - service: http_status:404

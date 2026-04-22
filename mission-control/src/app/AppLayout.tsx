@@ -26,7 +26,7 @@ const navItems = [
   { href: '/my-week', label: 'My Week', icon: Calendar },
   { href: '/team', label: 'Team', icon: Users },
   { href: '/office', label: 'Office', icon: Building },
-  { href: '/automations', label: 'Cron Calendar', icon: Clock },
+  { href: '/automations', label: 'Automations', icon: Clock },
   { href: '/memory', label: 'Memory', icon: Brain },
   { href: '/documents', label: 'Documents', icon: FileText },
   { href: '/checklists', label: 'Checklists', icon: CheckSquare },

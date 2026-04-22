@@ -107,6 +107,8 @@
 - 72h → escalate to Brendan
 - Signal Feed API for blocked/stale tasks
 - Weekly accountability review (Friday)
+- **Phase 2 implemented (Apr 22)**: Owner type badges (AI/Human), stale indicators (Yellow/Warning/Critical), blocked reason display, escalation history tracking
+- **Checklist system**: Server-side persistence via checklists.json + /api/checklists - checkmarks survive refresh/device changes
 
 ### Team Structure (Apr 2026)
 - **Tier A:** Brendan (Founder), Niles (CAO)

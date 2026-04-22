@@ -126,7 +126,7 @@ export const AGENT_TEAM: Agent[] = [
     reportsTo: 'sophie',
     capabilities: [
       { keywords: ['podcast', 'episode', 'audio', 'video'], topics: ['production', 'recording'] },
-      { keywords: ['script', 'edit', 'show notes'], topics: ['content'] },
+      { keywords: ['edit', 'show notes'], topics: ['content'] },
     ],
   },
   {
@@ -161,7 +161,7 @@ export const AGENT_TEAM: Agent[] = [
     model: 'flashlite',
     reportsTo: 'sophie',
     capabilities: [
-      { keywords: ['script', 'video', 'reel', 'short'], topics: ['video content'] },
+      { keywords: ['script', 'video', 'reel', 'short', 'youtube', 'tiktok'], topics: ['video content'] },
       { keywords: ['story', 'narrative', 'hook'], topics: ['storytelling'] },
     ],
   },
