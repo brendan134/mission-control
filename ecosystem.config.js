@@ -19,7 +19,7 @@ module.exports = {
       name: "cloudflared",
       cwd: "/data/.openclaw/workspace",
       script: "./cloudflared",
-      args: "tunnel run --token eyJhIjoiZWFkZmE0MTc0Y2VjYzAyYjJiOGQwN2Y5YTdkYmFlMzkiLCJ0IjoiNWUwYjViNTEtOTEzMC00MTdhLTg5OWEtMzgzZjUzZDI2N2U4IiwicyI6IlpUVmxaalZrTUdJdFpEWTBZeTAwTnpFMkxXSmpNekl0WkRKbU1HRmtNR1kxT1dKaCJ9",
+      args: "tunnel --config /data/.cloudflared/config.yml run",
       instances: 1,
       autorestart: true,
       watch: false,

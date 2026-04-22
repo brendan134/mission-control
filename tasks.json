@@ -22,8 +22,8 @@
     "review_required": false,
     "id": "task-1776687615165-8berdk2n9",
     "created_at": "2026-04-20T12:20:15.165Z",
-    "updated_at": "2026-04-21T22:42:17.309Z",
-    "due_date": "2026-04-21"
+    "updated_at": "2026-04-22T06:30:21.507Z",
+    "due_date": "2026-04-22"
   },
   {
     "title": "Review & Approve - Peter Clarke",
@@ -50,8 +50,8 @@
     "review_required": false,
     "id": "task-1776687629943-egghqkjq0",
     "created_at": "2026-04-20T12:20:29.943Z",
-    "updated_at": "2026-04-21T01:59:07.794Z",
-    "due_date": "2026-04-21"
+    "updated_at": "2026-04-22T08:12:43.800Z",
+    "due_date": "2026-04-23"
   },
   {
     "title": "Send to Client - Peter Clarke",
@@ -63,8 +63,8 @@
     "primary_owner_id": "Brendan",
     "client_name": "Peter Clarke",
     "next_action": "Email plan to client",
-    "status": "Active",
-    "blocked": false,
+    "status": "Blocked",
+    "blocked": true,
     "supporting_owner_ids": [],
     "assigned_agent_ids": [],
     "requires_human_input": true,
@@ -78,8 +78,9 @@
     "review_required": false,
     "id": "task-1776687637568-6i4oboxea",
     "created_at": "2026-04-20T12:20:37.568Z",
-    "updated_at": "2026-04-21T01:58:46.648Z",
-    "due_date": "2026-04-22"
+    "updated_at": "2026-04-22T08:21:33.194Z",
+    "due_date": "2026-04-22",
+    "blocked_reason": "this is a test block"
   },
   {
     "title": "Phase 1: Leadership Role Redesign - Peter Clarke",
@@ -179,7 +180,8 @@
     "primary_owner_type": "PH Team",
     "id": "task-1776689129843-hbv8f808u",
     "created_at": "2026-04-20T12:45:29.843Z",
-    "updated_at": "2026-04-20T13:02:48.845Z"
+    "updated_at": "2026-04-22T06:30:14.826Z",
+    "due_date": "2026-04-22"
   },
   {
     "title": "Review & Approve - Akhil Rodrigues",
@@ -290,8 +292,8 @@
     "primary_owner_type": "Brendan",
     "id": "task-1776690503277-r0c1ebjfv",
     "created_at": "2026-04-20T13:08:23.277Z",
-    "updated_at": "2026-04-21T00:06:29.078Z",
-    "due_date": "2026-04-19"
+    "updated_at": "2026-04-22T08:14:45.615Z",
+    "due_date": "2026-04-22"
   },
   {
     "title": "Review Podcast Episode Draft",
@@ -299,7 +301,7 @@
     "project_id": "proj-1776207926512-ic5v7kkd6",
     "priority": "High",
     "task_type": "Content",
-    "stage": "Capture",
+    "stage": "Done",
     "primary_owner_id": "Brendan",
     "next_action": "Review content/podcast-episode-growth-leadership.md",
     "status": "Active",
@@ -309,20 +311,22 @@
     "due_date": "2026-04-21",
     "id": "task-1776690511387-4zrulamgy",
     "created_at": "2026-04-20T13:08:31.387Z",
-    "updated_at": "2026-04-20T13:08:31.387Z"
+    "updated_at": "2026-04-22T06:32:13.627Z"
   },
   {
-    "title": "Do Kase's nails",
-    "description": "One-off reminder for Kade's nail appointment",
-    "dueDate": "2026-04-22T18:00:00+10:00",
-    "priority": "medium",
-    "status": "pending",
-    "tags": [
-      "personal",
-      "reminder"
-    ],
-    "id": "task-1776822740130-tb3icv96y",
-    "created_at": "2026-04-22T01:52:20.130Z",
-    "updated_at": "2026-04-22T01:52:20.130Z"
+    "title": "TEST - Stale Task Display",
+    "description": "Testing stale indicators",
+    "project_id": "test-project",
+    "priority": "High",
+    "task_type": "System/AI",
+    "stage": "In Progress",
+    "primary_owner_id": "Casey",
+    "primary_owner_type": "AI Agent",
+    "status": "Active",
+    "blocked": false,
+    "created_by": "Brendan",
+    "updated_at": "2026-04-18T12:00:00.000Z",
+    "id": "task-1776846263044-ryy45fzdp",
+    "created_at": "2026-04-22T08:24:23.044Z"
   }
 ]
