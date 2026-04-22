@@ -1,4 +1,5 @@
 import { Clock, CheckCircle, XCircle, AlertTriangle, Play, Pause, Plus, Edit2, Trash2, RefreshCw } from 'lucide-react';
+import AgentOrchestrator from './AgentOrchestrator';
 
 const DAY_NAMES = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
@@ -165,6 +166,8 @@ export default async function CronCalendar() {
           <div style={{ fontSize: '20px', fontWeight: 600 }}>{totalCount}</div>
         </div>
       </div>
+
+      <AgentOrchestrator />
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7, 1fr)', gap: '1px', background: 'var(--border)', borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border)', marginBottom: '32px' }}>
         {DAY_NAMES.map((day) => (

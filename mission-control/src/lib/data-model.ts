@@ -27,6 +27,17 @@ export enum Stage {
   DONE = 'Done',
 }
 
+// Orchestration states for Agent Orchestrator
+export enum OrchestrationState {
+  INTAKE = 'intake',
+  ANALYZING = 'analyzing',
+  PREP = 'prep',
+  ACTIVE = 'active',
+  REVIEW = 'review',
+  COMPLETED = 'completed',
+  ARCHIVED = 'archived',
+}
+
 export enum Priority {
   HIGH = 'High',
   MEDIUM = 'Medium',
@@ -171,6 +182,10 @@ export interface Task {
   
   // Accountability
   escalation_history?: EscalationRecord[];
+  
+  // Agent Orchestrator
+  orchestration_state?: OrchestrationState;
+  routed_to_agent_id?: string;
 }
 
 export interface EscalationRecord {
