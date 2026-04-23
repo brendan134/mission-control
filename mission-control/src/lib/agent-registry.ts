@@ -52,7 +52,7 @@ export const AGENT_TEAM: Agent[] = [
     model: 'flashlite',
     reportsTo: 'niles',
     capabilities: [
-      { keywords: ['system', 'cron', 'deploy', 'server', 'maintenance'], topics: ['technical', 'infrastructure'] },
+      { keywords: ['system', 'cron', 'deploy', 'server', 'maintenance', 'fix', 'troubleshoot', 'debug'], topics: ['technical', 'infrastructure'] },
       { keywords: ['automate', 'workflow', 'integration'], topics: ['ops', 'productivity'] },
     ],
   },
@@ -76,7 +76,7 @@ export const AGENT_TEAM: Agent[] = [
     model: 'flashlite',
     reportsTo: 'niles',
     capabilities: [
-      { keywords: ['content', 'strategy', 'production'], topics: ['content', 'creative'] },
+      { keywords: ['content', 'strategy', 'production', 'social', 'improve'], topics: ['content', 'creative'] },
       { keywords: ['linkedin', 'newsletter', 'social'], topics: ['distribution'] },
     ],
   },
@@ -100,7 +100,7 @@ export const AGENT_TEAM: Agent[] = [
     model: 'flashlite',
     reportsTo: 'niles',
     capabilities: [
-      { keywords: ['client', 'delivery', 'project', 'stakeholder'], topics: ['client work', 'delivery'] },
+      { keywords: ['client', 'delivery', 'project', 'stakeholder', 'training'], topics: ['client work', 'delivery'] },
       { keywords: ['qa', 'quality', 'review'], topics: ['assurance'] },
     ],
   },
@@ -113,7 +113,7 @@ export const AGENT_TEAM: Agent[] = [
     model: 'kimi',
     reportsTo: 'sophie',
     capabilities: [
-      { keywords: ['course', 'curriculum', 'training', 'learning'], topics: ['education', 'development'] },
+      { keywords: ['course', 'curriculum', 'training', 'learning', 'build', 'create'], topics: ['education', 'development'] },
       { keywords: ['workshop', 'material', 'module'], topics: ['content creation'] },
     ],
   },
@@ -137,7 +137,7 @@ export const AGENT_TEAM: Agent[] = [
     model: 'flashlite',
     reportsTo: 'sophie',
     capabilities: [
-      { keywords: ['newsletter', 'weekly', 'email content'], topics: ['email marketing'] },
+      { keywords: ['newsletter', 'weekly', 'email content', 'draft', 'write'], topics: ['email marketing'] },
       { keywords: ['deep dive', 'case study', 'feature'], topics: ['long-form content'] },
     ],
   },
@@ -173,7 +173,7 @@ export const AGENT_TEAM: Agent[] = [
     model: 'flashlite',
     reportsTo: 'sophie',
     capabilities: [
-      { keywords: ['youtube', 'seo', 'thumbnail'], topics: ['video optimization'] },
+      { keywords: ['youtube', 'seo', 'thumbnail', 'optimize', 'optimise', 'video', 'design'], topics: ['video optimization'] },
       { keywords: ['channel', 'description', 'tags'], topics: ['platform growth'] },
     ],
   },
@@ -185,7 +185,7 @@ export const AGENT_TEAM: Agent[] = [
     model: 'flashlite',
     reportsTo: 'brandon',
     capabilities: [
-      { keywords: ['sequence', 'nurture', 'automation'], topics: ['email automation'] },
+      { keywords: ['sequence', 'nurture', 'automation', 'prospect', 'outreach', 'cold', 'email', 'pitch', 'sales', 'launch'], topics: ['email automation'] },
       { keywords: ['launch', 'welcome', 'follow-up'], topics: ['campaigns'] },
     ],
   },
@@ -209,7 +209,7 @@ export const AGENT_TEAM: Agent[] = [
     model: 'flashlite',
     reportsTo: 'marcus',
     capabilities: [
-      { keywords: ['research', 'analysis', 'data'], topics: ['market research'] },
+      { keywords: ['research', 'analysis', 'data', 'report', 'trends'], topics: ['market research'] },
       { keywords: ['competitor', 'benchmark', 'insight'], topics: ['intelligence'] },
     ],
   },
