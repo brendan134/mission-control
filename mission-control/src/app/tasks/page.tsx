@@ -2,7 +2,8 @@
 import { useState, useEffect } from 'react';
 import { 
   CheckSquare, Plus, Filter, AlertTriangle, Clock, 
-  ChevronRight, Play, Pause, CheckCircle, XCircle, Target, LayoutGrid, List
+  ChevronRight, Play, Pause, CheckCircle, XCircle, Target, LayoutGrid, List,
+  PlayCircle, Unlock, Ban
 } from 'lucide-react';
 import { 
   getTasks, getTasksByProject, getBlockedTasks, getWeeklyTasks,
@@ -844,7 +845,30 @@ export default function Tasks() {
                           → {task.next_action}
                         </div>
                       )}
+                      {task.blocked_reason && (
+                        <div style={{ fontSize: '11px', color: '#ef4444', marginTop: '4px' }}>
+                          🚫 Blocked: {task.blocked_reason}
+                        </div>
+                      )}
                       <div style={{ display: 'flex', gap: '4px', marginTop: '8px' }}>
+                        {!isDone && !isBlocked && (
+                          <button 
+                            onClick={(e) => { e.stopPropagation(); handleStart(task.id); }}
+                            title="Start task"
+                            style={{ ...actionButtonStyle, color: '#3b82f6', padding: '4px' }}
+                          >
+                            <PlayCircle size={14} />
+                          </button>
+                        )}
+                        {!isDone && (
+                          <button 
+                            onClick={(e) => { e.stopPropagation(); isBlocked ? handleUnblock(task.id) : handleBlock(task.id); }}
+                            title={isBlocked ? "Unblock task" : "Block task"}
+                            style={{ ...actionButtonStyle, color: isBlocked ? '#f59e0b' : '#8b5cf6', padding: '4px' }}
+                          >
+                            {isBlocked ? <Unlock size={14} /> : <Ban size={14} />}
+                          </button>
+                        )}
                         {!isDone && (
                           <button 
                             onClick={(e) => { e.stopPropagation(); handleComplete(task.id); }}
