@@ -5,11 +5,11 @@
     "project_id": "proj-1776683061528-1qlug2u3w",
     "priority": "High",
     "task_type": "Client Delivery",
-    "stage": "In Progress",
+    "stage": "Done",
     "primary_owner_id": "Dom",
     "client_name": "Peter Clarke",
     "next_action": "Review coaching transcript and create plan",
-    "status": "Active",
+    "status": "Completed",
     "blocked": false,
     "supporting_owner_ids": [],
     "assigned_agent_ids": [],
@@ -22,8 +22,9 @@
     "review_required": false,
     "id": "task-1776687615165-8berdk2n9",
     "created_at": "2026-04-20T12:20:15.165Z",
-    "updated_at": "2026-04-22T06:30:21.507Z",
-    "due_date": "2026-04-22"
+    "updated_at": "2026-04-23T06:35:12.690Z",
+    "due_date": "2026-04-22",
+    "completed_at": "2026-04-23T06:35:12.490Z"
   },
   {
     "title": "Review & Approve - Peter Clarke",
@@ -171,18 +172,19 @@
     "project_id": "proj-1776683061528-1qlug2u3w",
     "priority": "High",
     "task_type": "Client Delivery",
-    "stage": "In Progress",
+    "stage": "Done",
     "primary_owner_id": "Dom",
     "client_name": "Akhil Rodrigues",
     "next_action": "Review coaching transcript and create plan",
-    "status": "Active",
+    "status": "Completed",
     "blocked": false,
     "created_by": "Brendan",
     "primary_owner_type": "PH Team",
     "id": "task-1776689129843-hbv8f808u",
     "created_at": "2026-04-20T12:45:29.843Z",
-    "updated_at": "2026-04-22T06:30:14.826Z",
-    "due_date": "2026-04-22"
+    "updated_at": "2026-04-23T06:35:15.163Z",
+    "due_date": "2026-04-22",
+    "completed_at": "2026-04-23T06:35:14.987Z"
   },
   {
     "title": "Review & Approve - Akhil Rodrigues",
@@ -190,7 +192,7 @@
     "project_id": "proj-1776683061528-1qlug2u3w",
     "priority": "High",
     "task_type": "Client Delivery",
-    "stage": "Define",
+    "stage": "In Progress",
     "primary_owner_id": "Brendan",
     "client_name": "Akhil Rodrigues",
     "next_action": "Review plan, provide feedback or approve",
@@ -200,7 +202,7 @@
     "primary_owner_type": "Brendan",
     "id": "task-1776689129858-abg3vuwni",
     "created_at": "2026-04-20T12:45:29.858Z",
-    "updated_at": "2026-04-20T12:45:29.858Z"
+    "updated_at": "2026-04-23T06:35:26.235Z"
   },
   {
     "title": "Send to Client - Akhil Rodrigues",

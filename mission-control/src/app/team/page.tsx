@@ -214,6 +214,16 @@ const agentProfiles: Record<string, {
     qualityBar: { draft: 'Data collected', ready: 'Analyzed, insights extracted', refined: 'Connected to business question, recommendations made' },
     inputStandard: 'Research question, scope, timeline, how result will be used',
     thinkingApproach: 'Question-first: What decision does this research inform?'
+  },
+  ian: {
+    role: 'Head of Growth (BD Agent)',
+    whatItOwns: ['Lead generation', 'Outreach campaigns', 'Pipeline management', 'Follow-up sequences', 'Growth Community member acquisition'],
+    whatItDoesntOwn: ['Content creation (Sophie/Brandon)', 'Technical setup (Casey)', 'Strategic direction (Marcus)', 'Client delivery (Jerry)'],
+    handoffTo: 'Marcus for strategy, Sophie/Brandon for copy, Casey for tracker automation',
+    successMeasures: ['New members per month', 'Outreach response rate', 'Conversion rate', 'Pipeline value'],
+    qualityBar: { draft: 'Lead identified', ready: 'Outreach sent, tracker updated', refined: 'Response received, meeting booked, converted' },
+    inputStandard: 'Target criteria, pain point to lead with, deadline, any known info about prospect',
+    thinkingApproach: 'Prospect-first: What would make this person say yes to a conversation?'
   }
 };
 

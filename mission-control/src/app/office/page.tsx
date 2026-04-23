@@ -19,6 +19,7 @@ const agents: Agent[] = [
   { id: 'kaizen', name: 'Kaizen', role: 'Head of Improvement', tier: 'B', status: 'active', currentTask: 'Analyzing business processes, routing technical to Casey', avatar: '🔄', location: 'Improvement Lab' },
   { id: 'ops', name: 'Casey', role: 'Head of Operations', tier: 'B', status: 'active', currentTask: 'Implementing proactive technical improvements', avatar: '⚙️', location: 'Operations Center' },
   { id: 'strategy', name: 'Marcus', role: 'Head of Strategy', tier: 'B', status: 'active', currentTask: 'Analyzing Q2 strategic priorities', avatar: '📊', location: 'Strategy Room' },
+  { id: 'ian', name: 'Ian', role: 'Head of Growth', tier: 'B', status: 'idle', currentTask: 'Waiting for growth tasks', avatar: '📈', location: 'Growth Office' },
   { id: 'content', name: 'Sophie', role: 'Head of Content', tier: 'B', status: 'idle', currentTask: 'Waiting for content requests', avatar: '🎨', location: 'Content Studio' },
   { id: 'messaging', name: 'Brandon', role: 'Head of Messaging', tier: 'B', status: 'active', currentTask: 'Crafting new email sequences', avatar: '✉️', location: 'Copy Desk' },
   { id: 'client-delivery', name: 'Jerry', role: 'Client Delivery Lead', tier: 'B', status: 'active', currentTask: 'Preparing client deliverables', avatar: '📦', location: 'Delivery Suite' },
