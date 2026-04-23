@@ -2,7 +2,8 @@
 import { useState, useEffect } from 'react';
 import { 
   CheckSquare, Plus, Filter, AlertTriangle, Clock, 
-  ChevronRight, Play, Pause, CheckCircle, XCircle, Target, LayoutGrid, List
+  ChevronRight, Play, Pause, CheckCircle, XCircle, Target, LayoutGrid, List,
+  PlayCircle, PauseCircle
 } from 'lucide-react';
 import { 
   getTasks, getTasksByProject, getBlockedTasks, getWeeklyTasks,
@@ -693,14 +694,14 @@ export default function Tasks() {
                         title="Start task"
                         style={{ ...actionButtonStyle, color: '#3b82f6' }}
                       >
-                        <Play size={16} />
+                        <PlayCircle size={16} />
                       </button>
                       <button 
                         onClick={() => handleBlock(task.id)}
                         title="Block task"
                         style={{ ...actionButtonStyle, color: '#8b5cf6' }}
                       >
-                        <Pause size={16} />
+                        <PauseCircle size={16} />
                       </button>
                     </>
                   )}
@@ -710,7 +711,7 @@ export default function Tasks() {
                       title="Unblock task"
                       style={{ ...actionButtonStyle, color: '#f59e0b' }}
                     >
-                      <Play size={16} />
+                      <PlayCircle size={16} />
                     </button>
                   )}
                   {!isDone && (
@@ -856,7 +857,7 @@ export default function Tasks() {
                             title="Start task"
                             style={{ ...actionButtonStyle, color: '#3b82f6', padding: '4px' }}
                           >
-                            <Play size={14} />
+                            <PlayCircle size={14} />
                           </button>
                         )}
                         {!isDone && (
@@ -865,7 +866,7 @@ export default function Tasks() {
                             title={isBlocked ? "Unblock task" : "Block task"}
                             style={{ ...actionButtonStyle, color: isBlocked ? '#f59e0b' : '#8b5cf6', padding: '4px' }}
                           >
-                            <Pause size={14} />
+                            <PauseCircle size={14} />
                           </button>
                         )}
                         {!isDone && (
