@@ -2,8 +2,7 @@
 import { useState, useEffect } from 'react';
 import { 
   CheckSquare, Plus, Filter, AlertTriangle, Clock, 
-  ChevronRight, Play, Pause, CheckCircle, XCircle, Target, LayoutGrid, List,
-  PlayCircle, Unlock, Ban
+  ChevronRight, Play, Pause, CheckCircle, XCircle, Target, LayoutGrid, List
 } from 'lucide-react';
 import { 
   getTasks, getTasksByProject, getBlockedTasks, getWeeklyTasks,
@@ -857,7 +856,7 @@ export default function Tasks() {
                             title="Start task"
                             style={{ ...actionButtonStyle, color: '#3b82f6', padding: '4px' }}
                           >
-                            <PlayCircle size={14} />
+                            <Play size={14} />
                           </button>
                         )}
                         {!isDone && (
@@ -866,7 +865,7 @@ export default function Tasks() {
                             title={isBlocked ? "Unblock task" : "Block task"}
                             style={{ ...actionButtonStyle, color: isBlocked ? '#f59e0b' : '#8b5cf6', padding: '4px' }}
                           >
-                            {isBlocked ? <Unlock size={14} /> : <Ban size={14} />}
+                            <Pause size={14} />
                           </button>
                         )}
                         {!isDone && (
