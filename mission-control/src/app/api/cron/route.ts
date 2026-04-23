@@ -25,10 +25,25 @@ export async function GET() {
       data = { jobs: [] };
     }
     
-    // Cache the result
-    cronCache = { jobs: data.jobs || [], timestamp: Date.now() };
+    // Sort jobs by time (morning to night)
+    const sortedJobs = (data.jobs || []).sort((a: any, b: any) => {
+      const getHour = (job: any) => {
+        const expr = job.schedule?.expr || '';
+        const parts = expr.split(' ');
+        // cron expr: minute hour day month dow
+        return parseInt(parts[1]) || 0;
+      };
+      // Handle different timezones - convert to 24h format for sorting
+      // Australia/Sydney is UTC+10/+11
+      const aHour = getHour(a);
+      const bHour = getHour(b);
+      return aHour - bHour;
+    });
     
-    return NextResponse.json({ jobs: data.jobs || [] });
+    // Cache the result
+    cronCache = { jobs: sortedJobs, timestamp: Date.now() };
+    
+    return NextResponse.json({ jobs: sortedJobs });
   } catch (error: any) {
     // If we have cached data, return it even if stale
     if (cronCache) {
