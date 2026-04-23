@@ -13,12 +13,11 @@ Every episode generates these deliverables:
 |-------------|-------|-------------|
 | Podcast Script | Ruby | 10-13 min audio |
 | Show Notes | Ruby | 120-220 words |
-| Email Promo | Ruby | Marketing email (subject lines + body) |
-| LinkedIn Posts (3x) | Sophie | Also for Google Business |
-| Facebook Posts (3x) | Sophie | 1 per LinkedIn post |
-| Instagram Posts (3x) | Sophie | 1 per LinkedIn post |
+| Email Promo | Zoe | Marketing email (subject lines + body) |
+| LinkedIn Posts (3x) | Ethan | Also for Google Business |
+| Facebook Posts (3x) | Sophie | 1 per LinkedIn post (after Ethan) |
+| Instagram Posts (3x) | Sophie | 1 per LinkedIn post (after Ethan) |
 | Video Shorts (3x) | Lucas | YouTube Shorts/Reels |
-| Newsletter Email | Sophie | Full marketing email |
 | Community Promo | Lawrie | Growth Club post |
 
 ---
