@@ -32,11 +32,11 @@
     "project_id": "proj-1776683061528-1qlug2u3w",
     "priority": "High",
     "task_type": "Client Delivery",
-    "stage": "Define",
+    "stage": "Done",
     "primary_owner_id": "Brendan",
     "client_name": "Peter Clarke",
     "next_action": "Review plan, provide feedback or approve",
-    "status": "Active",
+    "status": "Completed",
     "blocked": false,
     "supporting_owner_ids": [],
     "assigned_agent_ids": [],
@@ -51,8 +51,9 @@
     "review_required": false,
     "id": "task-1776687629943-egghqkjq0",
     "created_at": "2026-04-20T12:20:29.943Z",
-    "updated_at": "2026-04-22T08:12:43.800Z",
-    "due_date": "2026-04-23"
+    "updated_at": "2026-04-23T06:36:04.011Z",
+    "due_date": "2026-04-23",
+    "completed_at": "2026-04-23T06:36:03.829Z"
   },
   {
     "title": "Send to Client - Peter Clarke",
@@ -60,11 +61,11 @@
     "project_id": "proj-1776683061528-1qlug2u3w",
     "priority": "High",
     "task_type": "Client Delivery",
-    "stage": "Define",
+    "stage": "Done",
     "primary_owner_id": "Brendan",
     "client_name": "Peter Clarke",
     "next_action": "Email plan to client",
-    "status": "Active",
+    "status": "Completed",
     "blocked": false,
     "supporting_owner_ids": [],
     "assigned_agent_ids": [],
@@ -79,9 +80,10 @@
     "review_required": false,
     "id": "task-1776687637568-6i4oboxea",
     "created_at": "2026-04-20T12:20:37.568Z",
-    "updated_at": "2026-04-22T13:10:45.746Z",
+    "updated_at": "2026-04-23T06:36:15.827Z",
     "due_date": "2026-04-22",
-    "blocked_reason": null
+    "blocked_reason": null,
+    "completed_at": "2026-04-23T06:36:15.647Z"
   },
   {
     "title": "Phase 1: Leadership Role Redesign - Peter Clarke",
@@ -89,7 +91,7 @@
     "project_id": "proj-1776683061528-1qlug2u3w",
     "priority": "High",
     "task_type": "Client Delivery",
-    "stage": "Define",
+    "stage": "In Progress",
     "primary_owner_id": "Brendan",
     "client_name": "Peter Clarke",
     "next_action": "Schedule meeting with Nicola to discuss expanded role",
@@ -109,7 +111,7 @@
     "due_date": "2026-05-18",
     "id": "task-1776687665402-58kyjhzxe",
     "created_at": "2026-04-20T12:21:05.402Z",
-    "updated_at": "2026-04-23T03:54:34.094Z",
+    "updated_at": "2026-04-23T06:36:29.803Z",
     "blocked_reason": null
   },
   {
@@ -138,7 +140,7 @@
     "due_date": "2026-06-01",
     "id": "task-1776687682580-hjnb6v3cu",
     "created_at": "2026-04-20T12:21:22.580Z",
-    "updated_at": "2026-04-20T12:25:41.505Z"
+    "updated_at": "2026-04-23T06:37:46.333Z"
   },
   {
     "title": "Phase 3: Leadership Rhythm - Peter Clarke",
@@ -161,10 +163,10 @@
     "related_task_ids": [],
     "tag_ids": [],
     "review_required": false,
-    "due_date": "2026-06-15",
+    "due_date": "2026-08-01",
     "id": "task-1776687682595-8f3r4sb5p",
     "created_at": "2026-04-20T12:21:22.595Z",
-    "updated_at": "2026-04-20T12:21:22.595Z"
+    "updated_at": "2026-04-23T06:37:52.667Z"
   },
   {
     "title": "Create designed plan - Akhil Rodrigues",
@@ -192,17 +194,18 @@
     "project_id": "proj-1776683061528-1qlug2u3w",
     "priority": "High",
     "task_type": "Client Delivery",
-    "stage": "In Progress",
+    "stage": "Done",
     "primary_owner_id": "Brendan",
     "client_name": "Akhil Rodrigues",
     "next_action": "Review plan, provide feedback or approve",
-    "status": "Active",
+    "status": "Completed",
     "blocked": false,
     "created_by": "Brendan",
     "primary_owner_type": "Brendan",
     "id": "task-1776689129858-abg3vuwni",
     "created_at": "2026-04-20T12:45:29.858Z",
-    "updated_at": "2026-04-23T06:35:26.235Z"
+    "updated_at": "2026-04-23T06:36:05.448Z",
+    "completed_at": "2026-04-23T06:36:05.272Z"
   },
   {
     "title": "Send to Client - Akhil Rodrigues",
@@ -210,19 +213,20 @@
     "project_id": "proj-1776683061528-1qlug2u3w",
     "priority": "High",
     "task_type": "Client Delivery",
-    "stage": "Define",
+    "stage": "Done",
     "primary_owner_id": "Brendan",
     "client_name": "Akhil Rodrigues",
     "next_action": "Email plan to client",
-    "status": "Active",
+    "status": "Completed",
     "blocked": false,
     "created_by": "Brendan",
     "primary_owner_type": "Brendan",
     "id": "task-1776689129872-f9qdmtu8p",
     "created_at": "2026-04-20T12:45:29.872Z",
-    "updated_at": "2026-04-23T03:35:59.340Z",
+    "updated_at": "2026-04-23T06:36:12.714Z",
     "due_date": "2026-04-22",
-    "blocked_reason": null
+    "blocked_reason": null,
+    "completed_at": "2026-04-23T06:36:12.524Z"
   },
   {
     "title": "Foundation & Self-Awareness (Weeks 1-4) - Akhil Rodrigues",
@@ -230,7 +234,7 @@
     "project_id": "proj-1776683061528-1qlug2u3w",
     "priority": "High",
     "task_type": "Client Delivery",
-    "stage": "Define",
+    "stage": "In Progress",
     "primary_owner_id": "Brendan",
     "client_name": "Akhil Rodrigues",
     "next_action": "Begin Phase 1 work",
@@ -241,7 +245,7 @@
     "due_date": "2026-05-20",
     "id": "task-1776689129887-xo99y70k6",
     "created_at": "2026-04-20T12:45:29.887Z",
-    "updated_at": "2026-04-23T03:48:06.968Z",
+    "updated_at": "2026-04-23T06:36:34.664Z",
     "blocked_reason": null
   },
   {
@@ -258,10 +262,10 @@
     "blocked": false,
     "created_by": "Brendan",
     "primary_owner_type": "Brendan",
-    "due_date": "2026-06-19",
+    "due_date": "2026-06-01",
     "id": "task-1776689129902-s4cr1fy7l",
     "created_at": "2026-04-20T12:45:29.902Z",
-    "updated_at": "2026-04-20T12:45:29.902Z"
+    "updated_at": "2026-04-23T06:37:38.718Z"
   },
   {
     "title": "Multiplication (Weeks 9-12) - Akhil Rodrigues",
@@ -277,10 +281,10 @@
     "blocked": false,
     "created_by": "Brendan",
     "primary_owner_type": "Brendan",
-    "due_date": "2026-07-19",
+    "due_date": "2026-08-01",
     "id": "task-1776689129918-nerhsx627",
     "created_at": "2026-04-20T12:45:29.918Z",
-    "updated_at": "2026-04-20T12:45:29.918Z"
+    "updated_at": "2026-04-23T06:37:59.778Z"
   },
   {
     "title": "Review Kaizen Improvement Suggestions",
@@ -288,17 +292,18 @@
     "project_id": "proj-1776690483455-xc7wpdp73",
     "priority": "High",
     "task_type": "Strategy",
-    "stage": "Capture",
+    "stage": "Done",
     "primary_owner_id": "Brendan",
     "next_action": "Gather Kaizen suggestions from all sources",
-    "status": "Active",
+    "status": "Completed",
     "blocked": false,
     "created_by": "Brendan",
     "primary_owner_type": "Brendan",
     "id": "task-1776690503277-r0c1ebjfv",
     "created_at": "2026-04-20T13:08:23.277Z",
-    "updated_at": "2026-04-22T08:14:45.615Z",
-    "due_date": "2026-04-22"
+    "updated_at": "2026-04-23T06:38:18.075Z",
+    "due_date": "2026-04-22",
+    "completed_at": "2026-04-23T06:38:17.899Z"
   },
   {
     "title": "Review Podcast Episode Draft",

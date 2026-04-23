@@ -6,6 +6,12 @@
 
 ---
 
+## Recording Source
+
+**Riverside Recording:** https://riverside.com/dashboard/studios/leader-by-design/recordings/c2c81f5a-1b09-4097-93aa-6870f5f756af?share-token=d2c7ce221a6d80e6fe5a&content-shared=recording
+
+---
+
 ## REEL 1 — THOUGHT REVERSAL (HIGH HOOK)
 
 **Title Banner (Top Text):**

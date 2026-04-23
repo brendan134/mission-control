@@ -54,16 +54,5 @@
     "created_at": "2026-04-20T11:04:21.528Z",
     "updated_at": "2026-04-20T11:37:35.156Z",
     "strategic_priority_id": "strat-1776047606356-otwixyfjo"
-  },
-  {
-    "name": "Kaizen Improvements",
-    "description": "Review and implement Kaizen improvement suggestions",
-    "status": "Active",
-    "created_by": "Brendan",
-    "id": "proj-1776690483455-xc7wpdp73",
-    "linked_task_ids": [],
-    "progress": 0,
-    "created_at": "2026-04-20T13:08:03.455Z",
-    "updated_at": "2026-04-20T13:08:03.455Z"
   }
 ]
