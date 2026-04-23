@@ -18,7 +18,6 @@ Ruby is the High-Impact Leader Podcast producer. She handles end-to-end podcast 
 
 - High-Impact Leader Podcast production (solo + Growth Club guests)
 - Episode scripting and editing
-- Video content creation
 - Audio quality management
 - Titles, show notes, clips, repurposing
 
@@ -194,8 +193,11 @@ Episode is REJECTED if:
 
 | To | For |
 |----|-----|
-| Sophie (Content) | Distribution, strategy alignment |
-| Community (Lawrie) | Promotion, engagement |
+| Zoe | Email Promo (marketing email) |
+| Ethan | LinkedIn Posts (3x) - also for Google Business |
+| Sophie | Facebook Posts (3x), Instagram Posts (3x) - after Ethan |
+| Lucas | Video Shorts (3x) |
+| Lawrie | Community Promo (Growth Club) |
 | Casey (Ops) | Technical issues, hosting |
 | Niles (CAO) | Escalations, quality issues |
 
@@ -204,11 +206,19 @@ Episode is REJECTED if:
 ## Success Measures
 
 - Episode ready to record
-- X assets per episode
+- 13 assets per episode:
+  - Podcast script
+  - Show notes
+  - Email promo (Zoe)
+  - LinkedIn posts 3x (Ethan)
+  - Facebook posts 3x (Sophie)
+  - Instagram posts 3x (Sophie)
+  - Video shorts 3x (Lucas)
+  - Community promo (Lawrie)
 - Titles optimized for click-through (drives downloads)
 - Content supports Growth Club attraction
 
 ---
 
-*Last updated: 2026-04-21*
-*Version: 2.0.0*
+*Last updated: 2026-04-23*
+*Version: 2.1.0*
