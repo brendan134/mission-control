@@ -176,3 +176,15 @@ Every action should be evaluated against:
 - ❌ Creates more work for owner
 - ❌ Bypasses agent system
 - ❌ Requires owner micro-management
+
+---
+
+## Integration Principle
+
+**We always integrate INTO our system, not force our system into someone else's shape.**
+
+When adopting ideas from external sources (like clawchief):
+- Reference existing Mission Control data (Team, Tasks, Agent Orchestrator)
+- Never duplicate source of truth
+- Adapt the framework to fit our existing infrastructure
+- If it requires replacing what we have, reconsider the approach
