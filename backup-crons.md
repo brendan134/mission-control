@@ -1,6 +1,6 @@
-# Backup Cron Jobs
-
-## Last Checked: 2026-04-20 17:13 UTC
+## New Cron Jobs
+- **Morning Brief**: 0 8 * * * @ Australia/Sydney (Consolidated tasks + Kaizen)
+- **LinkedIn Lead Extract**: 0 9 * * * @ Australia/Sydney (For Ian's BD outreach)
 
 ## Removed Jobs (2026-04-20)
 - Daily Dream Reminder (redundant)
@@ -10,13 +10,12 @@
 ## Active Cron Jobs
 
 | ID | Name | Schedule | Status |
-|----|------|----------|--------|
+|------|------|----------|--------|
 | 35c4b1d8-354c-472d-955f-8bd42695746a | Daily Cost Alert | 0 20 * * * @ Australia/Sydney | ok |
 | b7aaaf0a-837f-42fa-a045-fe9fb6171880 | Daily Memory Save Reminder | 0 30 20 * * * @ Australia/Sydney | ok |
 | ea577e1a-8b50-42c1-8a9d-fcb84657a9ad | Daily News Brief | 0 7 * * * @ Australia/Sydney | ok |
 | 355888fc-899f-4cab-80cc-1c0121d86ac7 | More Quotes Reminder | 0 9 * * * @ Australia/Sydney | ok |
 | 41d05fba-8c43-4e67-8fbd-e11d715e3f2a | Conversion Cards Reminder | 0 9 * * * @ Australia/Sydney | ok |
-| 819d6780-09bd-424a-b5b8-217366ad635f | Kaizen Morning - Business | 0 9 * * * @ Australia/Sydney | ok |
 | b6b12a2a-cd8a-40da-aa68-15809cad32d0 | Cloudflare Tunnel Reminder | 0 15 * * * @ Australia/Sydney | ok |
 | e7d5fa36-fec8-444b-8aa6-b9e62feee811 | Kaizen Evening - Business | 0 18 * * * @ Australia/Sydney | ok |
 | 39f7678e-f5a3-46a8-826b-ce53841d6827 | Weekly Review | 0 7 * * 5 @ Australia/Sydney | ok |
