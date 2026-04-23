@@ -691,14 +691,14 @@ export default function Tasks() {
                       <button 
                         onClick={() => handleStart(task.id)}
                         title="Start task"
-                        style={actionButtonStyle}
+                        style={{ ...actionButtonStyle, color: '#3b82f6' }}
                       >
                         <Play size={16} />
                       </button>
                       <button 
                         onClick={() => handleBlock(task.id)}
                         title="Block task"
-                        style={actionButtonStyle}
+                        style={{ ...actionButtonStyle, color: '#8b5cf6' }}
                       >
                         <Pause size={16} />
                       </button>
@@ -708,7 +708,7 @@ export default function Tasks() {
                     <button 
                       onClick={() => handleUnblock(task.id)}
                       title="Unblock task"
-                      style={{ ...actionButtonStyle, color: '#22c55e' }}
+                      style={{ ...actionButtonStyle, color: '#f59e0b' }}
                     >
                       <Play size={16} />
                     </button>
