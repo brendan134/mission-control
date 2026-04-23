@@ -69,6 +69,20 @@ export const AGENT_TEAM: Agent[] = [
     ],
   },
   {
+    id: 'ian',
+    name: 'Ian',
+    role: 'Head of Growth (BD)',
+    tier: 'B',
+    model: 'kimi',
+    reportsTo: 'marcus',
+    capabilities: [
+      { keywords: ['growth', 'new members', 'outreach', 'lead', 'prospect', 'pipeline'], topics: ['business development', 'sales'] },
+      { keywords: ['email', 'linkedin', 'follow-up', 'sequence', 'nurture'], topics: ['outreach', 'conversion'] },
+      { keywords: ['community', 'high-impact', 'membership'], topics: ['growth community', 'member acquisition'] },
+    ],
+    handoffTo: 'marcus for strategy, niles for routing',
+  },
+  {
     id: 'sophie',
     name: 'Sophie',
     role: 'Head of Content',

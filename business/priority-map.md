@@ -73,6 +73,7 @@ If a signal maps to no important people and no important programs, it should usu
 | **Kaizen** | Head of Improvement - daily business suggestions |
 | **Casey** | Head of Operations - system maintenance, cron, automation |
 | **Marcus** | Head of Strategy - priorities, goal alignment |
+| **Ian** | Head of Growth - BD, new community members |
 | **Sophie** | Head of Content - production, LinkedIn, newsletters |
 | **Brandon** | Head of Messaging - copy, offers, email marketing |
 | **Jerry** | Client Delivery Lead - project delivery, QA |
@@ -111,6 +112,7 @@ When a task arrives, route to the appropriate agent:
 | Task Type | Route To |
 |-----------|----------|
 | Strategy & Planning | Marcus (Head of Strategy) |
+| **Growth / BD / New Members** | **Ian (Head of Growth)** |
 | Copy & Messaging | Brandon (Head of Messaging) |
 | Content Production | Sophie (Head of Content) |
 | Course/Curriculum | Kathy (Curriculum) |
