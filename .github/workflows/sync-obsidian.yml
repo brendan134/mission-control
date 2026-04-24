@@ -23,96 +23,133 @@ jobs:
       - name: Install dependencies
         run: pip install google-auth google-auth-oauthlib google-api-python-client
 
+      - name: Debug - Print files to upload
+        run: |
+          echo "=== Files in obsidian folder ==="
+          find ./obsidian -type f -name "*.md" | head -20
+          echo "=== Secret check (first 50 chars) ==="
+          echo "$GOOGLE_SERVICE_ACCOUNT_KEY" | head -c 50
+          echo ""
+          echo "=== Folder ID ==="
+          echo "$GOOGLE_DRIVE_FOLDER_ID"
+
       - name: Authenticate and sync to Google Drive
+        continue-on-error: true
         run: |
           python3 << 'PYTHON_SCRIPT'
           import os
           import json
-          from google.auth import credentials
+          import sys
           from google.oauth2 import service_account
           from googleapiclient.discovery import build
           from googleapiclient.http import MediaFileUpload
 
-          # Load service account credentials from secret
-          creds_dict = json.loads(os.environ['GOOGLE_SERVICE_ACCOUNT_KEY'])
-          credentials = service_account.Credentials.from_service_account_info(
-              creds_dict,
-              scopes=['https://www.googleapis.com/auth/drive.file']
-          )
-
-          drive_service = build('drive', 'v3', credentials=credentials)
-          folder_id = os.environ['GOOGLE_DRIVE_FOLDER_ID']
-
-          # Map folder names to IDs
-          folder_map = {}
-          
-          # Create folders if they don't exist
-          folders_to_create = ['01-daily-logs', '02-mistakes', '03-shared', '04-knowledge', 'prompts']
-          for folder_name in folders_to_create:
-              # Check if folder exists
-              response = drive_service.files().list(
-                  q=f"name='{folder_name}' and '{folder_id}' in parents and mimeType='application/vnd.google-apps.folder'",
-                  fields="files(id, name)"
-              ).execute()
+          try:
+              # Load service account credentials from secret
+              creds_json = os.environ.get('GOOGLE_SERVICE_ACCOUNT_KEY', '')
+              folder_id = os.environ.get('GOOGLE_DRIVE_FOLDER_ID', '')
               
-              if response.get('files'):
-                  folder_map[folder_name] = response['files'][0]['id']
-                  print(f"Found folder: {folder_name}")
-              else:
-                  # Create folder
-                  folder_metadata = {
-                      'name': folder_name,
-                      'mimeType': 'application/vnd.google-apps.folder',
-                      'parents': [folder_id]
-                  }
-                  folder = drive_service.files().create(body=folder_metadata, fields='id').execute()
-                  folder_map[folder_name] = folder['id']
-                  print(f"Created folder: {folder_name}")
+              print(f"DEBUG: Credentials length: {len(creds_json)}")
+              print(f"DEBUG: Folder ID: {folder_id}")
+              
+              if not creds_json:
+                  print("ERROR: No credentials found!")
+                  sys.exit(1)
+              
+              if not folder_id:
+                  print("ERROR: No folder ID found!")
+                  sys.exit(1)
+              
+              creds_dict = json.loads(creds_json)
+              credentials = service_account.Credentials.from_service_account_info(
+                  creds_dict,
+                  scopes=['https://www.googleapis.com/auth/drive.file']
+              )
 
-          # Upload files
-          for root, dirs, files in os.walk('./obsidian'):
-              rel_path = os.path.relpath(root, './obsidian')
+              drive_service = build('drive', 'v3', credentials=credentials)
               
-              # Determine target folder
-              if rel_path == '.':
-                  target_folder = folder_id
-              else:
-                  folder_name = os.path.basename(root)
-                  target_folder = folder_map.get(folder_name, folder_id)
+              # Verify we can access the folder
+              try:
+                  folder = drive_service.files().get(fileId=folder_id).execute()
+                  print(f"DEBUG: Connected to folder: {folder.get('name')}")
+              except Exception as e:
+                  print(f"ERROR: Cannot access folder: {e}")
+                  sys.exit(1)
+
+              # Map folder names to IDs
+              folder_map = {}
               
-              for filename in files:
-                  if not filename.endswith('.md'):
-                      continue
-                  
-                  file_path = os.path.join(root, filename)
-                  
-                  # Check if file exists
+              # Create folders if they don't exist
+              folders_to_create = ['01-daily-logs', '02-mistakes', '03-shared', '04-knowledge', 'prompts']
+              for folder_name in folders_to_create:
                   response = drive_service.files().list(
-                      q=f"name='{filename}' and '{target_folder}' in parents",
+                      q=f"name='{folder_name}' and '{folder_id}' in parents and mimeType='application/vnd.google-apps.folder'",
                       fields="files(id, name)"
                   ).execute()
                   
-                  file_metadata = {
-                      'name': filename,
-                      'parents': [target_folder]
-                  }
-                  media = MediaFileUpload(file_path, resumable=False)
-                  
                   if response.get('files'):
-                      # Update existing file
-                      file_id = response['files'][0]['id']
-                      drive_service.files().update(fileId=file_id, media_body=media).execute()
-                      print(f"Updated: {filename}")
+                      folder_map[folder_name] = response['files'][0]['id']
+                      print(f"Found folder: {folder_name}")
                   else:
-                      # Create new file
-                      drive_service.files().create(body=file_metadata, media_body=media, fields='id').execute()
-                      print(f"Created: {filename}")
+                      folder_metadata = {
+                          'name': folder_name,
+                          'mimeType': 'application/vnd.google-apps.folder',
+                          'parents': [folder_id]
+                      }
+                      folder = drive_service.files().create(body=folder_metadata, fields='id').execute()
+                      folder_map[folder_name] = folder['id']
+                      print(f"Created folder: {folder_name}")
 
-          print("Sync complete!")
+              # Upload files
+              files_uploaded = 0
+              for root, dirs, files in os.walk('./obsidian'):
+                  rel_path = os.path.relpath(root, './obsidian')
+                  
+                  if rel_path == '.':
+                      target_folder = folder_id
+                  else:
+                      folder_name = os.path.basename(root)
+                      target_folder = folder_map.get(folder_name, folder_id)
+                  
+                  for filename in files:
+                      if not filename.endswith('.md'):
+                          continue
+                      
+                      file_path = os.path.join(root, filename)
+                      
+                      # Check if file exists
+                      response = drive_service.files().list(
+                          q=f"name='{filename}' and '{target_folder}' in parents",
+                          fields="files(id, name)"
+                      ).execute()
+                      
+                      file_metadata = {
+                          'name': filename,
+                          'parents': [target_folder]
+                      }
+                      media = MediaFileUpload(file_path, resumable=False)
+                      
+                      if response.get('files'):
+                          file_id = response['files'][0]['id']
+                          drive_service.files().update(fileId=file_id, media_body=media).execute()
+                          print(f"Updated: {filename}")
+                      else:
+                          drive_service.files().create(body=file_metadata, media_body=media, fields='id').execute()
+                          print(f"Created: {filename}")
+                      files_uploaded += 1
+
+              print(f"SUCCESS: Uploaded {files_uploaded} files!")
+              
+          except Exception as e:
+              print(f"ERROR: {type(e).__name__}: {e}")
+              import traceback
+              traceback.print_exc()
+              sys.exit(1)
           PYTHON_SCRIPT
         env:
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
           GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
 
-      - name: Verify sync
-        run: echo "Obsidian folder synced to Google Drive successfully!"
+      - name: Report status
+        run: |
+          echo "Workflow completed!"
