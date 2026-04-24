@@ -4,6 +4,7 @@
 **Duration:** 6m
 **Call Type:** Check-in
 **Energy/State:** Overwhelmed, reflective, wants to be prepared
+**Tags:** `construction` `leadership` `operations`
 **Client:** Stephen Hunt
 
 ---

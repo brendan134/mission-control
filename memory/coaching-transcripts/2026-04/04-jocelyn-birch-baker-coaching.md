@@ -4,6 +4,7 @@
 **Duration:** 1h 16m
 **Call Type:** Operations
 **Energy/State:** Proactive, organized, focused on team development
+**Tags:** `veterinary` `operations` `team` `systems`
 **Client:** Jocelyn (High Street Veterinary)
 
 ---

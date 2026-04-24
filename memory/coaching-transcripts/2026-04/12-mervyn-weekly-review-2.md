@@ -4,6 +4,7 @@
 **Duration:** 27m
 **Call Type:** Operations
 **Energy/State:** Curious, open to learning, slightly hesitant about tech
+**Tags:** `marketing` `systems` `operations`
 **Participants:** Mervyn, Brendan
 
 ---

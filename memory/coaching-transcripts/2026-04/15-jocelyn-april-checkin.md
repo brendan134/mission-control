@@ -4,6 +4,7 @@
 **Duration:** ~1h 10m
 **Call Type:** Business/Operations
 **Energy/State:** Positive, slightly frustrated with AI, action-oriented
+**Tags:** `veterinary` `operations` `systems` `team`
 **Client:** Jocelyn (High Street Veterinary)
 
 ---

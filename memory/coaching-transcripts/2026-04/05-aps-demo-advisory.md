@@ -4,6 +4,7 @@
 **Duration:** 37m
 **Call Type:** Strategy
 **Energy/State:** Exploratory, interested in tools
+**Tags:** `saas` `systems` `strategy`
 **Participants:** Brendan Rogers, Andrew Paton-Smith (Jazoodle/Advisory)
 
 ---

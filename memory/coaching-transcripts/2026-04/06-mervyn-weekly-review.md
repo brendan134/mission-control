@@ -4,6 +4,7 @@
 **Duration:** 27m
 **Call Type:** Operations
 **Energy/State:** Curious, learning-focused, slightly uncertain
+**Tags:** `marketing` `systems` `operations`
 **Client:** Mervyn J
 
 ---

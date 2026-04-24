@@ -4,6 +4,7 @@
 **Duration:** 17m 42s
 **Call Type:** Operations
 **Energy/State:** Focused, analytical, slightly overwhelmed
+**Tags:** `construction` `leadership` `operations` `team`
 **Client:** Chad Onley (M&K Engineering)
 
 ---

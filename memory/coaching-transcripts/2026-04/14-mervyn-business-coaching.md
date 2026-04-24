@@ -4,6 +4,7 @@
 **Duration:** 39m
 **Call Type:** Strategy
 **Energy/State:** Inquisitive, slightly anxious about tech, open to advice
+**Tags:** `marketing` `systems` `strategy` `growth`
 **Participants:** Mervyn, Brendan
 
 ---

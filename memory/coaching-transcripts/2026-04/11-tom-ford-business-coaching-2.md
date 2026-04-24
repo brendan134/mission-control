@@ -4,6 +4,7 @@
 **Duration:** 59m
 **Call Type:** Operations
 **Energy/State:** Overwhelmed, stretched, but committed to making changes
+**Tags:** `sales` `hr` `leadership` `operations`
 **Participants:** Tom, Brendan
 
 ---

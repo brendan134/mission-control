@@ -4,6 +4,7 @@
 **Duration:** 31m 30s
 **Call Type:** Operations
 **Energy/State:** Focused, analytical, addressing performance issues
+**Tags:** `sales` `hr` `leadership` `operations`
 **Client:** Tom Ford
 
 ---

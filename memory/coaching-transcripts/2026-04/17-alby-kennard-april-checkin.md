@@ -4,6 +4,7 @@
 **Duration:** ~26m
 **Call Type:** Operations/Business
 **Energy/State:** Stressed (family situation), focused, action-oriented
+**Tags:** `sales` `hr` `leadership` `operations`
 **Client:** Alby Kennard (Manufacturing/Business Services)
 
 ---

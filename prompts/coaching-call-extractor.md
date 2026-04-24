@@ -1,89 +1,99 @@
-# Coaching Call Extractor
+# Coaching Call Extractor Prompt (V2)
 
-Use this prompt after each coaching call to extract structured insights.
+Use this template to extract key insights from coaching calls.
 
----
+## Instructions
 
-## Input
-
-Paste the full transcript from Fathom.
-
----
-
-## Extraction Template
-
-### Client Profile
-- **Name/ID**: 
-- **Industry**: 
-- **Business Stage**: (startup/growth/mature/scale)
-- **Call Type**: (Strategy/Operations/Personal/Check-in)
-- **Energy/State**: (e.g., frustrated, optimistic, overwhelmed, calm)
-
-### Core Situation
-- **Primary Challenge**: What brought them to coaching?
-- **Current State**: Where are they stuck?
-
-### Key Insights (The "Aha" Moments)
-1. 
-2. 
-3. 
-
-### Pivot Points
-- Moments where their thinking shifted during the call
-- What triggered the shift?
-
-### Client Language (Exact Phrases)
-- How they describe their problem:
-- How they describe what they want:
-
-### Metrics & Examples
-- Real numbers mentioned:
-- Specific situations:
-
-### Barriers & Beliefs
-- What held them back:
-- Limiting beliefs surfaced:
-- Personal context (life events, circumstances):
-
-### Frameworks Discussed
-- (PEOPLE OS, Growth Path, etc.)
-
-### Quote-Worthy Lines
-- 1-2 powerful quotes from client or coach:
-
-### Product/Service Gaps
-- Problems mentioned that might need a product/solution:
-
-### Coaching Approach
-- **What Brendan Did**: (questioning, showing data, demo, referral, etc.)
-- **External Resources Mentioned**: (books, podcasts, tools, people)
-- **Brendan Committed To**: (promises to send/do for client)
-
-### Next Steps (From Call)
-- Actions the client committed to:
+1. Read through the transcript
+2. Fill in each section with specific details from the call
+3. Focus on insights that can be reused (content, strategies, frameworks)
+4. Add relevant tags from the reference list
+5. Mark output routing based on where content can be used
 
 ---
 
-### Value Add Hook
-- One sentence summary for personalized client recommendation:
+## Template
+
+# [Client Name] - [Call Title]
+
+**Date:** [Date]
+**Duration:** [Duration]
+**Call Type:** [Strategy/Operations/Personal/Check-in/Product Demo]
+**Energy/State:** [Emotional state]
+**Tags:** [Add 3-6 relevant tags - see Content Tags Reference]
+**Client:** [Name] ([Company/Role])
 
 ---
+
+## Key Topics
+- [Topic 1 - what was discussed]
+- [Topic 2]
+- [Topic 3]
+
+---
+
+## Key Insights (Aha Moments)
+
+1. **[Insight 1]** - What was the key realization?
+2. **[Insight 2]**
+3. **[Insight 3]**
+
+## Pivot Points
+- [Any decisions made or direction changes during the call]
+
+## Client Language
+- [Notable phrases they use]
+- "[Memorable quote]"
+
+## Quote-Worthy Lines
+- "[Quote 1]"
+- "[Quote 2]"
+
+---
+
+## Barriers & Beliefs
+- **What held them back:** [Limiting beliefs or obstacles]
+- **What's working:** [What's going well]
+- **Personal context:** [Life context affecting business]
+
+---
+
+## Next Steps
+1. [Action item 1]
+2. [Action item 2]
+3. [Action item 3]
+
+---
+
+## Coaching Approach
+- **What Brendan Did:** [Coaching techniques used]
+- **External Resources:** [Tools, systems, people referenced]
+- **Brendan Committed To:** [What Brendan said they'd do]
 
 ### Content Potential
-- **Rating**: (1-5 scale, 5 = podcast goldmine)
-- **Urgency Level**: (🔴 High = fix this week, 🟡 Medium = explore, 🟢 Future = ongoing)
+- **Rating:** [1-5] (1=low, 5=high content value)
+- **Urgency:** 🟢 Future | 🟡 This Week | 🔴 Now
 
 ---
 
-## Output Routing
+## Output Routing (Strategic Alignment)
 
-After extraction, flag for:
-- [ ] **Podcast** - Good story/pivot point
-- [ ] **Email** - Insight for lead magnet
-- [ ] **Social** - Quote or language
-- [ ] **Course** - Example or framework
-- [ ] **Product** - Gap identified
+- [ ] **Attract** - Content, podcast, social media, LinkedIn
+- [ ] **Convert** - Sales emails, follow-ups, proposals
+- [ ] **Deliver** - Course material, coaching frameworks, templates
+- [ ] **Engage** - Team training, culture, internal comms
 
 ---
 
-*Use this for every coaching call to build content library*
+## Tags Quick Reference
+
+**Industry:** veterinary, construction, real-estate, marketing, coaching, saas, retail, health, finance
+
+**Topic:** leadership, sales, operations, strategy, finance, team, marketing, systems, hr, pricing, growth, mindset
+
+**Content:** podcast-ready, course-material, email-sequence, social-posts, case-study
+
+---
+
+*Extracted: [Date]*
+*Full transcript available via Fathom ID: [Recording ID]*

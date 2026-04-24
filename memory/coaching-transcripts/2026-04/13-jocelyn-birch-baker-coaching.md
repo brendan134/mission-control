@@ -4,6 +4,7 @@
 **Duration:** 1h 13m
 **Call Type:** Operations
 **Energy/State:** Overwhelmed, stressed about finances, determined to fix
+**Tags:** `veterinary` `finance` `pricing` `operations`
 **Participants:** Jocelyn, Brendan
 
 ---

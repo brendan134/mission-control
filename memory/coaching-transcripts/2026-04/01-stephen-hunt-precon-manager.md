@@ -4,6 +4,7 @@
 **Duration:** 40m 28s
 **Call Type:** Strategy
 **Energy/State:** Engaged, strategic thinking
+**Tags:** `construction` `leadership` `team` `podcast-ready`
 **Topic:** What makes an A-Grade pre-con person
 
 ---

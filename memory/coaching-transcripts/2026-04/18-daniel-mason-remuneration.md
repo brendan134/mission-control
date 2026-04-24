@@ -4,6 +4,7 @@
 **Duration:** ~1h 23m
 **Call Type:** Strategy/Operations
 **Energy/State:** Focused, slightly overwhelmed, analytical
+**Tags:** `finance` `hr` `strategy` `operations`
 **Client:** Daniel Mason (Real Estate Agency)
 
 ---

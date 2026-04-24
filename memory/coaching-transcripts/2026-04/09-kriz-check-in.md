@@ -4,6 +4,7 @@
 **Duration:** 1h 4m
 **Call Type:** Operations
 **Energy/State:** Optimistic, productive, excited about system
+**Tags:** `operations` `systems` `team` `growth`
 **Participants:** Kriz, Dominic (Kriz's team), Brendan
 
 ---

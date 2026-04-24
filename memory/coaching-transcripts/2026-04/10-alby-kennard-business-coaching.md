@@ -4,6 +4,7 @@
 **Duration:** 1h 36m
 **Call Type:** Strategy
 **Energy/State:** Concerned about team performance, determined to push automation
+**Tags:** `sales` `hr` `leadership` `systems` `podcast-ready`
 **Participants:** Alby, Brendan
 
 ---

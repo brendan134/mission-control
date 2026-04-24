@@ -4,6 +4,7 @@
 **Duration:** ~27m
 **Call Type:** Personal/Leadership
 **Energy/State:** Overwhelmed, reflective, open to change
+**Tags:** `leadership` `operations` `mindset`
 **Client:** Carol (Glen - Women's Shelter)
 
 ---

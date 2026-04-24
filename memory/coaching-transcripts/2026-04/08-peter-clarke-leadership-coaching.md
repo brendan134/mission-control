@@ -2,6 +2,9 @@
 
 **Date:** April 16, 2026
 **Duration:** 58m
+**Call Type:** Leadership
+**Energy/State:** Growth-focused, developing
+**Tags:** `leadership` `team` `operations` `podcast-ready`
 **Client:** Peter Clarke (Kwik Kopy Gosford)
 
 ---

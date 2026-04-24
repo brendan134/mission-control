@@ -4,6 +4,7 @@
 **Duration:** ~36m
 **Call Type:** Product Demo/Business
 **Energy/State:** Excited, passionate, holiday mode but working
+**Tags:** `saas` `systems` `marketing` `strategy`
 **Client:** Sean Grobbelaar (Network Pro)
 
 ---
