@@ -27,10 +27,48 @@ jobs:
         run: |
           FOLDER_ID="${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}"
           
-          # Sync entire folder recursively using drive CLI
-          gcloud drive files list --drive-id="$FOLDER_ID" --format="json" > /tmp/existing_files.json
+          # First ensure all subfolders exist
+          gcloud drive files create 01-daily-logs --parent="$FOLDER_ID" --mime-type=application/vnd.google-apps.folder 2>/dev/null || true
+          gcloud drive files create 02-mistakes --parent="$FOLDER_ID" --mime-type=application/vnd.google-apps.folder 2>/dev/null || true
+          gcloud drive files create 03-shared --parent="$FOLDER_ID" --mime-type=application/vnd.google-apps.folder 2>/dev/null || true
+          gcloud drive files create 04-knowledge --parent="$FOLDER_ID" --mime-type=application/vnd.google-apps.folder 2>/dev/null || true
+          gcloud drive files create prompts --parent="$FOLDER_ID" --mime-type=application/vnd.google-apps.folder 2>/dev/null || true
           
-          # Upload recursively - this creates folders and files
-          gcloud drive files upload-recursive ./obsidian --parent="$FOLDER_ID" --force-async
+          # Get folder IDs
+          DAILY_LOGS=$(gcloud drive files list --drive-id="$FOLDER_ID" --filter="name='01-daily-logs'" --format="get(id)")
+          MISTAKES=$(gcloud drive files list --drive-id="$FOLDER_ID" --filter="name='02-mistakes'" --format="get(id)")
+          SHARED=$(gcloud drive files list --drive-id="$FOLDER_ID" --filter="name='03-shared'" --format="get(id)")
+          KNOWLEDGE=$(gcloud drive files list --drive-id="$FOLDER_ID" --filter="name='04-knowledge'" --format="get(id)")
+          PROMPTS=$(gcloud drive files list --drive-id="$FOLDER_ID" --filter="name='prompts'" --format="get(id)")
+          
+          # Upload 01-daily-logs
+          for f in ./obsidian/01-daily-logs/*.md; do
+            [ -f "$f" ] && gcloud drive files create "$(basename $f)" --parent="$DAILY_LOGS" --from-file="$f" 2>/dev/null || true
+          done
+          
+          # Upload 02-mistakes
+          for f in ./obsidian/02-mistakes/*.md; do
+            [ -f "$f" ] && gcloud drive files create "$(basename $f)" --parent="$MISTAKES" --from-file="$f" 2>/dev/null || true
+          done
+          
+          # Upload 03-shared
+          for f in ./obsidian/03-shared/*.md; do
+            [ -f "$f" ] && gcloud drive files create "$(basename $f)" --parent="$SHARED" --from-file="$f" 2>/dev/null || true
+          done
+          
+          # Upload 04-knowledge
+          for f in ./obsidian/04-knowledge/*.md; do
+            [ -f "$f" ] && gcloud drive files create "$(basename $f)" --parent="$KNOWLEDGE" --from-file="$f" 2>/dev/null || true
+          done
+          
+          # Upload prompts
+          for f in ./obsidian/prompts/*.md; do
+            [ -f "$f" ] && gcloud drive files create "$(basename $f)" --parent="$PROMPTS" --from-file="$f" 2>/dev/null || true
+          done
+          
+          # Upload root files
+          for f in ./obsidian/*.md; do
+            [ -f "$f" ] && gcloud drive files create "$(basename $f)" --parent="$FOLDER_ID" --from-file="$f" 2>/dev/null || true
+          done
           
           echo "Sync complete!"
