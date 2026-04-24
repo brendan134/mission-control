@@ -15,30 +15,26 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Google Drive API
-        uses: google-github-actions/setup-gcloud@v2
+      - name: Setup Google Cloud SDK
+        uses: google-github-actions/setup-gcloud@v1
         with:
-          version: 'v2'
-          credentials_json: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          project_id: obsidian-sync-494307
+          service_account_key: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          export_default_credentials: true
 
-      - name: Upload Obsidian folder to Google Drive
+      - name: Authorize Google Drive access
         run: |
-          # Get folder ID from secret
-          FOLDER_ID=${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+          gcloud auth activate-service-account --key-file=- <<< '${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}'
+
+      - name: Upload to Google Drive
+        run: |
+          FOLDER_ID='${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}'
           
-          # Upload obsidian folder contents to Google Drive
-          # This will update existing files and add new ones
-          gcloud drive files list --drive-id "$FOLDER_ID" --format "get(id)" --filter "name='obsidian'" 2>/dev/null || echo "FOLDER_NOT_FOUND"
+          # Install drive CLI
+          go install github.com/odeke-em/drive/cmd/drive@latest
           
-          # Create or update the obsidian folder
-          gcloud drive files upload-recursive \
-            ./obsidian \
-            --drive-id "$FOLDER_ID" \
-            --mime-type "application/vnd.google-apps.folder" \
-            --delete-source-files false
-        env:
-          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
-          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+          # Push obsidian folder to Google Drive
+          drive push -files -no-prompt -destination "$FOLDER_ID" ./obsidian
 
       - name: Verify sync
         run: echo "Obsidian folder synced to Google Drive successfully!"
