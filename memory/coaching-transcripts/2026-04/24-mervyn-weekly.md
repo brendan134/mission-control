@@ -41,3 +41,14 @@
 > "The memory alone has made the memory process like a thousand percent better."
 
 > "You can put in things like express feelings in your script - say this word angrily, say this word sadly."
+### Content Potential
+- **Rating:** 3/5
+- **Urgency:** 🟢 Future
+
+## Output Routing
+- [ ] **Attract**
+- [ ] **Convert**
+- [ ] **Deliver**
+- [ ] **Engage**
+
+*Extracted: 2026-04-24*
