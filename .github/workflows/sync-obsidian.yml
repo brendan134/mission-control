@@ -1,0 +1,44 @@
+name: Sync Obsidian to Google Drive
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'obsidian/**'
+      - '.github/workflows/sync-obsidian.yml'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Google Drive API
+        uses: google-github-actions/setup-gcloud@v2
+        with:
+          version: 'v2'
+          credentials_json: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+
+      - name: Upload Obsidian folder to Google Drive
+        run: |
+          # Get folder ID from secret
+          FOLDER_ID=${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+          
+          # Upload obsidian folder contents to Google Drive
+          # This will update existing files and add new ones
+          gcloud drive files list --drive-id "$FOLDER_ID" --format "get(id)" --filter "name='obsidian'" 2>/dev/null || echo "FOLDER_NOT_FOUND"
+          
+          # Create or update the obsidian folder
+          gcloud drive files upload-recursive \
+            ./obsidian \
+            --drive-id "$FOLDER_ID" \
+            --mime-type "application/vnd.google-apps.folder" \
+            --delete-source-files false
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+
+      - name: Verify sync
+        run: echo "Obsidian folder synced to Google Drive successfully!"
