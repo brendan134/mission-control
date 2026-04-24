@@ -43,36 +43,39 @@ See `2026-03/` folder for full list.
 
 ---
 
-## February 2026 Transcripts (4 extracted / 28 total)
+## February 2026 Transcripts (28/28 - COMPLETE ✅)
 
 | # | Date | Client/Topic | Status |
 |---|------|--------------|--------|
-| 1 | 2026-02-01 | Jerry Kennard | ✅ Extracted |
-| 2 | 2026-02-03 | Jocelyn Birch Baker | ⏳ Pending |
-| 3 | 2026-02-03 | Alby Kennard | ⏳ Pending |
-| 4 | 2026-02-03 | Pathways Setup - Zahra | ⏳ Pending |
-| 5 | 2026-02-04 | HIL Group Coaching + AMA | ⏳ Pending |
-| 6 | 2026-02-05 | Meeting - Kriz | ⏳ Pending |
-| 7 | 2026-02-05 | Carol (TGFW) | ⏳ Pending |
-| 8 | 2026-02-06 | Brendon Clements | ⏳ Pending |
-| 9 | 2026-02-06 | Mervyn Weekly Review | ⏳ Pending |
-| 10 | 2026-02-08 | Jerry Kennard | ⏳ Pending |
-| 11 | 2026-02-08 | Jocelyn Birch Baker | ⏳ Pending |
-| 12 | 2026-02-09 | Daniel Mason | ⏳ Pending |
-| 13 | 2026-02-09 | Test Recording | ⏳ Pending |
-| 14 | 2026-02-10 | Chad Onley | ⏳ Pending |
-| 15 | 2026-02-10 | Alby Kennard | ⏳ Pending |
-| 16 | 2026-02-13 | HSVS Data Metrics | ⏳ Pending |
-| 17 | 2026-02-15 | Jerry Kennard | ⏳ Pending |
-| 18 | 2026-02-17 | Meeting - Kriz | ⏳ Pending |
-| 19 | 2026-02-17 | LinkedInLocal Meeting | ⏳ Pending |
-| 20 | 2026-02-18 | Jocelyn Birch Baker | ⏳ Pending |
-| 21 | 2026-02-18 | Meeting - Kriz | ⏳ Pending |
-| 22 | 2026-02-22 | Jocelyn Birch Baker | ✅ Extracted |
-| 23 | 2026-02-20 | Carol (TGFW) | ⏳ Pending |
-| 24 | 2026-02-20 | Lou Carroll | ⏳ Pending |
-| 25 | 2026-02-20 | Mervyn Weekly Review | ⏳ Pending |
-| 26 | 2026-02-23 | Daniel Mason | ⏳ Pending |
+| 1 | 2026-02-01 | Jerry Kennard | ✅ |
+| 2 | 2026-02-03 | Jocelyn Birch Baker | ✅ |
+| 3 | 2026-02-03 | Alby Kennard | ✅ |
+| 4 | 2026-02-03 | Pathways Setup - Zahra | ✅ |
+| 5 | 2026-02-04 | HIL Group Coaching + AMA | ✅ |
+| 6 | 2026-02-05 | Meeting - Kriz | ✅ |
+| 7 | 2026-02-05 | Carol (TGFW) | ✅ |
+| 8 | 2026-02-06 | Brendon Clements | ✅ |
+| 9 | 2026-02-06 | Mervyn Weekly Review | ✅ |
+| 10 | 2026-02-08 | Jerry Kennard | ✅ |
+| 11 | 2026-02-08 | Jocelyn Birch Baker | ✅ |
+| 12 | 2026-02-09 | Daniel Mason | ✅ |
+| 13 | 2026-02-09 | Test Recording | ⏭️ Skipped |
+| 14 | 2026-02-10 | Chad Onley | ✅ |
+| 15 | 2026-02-10 | Alby Kennard | ✅ |
+| 16 | 2026-02-13 | HSVS Data Metrics | ✅ |
+| 17 | 2026-02-15 | Jerry Kennard | ✅ |
+| 18 | 2026-02-17 | Meeting - Kriz | ✅ |
+| 19 | 2026-02-17 | LinkedInLocal Meeting | ✅ |
+| 20 | 2026-02-18 | Jocelyn Birch Baker | ✅ |
+| 21 | 2026-02-18 | Meeting - Kriz | ✅ |
+| 22 | 2026-02-20 | Carol (TGFW) | ✅ |
+| 23 | 2026-02-20 | Lou Carroll | ✅ |
+| 24 | 2026-02-20 | Mervyn Weekly Review | ✅ |
+| 25 | 2026-02-22 | Jocelyn Birch Baker | ✅ |
+| 26 | 2026-02-23 | Daniel Mason | ✅ |
+| 27 | 2026-02-25 | Alby Kennard | ✅ |
+| 28 | 2026-02-27 | Mervyn Weekly Review | ✅ |
+| 26 | 2026-02-23 | Daniel Mason | ✅ Extracted |
 | 27 | 2026-02-25 | Alby Kennard | ✅ Extracted |
 | 28 | 2026-02-27 | Mervyn Weekly Review | ✅ Extracted |
 

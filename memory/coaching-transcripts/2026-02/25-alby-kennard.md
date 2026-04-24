@@ -1,82 +1,38 @@
-# Alby Kennard - Business Coaching (February 25)
+# Business Coaching: Alby Kennard
 
-**Date:** February 25, 2026
+**Date:** Wednesday, February 25, 2026 at 05:01 AM
 **Duration:** 1h 10m
-**Call Type:** Operations/Leadership/HR
-**Energy/State:** Under pressure, draining, but focused
-**Tags:** `sales` `hr` `leadership` `operations` `podcast-ready`
-**Client:** Alby Kennard (Step4)
+**Participants:** Brendan Rogers, Alby Kennard
 
 ---
 
-## Key Topics
+## Key Topics Discussed
 
-- **G8 Tender** - Major $11M deal, massive pressure, ESG consultants, presentation training
-- **Prue Issues** - Meltdown, conflict with Tom, undermining authority, needs clear expectations
-- **Yenny Breach of Trust** - Shared confidential leadership info with Prue, restructure plans
-- **Alana Rumour-Mongering** - Spreading false information about Richard's termination
-- **Rach Restructure** - Moving to part-time Sensitive Tech + BD
-- **Tom Leadership Coaching** - Brendan to work with Tom directly
-- **Team Dynamics** - "Boys vs Girls" clicks, scapegoating change resistance
-
----
-
-## Key Insights (Aha Moments)
-
-1. **Change Resistance** - "People don't want to change, Tom and Richard are the scapegoats"
-2. **Leadership Clarity** - Get people in the same room to resolve conflicts
-3. **Trust Framework** - Make confidentiality explicitly clear in leadership meetings
-4. **HR Documentation** - Need to address rumour-spreading seriously (bullying/harassment)
-5. **Tom Development** - Performance-focused, needs relationship coaching
-
-## Client Language
-- "My tank's empty at the moment"
-- "It's just a bit debilitating"
-- "11 million bucks at stake"
-- "People don't want to change"
-- "This is the dictatorship side of the business"
-
-## Quote-Worthy Lines
-- "People don't want to change, Tom and Richard are the scapegoats"
-- "Best outcome's always on the other side of a genuine conversation"
-- "Small things can become big things very quickly"
-- "The right people, they won't stick their neck out as much"
-- "If you're not on board, politely, maybe this is not the place for you"
-
-## Barriers & Beliefs
-- **What held them back:** Avoiding difficult conversations, assuming confidentiality
-- **Limiting beliefs:** "Tom's never going to be Dan"
-- **Personal context:** Major tender pressure, multiple HR issues simultaneously
-
-## Next Steps
-1. Have clear conversation with Prue (expectations, get on board or off board)
-2. Address Yenny breach of trust (make confidentiality explicit)
-3. Address Alana/rumour-spreaders (awareness conversation, not dragging over Coals)
-4. Rach restructure finalised
-5. Brendan to start coaching Tom
-6. Follow up on Erin Akindi kindy lead
+- **Tender Pressure**: Major $11M tender causing significant pressure with many moving parts
+- **Team Conflict - Prue**: Prue had a meltdown, conflict with Tom over changes. Need to address directly with expectations
+- **Team Conflict - Yeni**: Yeni told Prue that leadership would "pick Tom over Prue" - breach of leadership team trust
+- **Tom's Development**: Need coaching for Tom on leadership and rapport-building
+- **Rach's Situation**: Restructure - Rach moving to part-time Sensitive Tech + BD
+- **Alana's Rumors**: Alana spreading rumors about Richard's termination (fudging books) - needs formal conversation and documentation
+- **Cliques**: Perceived divide between Tom/Richard "click" and female team members
+- **Kindy Connection**: Erin Akindi kindy for kids
 
 ---
 
-## Coaching Approach
-- **What Brendan Did:** Guided on handling difficult people conversations, HR compliance, leadership dynamics
-- **External Resources:** HR advisor (Aaron), leadership coaching framework
-- **Brendan Committed To:** Work with Tom on leadership development
+## Action Items
 
-### Content Potential
-- **Rating:** 5/5 - Extremely rich content on leadership, HR, change management
-- **Urgency Level:** 🔴 High - Active HR situations, tender pressure
-
----
-
-## Output Routing
-- [x] **Podcast** - Leadership, change management, difficult conversations
-- [x] **Email** - Internal communication templates
-- [x] **Social** - Team leadership insights
-- [x] **Course** - Leadership development, HR management
-- [x] **Product** - Leadership coaching program
+1. **Prue Conversation**: Clear expectations (2-3 key points), include Tom in future conversations
+2. **Yeni Conversation**: Address breach of trust, make confidentiality expectations crystal clear going forward
+3. **Alana Conversation**: Formal awareness about rumor spreading, potential bullying/harassment implications
+4. **Rach**: Complete restructure discussion, define success metrics for new role
+5. **Tom Coaching**: Arrange call between Tom and Brendan
 
 ---
 
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: 125108260*
+## Key Quotes
+
+> "The small things can become big things very quickly. When you hear about the small things, it doesn't matter how small, just deal with it."
+
+> "When you're in a room with someone and you can say it to their face, that's when you know you're dealing with integrity."
+
+> "Get people in the room, have a conversation. The goal is to sort through this. If we can't say stuff in the room together, how can we sort it out?"
