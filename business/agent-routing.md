@@ -6,6 +6,7 @@ When to use which agent for maximum effectiveness.
 
 | Need | Use Agent | Tier | Model |
 |------|-----------|------|-------|
+| **Routine tasks, simple queries** | **Any** | **Use flashlite** | **flashlite** |
 | Business strategy, decisions, growth | **Marcus** (strategy) | C | kimi (or gpt-4o for critical) |
 | Copy, hooks, offers, messaging | **Alex** (messaging) | C | kimi |
 | LinkedIn posts, emails, content | **Sarah** (content) | B | minimax |
