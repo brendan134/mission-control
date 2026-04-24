@@ -16,6 +16,8 @@ Paste the full transcript from Fathom.
 - **Name/ID**: 
 - **Industry**: 
 - **Business Stage**: (startup/growth/mature/scale)
+- **Call Type**: (Strategy/Operations/Personal/Check-in)
+- **Energy/State**: (e.g., frustrated, optimistic, overwhelmed, calm)
 
 ### Core Situation
 - **Primary Challenge**: What brought them to coaching?
@@ -38,9 +40,10 @@ Paste the full transcript from Fathom.
 - Real numbers mentioned:
 - Specific situations:
 
-### Objections & Beliefs
+### Barriers & Beliefs
 - What held them back:
 - Limiting beliefs surfaced:
+- Personal context (life events, circumstances):
 
 ### Frameworks Discussed
 - (PEOPLE OS, Growth Path, etc.)
@@ -51,8 +54,24 @@ Paste the full transcript from Fathom.
 ### Product/Service Gaps
 - Problems mentioned that might need a product/solution:
 
+### Coaching Approach
+- **What Brendan Did**: (questioning, showing data, demo, referral, etc.)
+- **External Resources Mentioned**: (books, podcasts, tools, people)
+- **Brendan Committed To**: (promises to send/do for client)
+
 ### Next Steps (From Call)
 - Actions the client committed to:
+
+---
+
+### Value Add Hook
+- One sentence summary for personalized client recommendation:
+
+---
+
+### Content Potential
+- **Rating**: (1-5 scale, 5 = podcast goldmine)
+- **Urgency Level**: (🔴 High = fix this week, 🟡 Medium = explore, 🟢 Future = ongoing)
 
 ---
 

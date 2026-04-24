@@ -3,6 +3,7 @@
 **Date:** April 14, 2026
 **Duration:** 1h 36m
 **Call Type:** Strategy
+**Energy/State:** Concerned about team performance, determined to push automation
 **Participants:** Alby, Brendan
 
 ---
@@ -56,6 +57,15 @@
 3. Finalize budget with Dan (Thursday/Friday)
 4. Engage AI consultants for process audit
 5. QMS audit preparation
+
+### Coaching Approach
+- **What Brendan Did:** Explored team dynamics, identified Tom's bottleneck, pushed AI/automation angle
+- **External Resources Mentioned:** OpenClaw/Mission Control demo
+- **Brendan Committed To:** Send OpenClaw demo video
+
+### Content Potential
+- **Rating:** 5/5 - Goldmine for leadership content
+- **Urgency Level:** 🔴 High - Team restructure needed now
 
 ---
 

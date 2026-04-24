@@ -10,6 +10,7 @@
 - **Industry:** Printing/signage (Kwik Kopy franchise)
 - **Business Stage:** Mature, $1.6M revenue
 - **Age:** 58
+- **Energy/State:** Engaged, slightly frustrated but optimistic about the future
 
 ## Core Situation
 - **Primary Challenge:** Transition from hands-on to hands-off ownership
@@ -48,11 +49,22 @@
 - Need sales person training/coaching program
 - Performance agreement template for centre manager role
 
+## Coaching Approach
+- **What Brendan Did:** Used Working Genius framework to identify Peter's strengths, challenged his assumptions about needing a "clone", explored role clarity
+- **External Resources Mentioned:** Working Genius assessment
+- **Brendan Committed To:** Send through Working Genius overview document
+
 ## Next Steps (From Call)
 1. Redefine Nicola's (Centre Manager) role with performance agreement
 2. Get Nicola involved in recruitment for CSR maternity cover
 3. Create 90-day strategic growth plan
 4. Design Peter role: BD/sales from anywhere
+
+### Content Potential
+- **Rating:** 4/5 - Strong framework content, relatable challenge
+- **Urgency Level:** 🟡 Medium - Exploring next growth phase
+
+---
 
 ---
 

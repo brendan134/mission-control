@@ -3,6 +3,7 @@
 **Date:** April 14, 2026
 **Duration:** 59m
 **Call Type:** Operations
+**Energy/State:** Overwhelmed, stretched, but committed to making changes
 **Participants:** Tom, Brendan
 
 ---
@@ -56,6 +57,15 @@
 3. Talk to Alby about support for 4-week restructuring
 4. Set clear expectations with Aaron in writing
 5. Tuesday follow-up call
+
+### Coaching Approach
+- **What Brendan Did:** Explored Tom's current reality, identified bottlenecks, proposed mentorship model, showed behavior under pressure pattern
+- **External Resources Mentioned:** Clifton Strengths (mentioned)
+- **Brendan Committed To:** Follow-up call Tuesday
+
+### Content Potential
+- **Rating:** 5/5 - Excellent leadership content
+- **Urgency Level:** 🔴 High - Needs immediate restructuring
 
 ---
 
