@@ -8,7 +8,7 @@
 
 ## Email Body
 
-Hi [Client First Name],
+Hey [Client First Name],
 
 Hope you're doing well! 👋
 
