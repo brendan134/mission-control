@@ -15,7 +15,8 @@ import {
   Settings,
   Folder,
   Brain, FileText, Target,
-  Building
+  Building,
+  BookOpen
 } from 'lucide-react';
 
 const navItems = [
@@ -29,6 +30,7 @@ const navItems = [
   { href: '/automations', label: 'Automations', icon: Clock },
   { href: '/memory', label: 'Memory', icon: Brain },
   { href: '/documents', label: 'Documents', icon: FileText },
+  { href: '/knowledge', label: 'Knowledge', icon: BookOpen },
   { href: '/checklists', label: 'Checklists', icon: CheckSquare },
 ];
 
