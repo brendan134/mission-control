@@ -15,26 +15,23 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Google Cloud SDK
-        uses: google-github-actions/setup-gcloud@v1
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
         with:
-          project_id: obsidian-sync-494307
-          service_account_key: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
-          export_default_credentials: true
+          credentials_json: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
 
-      - name: Authorize Google Drive access
-        run: |
-          gcloud auth activate-service-account --key-file=- <<< '${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}'
+      - name: Setup Google Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
+        with:
+          version: 'latest'
 
-      - name: Upload to Google Drive
+      - name: Install drive CLI
+        run: go install github.com/odeke-em/drive/cmd/drive@latest
+
+      - name: Push to Google Drive
         run: |
-          FOLDER_ID='${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}'
-          
-          # Install drive CLI
-          go install github.com/odeke-em/drive/cmd/drive@latest
-          
-          # Push obsidian folder to Google Drive
-          drive push -files -no-prompt -destination "$FOLDER_ID" ./obsidian
+          export PATH="$PATH:$(go env GOPATH)/bin"
+          drive push -files -no-prompt -destination '${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}' ./obsidian
 
       - name: Verify sync
         run: echo "Obsidian folder synced to Google Drive successfully!"
