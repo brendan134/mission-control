@@ -3,6 +3,7 @@
 **Date:** April 15, 2026
 **Duration:** 27m
 **Call Type:** Operations
+**Energy/State:** Curious, open to learning, slightly hesitant about tech
 **Participants:** Mervyn, Brendan
 
 ---
@@ -48,6 +49,15 @@
 1. Continue tracking finances manually + in Excel
 2. Read "The Knack" book
 3. Explore OpenClaw when back in Australia
+
+### Coaching Approach
+- **What Brendan Did:** Demoed full OpenClaw system, showed agents/automations/Kaizen, discussed Agent Mail
+- **External Resources Mentioned:** "The Knack" by Norm Bronski
+- **Brendan Committed To:** Continue building system
+
+### Content Potential
+- **Rating:** 3/5 - Good for system content
+- **Urgency Level:** 🟢 Future - Ongoing exploration
 
 ---
 

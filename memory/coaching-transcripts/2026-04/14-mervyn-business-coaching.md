@@ -3,6 +3,7 @@
 **Date:** April 8, 2026
 **Duration:** 39m
 **Call Type:** Strategy
+**Energy/State:** Inquisitive, slightly anxious about tech, open to advice
 **Participants:** Mervyn, Brendan
 
 ---
@@ -51,6 +52,15 @@
 3. Read "The Go-Giver" and "Getting Naked"
 4. Listen to James Wedmore's "Mind Your Money" series
 5. Continue training editors (going well)
+
+### Coaching Approach
+- **What Brendan Did:** Showed vet mastermind framework, explained financial control, recommended books/podcasts
+- **External Resources Mentioned:** "The Go-Giver", "Getting Naked" (Patrick Lencioni), James Wedmore "Mind Your Money", Xero
+- **Brendan Committed To:** Send PDF marketing pack
+
+### Content Potential
+- **Rating:** 4/5 - Good business growth content
+- **Urgency Level:** 🟡 Medium - Building foundation
 
 ---
 

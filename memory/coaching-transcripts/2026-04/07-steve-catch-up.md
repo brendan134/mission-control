@@ -2,6 +2,8 @@
 
 **Date:** April 17, 2026
 **Duration:** 6m
+**Call Type:** Check-in
+**Energy/State:** Overwhelmed, reflective, wants to be prepared
 **Client:** Stephen Hunt
 
 ---
@@ -18,6 +20,19 @@
 - Rescheduled to Wednesday next week
 - Stephen will think about: What does an A-grade pre-con person look like?
 - Performance agreement approach: metrics + what great looks like
+
+---
+
+## Coaching Approach
+- **What Brendan Did:** Accepted request to postpone, oriented to next session focus
+- **External Resources Mentioned:** Performance agreement framework
+- **Brendan Committed To:** Send calendar invite for Wednesday
+
+### Content Potential
+- **Rating:** 1/5 - Administrative catch-up
+- **Urgency Level:** 🟢 Future - Rescheduled
+
+---
 
 ## Output Routing
 - [ ] Podcast

@@ -3,6 +3,7 @@
 **Date:** April 13, 2026
 **Duration:** 1h 13m
 **Call Type:** Operations
+**Energy/State:** Overwhelmed, stressed about finances, determined to fix
 **Participants:** Jocelyn, Brendan
 
 ---
@@ -61,6 +62,15 @@
 4. Consider loyalty offers for regular clients
 5. Replace Megan with new CSR
 6. Follow up on ultrasound equipment
+
+### Coaching Approach
+- **What Brendan Did:** Explored financial situation, pushed for data comparison, encouraged action on super
+- **External Resources Mentioned:** Joanne (accountant), Xero
+- **Brendan Committed To:** Check portal for old financial data
+
+### Content Potential
+- **Rating:** 4/5 - Good vet practice content
+- **Urgency Level:** 🔴 High - Financial decisions needed this week
 
 ---
 

@@ -2,6 +2,8 @@
 
 **Date:** April 20, 2026
 **Duration:** 37m
+**Call Type:** Strategy
+**Energy/State:** Exploratory, interested in tools
 **Participants:** Brendan Rogers, Andrew Paton-Smith (Jazoodle/Advisory)
 
 ---
@@ -47,7 +49,16 @@ Demo of Advisory platform - financial management system for small businesses
 
 ---
 
-## Notes
+## Coaching Approach
+- **What Brendan Did:** Explored platform features, assessed fit for mastermind clients
+- **External Resources Mentioned:** Advisory platform, Xero, QuickBooks, MYOB
+- **Brendan Committed To:** Follow up on potential use cases
+
+### Content Potential
+- **Rating:** 3/5 - Tool demo
+- **Urgency Level:** 🟢 Future - Evaluating options
+
+---
 
 - Andrew regained 100% control of Jazoodle
 - 26% conversion rate from free to paid demo
