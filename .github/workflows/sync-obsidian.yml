@@ -27,24 +27,10 @@ jobs:
         run: |
           FOLDER_ID="${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}"
           
-          # List all files in the obsidian folder
-          find ./obsidian -type f -print0 | while IFS= read -r -d '' file; do
-            rel_path="${file#./obsidian/}"
-            filename=$(basename "$file")
-            
-            # Check if file exists in drive
-            file_id=$(gcloud drive files list \
-              --drive-id="$FOLDER_ID" \
-              --filter="name='$filename'" \
-              --format="get(id)" 2>/dev/null || true)
-            
-            if [ -n "$file_id" ]; then
-              echo "Updating: $filename (ID: $file_id)"
-              gcloud drive files update "$file_id" --from-file="$file" 2>/dev/null || true
-            else
-              echo "Creating: $filename"
-              gcloud drive files create "$filename" --parent="$FOLDER_ID" --from-file="$file" 2>/dev/null || true
-            fi
-          done
+          # Sync entire folder recursively using drive CLI
+          gcloud drive files list --drive-id="$FOLDER_ID" --format="json" > /tmp/existing_files.json
+          
+          # Upload recursively - this creates folders and files
+          gcloud drive files upload-recursive ./obsidian --parent="$FOLDER_ID" --force-async
           
           echo "Sync complete!"
