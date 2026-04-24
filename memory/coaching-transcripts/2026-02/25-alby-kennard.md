@@ -36,3 +36,26 @@
 > "When you're in a room with someone and you can say it to their face, that's when you know you're dealing with integrity."
 
 > "Get people in the room, have a conversation. The goal is to sort through this. If we can't say stuff in the room together, how can we sort it out?"
+
+### Content Potential
+
+- **Rating:** 3/5
+- **Urgency:** 🟢 Future
+
+## Output Routing
+
+- [ ] **Attract** - Content, podcast, social
+- [ ] **Convert** - Sales, follow-ups
+- [ ] **Deliver** - Course material
+- [ ] **Engage** - Team training
+
+---
+
+**Industry:** [industry]
+**Topic:** [topic]  
+**Content:** [content-type]
+
+---
+
+*Extracted: 2026-04-24*
+*Full transcript available via Fathom ID: [RECORDING_ID]*

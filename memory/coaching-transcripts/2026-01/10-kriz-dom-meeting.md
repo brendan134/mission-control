@@ -43,3 +43,26 @@
 > "High impact leader is the core business - businesses and business owners who have teams."
 
 > "We don't like to compromise just for the sake of monetary reasons. We are looking at every opportunity for long-term relationship."
+
+### Content Potential
+
+- **Rating:** 3/5
+- **Urgency:** 🟢 Future
+
+## Output Routing
+
+- [ ] **Attract** - Content, podcast, social
+- [ ] **Convert** - Sales, follow-ups
+- [ ] **Deliver** - Course material
+- [ ] **Engage** - Team training
+
+---
+
+**Industry:** [industry]
+**Topic:** [topic]  
+**Content:** [content-type]
+
+---
+
+*Extracted: 2026-04-24*
+*Full transcript available via Fathom ID: [RECORDING_ID]*

@@ -1,39 +1,70 @@
-# HIL Club Group Coaching Call + Q&A
+# HIL Club Group Coaching
 
-**Date:** Wednesday, January 7, 2026 at 08:33 AM
-**Duration:** 1h 19m
-**Participants:** Brendan Rogers, Akhil Rodrigues (HIL Club member)
+**Date:** Wednesday, January 7, 2026 at 06:00 PM
+**Duration:** ~1h 19m
+**Participants:** Brendan Rogers, Akhil Rodrigues (HIL Club)
 
 ---
 
 ## Key Topics Discussed
 
-- **2026 Focus**: Growing the High-Impact Leader Club as the #1 priority
-- **Marketing Metrics Dashboard**: Akhil presented a comprehensive marketing dashboard tracking:
-  - Social media engagement (Facebook, Instagram, web traffic, LinkedIn)
-  - Ad spend (Meta, Google)
-  - Enrollments and tours booked
-- **Lead Quality Issues**: Of 41 leads, only 2 booked tours ($700/lead)
-- **Key Metric Focus**: Tours booked as the primary metric for marketing success
-- **Pareto Principle**: Identifying the 20% of activities that drive 80% of enrollments
-- **Word of Mouth**: Primary enrollment channel (60%+ from word of mouth/returning families)
-- **Local Marketing**: Geographic analysis showing Ashfield as primary catchment
-- **80% Enrollment Goal**: Currently at 62-65%, need to get to 80%
-- **Conversion Rate**: 90% of tour bookings convert to enrollment
-- **Call Campaign**: Plan to call 100 existing families to gather intel and drive referrals
-- **Visual Communication**: Using thermometers/visual trackers to engage staff around enrollment goals
-- **Referral Programs**: Potential affiliate program for parents
-- **Local Search**: Ensuring Google business listing is optimized
+- **Dashboard/Tracking System**:
+  - Building a working document to track monthly metrics across all platforms
+  - Facebook, Instagram, web traffic, LinkedIn engagement
+  - Ad spend (Meta + Google)
+  - Inquiry tracking with trend lines
+  - Monthly plan with quarterly focus areas
+  - Board/CFO reporting requirements
+- **Key Metrics Framework**:
+  - Social engagement → ad metrics → inquiries → tours booked → enrollments
+  - One metric focus: Tours booked (not total leads)
+  - Once tours booked → 95% conversion to enrollment
+  - Working for 2 tours booked out of 41 leads → $700/lead effective cost
+- **Data Quality Issues**:
+  - 41 leads from December, mostly low quality
+  - $36/lead cost → $700/qualified lead after filtering
+  - Need to track where good leads come from (source attribution)
+  - Focus on the 2 that converted, not the 39 that didn't
+- **Operations Team**:
+  - Needs to track tours booked and enrollments
+  - Operations team handling final conversions
+  - Simon (CFO) pushing for results
+- **80% Enrollment Target**:
+  - Currently at 62-65% capacity
+  - Goal: 80% enrollment (sweet spot)
+  - Recent: ended 2024 at 70%, starting 2025 at ~65%
+  - Kids move in/out based on preschool transitions
+  - Finalized by end of January
+- **Role Scope**:
+  - Marketing, Brand, Outdoor Classroom, Fundraising, Partnerships, Grants, Communications
+  - communications manager and social media manager reporting in
+  - Prioritization: green items = 3-month focus, non-green = can't focus yet
+- **Strategy Approach**:
+  - Don't overcomplicate → simplify to activities that drive tours booked
+  - 80/20 rule: 20% of activities drive 80% of results
+  - Keep CFO focused on the outcome (tours booked), not activities
+  - Planning vs execution balance (from sales background)
+- **Local Market Focus**:
+  - HIL Club is localized (Ashfield area)
+  - Not national/global business
+  - Parent relationships key asset
+  - Parents with professional networks potential volunteers/fundraisers
+- **Parent Leveraging**:
+  - Build relationships with parents
+  - Some have significant professional networks
+  - Fundraising + volunteer opportunities through relationships
+  - Parents are emotionally invested (their most important asset - kids)
 
 ---
 
 ## Action Items
 
-- [ ] Akhil to start calling families this week (100 families)
-- [ ] Identify "super spreaders" - parents who actively refer
-- [ ] Create visual enrollment tracker for office
-- [ ] Focus on local marketing (Bunnings sausage sizzles, cafe flyers)
-- [ ] Review Google business listing optimization
+- [ ] Focus on the 2 quality leads, analyze where they came from
+- [ ] Create content that attracts more of those quality leads
+- [ ] Get operations team to track tours booked weekly
+- [ ] Set specific tours booked target by end of March
+- [ ] Simplify reporting to CFO → tours booked metric
+- [ ] Leverage parent relationships for fundraising/volunteers
 
 ---
 
@@ -41,34 +72,45 @@
 
 > "The job of marketing is to get qualified, good qualified leads that can turn into sales."
 
-> "Don't focus on the 39 [bad leads], focus on the two [good leads]. Where have those two come from? What attracted them?"
+> "What's the least amount of activities we can do, what's the least amount of money we can spend, to achieve tours booked?"
 
-> "Business is not that complicated. You've got to bring clients in, you've got to convert them, you've got to deliver something, and then you've got to invoice them."
+> "We know a bit, so it's easy to complicate."
 
-> "Motivation doesn't keep us going forever. It's the momentum you've got to build up, which will maintain the motivation."
+> "We overcomplicate stuff we know a lot about."
 
-> "We don't have a retention problem. We have an acquisition problem, which is a better problem to have."
+> "I am doing a lot of good things but I'm no more Superman than anybody else."
 
----
+> "Focus on those 20% of activities that drive 80% of the results."
 
-## Financial Summary
-
-| Metric | Value |
-|--------|-------|
-| Current Enrollment | 62-65% |
-| Target Enrollment | 80% |
-| Lead Cost | $36/leads |
-| Cost per Qualified Lead | $700 (2 out of 41) |
-| Tour-to-Enrollment Conversion | ~90% |
-| Word of Mouth % | 60%+ |
+> "The parent relationship is the biggest gold nugget."
 
 ---
 
-## Projects for Q1 2026 (Priority: Enrollments)
+## Coaching Approach
 
-1. **Call campaign** - Contact 100 families
-2. **Local markets** - Bunnings sausage sizzles
-3. **Cafe flyers** - Distribute to local cafes
-4. **Website optimization** - Ensure findable
-5. **Social media** - Continue with adjustments
-6. **Google ads** - Fix and optimize
+- **What Brendan Did:** Metrics simplification, Pareto principle focus, parent relationship strategy
+- **External Resources:** Dashboard templates, CFO reporting
+- **Brendan Committed To:** Follow-up on tours booked metric
+
+### Content Potential
+
+- **Rating:** 5/5 (marketing metrics goldmine)
+- **Urgency:** 🟢 Future
+
+---
+
+## Output Routing
+
+- [x] **Attract** - Content, podcast
+- [x] **Convert** - Sales, follow-ups  
+- [ ] **Deliver** - Course material
+- [ ] **Engage**
+
+**Industry:** marketing, education
+**Topic:** leadership, sales, operations, strategy, marketing, growth, mindset
+**Content:** podcast-ready, course-material, case-study
+
+---
+
+*Extracted: 2026-04-24*
+*Full transcript available via Fathom ID: 112316569*

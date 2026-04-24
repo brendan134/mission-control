@@ -39,3 +39,26 @@
 > "My strength is people and nurturing... What I lack is a ruthlessness."
 
 > "I want them to have high respect for you because you helped them get the best out of them."
+
+### Content Potential
+
+- **Rating:** 3/5
+- **Urgency:** 🟢 Future
+
+## Output Routing
+
+- [ ] **Attract** - Content, podcast, social
+- [ ] **Convert** - Sales, follow-ups
+- [ ] **Deliver** - Course material
+- [ ] **Engage** - Team training
+
+---
+
+**Industry:** [industry]
+**Topic:** [topic]  
+**Content:** [content-type]
+
+---
+
+*Extracted: 2026-04-24*
+*Full transcript available via Fathom ID: [RECORDING_ID]*

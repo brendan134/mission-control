@@ -2,7 +2,10 @@
 
 **Date:** Sunday, January 11, 2026 at 09:02 PM
 **Duration:** 42m 3s
-**Participants:** Brendan Rogers, Jerry Kennard
+**Call Type:** Strategy
+**Energy/State:** Growth-oriented
+**Tags:** coaching, leadership, operations, strategy, team, culture
+**Client:** Jerry Kennard (Leader By Design)
 
 ---
 
@@ -57,3 +60,26 @@
 > "If our numbers drop at all, we have to make some decisions fast."
 
 > "The structure that will work well for a business like yours is that if you're really clear around what we call the project governance."
+
+### Content Potential
+
+- **Rating:** 3/5
+- **Urgency:** 🟢 Future
+
+## Output Routing
+
+- [ ] **Attract** - Content, podcast, social
+- [ ] **Convert** - Sales, follow-ups
+- [ ] **Deliver** - Course material
+- [ ] **Engage** - Team training
+
+---
+
+**Industry:** [industry]
+**Topic:** [topic]  
+**Content:** [content-type]
+
+---
+
+*Extracted: 2026-04-24*
+*Full transcript available via Fathom ID: [RECORDING_ID]*

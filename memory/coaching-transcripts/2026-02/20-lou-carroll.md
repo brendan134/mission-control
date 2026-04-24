@@ -43,3 +43,26 @@
 
 **On spending time with top performers:**
 > "It's easy to spend a lot of time with people that moan the loudest. We've got to flip that on the head. We've got to spend the time with the people that are performing the best."
+
+### Content Potential
+
+- **Rating:** 3/5
+- **Urgency:** 🟢 Future
+
+## Output Routing
+
+- [ ] **Attract** - Content, podcast, social
+- [ ] **Convert** - Sales, follow-ups
+- [ ] **Deliver** - Course material
+- [ ] **Engage** - Team training
+
+---
+
+**Industry:** [industry]
+**Topic:** [topic]  
+**Content:** [content-type]
+
+---
+
+*Extracted: 2026-04-24*
+*Full transcript available via Fathom ID: [RECORDING_ID]*

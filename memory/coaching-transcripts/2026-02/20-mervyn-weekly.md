@@ -22,3 +22,26 @@
 **Brendan Rogers** _[00:00:24]_
 > No, I thought, like, normally I get them from, because Tracy's cooking dinner and stuff here, so I get them from kindy, which is what I did.
 > Um, but normally, I was a little bit early today for some reason, I don't know how that happened.
+
+### Content Potential
+
+- **Rating:** 3/5
+- **Urgency:** 🟢 Future
+
+## Output Routing
+
+- [ ] **Attract** - Content, podcast, social
+- [ ] **Convert** - Sales, follow-ups
+- [ ] **Deliver** - Course material
+- [ ] **Engage** - Team training
+
+---
+
+**Industry:** [industry]
+**Topic:** [topic]  
+**Content:** [content-type]
+
+---
+
+*Extracted: 2026-04-24*
+*Full transcript available via Fathom ID: [RECORDING_ID]*
