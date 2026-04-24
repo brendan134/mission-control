@@ -37,7 +37,7 @@
 - Active cron jobs: 10 total (see below)
   - Git Auto-Sync: 10pm AEST only (auto-commits workspace to GitHub)
   - Daily News Brief: 7am AEST
-  - Daily Dream Reminder: 7:30am AEST
+  - ~~Daily Dream Reminder: 7:30am AEST~~ (removed Apr 10 - manual run only)
   - Daily Memory Save Reminder: 8:30pm AEST
   - Daily Cost Alert: 8pm AEST (warns >$4)
   - Weekly Content Batch: Monday 6am AEST
