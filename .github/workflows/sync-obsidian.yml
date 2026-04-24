@@ -15,60 +15,104 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Authenticate to Google Cloud
-        uses: google-github-actions/auth@v2
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          credentials_json: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          python-version: '3.11'
 
-      - name: Setup Google Cloud SDK
-        uses: google-github-actions/setup-gcloud@v2
+      - name: Install dependencies
+        run: pip install google-auth google-auth-oauthlib google-api-python-client
 
-      - name: Sync Obsidian folder to Google Drive
+      - name: Authenticate and sync to Google Drive
         run: |
-          FOLDER_ID="${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}"
+          python3 << 'PYTHON_SCRIPT'
+          import os
+          import json
+          from google.auth import credentials
+          from google.oauth2 import service_account
+          from googleapiclient.discovery import build
+          from googleapiclient.http import MediaFileUpload
+
+          # Load service account credentials from secret
+          creds_dict = json.loads(os.environ['GOOGLE_SERVICE_ACCOUNT_KEY'])
+          credentials = service_account.Credentials.from_service_account_info(
+              creds_dict,
+              scopes=['https://www.googleapis.com/auth/drive.file']
+          )
+
+          drive_service = build('drive', 'v3', credentials=credentials)
+          folder_id = os.environ['GOOGLE_DRIVE_FOLDER_ID']
+
+          # Map folder names to IDs
+          folder_map = {}
           
-          # First ensure all subfolders exist
-          gcloud drive files create 01-daily-logs --parent="$FOLDER_ID" --mime-type=application/vnd.google-apps.folder 2>/dev/null || true
-          gcloud drive files create 02-mistakes --parent="$FOLDER_ID" --mime-type=application/vnd.google-apps.folder 2>/dev/null || true
-          gcloud drive files create 03-shared --parent="$FOLDER_ID" --mime-type=application/vnd.google-apps.folder 2>/dev/null || true
-          gcloud drive files create 04-knowledge --parent="$FOLDER_ID" --mime-type=application/vnd.google-apps.folder 2>/dev/null || true
-          gcloud drive files create prompts --parent="$FOLDER_ID" --mime-type=application/vnd.google-apps.folder 2>/dev/null || true
-          
-          # Get folder IDs
-          DAILY_LOGS=$(gcloud drive files list --drive-id="$FOLDER_ID" --filter="name='01-daily-logs'" --format="get(id)")
-          MISTAKES=$(gcloud drive files list --drive-id="$FOLDER_ID" --filter="name='02-mistakes'" --format="get(id)")
-          SHARED=$(gcloud drive files list --drive-id="$FOLDER_ID" --filter="name='03-shared'" --format="get(id)")
-          KNOWLEDGE=$(gcloud drive files list --drive-id="$FOLDER_ID" --filter="name='04-knowledge'" --format="get(id)")
-          PROMPTS=$(gcloud drive files list --drive-id="$FOLDER_ID" --filter="name='prompts'" --format="get(id)")
-          
-          # Upload 01-daily-logs
-          for f in ./obsidian/01-daily-logs/*.md; do
-            [ -f "$f" ] && gcloud drive files create "$(basename $f)" --parent="$DAILY_LOGS" --from-file="$f" 2>/dev/null || true
-          done
-          
-          # Upload 02-mistakes
-          for f in ./obsidian/02-mistakes/*.md; do
-            [ -f "$f" ] && gcloud drive files create "$(basename $f)" --parent="$MISTAKES" --from-file="$f" 2>/dev/null || true
-          done
-          
-          # Upload 03-shared
-          for f in ./obsidian/03-shared/*.md; do
-            [ -f "$f" ] && gcloud drive files create "$(basename $f)" --parent="$SHARED" --from-file="$f" 2>/dev/null || true
-          done
-          
-          # Upload 04-knowledge
-          for f in ./obsidian/04-knowledge/*.md; do
-            [ -f "$f" ] && gcloud drive files create "$(basename $f)" --parent="$KNOWLEDGE" --from-file="$f" 2>/dev/null || true
-          done
-          
-          # Upload prompts
-          for f in ./obsidian/prompts/*.md; do
-            [ -f "$f" ] && gcloud drive files create "$(basename $f)" --parent="$PROMPTS" --from-file="$f" 2>/dev/null || true
-          done
-          
-          # Upload root files
-          for f in ./obsidian/*.md; do
-            [ -f "$f" ] && gcloud drive files create "$(basename $f)" --parent="$FOLDER_ID" --from-file="$f" 2>/dev/null || true
-          done
-          
-          echo "Sync complete!"
+          # Create folders if they don't exist
+          folders_to_create = ['01-daily-logs', '02-mistakes', '03-shared', '04-knowledge', 'prompts']
+          for folder_name in folders_to_create:
+              # Check if folder exists
+              response = drive_service.files().list(
+                  q=f"name='{folder_name}' and '{folder_id}' in parents and mimeType='application/vnd.google-apps.folder'",
+                  fields="files(id, name)"
+              ).execute()
+              
+              if response.get('files'):
+                  folder_map[folder_name] = response['files'][0]['id']
+                  print(f"Found folder: {folder_name}")
+              else:
+                  # Create folder
+                  folder_metadata = {
+                      'name': folder_name,
+                      'mimeType': 'application/vnd.google-apps.folder',
+                      'parents': [folder_id]
+                  }
+                  folder = drive_service.files().create(body=folder_metadata, fields='id').execute()
+                  folder_map[folder_name] = folder['id']
+                  print(f"Created folder: {folder_name}")
+
+          # Upload files
+          for root, dirs, files in os.walk('./obsidian'):
+              rel_path = os.path.relpath(root, './obsidian')
+              
+              # Determine target folder
+              if rel_path == '.':
+                  target_folder = folder_id
+              else:
+                  folder_name = os.path.basename(root)
+                  target_folder = folder_map.get(folder_name, folder_id)
+              
+              for filename in files:
+                  if not filename.endswith('.md'):
+                      continue
+                  
+                  file_path = os.path.join(root, filename)
+                  
+                  # Check if file exists
+                  response = drive_service.files().list(
+                      q=f"name='{filename}' and '{target_folder}' in parents",
+                      fields="files(id, name)"
+                  ).execute()
+                  
+                  file_metadata = {
+                      'name': filename,
+                      'parents': [target_folder]
+                  }
+                  media = MediaFileUpload(file_path, resumable=False)
+                  
+                  if response.get('files'):
+                      # Update existing file
+                      file_id = response['files'][0]['id']
+                      drive_service.files().update(fileId=file_id, media_body=media).execute()
+                      print(f"Updated: {filename}")
+                  else:
+                      # Create new file
+                      drive_service.files().create(body=file_metadata, media_body=media, fields='id').execute()
+                      print(f"Created: {filename}")
+
+          print("Sync complete!")
+          PYTHON_SCRIPT
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+
+      - name: Verify sync
+        run: echo "Obsidian folder synced to Google Drive successfully!"
