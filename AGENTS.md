@@ -207,6 +207,24 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+### 🗄️ Obsidian Vault (Layer 4 Memory)
+
+We use a 4-layer memory system. Layers 1-3 are built into OpenClaw. Layer 4 is our Obsidian vault for enhanced memory:
+
+- **Location:** `obsidian/` folder in workspace
+- **Daily Logs:** `01-daily-logs/YYYY-MM-DD.md` - session summaries
+- **Mistakes:** `02-mistakes/` - error learning log
+- **Shared:** `03-shared/` - cross-agent knowledge & projects
+
+**How to use:**
+1. At end of session, write summary to today's daily log
+2. Log mistakes to `02-mistakes/` when errors occur
+3. On compaction, check vault before/after to preserve context
+4. For handoffs, write to `03-shared/projects/` so next agent can continue
+5. On demand: user says "that project from last week" → search vault
+
+See `obsidian/prompts/memory-system-prompt.md` for full protocol.
+
 ## Session Feedback
 
 At the end of each significant session (or when asked), ask: "Did I help well?"
