@@ -81,9 +81,39 @@ See `2026-03/` folder for full list.
 
 ---
 
-## January 2026 Transcripts (0 extracted)
+## January 2026 Transcripts (11/29 extracted)
 
-Not yet started. Recording IDs needed.
+| # | Date | Client/Topic | Status |
+|---|------|--------------|--------|
+| 1 | 2026-01-04 | Jocelyn Birch Baker | ✅ |
+| 2 | 2026-01-04 | Kris (2026 Plan) | ✅ |
+| 3 | 2026-01-07 | HIL Club Group Coaching | ✅ |
+| 4 | 2026-01-09 | Mervyn Weekly Review | ✅ |
+| 5 | 2026-01-09 | VFAM LinkedInLocal | ✅ |
+| 6 | 2026-01-10 | Kriz & Dom Meeting | ✅ |
+| 7 | 2026-01-11 | Jerry Kennard | ✅ |
+| 8 | 2026-01-11 | Jocelyn Birch Baker | ✅ |
+| 9 | 2026-01-13 | Chad Onley | ✅ |
+| 10 | 2026-01-26 | Jerry Kennard | ✅ |
+| 11 | 2026-01-27 | Jocelyn Birch Baker | ✅ |
+| 12 | 2026-01-27 | Alby Kennard | ✅ |
+| 13 | 2026-01-27 | LinkedInLocal Meeting | ⬜ |
+| 14 | 2026-01-28 | Meeting with Kriz & Nic | ⬜ |
+| 15 | 2026-01-29 | EPES Consulting Engineers | ⬜ |
+| 16 | 2026-01-29 | Daniel Mason | ⬜ |
+| 17 | 2026-01-30 | Carol TGFW | ⬜ |
+| 18 | 2026-01-30 | Mervyn Weekly | ✅ |
+| 19-29 | ... | Remaining 11 transcripts | ⬜ |
+
+### January 2026 Recording IDs
+```
+118408174, 118394129, 118365706, 118044108, 117700366,
+117622596, 117288920, 117280526, 117277509, 117224263,
+116567522, 116564127, 116200554, 116146581, 115433429,
+115136428, 115128712, 114772194, 114753671, 113707765,
+113699831, 113691557, 113319976, 113317152, 112996023,
+112991016, 112316569, 111624822, 111605529
+```
 
 ---
 
