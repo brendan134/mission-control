@@ -51,11 +51,29 @@ Only these directories should exist at workspace root:
 ├── templates/             # Reusable templates
 ├── context/               # Context documents
 ├── scripts/               # Shell scripts only
+├── agents/               # Agent definitions (JSON configs)
+├── skills/              # OpenClaw skills
+├── prompts/              # Extraction prompts & templates
+├── systems/              # System configurations
+├── cards/               # Conversion cards collection
+├── deliverables/         # Client deliverables
+├── docs/                # Documentation files
+├── backups/             # Backup files
+├── temp/                # Temporary working files
 │
 ├── ecosystem.config.js    # PM2 process manager config
 ├── cloudflared            # Tunnel binary (no extensions)
 └── .gitignore             # Git ignore rules
 ```
+
+**Additional directories allowed after April 24, 2026:**
+- `obsidian/` - Obsidian vault (Knowledge Base source)
+
+**Root-level config files:**
+- `checklists.json` - Task checklists
+- `projects.json` - Project data
+- `strategy.json` - Strategy priorities
+- `tasks.json` - Task data**
 
 **Directories that MUST NOT exist:**
 - Any variant of `mission-control` with spaces, underscores, or extra dashes
