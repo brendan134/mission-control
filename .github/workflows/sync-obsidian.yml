@@ -18,7 +18,7 @@ jobs:
       - name: Upload folder to Google Drive
         uses: younes91/gdrive-upload@v2
         with:
-          folder_id: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }
+          folder_id: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
           folder_path: ./obsidian
           service_account: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
           delete_extra: false
