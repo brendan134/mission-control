@@ -15,23 +15,75 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Authenticate to Google Cloud
-        uses: google-github-actions/auth@v2
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          credentials_json: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          python-version: '3.11'
 
-      - name: Setup Google Cloud SDK
-        uses: google-github-actions/setup-gcloud@v2
-        with:
-          version: 'latest'
+      - name: Install PyDrive2
+        run: pip install pydrive2
 
-      - name: Install drive CLI
-        run: go install github.com/odeke-em/drive/cmd/drive@latest
-
-      - name: Push to Google Drive
+      - name: Authenticate and upload
         run: |
-          export PATH="$PATH:$(go env GOPATH)/bin"
-          drive push -files -no-prompt -destination '${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}' ./obsidian
+          python3 << 'EOF'
+          import os
+          import json
+          from pydrive2.drive import GoogleDrive
+          from pydrive2.auth import GoogleAuth
+          
+          # Create credentials file
+          gauth = GoogleAuth()
+          creds = json.loads(os.environ['GOOGLE_SERVICE_ACCOUNT_KEY'])
+          
+          # Write service account credentials
+          with open('creds.json', 'w') as f:
+              json.dump({
+                  'client_id': creds['client_id'],
+                  'client_secret': creds['client_secret'],
+                  'refresh_token': None,
+                  'grant_type': 'refresh_token'
+              }, f)
+          
+          gauth.LoadCredentialsFile('creds.json')
+          if gauth.credentials is None:
+              gauth.authenticate()
+              gauth.SaveCredentialsFile('creds.json')
+          
+          drive = GoogleDrive(gauth)
+          
+          folder_id = os.environ['GOOGLE_DRIVE_FOLDER_ID']
+          
+          # Walk local obsidian folder and upload
+          for root, dirs, files in os.walk('./obsidian'):
+              rel_path = os.path.relpath(root, './obsidian')
+              parent_id = folder_id
+              
+              if rel_path != '.':
+                  # Create folder in drive
+                  folder_name = os.path.basename(root)
+                  folder = drive.CreateFile({
+                      'title': folder_name,
+                      'mimeType': 'application/vnd.google-apps.folder',
+                      'parents': [{'id': parent_id}]
+                  })
+                  folder.Upload()
+                  parent_id = folder['id']
+              
+              for f in files:
+                  local_path = os.path.join(root, f)
+                  file = drive.CreateFile({
+                      'title': f,
+                      'parents': [{'id': parent_id}],
+                      'mimeType': 'text/markdown'
+                  })
+                  file.SetContentFile(local_path)
+                  file.Upload()
+          
+          print("Upload complete!")
+          EOF
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
 
       - name: Verify sync
         run: echo "Obsidian folder synced to Google Drive successfully!"
