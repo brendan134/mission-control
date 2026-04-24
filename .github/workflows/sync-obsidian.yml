@@ -15,10 +15,36 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Upload folder to Google Drive
-        uses: younes91/gdrive-upload@v2
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
         with:
-          folder_id: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
-          folder_path: ./obsidian
-          service_account: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
-          delete_extra: false
+          credentials_json: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+
+      - name: Setup Google Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Sync Obsidian folder to Google Drive
+        run: |
+          FOLDER_ID="${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}"
+          
+          # List all files in the obsidian folder
+          find ./obsidian -type f -print0 | while IFS= read -r -d '' file; do
+            rel_path="${file#./obsidian/}"
+            filename=$(basename "$file")
+            
+            # Check if file exists in drive
+            file_id=$(gcloud drive files list \
+              --drive-id="$FOLDER_ID" \
+              --filter="name='$filename'" \
+              --format="get(id)" 2>/dev/null || true)
+            
+            if [ -n "$file_id" ]; then
+              echo "Updating: $filename (ID: $file_id)"
+              gcloud drive files update "$file_id" --from-file="$file" 2>/dev/null || true
+            else
+              echo "Creating: $filename"
+              gcloud drive files create "$filename" --parent="$FOLDER_ID" --from-file="$file" 2>/dev/null || true
+            fi
+          done
+          
+          echo "Sync complete!"
