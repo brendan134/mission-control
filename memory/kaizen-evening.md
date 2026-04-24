@@ -1,26 +1,33 @@
-## Kaizen Evening Suggestion - April 23, 2026
+## Kaizen Evening Suggestion - April 24, 2026
 
 ### What I Analyzed
-- The 16-agent team structure (Tier A/B/C) and Agent Orchestrator routing logic
-- Current single-agent routing limitation vs. documented multi-agent workflow vision
-- Task accountability system with stale/escalation tracking (Phase 2 implemented)
-- Mission Control's workflow state visualization (intake → analyzing → prep → active → review → completed → archived)
-- Existing handoff principles from SPECIALISTS.md (Done → Summarise → Next → Context)
-- Current gap: Multi-agent workflows exist in concept ("Ethan → Lucas → Jay → Sophie") but no implementation path
+- SPECIALISTS.md: 9 agent definitions with clear roles and handoff protocols (v1)
+- SignalFeed.tsx: Task accountability system with stale detection working well
+- Daily logs (Apr 24): 38+ coaching call extractions showing parallel workflow demands
+- Current system: Single-agent routing works; multi-step tasks require manual intervention
+- This week's focus: Multi-agent workflow enhancement (Ethan → Lucas → Jay → Sophie example)
 
 ### The Suggestion
-**Implement Workflow State Persistence for Multi-Agent Handoffs**
+**Workflow Orchestrator for Multi-Agent Pipelines**
 
-**Why this matters:** Multi-agent workflows are the key to true owner independence. Currently, even though the system can route to the "best-fit agent," complex tasks that span multiple domains (e.g., "write LinkedIn post + create YouTube video + review") still require Brendan to manually coordinate handoffs between agents. By implementing persistent workflow state with explicit handoff queues, the system could chain agents automatically—reducing a 4-step task from 4 separate Brendan touchpoints to 1 initial request. This directly advances the North Star: Brendan delegates once, the system manages the cascade.
+**Why this matters:** Your North Star is reducing owner dependency and building self-managing teams. Right now, when a task needs multiple agents (e.g., "create LinkedIn post + YouTube video"), either Brendan routes each handoff manually, or agents work in isolation. A Workflow Orchestrator would let complex deliverables flow automatically through agent chains—Ethan (content) passes to Lucas (script), who passes to Jay (YouTube), who passes to Sophie (review)—all without owner intervention. This turns 9 individual contributors into one coordinated team.
 
-**What to do:** Create a `workflows` table/state store that tracks multi-agent jobs:
-- **Workflow definition**: Parse compound requests ("and", "then", "also") into ordered agent chains
-- **State per step**: Track which agent has it, completion status, summary output, context passed forward
-- **Handoff trigger**: When an agent completes its step, automatically queue the next agent with full context
-- **Blocking/escalation**: If a step stalls 24h/48h/72h, escalate per existing rules
-- **View in Mission Control**: Add "Active Workflows" view showing pipeline progress (like the cron calendar but for multi-agent jobs)
+**What to do:** Build a lightweight workflow pipeline system:
 
-Start small: Support 2-agent chains first (e.g., Ethan writes → Sophie reviews), then extend. Use the existing `findBestAgent()` logic to auto-assemble chains from natural language requests.
+1. **Create workflow definitions** as JSON/YAML files in `/workflows/pipelines/` (e.g., `content-to-youtube.json`)
+2. **Add `workflow` field to tasks** - when a task has `workflow: "content-multi-format"`, the Orchestrator takes over
+3. **Handoff protocol v2** - each agent outputs: `status: done`, `summary: "3 script angles created"`, `next_agent: "jay-youtube"`, `context_passed: {...}`
+4. **Mission Control UI** - add a "Pipeline View" tab showing tasks flowing through agent stages (like a Kanban but horizontal, showing handoffs)
+5. **Start with ONE pipeline** - pick the highest-frequency multi-agent workflow (likely: podcast episode → clips → social posts →的一周 content batch)
 
-**Effort:** Medium (4-6 hours to prototype persistence layer, 2-3 days for full UI and 3+ agent chains)
-**Impact:** High (eliminates coordination overhead for 40-60% of complex requests; enables true "delegate and forget" operations)
+**Technical approach:**
+- Reuse existing Signal Feed infrastructure
+- Add `/api/workflows/trigger` endpoint
+- Store pipeline state in simple JSON (agent → stage → status)
+- No complex orchestration engine—just clear handoff contracts
+
+**Effort:** Medium (2-3 days focused build, learning reusable pattern)
+**Impact:** High (enables true team behavior, reduces owner as bottleneck by 60%+ on multi-step tasks)
+
+---
+*Alternative considered:* Building better single-agent prompts. Rejected because 9 good individual agents won't solve the coordination problem—it's a handoff architecture issue, not an agent capability issue.

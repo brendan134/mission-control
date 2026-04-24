@@ -9,7 +9,10 @@ export async function GET() {
   
   // Read daily memories
   try {
-    const files = fs.readdirSync(MEMORY_DIR).filter(f => f.endsWith('.md'));
+    const files = fs.readdirSync(MEMORY_DIR).filter(f => {
+      // Only include files matching YYYY-MM-DD pattern
+      return f.match(/^\d{4}-\d{2}-\d{2}\.md$/) && f.endsWith('.md');
+    });
     
     for (const file of files) {
       const date = file.replace('.md', '');
