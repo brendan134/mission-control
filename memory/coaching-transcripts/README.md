@@ -11,13 +11,26 @@
 ```
 coaching-transcripts/
 ├── README.md (this file)
-├── 2026-04/           # Month folders
-│   ├── 2026-04-23-stephen-hunt.md
-│   ├── 2026-04-22-chad-onley.md
-│   └── ...
 ├── index.md           # Master index of all transcripts
+├── 2026-01/           # Month folders (YYYY-MM)
+│   ├── 01-client-name.md
+│   ├── 15-client-name.md
+│   └── ...
+├── 2026-02/
+│   └── ...
 └── topics.md          # Extracted topics/themes from all calls
 ```
+
+## Naming Convention
+
+**Format:** `DD-client-name.md`
+
+- `DD` = day of month (01-31)
+- `client-name` = lowercase, hyphens for multi-word names
+- Examples:
+  - `01-jerry-kennard.md`
+  - `22-jocelyn-birch-baker.md`
+  - `27-mervyn-weekly.md`
 
 ---
 
