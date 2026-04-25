@@ -21,6 +21,10 @@
 - Review memory file exists for today
 - Check for any pending cron failures
 - **UPDATE:** Run `openclaw cron list` and update backup-crons.md if changes detected
+- **END-OF-SESSION SYNC (Big Tasks / End of Day):**
+  - Push workspace: `git add . && git commit -m "Session" && git push origin mission-control`
+  - Push obsidian: `git add obsidian/ && git commit -m "Update memory vault" && git push origin mission-control`
+  - Then user runs: `git pull origin mission-control` on their Mac
 
 ## Weekly Audit (Friday afternoon)
 - Run `git status` - should be clean or just today's memory
