@@ -155,6 +155,9 @@ export default function Projects() {
     p.status === ProjectStatus.ACTIVE && 
     (!priorityFilter || p.strategic_priority_id === priorityFilter)
   );
+  const filteredProjects = priorityFilter 
+    ? projects.filter(p => p.strategic_priority_id === priorityFilter)
+    : projects;
   const stale = getStaleProjects(7);
 
   const formatDate = (dateStr?: string) => {
@@ -789,7 +792,7 @@ export default function Projects() {
           </div>
         ) : (
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px' }}>
-            {projects.map(project => {
+            {filteredProjects.map(project => {
               const projectTasksForProgress = allTasks.filter((t: Task) => t.project_id === project.id);
               const progress = projectTasksForProgress.length > 0 
                 ? Math.round((projectTasksForProgress.filter((t: Task) => t.stage === 'Done' || t.status === 'Completed').length / projectTasksForProgress.length) * 100)
