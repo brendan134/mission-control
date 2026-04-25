@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { 
   CheckSquare, Plus, Filter, AlertTriangle, Clock, 
   ChevronRight, Play, Pause, CheckCircle, XCircle, Target, LayoutGrid, List,
-  PlayCircle, PauseCircle
+  PlayCircle, PauseCircle, Info
 } from 'lucide-react';
 import { 
   getTasks, getTasksByProject, getBlockedTasks, getWeeklyTasks,
@@ -16,12 +16,12 @@ import { Task, TaskStatus, Stage, Priority, TaskType, Project } from '../../lib/
 // ==================== CONSTANTS ====================
 
 const STAGES = [
-  { value: Stage.CAPTURE, label: 'Capture' },
-  { value: Stage.DEFINE, label: 'Define' },
-  { value: Stage.IN_PROGRESS, label: 'In Progress' },
-  { value: Stage.WAITING, label: 'Waiting' },
-  { value: Stage.REVIEW, label: 'Review' },
-  { value: Stage.DONE, label: 'Done' },
+  { value: Stage.CAPTURE, label: 'Capture', description: 'New tasks, ideas, or requests. Not yet analyzed or committed.' },
+  { value: Stage.DEFINE, label: 'Define', description: 'Task is understood and has a clear next action. Ready to execute when capacity available.' },
+  { value: Stage.IN_PROGRESS, label: 'In Progress', description: 'Actively being worked on. Has immediate next step.' },
+  { value: Stage.WAITING, label: 'Waiting', description: 'Blocked or pending external input. Will resume when condition clears.' },
+  { value: Stage.REVIEW, label: 'Review', description: 'Work complete, awaiting approval or quality check.' },
+  { value: Stage.DONE, label: 'Done', description: 'Fully completed and delivered. No further action required.' },
 ];
 
 const PRIORITIES = [
@@ -758,7 +758,12 @@ export default function Tasks() {
                   paddingBottom: '8px',
                   borderBottom: '1px solid var(--border)'
                 }}>
-                  <span style={{ fontWeight: 600, fontSize: '13px' }}>{stage.label}</span>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                    <span style={{ fontWeight: 600, fontSize: '13px' }}>{stage.label}</span>
+                    <span title={stage.description} style={{ cursor: 'help', opacity: 0.6 }}>
+                      <Info size={14} />
+                    </span>
+                  </div>
                   <span style={{ 
                     background: 'var(--accent-blue)', 
                     color: '#fff', 
