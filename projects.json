@@ -54,5 +54,24 @@
     "created_at": "2026-04-20T11:04:21.528Z",
     "updated_at": "2026-04-20T11:37:35.156Z",
     "strategic_priority_id": "strat-1776047606356-otwixyfjo"
+  },
+  {
+    "name": "Agent Workflow Chains",
+    "description": "Implement declarative multi-agent workflow execution system. Transform 16 individual agents into a self-managing team that automatically hand off between each other (e.g., Ethan drafts → Lucas scripts → Jay optimizes → Sophie reviews). Brendan only sees final approved output. North Star: reduce owner dependency.",
+    "status": "Active",
+    "priority": "High",
+    "owner": "Niles",
+    "stage": "Planning",
+    "id": "proj-1776207926512-awfchain",
+    "linked_task_ids": [
+      "task-1776207926512-wfc001",
+      "task-1776207926512-wfc002",
+      "task-1776207926512-wfc003",
+      "task-1776207926512-wfc004"
+    ],
+    "progress": 0,
+    "created_at": "2026-04-25T11:08:00.000Z",
+    "updated_at": "2026-04-25T11:08:00.000Z",
+    "strategic_priority_id": "strat-1776050306440-lyukdbl5t"
   }
 ]
