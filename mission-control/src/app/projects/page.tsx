@@ -9,6 +9,7 @@ import {
   getProjectProgress, getLastActivity, getNextBestTask, createProject, updateProject, deleteProject,
   initializeSampleProjects
 } from '../../lib/project-service';
+import { getTasksByProject, createTask } from '../../lib/task-service';
 import { Project, ProjectStatus, Priority, Task } from '../../lib/data-model';
 import { StrategicPriority } from '../../lib/strategy-service';
 
@@ -67,6 +68,7 @@ export default function Projects() {
   const [loading, setLoading] = useState(false);
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [showCreate, setShowCreate] = useState(false);
+  const [showCreateTask, setShowCreateTask] = useState(false);
   const [editingProject, setEditingProject] = useState<Project | null>(null);
   const [deleteConfirm, setDeleteConfirm] = useState<Project | null>(null);
   const [strategicPriorities, setStrategicPriorities] = useState<StrategicPriority[]>([]);
@@ -78,6 +80,16 @@ export default function Projects() {
     stage: 'Planning',
     strategic_priority_id: '',
   });
+  const [newTask, setNewTask] = useState({
+    title: '',
+    description: '',
+    priority: 'Medium',
+    task_type: 'Content',
+    stage: 'Capture',
+    primary_owner_id: 'Brendan',
+    next_action: '',
+  });
+  const activeProject = selectedProject;
 
   useEffect(() => {
     // Load projects from API
@@ -130,6 +142,35 @@ export default function Projects() {
     setNewProject({ name: '', description: '', priority: 'Medium', owner: 'Brendan', stage: 'Planning', strategic_priority_id: '' });
   };
 
+  const handleCreateTask = () => {
+    if (!newTask.title || !selectedProject) return;
+    const created = createTask({
+      title: newTask.title,
+      description: newTask.description,
+      priority: newTask.priority as any,
+      task_type: newTask.task_type as any,
+      stage: newTask.stage as any,
+      status: 'Active' as any,
+      primary_owner_id: newTask.primary_owner_id,
+      primary_owner_type: 'Brendan' as any,
+      next_action: newTask.next_action,
+      project_id: selectedProject.id,
+      requires_human_input: false,
+      requires_decision: false,
+      created_by: 'Brendan',
+      blocked: false,
+      review_required: false,
+      supporting_owner_ids: [],
+      assigned_agent_ids: [],
+      related_task_ids: [],
+      tag_ids: [],
+    } as any);
+    setShowCreateTask(false);
+    setNewTask({ title: '', description: '', priority: 'Medium', task_type: 'Content', stage: 'Capture', primary_owner_id: 'Brendan', next_action: '' });
+    // Refresh the project detail to show new task
+    setSelectedProject(selectedProject);
+  };
+
   const handleEditProject = async () => {
     if (!editingProject || !editingProject.name) return;
     
@@ -180,7 +221,7 @@ export default function Projects() {
   };
 
   const getProjectTasks = (projectId: string) => {
-    return sampleTasks.filter(t => t.project_id === projectId);
+    return getTasksByProject(projectId);
   };
 
   const getNextAction = (projectId: string) => {
@@ -291,10 +332,13 @@ export default function Projects() {
         <div className="card">
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
             <h3 style={{ fontSize: '16px', fontWeight: 600, margin: 0 }}>Tasks ({projectTasks.length})</h3>
-            <button style={{
-              padding: '8px 16px', background: 'var(--accent)', color: 'var(--background-primary)',
-              border: 'none', borderRadius: '6px', cursor: 'pointer', fontWeight: 500
-            }}>
+            <button 
+              onClick={() => setShowCreateTask(true)}
+              style={{
+                padding: '8px 16px', background: 'var(--accent)', color: 'var(--background-primary)',
+                border: 'none', borderRadius: '6px', cursor: 'pointer', fontWeight: 500
+              }}
+            >
               + Add Task
             </button>
           </div>
@@ -520,6 +564,87 @@ export default function Projects() {
             <div style={{ display: 'flex', gap: '12px', justifyContent: 'flex-end' }}>
               <button onClick={() => setDeleteConfirm(null)} style={{ padding: '10px 20px', background: 'var(--background-tertiary)', border: 'none', borderRadius: '8px', fontSize: '14px', cursor: 'pointer' }}>Cancel</button>
               <button onClick={handleDeleteProject} style={{ padding: '10px 20px', background: '#ef4444', color: 'white', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 500, cursor: 'pointer' }}>Delete</button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Create Task Modal */}
+      {(showCreateTask === true) && activeProject !== null && activeProject !== undefined && (
+        <div style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.7)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 100 }}>
+          <div style={{ background: 'var(--background-secondary)', borderRadius: '16px', padding: '24px', width: '100%', maxWidth: '500px', maxHeight: '90vh', overflow: 'auto' }}>
+            <h2 style={{ fontSize: '18px', fontWeight: 600, marginBottom: '20px' }}>Add Task to {activeProject.name}</h2>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+              <div>
+                <label style={{ fontSize: '12px', fontWeight: 500, display: 'block', marginBottom: '6px' }}>Task Title *</label>
+                <input
+                  value={newTask.title}
+                  onChange={e => setNewTask({...newTask, title: e.target.value})}
+                  style={{ width: '100%', padding: '10px 12px', background: 'var(--background-tertiary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', color: '#ffffff' }}
+                  placeholder="Task title"
+                />
+              </div>
+              <div>
+                <label style={{ fontSize: '12px', fontWeight: 500, display: 'block', marginBottom: '6px' }}>Description</label>
+                <textarea
+                  value={newTask.description}
+                  onChange={e => setNewTask({...newTask, description: e.target.value})}
+                  style={{ width: '100%', padding: '10px 12px', background: 'var(--background-tertiary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', color: '#ffffff', minHeight: '60px', resize: 'vertical' }}
+                  placeholder="What needs to be done?"
+                />
+              </div>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                <div>
+                  <label style={{ fontSize: '12px', fontWeight: 500, display: 'block', marginBottom: '6px' }}>Priority</label>
+                  <select
+                    value={newTask.priority}
+                    onChange={e => setNewTask({...newTask, priority: e.target.value})}
+                    style={{ width: '100%', padding: '10px 12px', background: 'var(--background-tertiary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', color: '#ffffff' }}
+                  >
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                  </select>
+                </div>
+                <div>
+                  <label style={{ fontSize: '12px', fontWeight: 500, display: 'block', marginBottom: '6px' }}>Stage</label>
+                  <select
+                    value={newTask.stage}
+                    onChange={e => setNewTask({...newTask, stage: e.target.value})}
+                    style={{ width: '100%', padding: '10px 12px', background: 'var(--background-tertiary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', color: '#ffffff' }}
+                  >
+                    <option value="Capture">Capture</option>
+                    <option value="Define">Define</option>
+                    <option value="In Progress">In Progress</option>
+                    <option value="Waiting">Waiting</option>
+                    <option value="Review">Review</option>
+                    <option value="Done">Done</option>
+                  </select>
+                </div>
+              </div>
+              <div>
+                <label style={{ fontSize: '12px', fontWeight: 500, display: 'block', marginBottom: '6px' }}>Next Action</label>
+                <input
+                  value={newTask.next_action}
+                  onChange={e => setNewTask({...newTask, next_action: e.target.value})}
+                  style={{ width: '100%', padding: '10px 12px', background: 'var(--background-tertiary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', color: '#ffffff' }}
+                  placeholder="What is the next step?"
+                />
+              </div>
+              <div style={{ display: 'flex', gap: '12px', justifyContent: 'flex-end', marginTop: '8px' }}>
+                <button
+                  onClick={() => setShowCreateTask(false)}
+                  style={{ padding: '10px 20px', background: 'var(--background-tertiary)', border: 'none', borderRadius: '8px', fontSize: '14px', cursor: 'pointer' }}
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={handleCreateTask}
+                  style={{ padding: '10px 20px', background: 'var(--accent)', color: 'var(--background-primary)', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 500, cursor: 'pointer' }}
+                >
+                  Add Task
+                </button>
+              </div>
             </div>
           </div>
         </div>
