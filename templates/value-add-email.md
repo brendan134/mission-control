@@ -26,6 +26,16 @@ Brendan
 
 ---
 
+## ⛔ APPROVAL REQUIRED (LOCKED IN)
+
+**DO NOT send this email until Brendan approves it.**
+
+1. Generate draft → Save to `memory/value-add/`
+2. Wait for approval from Brendan
+3. Only then send using `scripts/send-value-add.sh`
+
+---
+
 ## Value-Add Types Reference
 
 | Type | Example | Best For |

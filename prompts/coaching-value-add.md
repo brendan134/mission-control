@@ -70,6 +70,17 @@ Brendan
 
 ---
 
+## Approval Workflow (LOCKED IN)
+
+**NEVER send value-add email directly to client.**
+
+1. Generate value-add draft
+2. Save to `memory/value-add/` folder
+3. Wait for Brendan approval before sending
+4. Only send after approval received
+
+---
+
 ## Important Notes
 
 - Keep it to one page max
@@ -77,6 +88,7 @@ Brendan
 - Make it personal - reference their exact words
 - Include ONE clear call to action
 - No generic tips - everything tailored to their conversation
+- **ALWAYS wait for approval before sending**
 
 ---
 
