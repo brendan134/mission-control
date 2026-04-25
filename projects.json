@@ -73,5 +73,61 @@
     "created_at": "2026-04-25T11:08:00.000Z",
     "updated_at": "2026-04-25T11:08:00.000Z",
     "strategic_priority_id": "strat-1776050306440-lyukdbl5t"
+  },
+  {
+    "name": "Toastmasters - VP Membership",
+    "description": "Lead membership growth and retention for Toastmasters club. Manage new member orientations, renewal campaigns, and member engagement.",
+    "status": "Active",
+    "priority": "High",
+    "owner": "Brendan",
+    "stage": "Execution",
+    "strategic_priority_id": "strat-1777156456872-ccu4bwto2",
+    "id": "proj-1777156470340-lv7esytkj",
+    "linked_task_ids": [],
+    "progress": 0,
+    "created_at": "2026-04-25T22:34:30.340Z",
+    "updated_at": "2026-04-25T22:34:30.340Z"
+  },
+  {
+    "name": "Foster Care",
+    "description": "Ongoing foster care responsibilities. Coordinate with case workers, prepare for placements, and ensure wellbeing of foster children.",
+    "status": "Active",
+    "priority": "High",
+    "owner": "Brendan",
+    "stage": "Execution",
+    "strategic_priority_id": "strat-1777156456872-ccu4bwto2",
+    "id": "proj-1777156470358-h4fnegsj8",
+    "linked_task_ids": [],
+    "progress": 0,
+    "created_at": "2026-04-25T22:34:30.358Z",
+    "updated_at": "2026-04-25T22:34:30.358Z"
+  },
+  {
+    "name": "Fairhaven Services - Board Member",
+    "description": "Non-for-profit board responsibilities for Fairhaven Services. Attend board meetings, review strategic decisions, and provide governance oversight.",
+    "status": "Active",
+    "priority": "High",
+    "owner": "Brendan",
+    "stage": "Execution",
+    "strategic_priority_id": "strat-1777156456872-ccu4bwto2",
+    "id": "proj-1777156470376-c2ep4osh0",
+    "linked_task_ids": [],
+    "progress": 0,
+    "created_at": "2026-04-25T22:34:30.376Z",
+    "updated_at": "2026-04-25T22:34:30.376Z"
+  },
+  {
+    "name": "Greece / Europe Digital Nomad Trip",
+    "description": "Plan and prepare for extended digital nomad trip to Greece and Europe. Include flights, accommodation, visa requirements, work setup, and itinerary.",
+    "status": "Active",
+    "priority": "Medium",
+    "owner": "Brendan",
+    "stage": "Planning",
+    "strategic_priority_id": "strat-1777156456872-ccu4bwto2",
+    "id": "proj-1777156470394-qeq27vgyn",
+    "linked_task_ids": [],
+    "progress": 0,
+    "created_at": "2026-04-25T22:34:30.394Z",
+    "updated_at": "2026-04-25T22:34:30.394Z"
   }
 ]
