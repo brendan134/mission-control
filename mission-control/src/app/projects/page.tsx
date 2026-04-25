@@ -273,7 +273,9 @@ export default function Projects() {
   // If a project is selected, show detail view
   if (selectedProject) {
     const nextAction = getNextAction(selectedProject.id);
-    const progress = getProjectProgress(selectedProject.id, sampleTasks);
+    const progress = projectTasks.length > 0 
+      ? Math.round((projectTasks.filter(t => t.stage === 'Done' || t.status === 'Completed').length / projectTasks.length) * 100)
+      : 0;
 
     return (
       <div style={{ padding: '24px', maxWidth: '1400px', margin: '0 auto' }}>
