@@ -3,9 +3,19 @@ import { getTasks, createTask, updateTask, deleteTask } from '../../../lib/task-
 import { Task, TaskStatus, Stage } from '../../../lib/data-model';
 
 // GET /api/tasks - List all tasks
-export async function GET() {
+// Supports ?project_id=... to filter by project
+export async function GET(request: NextRequest) {
   try {
-    const tasks = getTasks();
+    const { searchParams } = new URL(request.url);
+    const projectId = searchParams.get('project_id');
+    
+    let tasks = getTasks();
+    
+    // Filter by project_id if provided
+    if (projectId) {
+      tasks = tasks.filter(t => t.project_id === projectId);
+    }
+    
     return NextResponse.json(tasks);
   } catch (err) {
     return NextResponse.json({ error: 'Failed to fetch tasks' }, { status: 500 });

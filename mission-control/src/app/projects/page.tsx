@@ -1,4 +1,5 @@
 'use client';
+export const dynamic = 'force-dynamic';
 import { useState, useEffect } from 'react';
 import {
   Folder, Plus, AlertTriangle, TrendingUp, Clock,
@@ -64,7 +65,7 @@ const sampleTasks: Task[] = [
 ];
 
 export default function Projects() {
-  const [projects, setProjects] = useState<Project[]>(getProjects()); // Load from server-side function initially
+  const [projects, setProjects] = useState<Project[]>([]);
   const [loading, setLoading] = useState(false);
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [showCreate, setShowCreate] = useState(false);

@@ -120,7 +120,7 @@
     "project_id": "proj-1776683061528-1qlug2u3w",
     "priority": "Medium",
     "task_type": "Client Delivery",
-    "stage": "Define",
+    "stage": "Waiting",
     "primary_owner_id": "Brendan",
     "client_name": "Peter Clarke",
     "next_action": "Review client list and identify top 20 growth opportunities",
@@ -140,7 +140,7 @@
     "due_date": "2026-06-01",
     "id": "task-1776687682580-hjnb6v3cu",
     "created_at": "2026-04-20T12:21:22.580Z",
-    "updated_at": "2026-04-23T06:37:46.333Z"
+    "updated_at": "2026-04-25T11:48:11.540Z"
   },
   {
     "title": "Phase 3: Leadership Rhythm - Peter Clarke",
@@ -148,7 +148,7 @@
     "project_id": "proj-1776683061528-1qlug2u3w",
     "priority": "Medium",
     "task_type": "Client Delivery",
-    "stage": "Define",
+    "stage": "Waiting",
     "primary_owner_id": "Brendan",
     "client_name": "Peter Clarke",
     "next_action": "Block calendar for 2 BD days per week",
@@ -166,7 +166,7 @@
     "due_date": "2026-08-01",
     "id": "task-1776687682595-8f3r4sb5p",
     "created_at": "2026-04-20T12:21:22.595Z",
-    "updated_at": "2026-04-23T06:37:52.667Z"
+    "updated_at": "2026-04-25T11:48:06.653Z"
   },
   {
     "title": "Create designed plan - Akhil Rodrigues",
@@ -254,7 +254,7 @@
     "project_id": "proj-1776683061528-1qlug2u3w",
     "priority": "Medium",
     "task_type": "Client Delivery",
-    "stage": "Define",
+    "stage": "Waiting",
     "primary_owner_id": "Brendan",
     "client_name": "Akhil Rodrigues",
     "next_action": "Begin Phase 2 work",
@@ -265,7 +265,7 @@
     "due_date": "2026-06-01",
     "id": "task-1776689129902-s4cr1fy7l",
     "created_at": "2026-04-20T12:45:29.902Z",
-    "updated_at": "2026-04-23T06:37:38.718Z"
+    "updated_at": "2026-04-25T11:48:20.368Z"
   },
   {
     "title": "Multiplication (Weeks 9-12) - Akhil Rodrigues",
@@ -273,7 +273,7 @@
     "project_id": "proj-1776683061528-1qlug2u3w",
     "priority": "Medium",
     "task_type": "Client Delivery",
-    "stage": "Define",
+    "stage": "Waiting",
     "primary_owner_id": "Brendan",
     "client_name": "Akhil Rodrigues",
     "next_action": "Begin Phase 3 work",
@@ -284,12 +284,12 @@
     "due_date": "2026-08-01",
     "id": "task-1776689129918-nerhsx627",
     "created_at": "2026-04-20T12:45:29.918Z",
-    "updated_at": "2026-04-23T06:37:59.778Z"
+    "updated_at": "2026-04-25T11:47:46.743Z"
   },
   {
     "title": "Review Kaizen Improvement Suggestions",
     "description": "Review all of Kaizen improvement suggestions and determine implementation plan",
-    "project_id": "proj-1776690483455-xc7wpdp73",
+    "project_id": "proj-1776207926512-awfchain",
     "priority": "High",
     "task_type": "Strategy",
     "stage": "Done",
@@ -301,7 +301,7 @@
     "primary_owner_type": "Brendan",
     "id": "task-1776690503277-r0c1ebjfv",
     "created_at": "2026-04-20T13:08:23.277Z",
-    "updated_at": "2026-04-23T06:38:18.075Z",
+    "updated_at": "2026-04-25T13:06:27.796Z",
     "due_date": "2026-04-22",
     "completed_at": "2026-04-23T06:38:17.899Z"
   },
@@ -346,7 +346,7 @@
     "review_required": false,
     "id": "task-1776207926512-wfc001",
     "created_at": "2026-04-25T11:12:00.000Z",
-    "updated_at": "2026-04-25T11:12:00.000Z"
+    "updated_at": "2026-04-25T11:49:34.312Z"
   },
   {
     "title": "Add workflow engine to Agent Orchestrator",
@@ -372,7 +372,7 @@
     "review_required": false,
     "id": "task-1776207926512-wfc002",
     "created_at": "2026-04-25T11:12:00.000Z",
-    "updated_at": "2026-04-25T11:12:00.000Z"
+    "updated_at": "2026-04-25T11:49:30.375Z"
   },
   {
     "title": "Build visual pipeline view in Mission Control",
@@ -398,7 +398,7 @@
     "review_required": false,
     "id": "task-1776207926512-wfc003",
     "created_at": "2026-04-25T11:12:00.000Z",
-    "updated_at": "2026-04-25T11:12:00.000Z"
+    "updated_at": "2026-04-25T11:49:41.376Z"
   },
   {
     "title": "POC: LinkedIn + Script + YouTube Package chain",
@@ -429,6 +429,6 @@
     "review_required": true,
     "id": "task-1776207926512-wfc004",
     "created_at": "2026-04-25T11:12:00.000Z",
-    "updated_at": "2026-04-25T11:12:00.000Z"
+    "updated_at": "2026-04-25T11:49:20.721Z"
   }
 ]
