@@ -48,13 +48,13 @@
         "id": "ep15-2",
         "text": "Dom: Schedule written social media posts (LinkedIn, Insta, FB)",
         "assignee": "Dom",
-        "done": false
+        "done": true
       },
       {
         "id": "ep15-8",
         "text": "Brendan: Approve written social posts",
         "assignee": "Brendan",
-        "done": false
+        "done": true
       },
       {
         "id": "ep15-3",
