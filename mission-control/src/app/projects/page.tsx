@@ -381,20 +381,34 @@ export default function Projects() {
             </div>
           ) : (
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-              {projectTasks.map(task => (
-                <div key={task.id} style={{
-                  padding: '12px 16px', background: 'var(--background-tertiary)', borderRadius: '8px',
-                  display: 'flex', justifyContent: 'space-between', alignItems: 'center'
-                }}>
-                  <div>
-                    <div style={{ fontWeight: 500 }}>{task.title}</div>
-                    <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>
-                      {task.stage} • {task.priority} • {task.status}
+              {projectTasks.map(task => {
+                const isDone = task.stage === 'Done' || task.status === 'Completed';
+                return (
+                  <div key={task.id} style={{
+                    padding: '12px 16px', 
+                    background: isDone ? 'rgba(34, 197, 94, 0.1)' : 'var(--background-tertiary)',
+                    borderRadius: '8px',
+                    display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+                    borderLeft: isDone ? '3px solid var(--success)' : '3px solid transparent'
+                  }}>
+                    <div>
+                      <div style={{ 
+                        fontWeight: 500, 
+                        textDecoration: isDone ? 'line-through' : 'none',
+                        color: isDone ? 'var(--text-muted)' : 'inherit',
+                        opacity: isDone ? 0.6 : 1
+                      }}>
+                        {isDone && <span style={{ marginRight: '8px' }}>✅</span>}
+                        {task.title}
+                      </div>
+                      <div style={{ fontSize: '12px', color: isDone ? 'var(--success)' : 'var(--text-muted)' }}>
+                        {task.stage} • {task.priority} • {task.status}
+                      </div>
                     </div>
+                    {!isDone && <ChevronRight size={16} style={{ color: 'var(--text-muted)' }} />}
                   </div>
-                  <ChevronRight size={16} style={{ color: 'var(--text-muted)' }} />
-                </div>
-              ))}
+                );
+              })}
             </div>
           )}
         </div>
