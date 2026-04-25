@@ -64,7 +64,7 @@ const sampleTasks: Task[] = [
 ];
 
 export default function Projects() {
-  const [projects, setProjects] = useState<Project[]>([]);
+  const [projects, setProjects] = useState<Project[]>(getProjects()); // Load from server-side function initially
   const [loading, setLoading] = useState(false);
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [showCreate, setShowCreate] = useState(false);
@@ -93,12 +93,35 @@ export default function Projects() {
   const activeProject = selectedProject;
 
   useEffect(() => {
-    // Load projects from API
-    fetch('/api/projects').then(r => r.ok ? r.json() : []).then(data => setProjects(data)).catch(() => setProjects([]));
-    // Load strategic priorities
-    fetch('/api/strategy').then(r => r.ok ? r.json() : []).then(data => setStrategicPriorities(data)).catch(() => setStrategicPriorities([]));
+    const loadData = async () => {
+      try {
+        const [projectsRes, strategyRes] = await Promise.all([
+          fetch('/api/projects'),
+          fetch('/api/strategy')
+        ]);
+        const projectsData = projectsRes.ok ? await projectsRes.json() : [];
+        const strategyData = strategyRes.ok ? await strategyRes.json() : [];
+        
+        if (projectsData.length > 0) {
+          setProjects(projectsData);
+        } else {
+          loadProjects(); // fallback
+        }
+        setStrategicPriorities(strategyData);
+      } catch (error) {
+        console.error('Error loading projects:', error);
+        loadProjects(); // fallback on error
+      }
+      setLoading(false);
+    };
+    
+    loadData();
+    
     // Fallback timeout in case something hangs
-    const timer = setTimeout(() => setLoading(false), 3000);
+    const timer = setTimeout(() => {
+      loadProjects();
+      setLoading(false);
+    }, 3000);
     return () => clearTimeout(timer);
   }, []);
 
