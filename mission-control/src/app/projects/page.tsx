@@ -66,6 +66,7 @@ const sampleTasks: Task[] = [
 
 export default function Projects() {
   const [projects, setProjects] = useState<Project[]>([]);
+  const [allTasks, setAllTasks] = useState<Task[]>([]);
   const [loading, setLoading] = useState(false);
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [showCreate, setShowCreate] = useState(false);
@@ -96,14 +97,17 @@ export default function Projects() {
   useEffect(() => {
     const loadData = async () => {
       try {
-        const [projectsRes, strategyRes] = await Promise.all([
+        const [projectsRes, strategyRes, tasksRes] = await Promise.all([
           fetch('/api/projects', { cache: 'no-store' }),
-          fetch('/api/strategy', { cache: 'no-store' })
+          fetch('/api/strategy', { cache: 'no-store' }),
+          fetch('/api/tasks', { cache: 'no-store' })
         ]);
         const projectsData = projectsRes.ok ? await projectsRes.json() : [];
         const strategyData = strategyRes.ok ? await strategyRes.json() : [];
+        const tasksData = tasksRes.ok ? await tasksRes.json() : [];
         console.log('[Projects] Fetched projects:', projectsData.length, 'projects'); // DEBUG
         console.log('[Projects] Fetched strategy:', strategyData.length, 'priorities'); // DEBUG
+        console.log('[Projects] Fetched tasks:', tasksData.length, 'tasks'); // DEBUG
         
         if (projectsData.length > 0) {
           setProjects(projectsData);
@@ -111,6 +115,7 @@ export default function Projects() {
           loadProjects(); // fallback
         }
         setStrategicPriorities(strategyData);
+        setAllTasks(tasksData);
       } catch (error) {
         console.error('Error loading projects:', error);
         loadProjects(); // fallback on error
@@ -752,7 +757,10 @@ export default function Projects() {
         ) : (
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px' }}>
             {projects.map(project => {
-              const progress = getProjectProgress(project.id, sampleTasks);
+              const projectTasksForProgress = allTasks.filter((t: Task) => t.project_id === project.id);
+              const progress = projectTasksForProgress.length > 0 
+                ? Math.round((projectTasksForProgress.filter((t: Task) => t.stage === 'Done' || t.status === 'Completed').length / projectTasksForProgress.length) * 100)
+                : 0;
               const isStale = stale.some(s => s.id === project.id);
               const projectTasks = getProjectTasks(project.id);
 
