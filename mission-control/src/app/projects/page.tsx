@@ -75,6 +75,7 @@ export default function Projects() {
   const [deleteConfirm, setDeleteConfirm] = useState<Project | null>(null);
   const [strategicPriorities, setStrategicPriorities] = useState<StrategicPriority[]>([]);
   const [projectTasks, setProjectTasks] = useState<Task[]>([]);
+  const [priorityFilter, setPriorityFilter] = useState<string>('');
   const [newProject, setNewProject] = useState({
     name: '',
     description: '',
@@ -145,8 +146,15 @@ export default function Projects() {
     setLoading(false);
   };
 
-  const activeProjects = projects.filter(p => p.status === ProjectStatus.ACTIVE);
-  const highPriority = projects.filter(p => p.priority === Priority.HIGH && p.status === ProjectStatus.ACTIVE);
+  const activeProjects = projects.filter(p => 
+    p.status === ProjectStatus.ACTIVE && 
+    (!priorityFilter || p.strategic_priority_id === priorityFilter)
+  );
+  const highPriority = projects.filter(p => 
+    p.priority === Priority.HIGH && 
+    p.status === ProjectStatus.ACTIVE && 
+    (!priorityFilter || p.strategic_priority_id === priorityFilter)
+  );
   const stale = getStaleProjects(7);
 
   const formatDate = (dateStr?: string) => {
@@ -445,6 +453,29 @@ export default function Projects() {
           <Plus size={18} /> New Project
         </button>
         </div>
+
+      {/* Filter by Strategic Priority */}
+      <div style={{ marginBottom: '24px', display: 'flex', alignItems: 'center', gap: '12px' }}>
+        <span style={{ fontSize: '14px', color: 'var(--text-muted)' }}>Filter by:</span>
+        <select
+          value={priorityFilter}
+          onChange={(e) => setPriorityFilter(e.target.value)}
+          style={{
+            padding: '8px 12px',
+            background: 'var(--background-tertiary)',
+            color: 'var(--text)',
+            border: '1px solid var(--border)',
+            borderRadius: '6px',
+            cursor: 'pointer',
+            fontSize: '14px'
+          }}
+        >
+          <option value="">All Priorities</option>
+          {strategicPriorities.map(priority => (
+            <option key={priority.id} value={priority.id}>{priority.name}</option>
+          ))}
+        </select>
+      </div>
 
       {/* Create Modal */}
       {showCreate && (
