@@ -19,10 +19,15 @@ Don't ask permission. Just do it.
 
 ## Memory
 
+**IMPORTANT: Use the Knowledge page (Obsidian vault) for memory.**
+
+> The Memory page (`/memory`) is deprecated. Use `/knowledge` instead.
+
 You wake up fresh each session. These files are your continuity:
 
-- **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
-- **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
+- **Knowledge page:** `http://localhost:3003/knowledge` - Single source of truth (Obsidian vault)
+- **Daily notes:** `obsidian/01-daily-logs/YYYY-MM-DD.md` - Write NEW memory here
+- **Long-term:** `MEMORY.md` - Your curated memories
 
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
 
