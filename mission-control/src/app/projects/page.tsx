@@ -353,11 +353,13 @@ export default function Projects() {
           <div className="card">
             <div style={{ fontSize: '12px', color: 'var(--text-muted)', marginBottom: '4px' }}>Progress</div>
             <div style={{ fontWeight: 500 }}>{progress}%</div>
-            <div style={{
-              height: '4px', background: 'var(--background-tertiary)', borderRadius: '2px', marginTop: '8px'
-            }}>
+            <div style={{ height: '4px', background: 'var(--background-tertiary)', borderRadius: '2px', marginTop: '8px', overflow: 'hidden' }}>
               <div style={{
-                height: '100%', width: `${progress}%`, background: 'var(--accent-gold)', borderRadius: '2px'
+                height: '100%', width: `${progress}%`, 
+                minWidth: progress > 0 ? '4px' : '0',
+                background: progress === 100 ? 'var(--success)' : progress > 0 ? 'var(--accent-gold)' : 'transparent',
+                borderRadius: '2px',
+                transition: 'width 0.3s ease'
               }} />
             </div>
           </div>
@@ -869,11 +871,14 @@ export default function Projects() {
                       <span style={{ fontSize: '11px', color: 'var(--text-muted)' }}>Progress</span>
                       <span style={{ fontSize: '11px', fontWeight: 600 }}>{progress}%</span>
                     </div>
-                    <div style={{ height: '6px', background: 'var(--background-primary)', borderRadius: '3px' }}>
+                    <div style={{ height: '6px', background: 'var(--background-primary)', borderRadius: '3px', overflow: 'hidden' }}>
                       <div style={{
-                        height: '100%', width: `${progress}%`,
-                        background: progress === 100 ? 'var(--success)' : 'var(--accent-gold)',
-                        borderRadius: '3px'
+                        height: '100%', 
+                        width: `${progress}%`,
+                        minWidth: progress > 0 ? '4px' : '0',
+                        background: progress === 100 ? 'var(--success)' : progress > 0 ? 'var(--accent-gold)' : 'transparent',
+                        borderRadius: '3px',
+                        transition: 'width 0.3s ease'
                       }} />
                     </div>
                   </div>
