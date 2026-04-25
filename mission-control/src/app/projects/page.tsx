@@ -72,6 +72,7 @@ export default function Projects() {
   const [editingProject, setEditingProject] = useState<Project | null>(null);
   const [deleteConfirm, setDeleteConfirm] = useState<Project | null>(null);
   const [strategicPriorities, setStrategicPriorities] = useState<StrategicPriority[]>([]);
+  const [projectTasks, setProjectTasks] = useState<Task[]>([]);
   const [newProject, setNewProject] = useState({
     name: '',
     description: '',
@@ -100,6 +101,18 @@ export default function Projects() {
     const timer = setTimeout(() => setLoading(false), 3000);
     return () => clearTimeout(timer);
   }, []);
+
+  // Fetch tasks when selected project changes
+  useEffect(() => {
+    if (selectedProject) {
+      fetch(`/api/tasks?project_id=${selectedProject.id}`)
+        .then(r => r.ok ? r.json() : [])
+        .then(data => setProjectTasks(data))
+        .catch(() => setProjectTasks([]));
+    } else {
+      setProjectTasks([]);
+    }
+  }, [selectedProject]);
 
   const loadProjects = () => {
     const all = getProjects();
@@ -239,7 +252,6 @@ export default function Projects() {
 
   // If a project is selected, show detail view
   if (selectedProject) {
-    const projectTasks = getProjectTasks(selectedProject.id);
     const nextAction = getNextAction(selectedProject.id);
     const progress = getProjectProgress(selectedProject.id, sampleTasks);
 
