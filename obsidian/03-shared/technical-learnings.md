@@ -28,6 +28,25 @@
 ### 3. Cloudflare Tunnel 530 Errors
 **Problem:** Accessing `mc.brendanrogers.au` returned HTTP 530 even though tunnel appeared connected.
 
+### 4. Projects Page Reverting to Old Data
+**Problem:** Projects page showed correct 5 projects on fresh load, then reverted to 3 projects after ~3 seconds.
+
+**Root Cause:** 
+1. Buggy fallback timer in `useEffect`: `setTimeout(() => { loadProjects(); }, 3000)` was overwriting API data after 3 seconds
+2. Possible Next.js caching on API routes
+
+**Fix:**
+1. Removed the fallback timer from `page.tsx`
+2. Added `export const dynamic = 'force-dynamic';` to `/api/projects/route.ts`
+3. Added `{ cache: 'no-store' }` to client-side `fetch` calls in `page.tsx`
+4. Rebuilt and restarted Mission Control
+
+**Lesson:**
+- Next.js caching is complex; `force-dynamic` isn't always enough
+- Fallback timers in `useEffect` can cause race conditions with API data
+- Explicitly disable caching on client fetches (`cache: 'no-store'`)
+- Restart the server to clear in-memory caches
+
 **Root Cause:** 
 - Tunnel ID changed after deleting and recreating ("Mission-Control")
 - DNS was still pointing to old tunnel ID (`4a6b285e...`)

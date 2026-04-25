@@ -97,11 +97,13 @@ export default function Projects() {
     const loadData = async () => {
       try {
         const [projectsRes, strategyRes] = await Promise.all([
-          fetch('/api/projects'),
-          fetch('/api/strategy')
+          fetch('/api/projects', { cache: 'no-store' }),
+          fetch('/api/strategy', { cache: 'no-store' })
         ]);
         const projectsData = projectsRes.ok ? await projectsRes.json() : [];
         const strategyData = strategyRes.ok ? await strategyRes.json() : [];
+        console.log('[Projects] Fetched projects:', projectsData.length, 'projects'); // DEBUG
+        console.log('[Projects] Fetched strategy:', strategyData.length, 'priorities'); // DEBUG
         
         if (projectsData.length > 0) {
           setProjects(projectsData);
@@ -117,13 +119,7 @@ export default function Projects() {
     };
     
     loadData();
-    
-    // Fallback timeout in case something hangs
-    const timer = setTimeout(() => {
-      loadProjects();
-      setLoading(false);
-    }, 3000);
-    return () => clearTimeout(timer);
+    // Note: Removed fallback timer - was causing page to revert to old data after 3 seconds
   }, []);
 
   // Fetch tasks when selected project changes

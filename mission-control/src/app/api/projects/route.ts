@@ -3,11 +3,15 @@ import { getProjects, createProject, updateProject, deleteProject } from '../../
 import { Project } from '../../../lib/data-model';
 
 // GET /api/projects - List all projects
+export const dynamic = 'force-dynamic';
 export async function GET() {
   try {
     const projects = getProjects();
+    // console.log('GET /api/projects returning:', projects.length, 'projects'); // Added for debugging
+    console.log('[API /projects] Returning:', projects.length, 'projects'); // DEBUG
     return NextResponse.json(projects);
   } catch (err) {
+    console.error('Error in GET /api/projects:', err);
     return NextResponse.json({ error: 'Failed to fetch projects' }, { status: 500 });
   }
 }
