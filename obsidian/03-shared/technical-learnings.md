@@ -68,3 +68,49 @@
 2. **Client vs Server data** - Use API routes for client components
 3. **Clean restarts** - Delete PM2 processes before restarting after crashes
 4. **Test thoroughly** - Don't just check if it builds, verify functionality
+
+---
+
+## Session: April 25 Evening - Additional Learnings
+
+### 6. API Must Support Filtering
+**Problem:** Project detail showed ALL tasks (18) instead of only linked tasks (4).
+
+**Root Cause:** The `/api/tasks` endpoint didn't filter by `project_id` query parameter.
+
+**Fix:**
+- Updated `src/app/api/tasks/route.ts` to read `project_id` from URL searchParams
+- Added filter: `tasks.filter(t => t.project_id === projectId)`
+- API now returns correct tasks for each project
+
+**Lesson:** Always verify API endpoints accept and handle query parameters for filtering. Don't assume filtering exists - check the route code.
+
+### 7. Next.js Static Prerendering Causing Stale Data
+**Problem:** Projects page renders 5 projects initially, then reverts to old version with 3 projects.
+
+**Root Cause:**
+- Page was pre-rendered statically at build time
+- Initial state used server-side function `getProjects()` which got baked into static HTML
+- Next.js served stale static HTML, client fetch happened after
+
+**Fix Attempted:**
+- Changed initial state to empty array `[]`
+- Ensured client-side `useEffect` fetches data via API
+- Added `export const dynamic = 'force-dynamic'` (failed for client component)
+- Cleared `.next/cache` multiple times
+
+**Status:** Still investigating - page still reverts to old version.
+
+**Lesson:** Be careful with initial state in client components. Empty array `[]` is safer than calling server functions directly. Further investigation needed for static prerendering issues.
+
+
+### 8. Port & Process Conflicts
+**Problem:** Mission Control failed to start with "EADDRINUSE: address already in use :::62248"
+
+**Fix:**
+- Killed all node processes (`pkill -f node`)
+- Used specific port 3003 explicitly
+- Used direct path to next binary: `./node_modules/.bin/next start`
+
+
+**Lesson:** When facing port conflicts, kill all related processes and use explicit port selection.
