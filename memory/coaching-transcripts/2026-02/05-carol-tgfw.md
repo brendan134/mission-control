@@ -1,60 +1,47 @@
-# Carol (TGFW) Coaching (February 5)
+# Coaching Call - Carol (TGFW)
 
 **Date:** February 5, 2026
-**Duration:** 24m 28s
+**Duration:** ~24 minutes
 **Call Type:** Operations/Staff Management
 **Energy/State:** Reflective, solutions-focused
-**Tags:** `operations` `rostering` `staff-management` `systems`
-**Client:** Carol (TGFW)
+**Tags:** #operations #rostering #staff-management #systems
 
----
+## Client
+Carol - TGFW (Women's Shelter)
 
 ## Key Topics
 
-- **Rostering Challenges** - Juggling multiple stakeholder groups (Bungaree, Thursday programs)
-- **System Building** - Creating rules document for rostering
-- **AI Assistance** - Using Copilot to check rosters against rules
-- **Email Management** - Using rules and clutter folder
-- **Staff Onboarding** - New staff member Tamsin transitioning well
-- **Confidence Building** - Empowering staff to push back appropriately
+### 1. Rostering Challenges
+- Juggling multiple stakeholder groups (Bungaree, Thursday programs)
 
----
+### 2. System Building
+- Creating rules document for rostering
 
-## Key Insights
+### 3. AI Assistance
+- Using Copilot to check rosters against rules
 
-1. **Rules Document** - Create living document of rostering rules
-2. **AI Verification** - Use Copilot to check roster against rules
-3. **Weekly Reflection** - What worked, what didn't, what to adjust
+### 4. Email Management
+- Using rules and clutter folder
 
-## Next Steps
-1. Create rules document for rostering
-2. Check in with Tamsin on her experience
-3. Set up Copilot check for weekly routine
+### 5. Staff Onboarding
+- New staff member Tamsin transitioning well
 
----
+### 6. Confidence Building
+- Empowering staff to push back appropriately
 
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: 120255381*
+## Action Items
+- [ ] Create rules document for rostering
+- [ ] Check in with Tamsin on her experience
+- [ ] Set up Copilot check for weekly routine
 
-### Content Potential
+## Key Quotes
+> (No direct quotes captured)
 
+## Coaching Approach
+- System building
+- Process documentation
+
+## Content Potential
+- **Operations** - Podcast
 - **Rating:** 3/5
-- **Urgency:** 🟢 Future
-
-## Output Routing
-
-- [ ] **Attract** - Content, podcast, social
-- [ ] **Convert** - Sales, follow-ups
-- [ ] **Deliver** - Course material
-- [ ] **Engage** - Team training
-
----
-
-**Industry:** [industry]
-**Topic:** [topic]  
-**Content:** [content-type]
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: [RECORDING_ID]*
+- **Urgency:** Future

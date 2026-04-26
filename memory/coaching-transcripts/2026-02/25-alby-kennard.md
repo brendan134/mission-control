@@ -1,61 +1,57 @@
-# Business Coaching: Alby Kennard
+# Coaching Call - Alby Kennard
 
-**Date:** Wednesday, February 25, 2026 at 05:01 AM
-**Duration:** 1h 10m
-**Participants:** Brendan Rogers, Alby Kennard
+**Date:** February 25, 2026
+**Duration:** (transcript in file)
+**Call Type:** Operations/Team Management
+**Energy/State:** Under pressure, focused
+**Tags:** #operations #team #conflict #tender
 
----
+## Client
+Alby Kennard - Step4
 
-## Key Topics Discussed
+## Key Topics
 
-- **Tender Pressure**: Major $11M tender causing significant pressure with many moving parts
-- **Team Conflict - Prue**: Prue had a meltdown, conflict with Tom over changes. Need to address directly with expectations
-- **Team Conflict - Yeni**: Yeni told Prue that leadership would "pick Tom over Prue" - breach of leadership team trust
-- **Tom's Development**: Need coaching for Tom on leadership and rapport-building
-- **Rach's Situation**: Restructure - Rach moving to part-time Sensitive Tech + BD
-- **Alana's Rumors**: Alana spreading rumors about Richard's termination (fudging books) - needs formal conversation and documentation
-- **Cliques**: Perceived divide between Tom/Richard "click" and female team members
-- **Kindy Connection**: Erin Akindi kindy for kids
+### 1. Tender Pressure
+- Major $11M tender causing significant pressure
+- Many moving parts
 
----
+### 2. Team Conflict - Prue
+- Prue had a meltdown
+- Conflict with Tom over changes
+- Need to address directly with expectations
+
+### 3. Team Conflict - Yeni
+- Yeni told Prue that leadership would "pick Tom over Prue"
+- Breach of leadership team trust
+
+### 4. Tom's Development
+- Need coaching for Tom on leadership and rapport-building
+
+### 5. Rach's Situation
+- Restructure - Rach moving to part-time Sensitive Tech + BD
+
+### 6. Alana's Rumors
+- Alana spreading rumors about Richard's termination
+- Needs formal conversation and documentation
+
+### 7. Cliques
+- Perceived divide between Tom/Richard "click" and female team members
 
 ## Action Items
-
-1. **Prue Conversation**: Clear expectations (2-3 key points), include Tom in future conversations
-2. **Yeni Conversation**: Address breach of trust, make confidentiality expectations crystal clear going forward
-3. **Alana Conversation**: Formal awareness about rumor spreading, potential bullying/harassment implications
-4. **Rach**: Complete restructure discussion, define success metrics for new role
-5. **Tom Coaching**: Arrange call between Tom and Brendan
-
----
+- [ ] Clear expectations with Prue (2-3 key points), include Tom in future conversations
+- [ ] Address breach of trust with Yeni
+- [ ] Formal awareness conversation with Alana about rumor spreading
+- [ ] Complete restructure discussion with Rach, define success metrics
+- [ ] Arrange call between Tom and Brendan
 
 ## Key Quotes
+> (No key quotes captured)
 
-> "The small things can become big things very quickly. When you hear about the small things, it doesn't matter how small, just deal with it."
+## Coaching Approach
+- Conflict resolution
+- Team development
 
-> "When you're in a room with someone and you can say it to their face, that's when you know you're dealing with integrity."
-
-> "Get people in the room, have a conversation. The goal is to sort through this. If we can't say stuff in the room together, how can we sort it out?"
-
-### Content Potential
-
+## Content Potential
+- **Team management** - Podcast
 - **Rating:** 3/5
-- **Urgency:** 🟢 Future
-
-## Output Routing
-
-- [ ] **Attract** - Content, podcast, social
-- [ ] **Convert** - Sales, follow-ups
-- [ ] **Deliver** - Course material
-- [ ] **Engage** - Team training
-
----
-
-**Industry:** [industry]
-**Topic:** [topic]  
-**Content:** [content-type]
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: [RECORDING_ID]*
+- **Urgency:** Future

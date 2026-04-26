@@ -1,65 +1,58 @@
-# Alby Kennard - Business Coaching (February 3)
+# Coaching Call - Alby Kennard
 
 **Date:** February 3, 2026
-**Duration:** 49m 38s
+**Duration:** ~50 minutes
 **Call Type:** Operations/Team Management
 **Energy/State:** Focused, strategic
-**Tags:** `operations` `team` `metrics` `restructure`
-**Client:** Alby Kennard
+**Tags:** #operations #team #metrics #restructure
 
----
+## Client
+Alby Kennard - Step4
 
 ## Key Topics
 
-- **Matt (Ops Manager) Development** - Performance agreement, reflection on management style
-- **Operations Team Restructure** - Moving from coordinators to process-based roles
-- **Sales Performance** - January behind target, emergency plan in place
-- **Team Accountability vs. Micromanagement** - Fine line discussion
-- **M&Y (Finance) Situation** - Restructure pending, part-time CFO vs. finance manager
-- **NetSuite Implementation** - Handing off to full-time developer
-- **Values in Action** - Recognition program ideas
+### 1. Matt (Ops Manager) Development
+- Performance agreement
+- Reflection on management style
 
----
+### 2. Operations Team Restructure
+- Moving from coordinators to process-based roles
 
-## Key Insights (Aha Moments)
+### 3. Sales Performance
+- January behind target
+- Emergency plan in place
 
-1. **Micromanagement vs. Management** - It's just called management
-2. **Reflection with Matt** - What would he do differently in last 6 months?
-3. **Sales Accountability** - Daily 5-minute check-ins with Tom
-4. **Trust Foundation** - Must have trust before MAP framework works
+### 4. Team Accountability vs. Micromanagement
+- Fine line discussion
 
-## Quote-Worthy Lines
-- "It's just called management"
-- "We can't go another month missing target"
-- "We've got the right people, we just need to get them to the next level"
+### 5. M&Y (Finance) Situation
+- Restructure pending
+- Part-time CFO vs. finance manager
 
-## Next Steps
-1. Finalise Matt's 2-month plan, send for review
-2. Book Monday meeting with Matt to review performance agreement
-3. Finalise budget, review marketing spend with Ben
-4. Get HR consultant input on finance restructure
+### 6. NetSuite Implementation
+- Handing off to full-time developer
 
----
+### 7. Values in Action
+- Recognition program ideas
+
+## Action Items
+- [ ] Finalise Matt's 2-month plan, send for review
+- [ ] Book Monday meeting with Matt to review performance agreement
+- [ ] Finalise budget, review marketing spend with Ben
+- [ ] Get HR consultant input on finance restructure
+
+## Key Quotes
+> "It's just called management"
+
+> "We can't go another month missing target"
+
+> "We've got the right people, we just need to get them to the next level"
 
 ## Coaching Approach
-- **What Brendan Did:** Challenged on micromanagement vs. accountability, helped frame reflection
-- **External Resources:** Stretty, NetSuite, Ben (marketing)
-- **Brendan Committed To:** Connect with Naomi re: part-time CFO
+- Challenged on micromanagement vs. accountability
+- Helped frame reflection
 
-### Content Potential
+## Content Potential
+- **Operations** - Podcast
 - **Rating:** 3/5 - Operations focus
-- **Urgency Level:** 🟡 Medium - Team structure changes
-
----
-
-## Output Routing
-- [ ] Podcast
-- [ ] Email
-- [ ] Social
-- [ ] Course
-- [ ] Product
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: 119147662*
+- **Urgency:** Medium - Team structure changes

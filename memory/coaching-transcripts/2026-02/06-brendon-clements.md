@@ -1,60 +1,49 @@
-# Brendon Clements - Business Coaching (February 6)
+# Coaching Call - Brendon Clements
 
 **Date:** February 6, 2026
-**Duration:** 19m 43s
+**Duration:** ~20 minutes
 **Call Type:** Mining Operations/Leadership
 **Energy/State:** Focused, pragmatic
-**Tags:** `mining` `operations` `budget` `team-management`
-**Client:** Brendon Clements
+**Tags:** #mining #operations #budget #team-management
 
----
+## Client
+Brendon Clements - Rix's Creek
 
 ## Key Topics
 
-- **Budget Focus** - Staying ahead of budget, green weeks
-- **$80k Target** - Discussion around Brett's numbers and finding the gap
-- **Gemba Walks** - 7+ hours per week in the pit
-- **Team Basics** - "Do the basics well" - theme for the year
-- **Women in Mining** - Addressing bias in hiring decisions
-- **Micromanagement** - Dealing with Brett's micromanagement style
+### 1. Budget Focus
+- Staying ahead of budget
+- Green weeks
 
----
+### 2. $80k Target
+- Discussion around Brett's numbers
+- Finding the gap
 
-## Key Insights
+### 3. Gemba Walks
+- 7+ hours per week in the pit
 
-1. **Gemba Walks** - Essential for visibility and team connection
-2. **Metrics Reinforcement** - Pulling key numbers at meetings
-3. **Prioritisation** - Focus on pit performance over meetings
+### 4. Team Basics
+- "Do the basics well" - theme for the year
 
-## Next Steps
-1. Continue Gemba walks (7+ hours/week)
-2. Keep reinforcing key metrics at meetings
-3. Address hiring bias with Brett
+### 5. Women in Mining
+- Addressing bias in hiring decisions
 
----
+### 6. Micromanagement
+- Dealing with Brett's micromanagement style
 
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: 120260661*
+## Action Items
+- [ ] Continue Gemba walks (7+ hours/week)
+- [ ] Keep reinforcing key metrics at meetings
+- [ ] Address hiring bias with Brett
 
-### Content Potential
+## Key Quotes
+> "Do the basics well"
 
+## Coaching Approach
+- Gemba walks
+- Metrics reinforcement
+
+## Content Potential
+- **Mining operations** - Podcast
 - **Rating:** 3/5
-- **Urgency:** 🟢 Future
-
-## Output Routing
-
-- [ ] **Attract** - Content, podcast, social
-- [ ] **Convert** - Sales, follow-ups
-- [ ] **Deliver** - Course material
-- [ ] **Engage** - Team training
-
----
-
-**Industry:** [industry]
-**Topic:** [topic]  
-**Content:** [content-type]
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: [RECORDING_ID]*
+- **Urgency:** Future

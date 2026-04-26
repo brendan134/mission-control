@@ -1,47 +1,28 @@
-# Weekly Review Meeting - Mervyn
+# Coaching Call - Mervyn Weekly Review
 
-**Date:** Friday, February 20, 2026 at 04:33 AM
-**Duration:** 3m 57s
-**Participants:** Brendan Rogers, Mervyn J
+**Date:** February 20, 2026
+**Duration:** (transcript in file)
+**Call Type:** Weekly Review
+**Energy/State:** Quick catch-up
+**Tags:** #podcast #content #weekly-review
 
----
+## Client
+Mervyn J
 
-**Brendan Rogers** _[00:00:13]_
-> How are you?
-> Good.
+## Key Topics
 
-**Mervyn J** _[00:00:16]_
-> What's happening?
+### 1. Weekly Review
+- (Details in transcript)
 
-**Brendan Rogers** _[00:00:19]_
-> You seem to be very busy.
+## Action Items
+- [ ] (To be added from transcript review)
 
-**Mervyn J** _[00:00:21]_
-> Oh, it's just this time.
+## Key Quotes
+> (No key quotes captured)
 
-**Brendan Rogers** _[00:00:24]_
-> No, I thought, like, normally I get them from, because Tracy's cooking dinner and stuff here, so I get them from kindy, which is what I did.
-> Um, but normally, I was a little bit early today for some reason, I don't know how that happened.
+## Coaching Approach
+- Quick catch-up
 
-### Content Potential
-
-- **Rating:** 3/5
-- **Urgency:** 🟢 Future
-
-## Output Routing
-
-- [ ] **Attract** - Content, podcast, social
-- [ ] **Convert** - Sales, follow-ups
-- [ ] **Deliver** - Course material
-- [ ] **Engage** - Team training
-
----
-
-**Industry:** [industry]
-**Topic:** [topic]  
-**Content:** [content-type]
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: [RECORDING_ID]*
+## Content Potential
+- **Rating:** 1/5
+- **Urgency:** Future

@@ -1,90 +1,28 @@
-# Jerry Kennard - Business Coaching
+# Coaching Call - Jerry Kennard
 
 **Date:** February 15, 2026
-**Duration:** 36m 19s
+**Duration:** (transcript in file)
 **Call Type:** Business Coaching
-**Energy/State:** Focused, practical
-**Tags:** `business` `coaching` `team` `operations`
-**Client:** Jerry Kennard
-**Recording ID:** 122528939
+**Energy/State:** Focused
+**Tags:** #business #coaching #team
 
----
-
-## Transcript
-
-**Brendan Rogers** _[00:00:05]_
-> Good morning, mate.
-> Good morning.
-
-**JerryKennard** _[00:00:07]_
-> Oh, my things aren't connected.
-
-**Brendan Rogers** _[00:00:10]_
-> Oh, sorry.
-
-**JerryKennard** _[00:00:10]_
-> Can you hear me okay?
-> You can hear me?
-> Yeah, I can hear you.
-
-**Brendan Rogers** _[00:00:18]_
-> Yeah.
-> Awesome.
-> Connected on this.
-
-**JerryKennard** _[00:00:20]_
-> That's all.
-> Oh, good.
-
-**Brendan Rogers** _[00:00:25]_
-> Jerry on stereo is much better than Jerry on stereo.
-> Sorry.
-> Sorry.
-> I'm missing.
-
-**JerryKennard** _[00:00:29]_
-> I that.
-> That broke u...
-
-_[transcript continues...]_
-
----
+## Client
+Jerry Kennard - Evoke
 
 ## Key Topics
 
-- [to be extracted]
+### 1. Business Update
+- (Details in transcript)
 
 ## Action Items
+- [ ] (To be added from transcript review)
 
-- [to be added]
+## Key Quotes
+> (No key quotes captured)
 
-## Notes
+## Coaching Approach
+- Business coaching
 
-- 
-
----
-
-*Extracted: 2026-04-24*
-
-### Content Potential
-
-- **Rating:** 3/5
-- **Urgency:** 🟢 Future
-
-## Output Routing
-
-- [ ] **Attract** - Content, podcast, social
-- [ ] **Convert** - Sales, follow-ups
-- [ ] **Deliver** - Course material
-- [ ] **Engage** - Team training
-
----
-
-**Industry:** [industry]
-**Topic:** [topic]  
-**Content:** [content-type]
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: [RECORDING_ID]*
+## Content Potential
+- **Rating:** 2/5
+- **Urgency:** Future

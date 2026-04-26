@@ -1,84 +1,32 @@
-# HSVS Data Metrics
+# Coaching Call - HSVS Data Metrics
 
 **Date:** February 13, 2026
-**Duration:** 19m 29s
+**Duration:** ~19 minutes
 **Call Type:** Data Review
 **Energy/State:** Analytical
-**Tags:** `data` `metrics` `hsvs`
-**Client:** HSVS Team
-**Recording ID:** 122164338
+**Tags:** #data #metrics #hsvs
 
----
-
-## Transcript
-
-**Zahra** _[00:00:01]_
-> Can you hear me okay?
-
-**Brendan Rogers** _[00:00:07]_
-> Are all right?
-> Have I got you?
-> Yeah.
-
-**Zahra** _[00:00:18]_
-> Can you hear me?
-> Beautiful.
-> I can.
-> How are you?
-
-**Brendan Rogers** _[00:00:22]_
-> You good?
-> Yes, yes, I am good.
-
-**Zahra** _[00:00:25]_
-> What about yourself?
-> Thank you for joining at this time of the day.
-> I really appreciate it.
-> Sorry?
-> Have you been cooking or something?
-> I was in the kitchen.
-> Can you see the apron?
-> I rushed actually to the computer because I was cleaning up in the kitchen and I was like, it'...
-
-_[transcript continues...]_
-
----
+## Client
+HSVS Team
 
 ## Key Topics
 
-- [to be extracted]
+### 1. Data Review
+- (Details in transcript)
+
+### 2. Metrics Analysis
+- (Details in transcript)
 
 ## Action Items
+- [ ] (To be added from transcript review)
 
-- [to be added]
+## Key Quotes
+> (No key quotes captured)
 
-## Notes
+## Coaching Approach
+- Data review
+- Metrics analysis
 
-- 
-
----
-
-*Extracted: 2026-04-24*
-
-### Content Potential
-
-- **Rating:** 3/5
-- **Urgency:** 🟢 Future
-
-## Output Routing
-
-- [ ] **Attract** - Content, podcast, social
-- [ ] **Convert** - Sales, follow-ups
-- [ ] **Deliver** - Course material
-- [ ] **Engage** - Team training
-
----
-
-**Industry:** [industry]
-**Topic:** [topic]  
-**Content:** [content-type]
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: [RECORDING_ID]*
+## Content Potential
+- **Rating:** 2/5
+- **Urgency:** Future

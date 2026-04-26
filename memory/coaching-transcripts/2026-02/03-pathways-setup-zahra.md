@@ -1,58 +1,40 @@
-# Pathways Setup - Zahra (February 3)
+# Coaching Call - Zahra (Toastmasters)
 
 **Date:** February 3, 2026
-**Duration:** 28m 36s
+**Duration:** ~29 minutes
 **Call Type:** Toastmaster Pathway Setup
 **Energy/State:** Focused, learning
-**Tags:** `toastmasters` `pathways` `development`
-**Client:** Zahra
+**Tags:** #toastmasters #pathways #development
 
----
+## Client
+Zahra
 
 ## Key Topics
 
-- **Pathways Overview** - Navigating the online platform
-- **Level Completion** - Completing level 1 speeches
-- **Evaluation Feedback** - How to receive and upload evaluations
-- **Speech Projects** - Understanding requirements for each level
+### 1. Pathways Overview
+- Navigating the online platform
 
----
+### 2. Level Completion
+- Completing level 1 speeches
 
-## Key Insights
+### 3. Evaluation Feedback
+- How to receive and upload evaluations
 
-1. **Pathways Structure** - Levels build on each other, best to complete one at a time
-2. **Evaluation Process** - Can do evaluation feedback without formal speech
-3. **Preparation Approach** - Think through topics, don't over-write speeches
+### 4. Speech Projects
+- Understanding requirements for each level
 
-## Next Steps
-1. Focus on completing Level 1 over next 2-3 weeks
-2. Submit evaluations when received
-3. Work on "Speech with Purpose" project
+## Action Items
+- [ ] Focus on completing Level 1 over next 2-3 weeks
+- [ ] Submit evaluations when received
+- [ ] Work on "Speech with Purpose" project
 
----
+## Key Quotes
+> (No direct quotes captured)
 
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: 119175583*
+## Coaching Approach
+- Navigated online platform
+- Explained evaluation process
 
-### Content Potential
-
-- **Rating:** 3/5
-- **Urgency:** 🟢 Future
-
-## Output Routing
-
-- [ ] **Attract** - Content, podcast, social
-- [ ] **Convert** - Sales, follow-ups
-- [ ] **Deliver** - Course material
-- [ ] **Engage** - Team training
-
----
-
-**Industry:** [industry]
-**Topic:** [topic]  
-**Content:** [content-type]
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: [RECORDING_ID]*
+## Content Potential
+- **Rating:** 1/5
+- **Urgency:** Future

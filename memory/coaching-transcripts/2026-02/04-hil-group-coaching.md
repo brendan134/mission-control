@@ -1,61 +1,50 @@
-# HIL Group Coaching Call + AMA (February 4)
+# Coaching Call - HIL Group Coaching
 
 **Date:** February 4, 2026
-**Duration:** 1h 44m
+**Duration:** ~1h 44m
 **Call Type:** Group Coaching/AMA
 **Energy/State:** High energy, interactive
-**Tags:** `group-coaching` `ama` `leader-by-design`
-**Client:** HIL Group Members
+**Tags:** #group-coaching #ama #leader-by-design #leadership
 
----
+## Client
+HIL Group Members
 
 ## Key Topics
 
-- **High Impact Leader Program Updates** - Schedule changes, day vs evening sessions
-- **Team Management Transitions** - Moving from friend to manager zone
-- **Admin vs Revenue Generation Mindset** - Shifting from sales to operations
-- **One-on-One Structure** - Monthly development meetings, weekly check-ins
-- **Team Purpose Creation** - "Drive awareness, engage people, raise funds"
-- **Meeting Facilitation** - Intent clarity, avoiding "meeting stew"
+### 1. High Impact Leader Program Updates
+- Schedule changes
+- Day vs evening sessions
 
----
+### 2. Team Management Transitions
+- Moving from friend to manager zone
 
-## Key Insights
+### 3. Admin vs Revenue Generation Mindset
+- Shifting from sales to operations
 
-1. **Friend to Manager Zone** - Challenging transition, needs different approach
-2. **Meeting Structure** - Tactical (weekly), Development (monthly), Strategic (quarterly)
-3. **Team Purpose Filter** - "Does it do one of our three things?"
-4. **One-on-One Focus** - Goals and development, not status updates
+### 4. One-on-One Structure
+- Monthly development meetings
+- Weekly check-ins
 
-## Next Steps
-1. Continue program sessions (day time option)
-2. Run first one-on-ones with team
-3. Implement team meeting rhythm
+### 5. Team Purpose Creation
+- "Drive awareness, engage people, raise funds"
 
----
+### 6. Meeting Facilitation
+- Intent clarity
+- Avoiding "meeting stew"
 
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: 119553678*
+## Action Items
+- [ ] Continue program sessions (day time option)
+- [ ] Run first one-on-ones with team
+- [ ] Implement team meeting rhythm
 
-### Content Potential
+## Key Quotes
+> (No direct quotes captured)
 
+## Coaching Approach
+- Group coaching
+- AMA format
+
+## Content Potential
+- **Leadership development** - Podcast
 - **Rating:** 3/5
-- **Urgency:** 🟢 Future
-
-## Output Routing
-
-- [ ] **Attract** - Content, podcast, social
-- [ ] **Convert** - Sales, follow-ups
-- [ ] **Deliver** - Course material
-- [ ] **Engage** - Team training
-
----
-
-**Industry:** [industry]
-**Topic:** [topic]  
-**Content:** [content-type]
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: [RECORDING_ID]*
+- **Urgency:** Future
