@@ -1,65 +1,42 @@
-# Jerry Kennard - Business Coaching
+# Coaching Call - Jerry Kennard
 
 **Date:** November 2, 2025
-**Duration:** 31m 46s
-**Call Type:** Business Coaching / Operations
-**Energy/State:** Direct, practical, slightly rushed (had to cut call short)
-**Tags:** team management, safety systems, sales targets, admin recruitment
-**Client:** Jerry Kennard (Evoke)
+**Duration:** (transcript in file)
+**Call Type:** Business Coaching
+**Energy/State:** Focused on safety
+**tags:** #team #safety #recruitment #sales
 
----
+## Client
+Jerry Kennard - Evoke
 
-## Context
+## Key Topics
 
-Regular weekly catch-up. Jerry had to leave early due to another meeting. Discussion covered team issues, admin recruitment, and sales targets.
+### 1. Team & Safety Issues
+- Ange (safety) overwhelmed, crying
+- Implemented new breadcrumb system across all projects
+- System implementation challenges across 8-9 live sites
+- Need to prioritize safety over ESG initiatives
 
----
+### 2. Admin Recruitment
+- Janine leaving, need to replace
+- Role to report to both Jerry and Lando
 
-## Key Topics Discussed
-
-### Team & Safety Issues
-- **Ange (safety)** - Overwhelmed, crying, implemented newbreadcrumb system across all projects
-- System implementation challenges: teething problems across 8-9 live sites
-- Safety concerns leaving Jerry and Ange "wide open"
-- Decision: Need to prioritize safety over ESG initiatives
-- ESG can wait 3 months - safety can't
-
-### Admin Recruitment
-- Janine leaving, need to replace with admin/EA person
-- Role to report to both Jerry and Lando (executive assistant)
-- PD being finalised - need to be super clear on role before hiring
-
-### Sales & Contracts
+### 3. Sales & Contracts
 - Behind on targets but "achievable"
-- Meeting with Lando and Kim on Friday to review key contracts
-- Two contracts Kim needs to get over the line before EOY
-- Two contracts Landa handling
-- Need to "keep nose to the metal"
-
-### Monthly 1:1s
-- Scheduled: Naomi, Angie, Rebecca H
-- Also catching up with Mel Smith
-
-### Other Updates
-- Georgia's rollout - had teething issues with desktop images (too distorted)
-- Concept brainstorming moved to today (was delayed due to sickness)
-- Matt Kelly now consulting - doing healthcare development work
-
----
 
 ## Action Items
+- [ ] Prioritize safety over ESG
+- [ ] Finalise admin role PD
+- [ ] Hit sales targets
 
-- [ ] Send updated reports after sales meeting (Jerry to Naomi)
-- [ ] Finalise admin role PD - clarify reporting structure
-- [ ] Complete monthly 1:1s with Naomi, Angie, Rebecca H
-- [ ] Brainstorm concepts meeting - define 6 concepts each
-- [ ] Catch up with Georgia on first draft rollout
+## Key Quotes
+> (No key quotes captured)
 
----
+## Coaching Approach
+- Safety focus
+- Team management
 
-## Personal Notes
-
-- Jerry had family health issue - daughter injured finger, hospital visit
-- Political discussion (Liberal Party, One Nation) - Jerry has strong views
-- Jerry stepping down as secretary for community association - time waste
-- Next meeting: Monday 8:30am (moved from end of week to start)
+## Content Potential
+- **Safety** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future
