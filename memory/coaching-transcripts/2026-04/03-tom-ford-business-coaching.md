@@ -1,85 +1,64 @@
-# Tom Ford - Business Coaching
+# Coaching Call - Tom Ford
 
 **Date:** April 20, 2026
-**Duration:** 31m 30s
-**Call Type:** Operations
+**Duration:** ~32 minutes
+**Call Type:** Operations Coaching
 **Energy/State:** Focused, analytical, addressing performance issues
-**Tags:** `sales` `hr` `leadership` `operations`
-**Client:** Tom Ford
+**Tags:** #sales #hr #leadership #operations #performance
 
----
+## Client
+Tom Ford
 
-## Client Profile
-- **Industry:** Manufacturing/Business Services
-- **Business Stage:** Growth
-- **Role:** Sales Manager
+## Key Topics
 
----
+### 1. Performance Objectives vs PIPs
+- Better to have clear objectives than punitive PIPs
+- Formal objectives for Aaron performance concerns
 
-## Key Insights (Aha Moments)
+### 2. Rachel Transition to BD
+- Moving from production to business development
+- Wayne reporting to her
 
-1. **Performance objectives vs formal performance improvement plan** - Better to have clear objectives than punitive PIPs
-2. **Rachel transition to business development role** - Moving from production to BD
-3. **Role clarity: responsibilities + non-responsibilities** - Clear boundaries
-4. **90-day performance agreement concept** - What great looks like in first 90 days
-5. **Team engagement: Purpose → Autonomy → Mastery** - Daniel Pink's framework
+### 3. Role Clarity
+- Responsibilities + non-responsibilities
+- Clear boundaries
 
-## Pivot Points
-- Aaron performance concerns need formal objectives
-- Rachel moving to BD, Wayne reporting to her
+### 4. 90-Day Performance Agreement
+- What great looks like in first 90 days
+- Key measures of success (outcomes)
 
-## Client Language
-- "What great looks like"
+### 5. Team Engagement Framework
+- Purpose → Autonomy → Mastery (Daniel Pink)
+- Understanding role in bigger picture
+- Metrics + knowing what success looks like
+- What to be great at
 
-## Metrics/Examples
-- Sales qualified leads tracking
+### 6. Rachel's BD Role Setup
+- 3-4 key metrics for role
+- Define what she's responsible for AND not responsible for
+- What success looks like in 12 months
 
-## Quote-Worthy Lines
-- "Purpose → Autonomy → Mastery"
+## Action Items
+- [ ] Clear Aaron performance concerns with formal objectives
+- [ ] Set up meeting with Rachel: 3-4 key metrics for role
+- [ ] Define what she's responsible for AND not responsible for
+- [ ] Have Rachel define what success looks like in 12 months
+- [ ] Wayne to report to Rachel
+
+## Key Quotes
+> "What great looks like"
+
+> "Purpose → Autonomy → Mastery"
 
 ## Coaching Approach
-- **What Brendan Did:** Introduced performance agreement framework, explored role clarity
-- **External Resources Mentioned:** Daniel Pink's engagement research
-- **Brendan Committed To:** TBD
+- Introduced performance agreement framework
+- Explored role clarity
+- Referenced Daniel Pink's engagement research
 
-### Content Potential
+## Content Potential
+- **Performance agreements** - Podcast content
+- **Role clarity framework** - Email series
+- **Purpose/Autonomy/Mastery** - Social content
+- **Leadership foundation** - Course module
 - **Rating:** 4/5 - Good leadership content
-- **Urgency Level:** 🟡 Medium - Ongoing development
-
----
-
-## Key Frameworks Discussed
-
-**Performance Agreement (vs Job Description)**
-- Purpose of the role
-- Key measures of success (outcomes)
-- What great looks like (competencies/A-grade)
-- First 90-day targets
-
-**Daniel Pink's Engagement Research**
-1. Purpose - understanding role in bigger picture
-2. Autonomy - metrics + knowing what success looks like
-3. Mastery - what to be great at
-
----
-
-## Next Steps
-1. Clear Aaron performance concerns with formal objectives
-2. Set up meeting with Rachel: 3-4 key metrics for role
-3. Define what she's responsible for AND not responsible for
-4. Have Rachel define what success looks like in 12 months
-5. Wayne to report to Rachel
-
----
-
-## Output Routing
-- [x] **Podcast** - Performance agreements
-- [x] **Email** - Role clarity framework
-- [x] **Social** - Purpose/Autonomy/Mastery
-- [x] **Course** - Leadership foundation
-- [ ] **Product**
-
----
-
-*Extracted: 2026-04-23, Updated: 2026-04-24*
-*Full transcript available via Fathom ID: 139563942*
+- **Urgency:** Medium - Ongoing development

@@ -1,57 +1,54 @@
-# Stephen Hunt - A-Grade Pre-Con Manager
+# Coaching Call - Stephen Hunt
 
 **Date:** April 22, 2026
-**Duration:** 40m 28s
-**Call Type:** Strategy
+**Duration:** ~40 minutes
+**Call Type:** Strategy Session
 **Energy/State:** Engaged, strategic thinking
-**Tags:** `construction` `leadership` `team` `podcast-ready`
-**Topic:** What makes an A-Grade pre-con person
+**Tags:** #construction #leadership #team #podcast-ready #pre-con-management
 
----
+## Client
+Stephen Hunt - Pre-Con Manager
 
-## Client Profile
-- **Industry:** Construction/Pre-con Management
-- **Business Stage:** Growth
-- **Role:** Managing pre-con team
+## Key Topics
 
----
+### 1. Team Autonomy & Trust
+- Letting go while maintaining standards
+- Balancing oversight with empowerment
 
-## Key Insights (Aha Moments)
+### 2. Performance Metrics (Time + Quality)
+- Clear measures for A-grade players
+- Defining what good looks like
 
-1. **Team autonomy & trust** - Letting go while maintaining standards
-2. **Performance metrics (time + quality)** - Clear measures for A-grade players
-3. **A-grade player characteristics** - What separates good from great
-4. **Development planning** - Growing team members
-5. **80/20 rule application** - Focus on high-impact activities
-6. **Leadership transition** - Moving from doing to leading
+### 3. A-Grade Player Characteristics
+- What separates good from great
+- Traits of top performers in pre-con
 
-## Client Language
-- "A-grade player"
+### 4. Development Planning
+- Growing team members
+- Succession and career pathing
+
+### 5. 80/20 Rule Application
+- Focus on high-impact activities
+- Prioritizing vital few over trivial many
+
+### 6. Leadership Transition
+- Moving from doing to leading
+- Shifting mindset from individual contributor
+
+## Action Items
+- [ ] (To be added post-call)
+
+## Key Quotes
+> "A-grade player" (Client Language)
 
 ## Coaching Approach
-- **What Brendan Did:** Explored characteristics of top performers, discussed development
-- **External Resources Mentioned:** 80/20 rule
-- **Brendan Committed To:** TBD
+- Explored characteristics of top performers
+- Discussed development planning
+- Referenced 80/20 rule for prioritization
 
-### Content Potential
+## Content Potential
+- **A-grade player characteristics** - Podcast content
+- **Team development** - Email series
+- **Leadership transition** - Course module
 - **Rating:** 3/5 - Good leadership content
-- **Urgency Level:** 🟡 Medium - Ongoing development
-
----
-
-## Next Steps
-(To be added post-call)
-
----
-
-## Output Routing
-- [x] **Podcast** - A-grade player characteristics
-- [x] **Email** - Team development
-- [ ] Social
-- [x] **Course** - Leadership transition
-- [ ] **Product**
-
----
-
-*Extracted: 2026-04-23, Updated: 2026-04-24*
-*Full transcript available via Fathom ID: 139976718*
+- **Urgency:** Medium - Ongoing development

@@ -1,84 +1,71 @@
-# Peter Clarke - Leadership Coaching
+# Coaching Call - Peter Clarke
 
 **Date:** April 16, 2026
-**Duration:** 58m
-**Call Type:** Leadership
-**Energy/State:** Growth-focused, developing
-**Tags:** `leadership` `team` `operations` `podcast-ready`
-**Client:** Peter Clarke (Kwik Kopy Gosford)
+**Duration:** ~58 minutes
+**Call Type:** Leadership Coaching
+**Energy/State:** Growth-focused, developing, engaged but slightly frustrated
+**Tags:** #leadership #team #operations #podcast-ready #franchise
 
----
+## Client
+Peter Clarke - Kwik Kopy Gosford (Printing/Signage)
 
-## Client Profile
-- **Industry:** Printing/signage (Kwik Kopy franchise)
-- **Business Stage:** Mature, $1.6M revenue
-- **Age:** 58
-- **Energy/State:** Engaged, slightly frustrated but optimistic about the future
+## Key Topics
 
-## Core Situation
-- **Primary Challenge:** Transition from hands-on to hands-off ownership
-- **Current State:** 5 full-time staff, Centre Manager (Nicola) can run day-to-day
+### 1. Transition Challenge
+- Moving from hands-on to hands-off ownership
+- 5 full-time staff, Centre Manager (Nicola) can run day-to-day
 
-## Key Insights (Aha Moments)
-1. **Working Genius alignment** - Peter's geniuses are invention & discernment (ideation, problem-solving) - his "pig in mud" moment
-2. **Role clarity is the bottleneck** - Things default to Peter even though he pushes back
-3. **Salesperson needed** - Need "a clone of Peter" for proactive BD
-4. **20% net profit KPI** - Currently at 15%, needs to be 20%+
-5. **Staffing math** - $60K employee needs to generate $240K (4x)
+### 2. Working Genius Alignment
+- Peter's geniuses: invention & discernment (ideation, problem-solving)
+- "Pig in mud" moment
+- Frustrations: production side, routine tasks
 
-## Pivot Points
-- Peter identified his frustrations: production side, routine tasks
-- Shift to: Centre manager owning recruitment, Peter doing BD from anywhere
-
-## Client Language
-- "It's a bad use of my time" (production tasks)
-- "I get more value out of sitting at home going through emails"
-- "Need a clone of me"
-- "Things default to me"
-
-## Metrics/Examples
-- Revenue: $1.2M (2024) → $1.6M (2025)
-- Staff: 5 FT (Centre Manager, CSR, 2 Graphic Designers, Production)
-- Net profit: 15% (target 20%)
-- Franchise multiple: ~2x profit
-
-## Quote-Worthy Lines
-- "If I'm doing something that's not relating to a client issue, I'm wasting my time."
-- "I don't mind competencies, but over and over becomes frustration."
-- "Need a clone of me" for sales role
+### 3. Role Clarity Bottleneck
+- Things default to Peter even though he pushes back
 - "Everything comes down to discipline and consistency"
 
-## Product/Service Gaps
-- Need sales person training/coaching program
-- Performance agreement template for centre manager role
+### 4. Salesperson Need
+- Need "a clone of Peter" for proactive BD
+
+### 5. Financial Targets
+- 20% net profit KPI (currently at 15%)
+- $60K employee needs to generate $240K (4x)
+
+### 6. Business Metrics
+- Revenue: $1.2M (2024) → $1.6M (2025)
+- Staff: 5 FT (Centre Manager, CSR, 2 Graphic Designers, Production)
+- Franchise multiple: ~2x profit
+
+## Action Items
+- [ ] Redefine Nicola's (Centre Manager) role with performance agreement
+- [ ] Get Nicola involved in recruitment for CSR maternity cover
+- [ ] Create 90-day strategic growth plan
+- [ ] Design Peter role: BD/sales from anywhere
+
+## Key Quotes
+> "It's a bad use of my time" (production tasks)
+
+> "I get more value out of sitting at home going through emails"
+
+> "Need a clone of me"
+
+> "Things default to me"
+
+> "If I'm doing something that's not relating to a client issue, I'm wasting my time."
+
+> "I don't mind competencies, but over and over becomes frustration."
+
+> "Everything comes down to discipline and consistency"
 
 ## Coaching Approach
-- **What Brendan Did:** Used Working Genius framework to identify Peter's strengths, challenged his assumptions about needing a "clone", explored role clarity
-- **External Resources Mentioned:** Working Genius assessment
-- **Brendan Committed To:** Send through Working Genius overview document
+- Used Working Genius framework to identify strengths
+- Challenged assumptions about needing a "clone"
+- Explored role clarity
 
-## Next Steps (From Call)
-1. Redefine Nicola's (Centre Manager) role with performance agreement
-2. Get Nicola involved in recruitment for CSR maternity cover
-3. Create 90-day strategic growth plan
-4. Design Peter role: BD/sales from anywhere
-
-### Content Potential
-- **Rating:** 4/5 - Strong framework content, relatable challenge
-- **Urgency Level:** 🟡 Medium - Exploring next growth phase
-
----
-
----
-
-## Output Routing
-- [x] **Podcast** - Working Genius, finding your genius vs frustration
-- [x] **Email** - Performance agreement framework for managers
-- [x] **Social** - "Need a clone of me" - hiring for entrepreneurial mindset
-- [x] **Course** - From hands-on to hands-off business owner
-- [ ] **Product**
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: 138802010*
+## Content Potential
+- **Working Genius** - Podcast content
+- **Performance agreement framework** - Email series
+- **"Need a clone of me"** - Social content
+- **From hands-on to hands-off** - Course module
+- **Rating:** 4/5 - Strong framework content
+- **Urgency:** Medium - Exploring next growth phase

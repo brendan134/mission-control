@@ -1,47 +1,43 @@
-# Steve Catch Up
+# Coaching Call - Steve Catch Up
 
 **Date:** April 17, 2026
-**Duration:** 6m
+**Duration:** ~6 minutes
 **Call Type:** Check-in
 **Energy/State:** Overwhelmed, reflective, wants to be prepared
-**Tags:** `construction` `leadership` `operations`
-**Client:** Stephen Hunt
+**Tags:** #construction #leadership #operations #pre-con
 
----
+## Client
+Stephen Hunt
 
-## Core Situation
-- **Primary Challenge:** Q2 priority "pre-con development plan" not prepared
-- **Current State:** Feeling overwhelmed this week, requested to postpone
+## Key Topics
 
-## Key Insights
-1. **Value of preparation** - Stephen wants to "put some thought into it" before discussions
-2. **Quality time principle** - Prefers "valuable minutes" vs "trying to think of things on the spot"
+### 1. Q2 Priority Not Prepared
+- Pre-con development plan not ready
+- Feeling overwhelmed this week
+- Requested to postpone
 
-## Next Steps
-- Rescheduled to Wednesday next week
+### 2. Value of Preparation
+- Stephen wants to "put some thought into it" before discussions
+- Prefers "valuable minutes" vs "trying to think of things on the spot"
+
+### 3. Rescheduled Session
+- Wednesday next week
 - Stephen will think about: What does an A-grade pre-con person look like?
 - Performance agreement approach: metrics + what great looks like
 
----
+## Action Items
+- [ ] (To be added)
+
+## Key Quotes
+> "Put some thought into it"
+
+> "Valuable minutes" vs "trying to think of things on the spot"
 
 ## Coaching Approach
-- **What Brendan Did:** Accepted request to postpone, oriented to next session focus
-- **External Resources Mentioned:** Performance agreement framework
-- **Brendan Committed To:** Send calendar invite for Wednesday
+- Accepted request to postpone
+- Oriented to next session focus
+- Referenced performance agreement framework
 
-### Content Potential
+## Content Potential
 - **Rating:** 1/5 - Administrative catch-up
-- **Urgency Level:** 🟢 Future - Rescheduled
-
----
-
-## Output Routing
-- [ ] Podcast
-- [ ] Email
-- [ ] Social
-- [ ] Course
-- [ ] Product
-
----
-
-*Extracted: 2026-04-24*
+- **Urgency:** Future - Rescheduled

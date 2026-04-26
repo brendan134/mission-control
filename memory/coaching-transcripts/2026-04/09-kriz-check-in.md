@@ -1,68 +1,63 @@
-# Kriz Check-In - Team & System Update
+# Coaching Call - Kriz Check-In
 
 **Date:** April 14, 2026
-**Duration:** 1h 4m
-**Call Type:** Operations
+**Duration:** ~1h 4m
+**Call Type:** Operations Coaching
 **Energy/State:** Optimistic, productive, excited about system
-**Tags:** `operations` `systems` `team` `growth`
-**Participants:** Kriz, Dominic (Kriz's team), Brendan
+**Tags:** #operations #systems #team #growth #ai
 
----
+## Client
+Kriz - Philippines Team Lead
 
-## Core Situation
-- **Primary Challenge:** Team setup, OpenClaw onboarding, curriculum development
-- **Current State:** New office space in Philippines, team of 4 (Kriz, Dominic, Tiara, Monique)
+## Key Topics
 
-## Key Insights (Aha Moments)
-1. **OpenClaw as "glue"** - System manages Australia-Philippines team, tracks tasks, fires to right person
-2. **Value-added work** - Automate admin, focus on revenue-generating tasks
-3. **Reverse prompting** - AI suggests improvements based on outcomes
-4. **Dropshipping side business** - Team starting new venture, training daughters
+### 1. Team Setup
+- New office space in Philippines
+- Team of 4 (Kriz, Dominic, Tiara, Monique)
 
-## Pivot Points
-- Shift to using OpenClaw for workflow management
-- Brendan showed dashboard, agents, cron jobs to team
-
-## Client Language
-- "We are a live test environment"
+### 2. OpenClaw as System
+- System manages Australia-Philippines team
+- Tracks tasks, fires to right person
 - "System is the glue that is making sure things are tracking"
+
+### 3. Value-Added Work
+- Automate admin, focus on revenue-generating tasks
 - "Free up time if system is implemented"
 
-## Metrics/Examples
-- High Impact Leader Club: 7 members
+### 4. Reverse Prompting
+- AI suggests improvements based on outcomes
+
+### 5. Dropshipping Side Business
+- Team starting new venture
+- Training daughters
+
+### 6. High Impact Leader Club
+- 7 members
 - Target: $2M business
 - Foundation modules in progress
 - 6 workstations being installed
 
+## Action Items
+- [ ] Brendan to review fresh layout/background for modules
+- [ ] Kriz team to fix artwork (white backgrounds)
+- [ ] Finish updates/additions by weekend
+- [ ] Schedule catch-up early next week
+
+## Key Quotes
+> "We are a live test environment"
+
+> "System is the glue that is making sure things are tracking"
+
+> "Free up time if system is implemented"
+
 ## Coaching Approach
-- **What Brendan Did:** Showed OpenClaw dashboard, demonstrated agents and cron jobs, onboarded team
-- **External Resources Mentioned:** OpenClaw, Mission Control
-- **Brendan Committed To:** Review fresh layout/background for modules
+- Showed OpenClaw dashboard
+- Demonstrated agents and cron jobs
+- Onboarded team to the system
 
-### Content Potential
+## Content Potential
+- **Building AI systems for distributed teams** - Podcast
+- **OpenClaw onboarding for VAs** - Email
+- **Foundation modules progress** - Course
 - **Rating:** 4/5 - Great for AI/system content
-- **Urgency Level:** 🟡 Medium - Ongoing development
-
----
-
-## Next Steps
-1. Brendan to review fresh layout/background for modules
-2. Kriz team to fix artwork (white backgrounds)
-3. Finish updates/additions by weekend
-4. Schedule catch-up early next week
-
----
-
----
-
-## Output Routing
-- [x] **Podcast** - Building AI systems for distributed teams
-- [x] **Email** - OpenClaw onboarding for VAs
-- [ ] Social
-- [x] **Course** - Foundation modules progress
-- [ ] Product
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: 137715361*
+- **Urgency:** Medium - Ongoing development

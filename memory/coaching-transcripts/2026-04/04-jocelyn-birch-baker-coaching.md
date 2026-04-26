@@ -1,90 +1,69 @@
-# Jocelyn Birch Baker - Veterinary Business Coaching
+# Coaching Call - Jocelyn Birch Baker
 
 **Date:** April 20, 2026
-**Duration:** 1h 16m
-**Call Type:** Operations
+**Duration:** ~1h 16m
+**Call Type:** Operations Coaching
 **Energy/State:** Proactive, organized, focused on team development
-**Tags:** `veterinary` `operations` `team` `systems`
-**Client:** Jocelyn (High Street Veterinary)
+**Tags:** #veterinary #operations #team #systems #onboarding
 
----
+## Client
+Jocelyn Birch Baker - High Street Veterinary
 
-## Client Profile
-- **Industry:** Veterinary Practice (High Street Vet)
-- **Business Stage:** Mature
-- **Team:** 2 vets, nurses, receptionist
+## Key Topics
 
----
-
-## Key Insights (Aha Moments)
-
-1. **Financial performance comparison** - April 2025 vs 2026 (significant improvement)
-2. **4-Step Training Progression** - Directing → Coaching → Supporting → Delegation
-3. **Process Mapping** - ⬜ Square = Process, ◇ Diamond = Decision (error points)
-4. **Nurse team development** - Clear 90-day goals
-5. **AI tools for practice** - Exploring AI for efficiency
-
-## Pivot Points
-- Kira starting May 4th - need 6-week onboarding plan
-- Megan leaving end of June - succession planning
-- Creating Loom videos for SOPs
-
-## Client Language
-- "What great looks like"
-
-## Metrics/Examples
+### 1. Financial Performance Review
+- April 2025 vs 2026 comparison
 - April 2025: Net loss $5,123
 - April 2026: Significantly better (wages reduced)
 - Trading income: ~$149,500
 - Gross profit: ~$109,000
 
-## Quote-Worthy Lines
-- "Directing → Coaching → Supporting → Delegation"
+### 2. 4-Step Training Progression
+- Directing → Coaching → Supporting → Delegation
+- Task assignment → Questions + decisions → Questions + drive outcome → They drive, you support
 
-## Coaching Approach
-- **What Brendan Did:** Reviewed financials, planned onboarding, introduced training framework
-- **External Resources Mentioned:** Loom for video training, EasyVet
-- **Brendan Committed To:** TBD
-
-### Content Potential
-- **Rating:** 4/5 - Good team management content
-- **Urgency Level:** 🟡 Medium - Team development
-
----
-
-## Key Frameworks
-
-**4-Step Training Progression:**
-1. Directing (task assignment)
-2. Coaching (ask questions, still make decisions)
-3. Supporting (questions + drive outcome)
-4. Delegation (they drive, you support)
-
-**Process Mapping:**
+### 3. Process Mapping
 - ⬜ Square = Process
-- ➡ Arrow = Flow  
+- ➡ Arrow = Flow
 - ◇ Diamond = Decision (error point - minimize)
 
----
+### 4. Nurse Team Development
+- Clear 90-day goals
+- Before end of April
 
-## Next Steps
-1. Kira start date: May 4th (first week May)
-2. Create 6-week onboarding plan
-3. Produce 4 Loom videos for EasyVet training
-4. Confirm Megan's actual end date
-5. Bookings this week/next week review
-6. Nurse team: clear 90-day goals before end of April
+### 5. AI Tools for Practice
+- Exploring AI for efficiency
 
----
+### 6. Staffing Changes
+- Kira starting May 4th - need 6-week onboarding plan
+- Megan leaving end of June - succession planning
 
-## Output Routing
-- [x] **Podcast** - Team development, training progression
-- [x] **Email** - Onboarding framework
-- [x] **Social** - Process mapping visual
-- [x] **Course** - Veterinary practice growth
-- [ ] **Product**
+### 7. SOPs with Loom
+- Creating Loom videos for training
 
----
+## Action Items
+- [ ] Kira start date: May 4th (first week May)
+- [ ] Create 6-week onboarding plan
+- [ ] Produce 4 Loom videos for EasyVet training
+- [ ] Confirm Megan's actual end date
+- [ ] Bookings this week/next week review
+- [ ] Nurse team: clear 90-day goals before end of April
 
-*Extracted: 2026-04-23, Updated: 2026-04-24*
-*Full transcript available via Fathom ID: 139212144*
+## Key Quotes
+> "What great looks like"
+
+> "Directing → Coaching → Supporting → Delegation"
+
+## Coaching Approach
+- Reviewed financials
+- Planned onboarding
+- Introduced training framework
+- Referenced Loom for video training, EasyVet
+
+## Content Potential
+- **Team development** - Podcast content
+- **Onboarding framework** - Email series
+- **Process mapping visual** - Social content
+- **Veterinary practice growth** - Course module
+- **Rating:** 4/5 - Good team management content
+- **Urgency:** Medium - Team development
