@@ -6,6 +6,7 @@
 ## Morning Check (8 AM Sydney)
 - Check emails (unread, urgent)
 - Any calendar events in next 24h?
+- **Kaizen Review:** If triggered, log to memory/YYYY-MM-DD.md before responding
 - ~~**TODO:** Add Kaizen to Team page and Office page in Mission Control~~ (DONE)
 
 ## Afternoon Check (1 PM Sydney)
