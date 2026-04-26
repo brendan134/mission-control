@@ -1,63 +1,51 @@
-# Jerry Kennard - Business Coaching (March 29 - Impromptu)
+# Coaching Call - Jerry (Impromptu)
 
 **Date:** March 29, 2026
-**Duration:** 21m 55s
+**Duration:** ~22 minutes
 **Call Type:** Operations/AI Discussion
 **Energy/State:** Curious, exploring new tech
-**Tags:** `leadership` `systems` `strategy` `operations`
-**Client:** Jerry Kennard (Evoke)
+**Tags:** #leadership #systems #strategy #operations #ai
 
----
+## Client
+Jerry Kennard - Evoke
 
 ## Key Topics
 
-- **OpenClaw/AI Agents** - Jerry exploring AI automation tools
-- **ChatGPT & Business** - Using GPT to help draft role descriptions
-- **Crofty Company** - Process mapping and AI integration consultants
-- **Senior Project Consultant Role** - Recruiting, Asher promotion path
-- **Client Experience Manager** - Shari interested in this role
-- **Karen/Orlando Issue** - Team conflict resolution, performance agreement
+### 1. OpenClaw/AI Agents
+- Jerry exploring AI automation tools
 
----
+### 2. ChatGPT & Business
+- Using GPT to help draft role descriptions
 
-## Key Insights (Aha Moments)
+### 3. Crofty Company
+- Process mapping and AI integration consultants
 
-1. **AI for Role Design** - Used ChatGPT to draft job descriptions quickly
-2. **Recruitment Priority** - Senior Project Consultant more urgent than Head of Ops
-3. **Team Restructure** - Shari to move into Client Experience Manager role
-4. **Performance Agreements** - Created clear expectations document for Karen
+### 4. Senior Project Consultant Role
+- Recruiting
+- Asher promotion path
 
-## Quote-Worthy Lines
-- "It's like Siri on so many steroids"
-- "We've set up an Evoke account... anything they feed into it doesn't go outside that world"
+### 5. Client Experience Manager
+- Shari interested in this role
 
----
+### 6. Karen/Orlando Issue
+- Team conflict resolution
+- Performance agreement
 
-## Next Steps
-1. Send through role descriptions for review
-2. Post ads for Senior Project Consultant (Brisbane/Melbourne)
-3. Round table with Karen/Orlando to resolve issues
+## Action Items
+- [ ] Send through role descriptions for review
+- [ ] Post ads for Senior Project Consultant (Brisbane/Melbourne)
+- [ ] Round table with Karen/Orlando to resolve issues
 
----
+## Key Quotes
+> "It's like Siri on so many steroids"
+
+> "We've set up an Evoke account... anything they feed into it doesn't go outside that world"
 
 ## Coaching Approach
-- **What Brendan Did:** Explored AI tools, discussed recruitment priorities
-- **External Resources:** ChatGPT, OpenClaw, Crofty
-- **Brendan Committed To:** Review role descriptions
+- Explored AI tools
+- Discussed recruitment priorities
 
-### Content Potential
+## Content Potential
+- **AI in business** - Podcast
 - **Rating:** 2/5 - Team operations
-- **Urgency:** 🟡 Medium
-
----
-
-## Output Routing
-- [ ] Podcast
-- [ ] Email
-- [ ] Social
-- [ ] Course
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: 133688088*
+- **Urgency:** Medium

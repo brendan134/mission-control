@@ -1,72 +1,53 @@
-# LinkedInLocal/Local Link Strategy Meeting
+# Coaching Call - LinkedIn Local Strategy
 
 **Date:** March 31, 2026
-**Duration:** 36m 38s
+**Duration:** ~37 minutes
 **Call Type:** Strategy/Planning
 **Energy/State:** Positive, collaborative, celebratory
-**Tags:** `marketing` `strategy` `systems` `growth`
-**Participants:** Marc Charette, Lana (Your Business Realm), Brendan
+**Tags:** #marketing #strategy #systems #growth #community
 
----
+## Client
+Marc Charette, Lana (Your Business Realm), Brendan
 
 ## Key Topics
 
-- **Brand Transition** - Moving from LinkedIn Local to "Local Link"
-- **Website Updates** - Changing funnel page to direct to calendar/events
-- **Directory Migration** - Local Link Central Coast data transfer options
-- **Network Pro Tool** - Testing Sean's networking platform
-- **Event Review** - 48 attendees, successful rebranding
-- **MC Rotation** - Lana and Brendan rotating MC duties
+### 1. Brand Transition
+- Moving from LinkedIn Local to "Local Link"
 
----
+### 2. Website Updates
+- Changing funnel page to direct to calendar/events
 
-## Key Insights (Aha Moments)
+### 3. Directory Migration
+- Local Link Central Coast data transfer options
 
-1. **Funnel Page Change** - Instead of "Join Community" → direct to calendar for next event
-2. **New Branding Well Received** - "feels more like community"
-3. **Newcomer Struggle** - New people don't know how to introduce themselves/ask questions
-4. **Network Pro Value** - Tool could help newbies connect before events
-5. **Content Strategy** - Could house masterclasses, one-pagers in the community
+### 4. Network Pro Tool
+- Testing Sean's networking platform
 
-## Pivot Points
-- Decision to update website to point directly to calendar
-- Plan to test Network Pro with ~20 people
-- Discussed keeping changes minimal post-rebrand
+### 5. Event Review
+- 48 attendees
+- Successful rebranding
 
-## Quote-Worthy Lines
-- "People don't know how to ask questions, they feel awkward, they don't come back"
-- "We want to make sure we're not just putting any old stuff, we're putting good stuff"
-- "We're just dripping it out rather than getting us to drip through the fire hose"
-- "Information overload, there's enough of it already"
+### 6. MC Rotation
+- Lana and Brendan rotating MC duties
 
-## Next Steps
-1. Update website funnel to point to calendar (today)
-2. Get high-res logo for LinkedIn
-3. Test Network Pro with Sean
-4. Meet before April 14 (Lana's holiday)
-5. Confirm sponsor Ben Williamson for next event
+## Action Items
+- [ ] Update website funnel to point to calendar (today)
+- [ ] Get high-res logo for LinkedIn
+- [ ] Test Network Pro with Sean
+- [ ] Meet before April 14 (Lana's holiday)
+- [ ] Confirm sponsor Ben Williamson for next event
 
----
+## Key Quotes
+> "People don't know how to ask questions, they feel awkward, they don't come back"
+
+> "We want to make sure we're not just putting any old stuff, we're putting good stuff"
 
 ## Coaching Approach
-- **What Brendan Did:** Facilitated strategic discussion, proposed website changes, coordinated team
-- **External Resources Mentioned:** Go High Level (GHL), WordPress, Network Pro
-- **Brendan Committed To:** Update website, arrange Sean demo
+- Facilitated strategic discussion
+- Proposed website changes
+- Coordinated team
 
-### Content Potential
+## Content Potential
+- **Community building** - Podcast
 - **Rating:** 2/5 - Community运营
-- **Urgency Level:** 🟢 Future - Ongoing
-
----
-
-## Output Routing
-- [ ] Podcast
-- [ ] Email
-- [ ] Social
-- [ ] Course
-- [ ] Product
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: 134426599*
+- **Urgency:** Future - Ongoing

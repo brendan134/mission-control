@@ -1,63 +1,52 @@
-# Mervyn - Weekly Review (March 27)
+# Coaching Call - Mervyn Weekly Review
 
 **Date:** March 27, 2026
-**Duration:** 15m 27s
+**Duration:** ~15 minutes
 **Call Type:** Podcast/Operations
 **Energy/State:** Productive, new client discussions
-**Tags:** `podcast` `video-editing` `new-clients`
-**Client:** Mervyn (Video Editor)
+**Tags:** #podcast #video-editing #new-clients
 
----
+## Client
+Mervyn (Video Editor)
 
 ## Key Topics
 
-- **Podcast Editing** - Episode turnaround, Riverside editing tool
-- **New Client - Deb & Alex** - Fractional CFO/CMO from Byron Bay
-- **AI Video Project** - Alex wants to create documentaries on ancient Christianity
-- **Travel Plans** - Deb and Alex planning to travel world
-- **Riverside Editing** - AI filler word removal makes video jumpy
-- **Lesson Production** - Brendan working through pillar structure
+### 1. Podcast Editing
+- Episode turnaround
+- Riverside editing tool
 
----
+### 2. New Client - Deb & Alex
+- Fractional CFO/CMO from Byron Bay
 
-## Key Insights (Aha Moments)
+### 3. AI Video Project
+- Alex wants to create documentaries on ancient Christianity
 
-1. **Riverside Limitations** - AI editing works for audio but makes video jumpy
-2. **Lume Recorder** - Better for screen recordings, less obvious jumps
-3. **New Market** - Fractional CFO/CMO space growing
-4. **Passion Projects** - Some clients have unique interests (ancient Bible languages)
+### 4. Travel Plans
+- Deb and Alex planning to travel world
 
-## Quote-Worthy Lines
-- "Everything's a transition, isn't it?"
-- "There's just lots of things going through my head"
-- "It's never ending"
+### 5. Riverside Editing
+- AI filler word removal makes video jumpy
 
----
+### 6. Lesson Production
+- Brendan working through pillar structure
 
-## Next Steps
-1. Brendan to send next episode within 24 hours
-2. Mervyn to edit and return
-3. New client podcast setup
+## Action Items
+- [ ] Brendan to send next episode within 24 hours
+- [ ] Mervyn to edit and return
+- [ ] New client podcast setup
 
----
+## Key Quotes
+> "Everything's a transition, isn't it?"
+
+> "There's just lots of things going through my head"
+
+> "It's never ending"
 
 ## Coaching Approach
-- **What Brendan Did:** Check-in, technical advice on editing
-- **External Resources:** Riverside, Lume
+- Check-in
+- Technical advice on editing
 
-### Content Potential
-- **Rating:** 1/5 - Technical/podcast focus
-- **Urgency:** 🟢 Low
-
----
-
-## Output Routing
-- [ ] Podcast
-- [ ] Email
-- [ ] Social
-- [ ] Course
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: 133325718*
+## Content Potential
+- **Podcast operations** - Podcast
+- **Rating:** 1/5 - Technical focus
+- **Urgency:** Low

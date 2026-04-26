@@ -1,64 +1,55 @@
-# Carol (TGFW) - Coaching (March 26)
+# Coaching Call - Carol (TGFW)
 
 **Date:** March 26, 2026
-**Duration:** 30m 1s
-**Call Type:** Personal/Leadership
+**Duration:** ~30 minutes
+**Call Type:** Personal/Leadership Coaching
 **Energy/State:** Reflective, slightly overwhelmed, proactive
-**Tags:** `leadership` `operations` `mindset` `hr`
-**Client:** Carol (Women's Shelter - TGFW)
+**Tags:** #leadership #operations #mindset #hr #community-services
 
----
+## Client
+Carol - Women's Shelter (TGFW)
 
 ## Key Topics
 
-- **Genba Concept** - Going to where the work happens (Japanese term)
-- **Program Management** - Building routines and processes
-- **Team Leadership** - Working with Sarah, Cody on team coordination
-- **Focus & Direction** - Overcoming procrastination, 90-day planning
-- **Client Interaction** - Running groups, case management, boundary setting
+### 1. Genba Concept
+- Going to where the work happens (Japanese term)
+- Going to the floor helps see real issues
 
----
+### 2. Program Management
+- Building routines and processes
+- Making roster creation "down pat"
 
-## Key Insights (Aha Moments)
+### 3. Team Leadership
+- Working with Sarah, Cody on team coordination
 
-1. **Genba (Place of Work)** - Going to the floor helps see real issues vs纸上谈兵
-2. **Routine Building** - Making roster creation "down pat" so others can do it
-3. **90-Day Planning** - Define success in 3 months, work backward
-4. **Fortnightly Floor Time** - Schedule regular time on the floor to stay connected
+### 4. Focus & Direction
+- Overcoming procrastination
+- 90-day planning
 
-## Quote-Worthy Lines
-- "The nature of routine is rhythm and consistency"
-- "Instead of waiting for Sarah to be on leave, actually just making a point to go down there"
-- "It doesn't mean you're in trouble if I ask to have a yarn"
+### 5. Client Interaction
+- Running groups
+- Case management
+- Boundary setting
 
----
+## Action Items
+- [ ] Create checklist of what's consistently covered in program
+- [ ] Book fortnightly floor time
+- [ ] Define 90-day success metrics
+- [ ] Check in with Joe on 90-day plan
 
-## Next Steps
-1. Create checklist of what's consistently covered in program
-2. Book fortnightly floor time
-3. Define 90-day success metrics
-4. Check in with Joe on 90-day plan
+## Key Quotes
+> "The nature of routine is rhythm and consistency"
 
----
+> "Instead of waiting for Sarah to be on leave, actually just making a point to go down there"
+
+> "It doesn't mean you're in trouble if I ask to have a yarn"
 
 ## Coaching Approach
-- **What Brendan Did:** Introduced Genba concept, helped define success criteria
-- **External Resources:** Management planning, stakeholder lists
-- **Brendan Committed To:** Review 90-day plan next call
+- Introduced Genba concept
+- Helped define success criteria
 
-### Content Potential
+## Content Potential
+- **Leadership principles** - Email
+- **Program management** - Course
 - **Rating:** 3/5 - Leadership development
-- **Urgency:** 🟡 Medium
-
----
-
-## Output Routing
-- [ ] Podcast
-- [ ] Email - Leadership principles
-- [ ] Social
-- [ ] Course - Program management
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: 133309856*
+- **Urgency:** Medium

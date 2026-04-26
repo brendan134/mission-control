@@ -1,67 +1,57 @@
-# Kriz - Agree Priorities for This Week (March 23)
+# Coaching Call - Kriz
 
 **Date:** March 23, 2026
-**Duration:** 20m 45s
+**Duration:** ~21 minutes
 **Call Type:** Operations/Team Management
 **Energy/State:** Apologetic, tired from renovation, focused
-**Tags:** `operations` `team` `priorities` `systems`
-**Client:** Kriz (Philippines team)
+**Tags:** #operations #team #priorities #systems #offshoring
 
----
+## Client
+Kriz - Philippines Team
 
 ## Key Topics
 
-- **Renovation Progress** - Workroom being built in Philippines, completion by April 4
-- **Team Backup Plan** - Dominic covering when Kriz is unavailable
-- **VET Material Updates** - Critical changes to pages 1 and 5 based on new survey data
-- **Loom Investment** - Brendan switched to paid Loom for training videos
-- **Video Editing** - Need to replace old ecosystem slide in existing video
-- **Lesson 0 Modules** - For Perform, Leverage, Evaluate programs
-- **Ken Relationship** - Client wants to discuss doing more together
+### 1. Renovation Progress
+- Workroom being built in Philippines
+- Completion by April 4
 
----
+### 2. Team Backup Plan
+- Dominic covering when Kriz is unavailable
 
-## Key Insights (Aha Moments)
+### 3. VET Material Updates
+- Critical changes to pages 1 and 5
+- Based on new survey data
 
-1. **Offshore Team Model** - Opportunity to offer enhanced service to clients with offshore teams
-2. **Vibe Coding** - AI-powered custom tools could create powerful client deliverables
-3. **Buffer System** - Brendan aiming to be 2 weeks ahead on content creation
-4. **Team Environment** - Physical workspace impacts team collaboration and energy
+### 4. Loom Investment
+- Brendan switched to paid Loom for training videos
 
-## Quote-Worthy Lines
-- "There's a time last week that a doubt came to me if this will work or not"
-- "All the finances, all the expenses, and the time spent, and the energy spent must have something fruitful"
-- "It's a bit of short-term pain for long-term gain"
+### 5. Video Editing
+- Need to replace old ecosystem slide in existing video
 
----
+### 6. Lesson 0 Modules
+- For Perform, Leverage, Evaluate programs
 
-## Next Steps
-1. Complete VET material updates (pages 1 and 5)
-2. Replace ecosystem slide in existing video
-3. Kriz to finish Lesson 0 modules by Friday
-4. Finish renovation by April 4
-5. Schedule call with Ken about expanded services
+### 7. Ken Relationship
+- Client wants to discuss doing more together
 
----
+## Action Items
+- [ ] Complete VET material updates (pages 1 and 5)
+- [ ] Replace ecosystem slide in existing video
+- [ ] Kriz to finish Lesson 0 modules by Friday
+- [ ] Finish renovation by April 4
+- [ ] Schedule call with Ken about expanded services
+
+## Key Quotes
+> "There's a time last week that a doubt came to me if this will work or not"
+
+> "All the finances, all the expenses, and the time spent, and the energy spent must have something fruitful"
+
+> "It's a bit of short-term pain for long-term gain"
 
 ## Coaching Approach
-- **What Brendan Did:** Provided clear priorities, encouraged during renovation stress
-- **External Resources:** Loom, Riverside, Vibe Coding tools
-- **Brendan Committed To:** Send Lesson 0 materials by Wednesday
+- Provided clear priorities
+- Encouraged during renovation stress
 
-### Content Potential
+## Content Potential
 - **Rating:** 2/5 - Operational/team focus
-- **Urgency:** 🟢 Low
-
----
-
-## Output Routing
-- [ ] Podcast
-- [ ] Email
-- [ ] Social
-- [ ] Course
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: 131835175*
+- **Urgency:** Low

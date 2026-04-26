@@ -1,62 +1,49 @@
-# Mervyn Weekly Review (March 27)
+# Coaching Call - Mervyn Weekly Review
 
 **Date:** March 27, 2026
-**Duration:** 15m 27s
+**Duration:** ~15 minutes
 **Call Type:** Operations/Podcast
 **Energy/State:** Positive, productive
-**Tags:** `marketing` `systems` `operations`
-**Participants:** Mervyn J, Brendan
+**Tags:** #marketing #systems #operations #podcast
 
----
+## Client
+Mervyn J
 
 ## Key Topics
 
-- **Podcast Editing** - Episode delivery timeline, editing workflow
-- **New Client** - Deborah & Alex from Byron Bay (fractional CFO/CMO)
-- **AI Video Project** - Alex wants to create AI videos based on ancient Christianity
-- **Travel Plans** - Brendan planning Vietnam trip around September
-- **Digital Lessons** - Brendan working on training content (Pillar 2)
+### 1. Podcast Editing
+- Episode delivery timeline
+- Editing workflow
 
----
+### 2. New Client
+- Deborah & Alex from Byron Bay (fractional CFO/CMO)
 
-## Key Insights (Aha Moments)
+### 3. AI Video Project
+- Alex wants to create AI videos based on ancient Christianity
 
-1. **New Client Niche** - Fractional CFO/CMO consultants wanting podcast for client interviews
-2. **AI Video Interest** - Creating documentaries on original Hebrew/Aramaic/Greek Bible translations
-3. **Riverside Editing** - AI auto-editing creates "robotic" feel for talking-head videos
-4. **Lume vs Riverside** - Lume recordings have smaller pace, less jumpy after editing
+### 4. Travel Plans
+- Brendan planning Vietnam trip around September
 
-## Quote-Worthy Lines
-- "Everything's a transition, isn't it?"
-- "It's never ending" (re: work)
-- "Can't complain too much"
+### 5. Digital Lessons
+- Brendan working on training content (Pillar 2)
 
-## Next Steps
-1. Mervyn to deliver next episode within 24h of Brendan's recording
-2. Brendan to record next episode (goal: tomorrow)
-3. Follow up with Deborah & Alex on podcast
+## Action Items
+- [ ] Deliver next episode within 24h of Brendan's recording
+- [ ] Record next episode (goal: tomorrow)
+- [ ] Follow up with Deborah & Alex on podcast
 
----
+## Key Quotes
+> "Everything's a transition, isn't it?"
+
+> "It's never ending"
+
+> "Can't complain too much"
 
 ## Coaching Approach
-- **What Brendan Did:** Quick weekly check-in, discussed editing workflow
-- **External Resources Mentioned:** Riverside, Lume, AI video tools
-- **Brendan Committed To:** Record next episode
+- Quick weekly check-in
+- Discussed editing workflow
 
-### Content Potential
-- **Rating:** 2/5 - Podcast operations
-- **Urgency Level:** 🟢 Future
-
----
-
-## Output Routing
-- [ ] Podcast
-- [ ] Email
-- [ ] Social
-- [ ] Course
-- [ ] Product
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: 133325718*
+## Content Potential
+- **Podcast operations** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future

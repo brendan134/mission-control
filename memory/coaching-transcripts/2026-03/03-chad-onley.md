@@ -1,50 +1,29 @@
-# Coaching Transcript: Chad Onley
-**Date:** Tuesday, March 3, 2026 at 2:02 AM
-**Duration:** 6m 17s
-**Recording ID:** 126609580
-**Participants:** Brendan Rogers, Chad Onley
+# Coaching Call - Chad Onley
 
----
+**Date:** March 3, 2026
+**Duration:** ~6 minutes
+**Call Type:** Check-in
+**Energy/State:** Brief touch-base
+**Tags:** #check-in #brief
 
-## Call Summary
+## Client
+Chad Onley
 
-### Topics Covered
-- Brief check-in call
-- Minimal transcript available (~3 seconds of audio captured)
+## Key Topics
 
-### Notes
-- Very short call - essentially a touch-base
-- No significant business decisions or deep topics covered
+### 1. Brief Check-in
+- Very short call
+- Essentially a touch-base
 
-### Action Items
+## Action Items
 - [ ] Schedule follow-up longer session if needed
 
-### Value Add Hook
-"Chad Onley - brief check-in call (6 min)."
+## Key Quotes
+> (No quotes captured)
 
----
+## Coaching Approach
+- Brief touch-base
 
-*Extracted: 2026-04-24*
-
-### Content Potential
-
-- **Rating:** 3/5
-- **Urgency:** 🟢 Future
-
-## Output Routing
-
-- [ ] **Attract** - Content, podcast, social
-- [ ] **Convert** - Sales, follow-ups
-- [ ] **Deliver** - Course material
-- [ ] **Engage** - Team training
-
----
-
-**Industry:** [industry]
-**Topic:** [topic]  
-**Content:** [content-type]
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: [RECORDING_ID]*
+## Content Potential
+- **Rating:** 1/5
+- **Urgency:** Low
