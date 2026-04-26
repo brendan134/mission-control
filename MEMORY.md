@@ -59,6 +59,7 @@
   - Auto-backup cron: Changed from every 2 hours to 10 PM only - gives time to review before GitHub sync
   - Mission Control port: Confirmed as port 3003 (per RULES.md)
   - Cron Calendar performance: Use `/api/cron` endpoint with caching instead of direct execSync (reduces 15s+ timeout to fast response)
+  - Cron timezone: Always use Australia/Sydney unless explicitly specified otherwise
   - Telegram delivery: Cron jobs need `<chatId>` not phone number in the `to` field for delivery to work
 
 ### Skills & Systems

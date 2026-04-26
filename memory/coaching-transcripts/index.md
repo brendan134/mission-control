@@ -1,6 +1,6 @@
 # Coaching Transcripts Index
 
-**Last Updated:** 2026-04-24
+**Last Updated:** 2026-04-26
 
 ## Naming Convention
 Format: `DD-client-name.md` (day of month + lowercase client name with hyphens)
@@ -8,32 +8,34 @@ Format: `DD-client-name.md` (day of month + lowercase client name with hyphens)
 
 ---
 
-## April 2026 Transcripts (22 extracted)
+## April 2026 Transcripts (24 extracted)
 
 | # | Date | Client/Topic | Status |
 |---|------|--------------|--------|
-| 1 | 2026-04-22 | Stephen Hunt - Pre-Con Manager | ✅ |
-| 2 | 2026-04-21 | Chad Onley - Business Coaching | ✅ |
-| 3 | 2026-04-20 | Tom Ford - Business Coaching | ✅ |
-| 4 | 2026-04-20 | Jocelyn Birch Baker | ✅ |
-| 5 | 2026-04-20 | APS Demo/Chat | ✅ |
-| 6 | 2026-04-17 | Mervyn Weekly Review | ✅ |
-| 7 | 2026-04-17 | Steve Catch Up | ✅ |
-| 8 | 2026-04-16 | Peter Clarke - Leadership | ✅ |
-| 9 | 2026-04-14 | Kriz Check-in | ✅ |
-| 10 | 2026-04-14 | Alby Kennard | ✅ |
-| 11 | 2026-04-14 | Tom Ford #2 | ✅ |
-| 12 | 2026-04-12 | Jocelyn Birch Baker #2 | ✅ |
-| 13 | 2026-04-10 | Mervyn Weekly #2 | ✅ |
-| 14 | 2026-04-10 | Carol (TGFW) | ✅ |
-| 15 | 2026-04-08 | Jocelyn Birch Baker #3 | ✅ |
-| 16 | 2026-04-08 | Network Pro Overview | ✅ |
-| 17 | 2026-04-07 | Alby Kennard #2 | ✅ |
-| 18 | 2026-04-07 | Daniel Mason | ✅ |
-| 19 | 2026-04-07 | Chad Onley #2 | ✅ |
-| 20 | 2026-04-06 | Jerry Kennard | ✅ |
-| 21 | 2026-04-?? | Mervyn Business | ✅ |
-| 22 | 2026-04-?? | Carol Glen | ✅ |
+| 1 | 2026-04-24 | Mervyn Weekly Review | ✅ |
+| 2 | 2026-04-24 | Carol (TGFW) | ✅ |
+| 3 | 2026-04-22 | Stephen Hunt - Pre-Con Manager | ✅ |
+| 4 | 2026-04-21 | Chad Onley - Business Coaching | ✅ |
+| 5 | 2026-04-20 | Tom Ford - Business Coaching | ✅ |
+| 6 | 2026-04-20 | Jocelyn Birch Baker | ✅ |
+| 7 | 2026-04-20 | APS Demo/Chat | ✅ |
+| 8 | 2026-04-17 | Mervyn Weekly Review | ✅ |
+| 9 | 2026-04-17 | Steve Catch Up | ✅ |
+| 10 | 2026-04-16 | Peter Clarke - Leadership | ✅ |
+| 11 | 2026-04-14 | Kriz Check-in | ✅ |
+| 12 | 2026-04-14 | Alby Kennard | ✅ |
+| 13 | 2026-04-14 | Tom Ford #2 | ✅ |
+| 14 | 2026-04-12 | Jocelyn Birch Baker #2 | ✅ |
+| 15 | 2026-04-10 | Mervyn Weekly #2 | ✅ |
+| 16 | 2026-04-10 | Carol (TGFW) | ✅ |
+| 17 | 2026-04-08 | Jocelyn Birch Baker #3 | ✅ |
+| 18 | 2026-04-08 | Network Pro Overview | ✅ |
+| 19 | 2026-04-07 | Alby Kennard #2 | ✅ |
+| 20 | 2026-04-07 | Daniel Mason | ✅ |
+| 21 | 2026-04-07 | Chad Onley #2 | ✅ |
+| 22 | 2026-04-06 | Jerry Kennard | ✅ |
+| 23 | 2026-04-?? | Mervyn Business | ✅ |
+| 24 | 2026-04-?? | Carol Glen | ✅ |
 
 ---
 
