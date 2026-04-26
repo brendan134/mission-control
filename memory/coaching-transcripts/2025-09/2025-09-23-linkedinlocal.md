@@ -1,66 +1,38 @@
-# LinkedInLocal - Business Coaching
+# Coaching Call - LinkedIn Local
 
-**Date:** Tuesday, September 23, 2025 at 5:30 AM
-**Duration:** 16m 50s
-**Call Type:** Business Coaching
-**Energy/State:** Relaxed, collaborative, practical
-**Tags:** event management, LinkedInLocal, sponsorship, Christmas planning, networking
-**Client:** LinkedInLocal (Marc Charette, Lana)
+**Date:** September 23, 2025
+**Duration:** (transcript in file)
+**Call Type:** Event/Preparation
+**Energy/State:** Planning
+**tags:** #linkedin #event #preparation #networking
 
----
+## Client
+Marc Charette, Brendan
 
-## Key Topics Discussed
+## Key Topics
 
-- **November Event Preparation**:
-  - Looking good - around 40 bookings
-  - LinkedIn showing 50+ (nice growth)
-  - Sponsor: Veronica confirmed
-  - Speaker sorted (Sean)
-  - Ready to go
+### 1. November Event Preparation
+- Looking good - around 40 bookings
+- LinkedIn showing 50+ nice growth
+- Sponsor: Veronica confirmed
+- Speaker sorted (Sean)
 
-- **Technical Issues**:
-  - Internet outage - cable cut in Gosford
-  - Brendan on hotspot for call
-  - Riverside not working well on hotspot
-  - Just Zoom fine
-
-- **Christmas Event Planning**:
-  - Discussed options: Hotel Gosford, Tame Fox (lunch), Cecilia's (evening)
-  - Last year: Hotel Gosford - about 20 people, relaxed, good night
-  - Tame Fox: nice but not same vibe for evening event
-  - Cecilia's: evening option but more fabricated
-  - Decision: Hotel Gosford easiest - familiar, minimal setup
-  - Use Keegan to create link, handle money - no hassle
-
-- **Date Selection**:
-  - Discussed early December vs. late December
-  - Agreed: earlier better (less competition, more available)
-  - Date: December 4th (Thursday)
-  - Similar format to last year - drinks, dinner optional
-
-- **Team Dynamics**:
-  - All finding year easier with sponsor in
-  - Less pressure on financials
-  - Collaboration working well between trio
-
----
+### 2. Technical Issues
+- Internet outage - cable cut in Gosford
+- Brendan on hotspot for call
 
 ## Action Items
+- [ ] Continue event preparation
+- [ ] Resolve technical issues
 
-1. Lana to contact Keegan at Hotel Gosford for December 4th
-2. Get booking link set up (Humanitix or similar)
-3. Start promoting after November event
+## Key Quotes
+> (No key quotes captured)
 
----
+## Coaching Approach
+- Event planning
+- Technical troubleshooting
 
-## Observations
-
-- Strong team collaboration
-- Practical approach to event management
-- Learning from past events - keeping it simple
-- Minimal personal plate - good boundaries
-- Good email list and LinkedIn reach
-
----
-
-*Generated from Fathom transcript ID: 89344559*
+## Content Potential
+- **Event** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future
