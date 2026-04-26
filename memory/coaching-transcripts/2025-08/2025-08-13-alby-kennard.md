@@ -1,55 +1,37 @@
----
-client: Alby Kennard
-date: 2025-08-13
-duration: 43m 55s
-recording_id: 80185705
-type: business-coaching
----
+# Coaching Call - Alby Kennard
 
-## Context
+**Date:** August 13, 2025
+**Duration:** (transcript in file)
+**Call Type:** Business Coaching
+**Energy/State:** Unfocused
+**tags:** #priorities #va #hiring #leadership
 
-Weekly coaching call with Alby Kennard. Focus on delegation, hiring an EA/VA, and metrics tracking.
+## Client
+Alby Kennard - Step4
 
-## Key Topics Discussed
+## Key Topics
 
-**1. Week in Review**
-- Alby felt unfocused this week, didn't keep up with daily planning
+### 1. Week in Review
+- Felt unfocused this week
 - Got dragged into urgent vs important tasks
-- Spent time on NetSuite developer hiring and went down an Upwork rabbit hole
-- Considered hiring an EA/VA but felt guilty about it
+- Spent time on NetSuite developer hiring
 
-**2. EA/VA Discussion**
-- Alby explored hiring an Executive Assistant remotely
-- Explored the idea of offshoring to reduce costs
-- Discussed the mindset shift needed - from doing it all yourself to leading
-- Brendan shared his own experience with VA hiring
-- Suggested starting with a list of delegatable tasks (post-it notes approach)
-
-**3. Metrics & Reporting**
-- Alby working on departmental metrics with his leadership team
-- Discussed getting 60% of metrics data by end of week
-- Challenge: NetSuite reporting complexity
-- Need to train team members to pull their own department metrics
-
-**4. HR & Team Leadership**
-- Discussed HR person hiring - pushed back as long as possible
-- Team leaders should handle performance management, not HR
-- Concern about Prue's attitude affecting team morale
-- Need to get Tom more involved in team leadership
-
-**5. Performance Agreements**
-- Denny's performance agreement ready to review
-- Anna working on data sources for marketing metrics
+### 2. EA/VA Discussion
+- Considered hiring an EA/VA
+- Felt guilty about it
 
 ## Action Items
+- [ ] Get priorities back on track
+- [ ] Consider VA hiring
 
-- [ ] Create delegatable tasks list for EA/VA (post-it notes approach)
-- [ ] Push metrics to 60% completion by next meeting
-- [ ] Review Denny's performance agreement
-- [ ] Get Anna to own 4 marketing metrics
-- [ ] Connect with VA service provider contact
-- [ ] Block out focused work time in calendar
+## Key Quotes
+> (No key quotes captured)
 
-## Personal Notes
+## Coaching Approach
+- Priorities
+- Hiring
 
-Alby is a classic entrepreneur who struggles to let go of tasks. The EA/VA discussion is ongoing - he sees it as "being lazy" rather than strategic delegation. Need to reframe this for him. His NetSuite implementation is creating reporting challenges but he's making progress. Team dynamics with Prue need monitoring.
+## Content Potential
+- **Leadership** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future
