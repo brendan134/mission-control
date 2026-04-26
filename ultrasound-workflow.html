@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultrasound Workflow - Visual Process Map</title>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'base',
+            themeVariables: {
+                primaryColor: '#0066cc',
+                primaryTextColor: '#fff',
+                primaryBorderColor: '#0066cc',
+                lineColor: '#0066cc',
+                secondaryColor: '#f0f0f0',
+                tertiaryColor: '#fff'
+            }
+        });
+    </script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 { color: #0066cc; text-align: center; }
+        h2 { color: #333; border-bottom: 2px solid #0066cc; padding-bottom: 10px; }
+        .diagram-container {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .principles {
+            background: #e6f3ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .principles ul { list-style: none; padding: 0; }
+        .principles li { padding: 8px 0; font-size: 16px; }
+        .principles li:before { content: "✓ "; color: #0066cc; font-weight: bold; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th { background: #0066cc; color: white; }
+        tr:hover { background: #f5f5f5; }
+    </style>
+</head>
+<body>
+    <h1>🏥 Ultrasound Workflow - Visual Process Map</h1>
+    
+    <div class="diagram-container">
+        <h2>📋 Core Workflow Steps</h2>
+        <pre class="mermaid">
+flowchart TD
+    A[Start: Patient Selection] --> B[Pull Patient from ezyVet]
+    B --> C[Import Patient Details to V8]
+    C --> D[Pre-configure Scan Type]
+    D --> E[Scan Preparation]
+    E --> F[Structured Scan Sequence]
+    F --> G[Real-Time Dictation: Plaud]
+    G --> H[Report Creation]
+    H --> I[System Integration: Upload to ezyVet]
+    I --> J[Complete - Report in Patient File]
+        </pre>
+    </div>
+
+    <div class="diagram-container">
+        <h2>🔧 Step 2: Scan Preparation</h2>
+        <pre class="mermaid">
+flowchart LR
+    A[Start V8] --> B[Search & Select Patient]
+    B --> C[Verify Patient Info]
+    C --> D{Choose Probe}
+    D -->|Cardiac| E[Cardiac Probe]
+    D -->|Abdominal| F[Abdominal Probe]
+    D -->|Small Parts| G[Small Parts Probe]
+    E --> H{Select Scan Type}
+    F --> H
+    G --> H
+    H --> I[Choose Patient Size]
+    I --> J[Select Body Part / Position]
+    J --> K[Apply Preset Settings]
+    K --> L[Ready to Scan]
+        </pre>
+    </div>
+
+    <div class="diagram-container">
+        <h2>📍 Step 3: Abdominal Scan Sequence</h2>
+        <pre class="mermaid">
+flowchart TD
+    A[Start: Urinary Bladder] --> B[Prostate: if male]
+    B --> C[Left Kidney]
+    C --> D[Left Adrenal Gland]
+    D --> E[Spleen: Tail → Body → Head]
+    E --> F[Liver]
+    F --> G[Gall Bladder]
+    G --> H[Stomach]
+    H --> I[Duodenum]
+    I --> J[Pancreas]
+    J --> K[Right Adrenal Gland]
+    K --> L[Right Kidney]
+    L --> M[Intestines: General]
+        </pre>
+    </div>
+
+    <div class="diagram-container">
+        <h2>💓 Step 3: Cardiac Scan Sequence</h2>
+        <pre class="mermaid">
+flowchart LR
+    A[Use ASEcho Guidelines] --> B[Use Heart Assist: for small animals]
+    B --> C[Automatic View Classification]
+    C --> D[Auto-Measurement Tool]
+    D --> E[Sonosync: if needed]
+        </pre>
+    </div>
+
+    <div class="diagram-container">
+        <h2>🎤 Step 4: Real-Time Dictation</h2>
+        <pre class="mermaid">
+flowchart LR
+    A[Use Plaud Voice Capture] --> B[Speak Findings Real-Time]
+    B --> C[Structured Template: aligned to scan sequence]
+    C --> D[System Captures: Organ-by-Organ Notes]
+        </pre>
+    </div>
+
+    <div class="diagram-container">
+        <h2>📄 Step 5: Report Creation</h2>
+        <pre class="mermaid">
+flowchart LR
+    A[Convert Dictation] --> B[Structured Report: Organ-by-Organ]
+    B --> C[Add Recommendations]
+    C --> D[Add Treatment Plan]
+    D --> E[Report Complete]
+        </pre>
+    </div>
+
+    <div class="diagram-container">
+        <h2>🔗 Step 6: System Integration</h2>
+        <pre class="mermaid">
+flowchart LR
+    A[Upload Images to ezyVet] --> B[Attach Report to Patient Record]
+    B --> C[Send to PACS: if needed]
+    C --> D[Complete]
+        </pre>
+    </div>
+
+    <div class="diagram-container">
+        <h2>🔀 Key Decision Points</h2>
+        <pre class="mermaid">
+flowchart TD
+    A[New Patient?] -->|Yes| B[Pull from ezyVet]
+    A -->|No| C[Quick Search]
+    B --> D[Import Details]
+    C --> D
+    D --> E{Scan Type?}
+    E -->|Abdominal| F[Follow Abdominal Sequence]
+    E -->|Cardiac| G[Follow Cardiac Sequence]
+    E -->|Small Parts| H[Small Parts Sequence]
+    F --> I[Dictate with Plaud]
+    G --> I
+    H --> I
+    I --> J[Generate Report]
+    J --> K[Upload to ezyVet]
+        </pre>
+    </div>
+
+    <div class="diagram-container">
+        <h2>🔌 Integration Overview</h2>
+        <pre class="mermaid">
+flowchart LR
+    ezVet[ezyVet: Practice Management] -->|Patient Data| V8[Samsung V8: Ultrasound]
+    V8 -->|Images + Data| Plaud[Plaud: Voice Capture]
+    Plaud -->|Dictated Audio| Report[Report Creation]
+    Report -->|Final Report| ezVet
+    Report -->|Images| PACS[PACS: External]
+        </pre>
+    </div>
+
+    <div class="diagram-container">
+        <h2>⭐ Key Design Principles</h2>
+        <div class="principles">
+            <ul>
+                <li><strong>Workflow First</strong> → Define outcome, then align training/system</li>
+                <li><strong>Sequential > Flexible</strong> → Fixed scan order reduces errors</li>
+                <li><strong>Reduce Decision Points</strong> → Minimise thinking during scan</li>
+                <li><strong>Integration Non-Negotiable</strong> → Must connect: V8 → Plaud → Reporting → ezyVet</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="diagram-container">
+        <h2>📊 Step Summary Table</h2>
+        <table>
+            <tr><th>Step</th><th>Description</th><th>Key Action</th></tr>
+            <tr><td>1</td><td>Patient Setup</td><td>Pull from ezyVet → import to V8</td></tr>
+            <tr><td>2</td><td>Scan Prep</td><td>Select probe, size, apply presets</td></tr>
+            <tr><td>3</td><td>Structured Scan</td><td>Follow organ sequence</td></tr>
+            <tr><td>4</td><td>Dictation</td><td>Real-time voice capture</td></tr>
+            <tr><td>5</td><td>Report Creation</td><td>Organ-by-organ with treatment plan</td></tr>
+            <tr><td>6</td><td>Integration</td><td>Upload to ezyVet → PACs</td></tr>
+        </table>
+    </div>
+
+    <footer style="text-align: center; padding: 20px; color: #666;">
+        <p>Generated from: Ultrasound Workflow design for vets..docx | Created: 2026-04-26</p>
+    </footer>
+</body>
+</html>
