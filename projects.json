@@ -129,5 +129,19 @@
     "progress": 0,
     "created_at": "2026-04-25T22:34:30.394Z",
     "updated_at": "2026-04-25T22:34:30.394Z"
+  },
+  {
+    "name": "Lead Capture & CTA System",
+    "description": "Build a comprehensive lead capture and call-to-action system. This includes lead extraction from LinkedIn for Ian, centralized lead lists from multiple sources, automated qualification scoring, and CTA sequences for different lead types. Goal: create a systematic pipeline from lead capture to conversion.",
+    "status": "Active",
+    "priority": "High",
+    "owner": "Brendan",
+    "stage": "Planning",
+    "strategic_priority_id": "strat-1776046623770-3zsi6908d",
+    "id": "proj-1777173710411-3dy3hfr3b",
+    "linked_task_ids": [],
+    "progress": 0,
+    "created_at": "2026-04-26T03:21:50.411Z",
+    "updated_at": "2026-04-26T03:21:50.411Z"
   }
 ]

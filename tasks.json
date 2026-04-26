@@ -430,5 +430,70 @@
     "id": "task-1776207926512-wfc004",
     "created_at": "2026-04-25T11:12:00.000Z",
     "updated_at": "2026-04-25T11:49:20.721Z"
+  },
+  {
+    "title": "Extract LinkedIn followers for Ian (Head of Growth)",
+    "description": "Extract and qualify Brendan's LinkedIn followers to create outreach list for High-Impact Growth Community. Define criteria, extract list, format for Ian.",
+    "priority": "High",
+    "task_type": "Operations",
+    "stage": "Capture",
+    "project_id": "proj-1777173710411-3dy3hfr3b",
+    "primary_owner_id": "Brendan",
+    "next_action": "Define qualification criteria for LinkedIn leads",
+    "id": "task-1777173726485-uzg4dl9h4",
+    "created_at": "2026-04-26T03:22:06.485Z",
+    "updated_at": "2026-04-26T03:22:06.485Z"
+  },
+  {
+    "title": "Define lead qualification criteria",
+    "description": "Establish clear criteria for scoring and qualifying leads. Include job title, industry, company size, engagement level.",
+    "priority": "High",
+    "task_type": "Strategy",
+    "stage": "Define",
+    "project_id": "proj-1777173710411-3dy3hfr3b",
+    "primary_owner_id": "Brendan",
+    "next_action": "Draft qualification criteria document",
+    "id": "task-1777173726513-pcoodw0wg",
+    "created_at": "2026-04-26T03:22:06.513Z",
+    "updated_at": "2026-04-26T03:22:06.513Z"
+  },
+  {
+    "title": "Map all lead sources and capture points",
+    "description": "Identify all current and potential lead sources: LinkedIn, website, content, events, referrals. Document capture methods for each.",
+    "priority": "Medium",
+    "task_type": "Strategy",
+    "stage": "Define",
+    "project_id": "proj-1777173710411-3dy3hfr3b",
+    "primary_owner_id": "Brendan",
+    "next_action": "Create lead source inventory",
+    "id": "task-1777173726551-cznumx1h8",
+    "created_at": "2026-04-26T03:22:06.551Z",
+    "updated_at": "2026-04-26T03:22:06.551Z"
+  },
+  {
+    "title": "Design CTA sequences for lead types",
+    "description": "Create automated follow-up sequences for different lead types (newsletter signups, content downloads, event attendees, LinkedIn leads). Define touchpoints and messaging.",
+    "priority": "Medium",
+    "task_type": "Content",
+    "stage": "Define",
+    "project_id": "proj-1777173710411-3dy3hfr3b",
+    "primary_owner_id": "Brendan",
+    "next_action": "Outline CTA sequence flow",
+    "id": "task-1777173726596-q13716cye",
+    "created_at": "2026-04-26T03:22:06.596Z",
+    "updated_at": "2026-04-26T03:22:06.596Z"
+  },
+  {
+    "title": "Connect lead capture to CRM/email system",
+    "description": "Integrate lead capture forms and CTA sequences with email marketing platform. Ensure leads flow into proper nurture tracks.",
+    "priority": "Medium",
+    "task_type": "Technical",
+    "stage": "Capture",
+    "project_id": "proj-1777173710411-3dy3hfr3b",
+    "primary_owner_id": "Brendan",
+    "next_action": "Research CRM integration options",
+    "id": "task-1777173726629-0yolh40b6",
+    "created_at": "2026-04-26T03:22:06.629Z",
+    "updated_at": "2026-04-26T03:22:06.629Z"
   }
 ]
