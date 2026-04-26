@@ -51,3 +51,6 @@ Add whatever helps you do your job. This is your cheat sheet.
 
 ### Email
 - Sign-off: "Cheers\nBrendan"
+
+### CRM & Business Systems
+- **Course Creator 360**: Main CRM, email marketing, course delivery, community portals, program delivery

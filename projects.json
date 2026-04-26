@@ -78,7 +78,7 @@
     "name": "Toastmasters - VP Membership",
     "description": "Lead membership growth and retention for Toastmasters club. Manage new member orientations, renewal campaigns, and member engagement.",
     "status": "Active",
-    "priority": "High",
+    "priority": "Medium",
     "owner": "Brendan",
     "stage": "Execution",
     "strategic_priority_id": "strat-1777156456872-ccu4bwto2",
@@ -86,7 +86,7 @@
     "linked_task_ids": [],
     "progress": 0,
     "created_at": "2026-04-25T22:34:30.340Z",
-    "updated_at": "2026-04-25T22:34:30.340Z"
+    "updated_at": "2026-04-26T03:24:53.436Z"
   },
   {
     "name": "Foster Care",
@@ -128,7 +128,7 @@
     "linked_task_ids": [],
     "progress": 0,
     "created_at": "2026-04-25T22:34:30.394Z",
-    "updated_at": "2026-04-25T22:34:30.394Z"
+    "updated_at": "2026-04-26T03:24:32.487Z"
   },
   {
     "name": "Lead Capture & CTA System",
@@ -142,6 +142,6 @@
     "linked_task_ids": [],
     "progress": 0,
     "created_at": "2026-04-26T03:21:50.411Z",
-    "updated_at": "2026-04-26T03:21:50.411Z"
+    "updated_at": "2026-04-26T03:24:26.572Z"
   }
 ]

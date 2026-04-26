@@ -472,7 +472,7 @@
   },
   {
     "title": "Design CTA sequences for lead types",
-    "description": "Create automated follow-up sequences for different lead types (newsletter signups, content downloads, event attendees, LinkedIn leads). Define touchpoints and messaging.",
+    "description": "Create automated follow-up sequences within Course Creator 360 for different lead types (newsletter signups, content downloads, event attendees, LinkedIn leads). Configure touchpoints and messaging in CC360 automation.",
     "priority": "Medium",
     "task_type": "Content",
     "stage": "Define",
@@ -481,11 +481,11 @@
     "next_action": "Outline CTA sequence flow",
     "id": "task-1777173726596-q13716cye",
     "created_at": "2026-04-26T03:22:06.596Z",
-    "updated_at": "2026-04-26T03:22:06.596Z"
+    "updated_at": "2026-04-26T03:34:54.429Z"
   },
   {
-    "title": "Connect lead capture to CRM/email system",
-    "description": "Integrate lead capture forms and CTA sequences with email marketing platform. Ensure leads flow into proper nurture tracks.",
+    "title": "Connect all lead capture points to CC360",
+    "description": "Ensure every lead from all sources (LinkedIn, website, content, events, referrals, community) flows into Course Creator 360 as a contact. Configure CC360 for contact import, qualification tagging, and pipeline management.",
     "priority": "Medium",
     "task_type": "Technical",
     "stage": "Capture",
@@ -494,6 +494,6 @@
     "next_action": "Research CRM integration options",
     "id": "task-1777173726629-0yolh40b6",
     "created_at": "2026-04-26T03:22:06.629Z",
-    "updated_at": "2026-04-26T03:22:06.629Z"
+    "updated_at": "2026-04-26T03:34:48.928Z"
   }
 ]
