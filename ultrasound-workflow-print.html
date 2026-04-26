@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultrasound Workflow - 6 Core Steps</title>
+    <style>
+        @page {
+            size: A4 landscape;
+            margin: 0.5in;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 100%;
+            margin: 0;
+            padding: 20px;
+            background: white;
+            color: #333;
+        }
+        h1 {
+            color: #0066cc;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .diagram {
+            width: 100%;
+            text-align: center;
+        }
+        .diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .step-box {
+            fill: #e6f3ff;
+            stroke: #0066cc;
+            stroke-width: 2;
+        }
+        .step-text {
+            font-family: Arial, sans-serif;
+            font-size: 11px;
+            fill: #333;
+        }
+        .step-title {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+            fill: #0066cc;
+        }
+        .decision {
+            fill: #fff3cd;
+            stroke: #ffc107;
+            stroke-width: 2;
+        }
+        .decision-text {
+            font-family: Arial, sans-serif;
+            font-size: 10px;
+            fill: #333;
+        }
+        .startend {
+            fill: #d4edda;
+            stroke: #28a745;
+            stroke-width: 2;
+        }
+        .arrow {
+            stroke: #333;
+            stroke-width: 1.5;
+            fill: none;
+            marker-end: url(#arrowhead);
+        }
+        .arrow-label {
+            font-family: Arial, sans-serif;
+            font-size: 9px;
+            fill: #666;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            color: #666;
+            font-size: 11px;
+            border-top: 1px solid #ddd;
+            margin-top: 20px;
+        }
+        @media print {
+            body { padding: 0; }
+            footer { border: none; }
+        }
+    </style>
+</head>
+<body>
+    <h1>🏥 Ultrasound Workflow</h1>
+    <p class="subtitle">6 Core Steps with Decision Point - Smooth Operating Vets</p>
+    
+    <div class="diagram">
+        <svg viewBox="0 0 900 680" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+                </marker>
+            </defs>
+            
+            <!-- START -->
+            <ellipse cx="450" cy="30" rx="50" ry="20" class="startend"/>
+            <text x="450" y="35" text-anchor="middle" class="step-text" font-weight="bold">START</text>
+            
+            <!-- Arrow to Step 1 -->
+            <path d="M450,50 L450,80" class="arrow"/>
+            
+            <!-- Step 1: Patient Setup -->
+            <rect x="300" y="80" width="300" height="60" rx="8" class="step-box"/>
+            <text x="450" y="100" text-anchor="middle" class="step-title">Step 1: Patient Setup</text>
+            <text x="450" y="118" text-anchor="middle" class="step-text">Select patient from ezyVet → Import details → Pre-configure scan</text>
+            
+            <!-- Arrow to Step 2 -->
+            <path d="M450,140 L450,170" class="arrow"/>
+            
+            <!-- Step 2: Scan Preparation -->
+            <rect x="300" y="170" width="300" height="60" rx="8" class="step-box"/>
+            <text x="450" y="190" text-anchor="middle" class="step-title">Step 2: Scan Preparation</text>
+            <text x="450" y="208" text-anchor="middle" class="step-text">Select patient on V8 → Choose probe → Select scan type → Apply presets</text>
+            
+            <!-- Arrow to Decision -->
+            <path d="M450,230 L450,255" class="arrow"/>
+            
+            <!-- Decision Diamond -->
+            <polygon points="450,255 520,285 450,315 380,285" class="decision"/>
+            <text x="450" y="280" text-anchor="middle" class="decision-text" font-weight="bold">Settings</text>
+            <text x="450" y="292" text-anchor="middle" class="decision-text" font-weight="bold">Correct?</text>
+            
+            <!-- Yes path -->
+            <path d="M520,285 L580,285 L580,340" class="arrow"/>
+            <text x="535" y="280" class="arrow-label">Yes</text>
+            
+            <!-- No path (loop back) -->
+            <path d="M380,285 L280,285 L280,200 L300,200" class="arrow"/>
+            <text x="330" y="275" class="arrow-label">No</text>
+            
+            <!-- Arrow from Decision to Step 3 -->
+            <path d="M580,340 L580,370" class="arrow"/>
+            
+            <!-- Step 3: Structured Scanning -->
+            <rect x="300" y="370" width="300" height="60" rx="8" class="step-box"/>
+            <text x="450" y="390" text-anchor="middle" class="step-title">Step 3: Structured Scanning</text>
+            <text x="450" y="408" text-anchor="middle" class="step-text">Follow fixed sequence → Organ-by-organ scan → Use Sonosync/ez scan</text>
+            
+            <!-- Arrow to Step 4 -->
+            <path d="M450,430 L450,460" class="arrow"/>
+            
+            <!-- Step 4: Real-Time Dictation -->
+            <rect x="300" y="460" width="300" height="60" rx="8" class="step-box"/>
+            <text x="450" y="480" text-anchor="middle" class="step-title">Step 4: Real-Time Dictation</text>
+            <text x="450" y="498" text-anchor="middle" class="step-text">Capture via Plaud → Speak findings live → Structured input</text>
+            
+            <!-- Arrow to Step 5 -->
+            <path d="M450,520 L450,550" class="arrow"/>
+            
+            <!-- Step 5: Report Creation -->
+            <rect x="300" y="550" width="300" height="60" rx="8" class="step-box"/>
+            <text x="450" y="570" text-anchor="middle" class="step-title">Step 5: Report Creation</text>
+            <text x="450" y="588" text-anchor="middle" class="step-text">Convert dictation → Structured report → Add recommendations</text>
+            
+            <!-- Arrow to Step 6 -->
+            <path d="M450,610 L450,640" class="arrow"/>
+            
+            <!-- Step 6: System Integration -->
+            <rect x="300" y="640" width="300" height="60" rx="8" class="step-box"/>
+            <text x="450" y="660" text-anchor="middle" class="step-title">Step 6: System Integration</text>
+            <text x="450" y="678" text-anchor="middle" class="step-text">Upload images to ezyVet → Attach report → Share via PACS if needed</text>
+            
+            <!-- Arrow to END -->
+            <path d="M450,700 L450,730" class="arrow"/>
+            
+            <!-- END -->
+            <ellipse cx="450" cy="745" rx="50" ry="20" class="startend"/>
+            <text x="450" y="750" text-anchor="middle" class="step-text" font-weight="bold">END</text>
+        </svg>
+    </div>
+
+    <footer>
+        <p>Ultrasound Workflow - Smooth Operating Vets | Generated: 2026-04-26</p>
+    </footer>
+</body>
+</html>
