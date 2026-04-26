@@ -822,7 +822,7 @@
     "updated_at": "2026-04-26T04:01:46.585Z"
   },
   {
-    "title": "Sort real estate (rental准备)",
+    "title": "Sort real estate (rental)",
     "description": "Prepare house for rental: organize paperwork, find agent, arrange property management.",
     "priority": "High",
     "task_type": "Strategy",
@@ -832,7 +832,7 @@
     "next_action": "Contact real estate agent",
     "id": "task-1777176106603-crermw57w",
     "created_at": "2026-04-26T04:01:46.603Z",
-    "updated_at": "2026-04-26T04:01:46.603Z"
+    "updated_at": "2026-04-26T06:16:01.409Z"
   },
   {
     "title": "Look at accommodation in Greece",
