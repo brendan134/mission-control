@@ -148,15 +148,17 @@ export default function Projects() {
 
   const activeProjects = projects.filter(p => 
     p.status === ProjectStatus.ACTIVE && 
-    (!priorityFilter || p.strategic_priority_id === priorityFilter)
+    (!priorityFilter || priorityFilter === 'business' && p.strategic_priority_id !== 'strat-1777156456872-ccu4bwto2' || p.strategic_priority_id === priorityFilter)
   );
   const highPriority = projects.filter(p => 
     p.priority === Priority.HIGH && 
     p.status === ProjectStatus.ACTIVE && 
-    (!priorityFilter || p.strategic_priority_id === priorityFilter)
+    (!priorityFilter || priorityFilter === 'business' && p.strategic_priority_id !== 'strat-1777156456872-ccu4bwto2' || p.strategic_priority_id === priorityFilter)
   );
   const filteredProjects = priorityFilter 
-    ? projects.filter(p => p.strategic_priority_id === priorityFilter)
+    ? priorityFilter === 'business'
+      ? projects.filter(p => p.strategic_priority_id !== 'strat-1777156456872-ccu4bwto2')
+      : projects.filter(p => p.strategic_priority_id === priorityFilter)
     : projects;
   const stale = getStaleProjects(7);
 
@@ -474,6 +476,7 @@ export default function Projects() {
           }}
         >
           <option value="">All Priorities</option>
+          <option value="business">Business (Non-Personal)</option>
           {strategicPriorities.map(priority => (
             <option key={priority.id} value={priority.id}>{priority.name}</option>
           ))}
