@@ -1,25 +1,35 @@
----
-id: "70045345"
-client: "FEC Executive"
-date: "2025-06-23"
-duration: "1h 2m"
-type: "Executive Coaching"
-status: "Ongoing"
-topics: ["Business Strategy", "Leadership", "Growth"]
-outcomes: ["Strategic discussion on business growth"]
-tags: ["executive", "strategy", "leadership", "growth"]
----
+# Coaching Call - FEC Executive
 
-**Transcript Summary**
+**Date:** June 7, 2025
+**Duration:** (transcript in file)
+**Call Type:** Executive Coaching
+**Energy/State:** Strategy focus
+**tags:** #business-strategy #leadership #growth
 
-Strategic executive coaching session covering business growth, leadership development, and organizational strategy.
+## Client
+FEC Executive
 
-**Key Points**
-- Business strategy discussion
-- Leadership development topics
-- Growth planning and execution
-- Team structure considerations
+## Key Topics
 
-**Action Items**
-- Continue strategic planning initiatives
-- Focus on leadership development
+### 1. Business Strategy
+- (Details in transcript)
+
+### 2. Leadership
+- (Details in transcript)
+
+### 3. Growth
+- (Details in transcript)
+
+## Action Items
+- [ ] (To be added from transcript review)
+
+## Key Quotes
+> (No key quotes captured)
+
+## Coaching Approach
+- Strategy
+
+## Content Potential
+- **Executive** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future

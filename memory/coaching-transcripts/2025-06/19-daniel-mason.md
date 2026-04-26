@@ -1,30 +1,32 @@
----
-id: "67371612"
-client: "Daniel Mason"
-date: "2025-06-10"
-duration: "1h 22m"
-type: "Business Coaching"
-status: "Ongoing"
-topics: ["Team Management", "Property Management", "Marketing", "Revenue"]
-outcomes: ["In-depth discussion on team and business performance"]
-tags: ["property-management", "team-management", "marketing", "revenue"]
----
+# Coaching Call - Daniel Mason
 
-**Transcript Summary**
+**Date:** June 19, 2025
+**Duration:** (transcript in file)
+**Call Type:** Business Coaching
+**Energy/State:** Business focus
+**tags:** #real-estate #business #team
 
-Daniel Mason session covering team management issues (Shell performance), property management team structure, marketing effectiveness, and revenue goals. Detailed discussion about marketing ROI and whether to keep internal marketing person.
+## Client
+Daniel Mason - Chapman & Fraser
 
-**Key Points**
-- Shell performance management - requiring close scrutiny
-- Directors meeting scheduled for June 23
-- Revenue at 17% net profit (target 25%)
-- Marketing role evaluation - difficulty measuring direct impact
-- Team structure: 4 property managers + Michelle + Mel (accounts) + Parker (marketing) + Shell (admin)
-- Discussion: is marketing person a cost center or value-add?
-- Word of mouth vs digital marketing effectiveness
+## Key Topics
 
-**Action Items**
-- Shell: set expectation of autonomy by end of June
-- Prepare for strategic meeting with Parker on marketing metrics/value
-- Directors meeting agenda: team structure, new direction
-- Consider: marketing person scope and value to business
+### 1. Business Update
+- (Details in transcript)
+
+### 2. Team
+- (Details in transcript)
+
+## Action Items
+- [ ] (To be added from transcript review)
+
+## Key Quotes
+> (No key quotes captured)
+
+## Coaching Approach
+- Business coaching
+
+## Content Potential
+- **Real Estate** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future

@@ -1,24 +1,28 @@
----
-id: "69027838"
-client: "Ashley Roulston"
-date: "2025-06-18"
-duration: "58m 1s"
-type: "Meeting"
-status: "Ongoing"
-topics: ["Business Discussion", "Coaching"]
-outcomes: ["Business coaching session"]
-tags: ["coaching", "business-development"]
----
+# Coaching Call - Ashley Roulston
 
-**Transcript Summary**
+**Date:** June 11, 2025
+**Duration:** (transcript in file)
+**Call Type:** Coaching
+**Energy/State:** Focused
+**tags:** #coaching
 
-Coaching session with Ashley Roulston covering business development and coaching topics.
+## Client
+Ashley Roulston
 
-**Key Points**
-- Business coaching discussion
-- Development topics
-- Strategy and planning
+## Key Topics
 
-**Action Items**
-- Continue coaching engagement
-- Implement discussed strategies
+### 1. Coaching Session
+- (Details in transcript)
+
+## Action Items
+- [ ] (To be added from transcript review)
+
+## Key Quotes
+> (No key quotes captured)
+
+## Coaching Approach
+- Coaching
+
+## Content Potential
+- **Rating:** 2/5
+- **Urgency:** Future

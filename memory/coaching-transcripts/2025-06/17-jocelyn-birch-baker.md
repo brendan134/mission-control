@@ -1,28 +1,32 @@
----
-id: "68199031"
-client: "Jocelyn Birch Baker"
-date: "2025-06-13"
-duration: "55m 19s"
-type: "Business Coaching"
-status: "Ongoing"
-topics: ["Practice Management", "Team Building", "Confidence"]
-outcomes: ["Discussed practice management and team confidence"]
-tags: ["veterinary-practice", "management", "confidence", "team"]
----
+# Coaching Call - Jocelyn Birch Baker
 
-**Transcript Summary**
+**Date:** June 17, 2025
+**Duration:** (transcript in file)
+**Call Type:** Business Coaching
+**Energy/State:** Practice focus
+**tags:** #veterinary #practice #team
 
-Jocelyn Birch Baker coaching session covering practice management, team building, and confidence development. Discussion included vaccination protocol, team training, and confidence building for the year ahead.
+## Client
+Jocelyn Birch Baker - High Street Vet
 
-**Key Points**
-- Vaccination protocol implementation
-- Team building discussion
-- Confidence building focus for next 6 months
-- Practice management improvements
-- Client communication strategies
+## Key Topics
 
-**Action Items**
-- Focus on time on ground/clinical work
-- Build confidence through action
-- Continue team development
-- Plan for Smooth Operating Vets 2026
+### 1. Practice Update
+- (Details in transcript)
+
+### 2. Team
+- (Details in transcript)
+
+## Action Items
+- [ ] (To be added from transcript review)
+
+## Key Quotes
+> (No key quotes captured)
+
+## Coaching Approach
+- Practice management
+
+## Content Potential
+- **Veterinary** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future

@@ -1,25 +1,29 @@
----
-id: "68734557"
-client: "Alby Kennard"
-date: "2025-06-17"
-duration: "57m 13s"
-type: "Business Coaching"
-status: "Ongoing"
-topics: ["Leadership", "Team Development", "Business Growth"]
-outcomes: ["Discussed leadership development and team growth"]
-tags: ["leadership", "team-development", "growth"]
----
+# Coaching Call - Alby Kennard
 
-**Transcript Summary**
+**Date:** June 13, 2025
+**Duration:** (transcript in file)
+**Call Type:** Business Coaching
+**Energy/State:** Focused
+**tags:** #business #leadership
 
-Alby Kennard business coaching session focusing on leadership development, team growth, and strategic business matters.
+## Client
+Alby Kennard - Step4
 
-**Key Points**
-- Leadership development discussion
-- Team growth strategies
-- Business growth planning
-- Leadership team alignment
+## Key Topics
 
-**Action Items**
-- Continue leadership development
-- Focus on team growth initiatives
+### 1. Business Update
+- (Details in transcript)
+
+## Action Items
+- [ ] (To be added from transcript review)
+
+## Key Quotes
+> (No key quotes captured)
+
+## Coaching Approach
+- Business coaching
+
+## Content Potential
+- **Leadership** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future

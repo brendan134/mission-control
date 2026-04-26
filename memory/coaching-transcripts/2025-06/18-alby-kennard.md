@@ -1,29 +1,29 @@
----
-id: "67376227"
-client: "Alby Kennard"
-date: "2025-06-10"
-duration: "52m 59s"
-type: "Business Coaching"
-status: "Ongoing"
-topics: ["Leadership Team", "Operations", "Projects"]
-outcomes: ["Leadership and operations discussion"]
-tags: ["leadership", "operations", "projects", "team"]
----
+# Coaching Call - Alby Kennard
 
-**Transcript Summary**
+**Date:** June 18, 2025
+**Duration:** (transcript in file)
+**Call Type:** Business Coaching
+**Energy/State:** Leadership focus
+**tags:** #leadership #business
 
-Alby Kennard coaching session on leadership team development, operational improvements, and project management.
+## Client
+Alby Kennard - Step4
 
-**Key Points**
-- Leadership team discussions
-- Operations updates
-- Project status reviews
-- Team performance management
-- Anna benchmarking discussion
-- Marketing team changes (Regan)
+## Key Topics
 
-**Action Items**
-- Finalize Anna benchmarking
-- Schedule Yeni catch-up
-- Continue ops manager development
-- Complete performance agreements
+### 1. Leadership Update
+- (Details in transcript)
+
+## Action Items
+- [ ] (To be added from transcript review)
+
+## Key Quotes
+> (No key quotes captured)
+
+## Coaching Approach
+- Leadership
+
+## Content Potential
+- **Leadership** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future

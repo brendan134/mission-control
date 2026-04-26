@@ -1,23 +1,28 @@
----
-id: "69531464"
-client: "Weekly Review Meeting"
-date: "2025-06-19"
-duration: "24m 55s"
-type: "Weekly Review"
-status: "Regular"
-topics: ["Weekly Update", "Team Review"]
-outcomes: ["Regular weekly check-in"]
-tags: ["weekly-review", "team-update"]
----
+# Coaching Call - Weekly Review
 
-**Transcript Summary**
+**Date:** June 9, 2025
+**Duration:** (transcript in file)
+**Call Type:** Weekly Review
+**Energy/State:** Weekly focus
+**tags:** #weekly-review
 
-Weekly review meeting discussing the week's progress and team updates.
+## Client
+Team
 
-**Key Points**
-- Weekly progress review
-- Team updates
-- Regular business matters
+## Key Topics
 
-**Action Items**
-- Continue weekly review cadence
+### 1. Weekly Review
+- (Details in transcript)
+
+## Action Items
+- [ ] (To be added from transcript review)
+
+## Key Quotes
+> (No key quotes captured)
+
+## Coaching Approach
+- Weekly check-in
+
+## Content Potential
+- **Rating:** 2/5
+- **Urgency:** Future

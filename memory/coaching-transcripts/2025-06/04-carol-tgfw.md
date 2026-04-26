@@ -1,25 +1,35 @@
----
-id: "70621978"
-client: "Carol (TGFW)"
-date: "2025-06-26"
-duration: "33m 11s"
-type: "Coaching"
-status: "Ongoing"
-topics: ["Team Management", "Clinic Operations", "Staffing"]
-outcomes: ["Discussed staff improvements and vaccination program"]
-tags: ["veterinary-clinic", "team-management", "operations"]
----
+# Coaching Call - Carol (TGFW)
 
-**Transcript Summary**
+**Date:** June 4, 2025
+**Duration:** (transcript in file)
+**Call Type:** Leadership
+**Energy/State:** Team focus
+**tags:** #team-management #clinic-operations #staffing
 
-Carol called to discuss her week, mentioning she put a couple of things in place that she feels will be essential to fulfill her role better. She talked about being stricter with processes and discussed staff-related matters with Alex.
+## Client
+Carol - TGFW
 
-**Key Points**
-- Implemented new protocols for clinic operations
-- Discussed staffing and team management
-- Focus on stricter processes
-- Vaccination program coordination
+## Key Topics
 
-**Action Items**
-- Continue implementing new clinic protocols
-- Monitor staff performance improvements
+### 1. Team Management
+- (Details in transcript)
+
+### 2. Clinic Operations
+- (Details in transcript)
+
+### 3. Staffing
+- (Details in transcript)
+
+## Action Items
+- [ ] (To be added from transcript review)
+
+## Key Quotes
+> (No key quotes captured)
+
+## Coaching Approach
+- Team management
+
+## Content Potential
+- **Leadership** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future

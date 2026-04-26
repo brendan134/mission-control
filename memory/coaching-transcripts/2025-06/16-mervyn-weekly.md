@@ -1,26 +1,29 @@
----
-id: "68203721"
-client: "Mervyn J"
-date: "2025-06-13"
-duration: "13m 55s"
-type: "Weekly Review"
-status: "Regular"
-topics: ["Podcast Production", "Module Progress"]
-outcomes: ["Weekly check-in and progress update"]
-tags: ["podcast", "production", "modules"]
----
+# Coaching Call - Mervyn Weekly Review
 
-**Transcript Summary**
+**Date:** June 16, 2025
+**Duration:** (transcript in file)
+**Call Type:** Weekly Review
+**Energy/State:** Weekly focus
+**tags:** #podcast #weekly-review
 
-Weekly review with Mervyn covering podcast production status and module completion progress.
+## Client
+Mervyn J
 
-**Key Points**
-- Podcast episode progress (Episode 144)
-- Module completion updates
-- Production schedule
-- Episode release planning
+## Key Topics
 
-**Action Items**
-- Continue module progress
-- Complete episode production
-- Schedule next episode recording
+### 1. Weekly Update
+- (Details in transcript)
+
+## Action Items
+- [ ] (To be added from transcript review)
+
+## Key Quotes
+> (No key quotes captured)
+
+## Coaching Approach
+- Weekly check-in
+
+## Content Potential
+- **Podcast** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future

@@ -1,25 +1,32 @@
----
-id: "69025412"
-client: "Carol (TGFW)"
-date: "2025-06-18"
-duration: "25m 13s"
-type: "Coaching"
-status: "Ongoing"
-topics: ["Clinic Operations", "Team Management"]
-outcomes: ["Discussed clinic operations and team matters"]
-tags: ["veterinary-clinic", "operations", "team"]
----
+# Coaching Call - Carol (TGFW)
 
-**Transcript Summary**
+**Date:** June 12, 2025
+**Duration:** (transcript in file)
+**Call Type:** Leadership
+**Energy/State:** Focused
+**tags:** #leadership #team #tgfw
 
-Coaching session with Carol discussing clinic operations, team management, and practice-related matters.
+## Client
+Carol - TGFW
 
-**Key Points**
-- Clinic operations review
-- Team management discussion
-- Practice efficiency
-- Staff coordination
+## Key Topics
 
-**Action Items**
-- Continue improving clinic operations
-- Address team management topics
+### 1. Leadership
+- (Details in transcript)
+
+### 2. Team
+- (Details in transcript)
+
+## Action Items
+- [ ] (To be added from transcript review)
+
+## Key Quotes
+> (No key quotes captured)
+
+## Coaching Approach
+- Leadership
+
+## Content Potential
+- **Leadership** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future

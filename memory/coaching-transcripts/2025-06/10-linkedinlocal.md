@@ -1,23 +1,32 @@
----
-id: "69513675"
-client: "LinkedInLocal Meeting"
-date: "2025-06-19"
-duration: "12m 47s"
-type: "Networking Meeting"
-status: "Event"
-topics: ["Networking", "LinkedInLocal"]
-outcomes: ["LinkedInLocal community meeting"]
-tags: ["networking", "linkedin", "community"]
----
+# Coaching Call - LinkedIn Local
 
-**Transcript Summary**
+**Date:** June 10, 2025
+**Duration:** (transcript in file)
+**Call Type:** Community/Networking
+**Energy/State:** Event focus
+**tags:** #linkedin #networking #community #event
 
-LinkedInLocal networking meeting - community business networking event.
+## Client
+LinkedIn Local Team
 
-**Key Points**
-- LinkedInLocal community meeting
-- Business networking
-- Local business community engagement
+## Key Topics
 
-**Action Items**
-- Continue community involvement
+### 1. Event Planning
+- (Details in transcript)
+
+### 2. Community
+- (Details in transcript)
+
+## Action Items
+- [ ] (To be added from transcript review)
+
+## Key Quotes
+> (No key quotes captured)
+
+## Coaching Approach
+- Event planning
+
+## Content Potential
+- **Community** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future

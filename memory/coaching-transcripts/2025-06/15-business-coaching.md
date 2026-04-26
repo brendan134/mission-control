@@ -1,25 +1,28 @@
----
-id: "68455127"
-client: "Business Coaching"
-date: "2025-06-16"
-duration: "52m 19s"
-type: "Business Coaching"
-status: "Ongoing"
-topics: ["Business Development", "Strategy"]
-outcomes: ["General business coaching session"]
-tags: ["business-coaching", "development", "strategy"]
----
+# Coaching Call - Business Coaching
 
-**Transcript Summary**
+**Date:** June 15, 2025
+**Duration:** (transcript in file)
+**Call Type:** Business Coaching
+**Energy/State:** Focused
+**tags:** #business #coaching
 
-General business coaching session covering business development and strategic topics.
+## Client
+Business Client
 
-**Key Points**
-- Business development discussion
-- Strategic planning
-- Growth strategies
-- Performance review
+## Key Topics
 
-**Action Items**
-- Continue business development efforts
-- Implement growth strategies
+### 1. Business Coaching
+- (Details in transcript)
+
+## Action Items
+- [ ] (To be added from transcript review)
+
+## Key Quotes
+> (No key quotes captured)
+
+## Coaching Approach
+- Business coaching
+
+## Content Potential
+- **Rating:** 2/5
+- **Urgency:** Future

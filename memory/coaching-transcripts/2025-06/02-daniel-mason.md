@@ -1,27 +1,43 @@
----
-id: "71158096"
-client: "Daniel Mason"
-date: "2025-06-30"
-duration: "1h 16m"
-type: "Business Coaching"
-status: "Ongoing"
-topics: ["Team Performance", "Marketing", "Revenue Goals"]
-outcomes: ["Discussed marketing metrics and value to business"]
-tags: ["property-management", "marketing", "team-leadership"]
----
+# Coaching Call - Daniel Mason
 
-**Transcript Summary**
+**Date:** June 2, 2025
+**Duration:** ~1h 16m
+**Call Type:** Business Coaching
+**Energy/State:** Team focus
+**tags:** #property-management #marketing #team-leadership
 
-Daniel Mason and Brendan discussed business performance, team management, and marketing effectiveness. Daniel shared updates about his team including Shell (performance issues), Tim (training progress), and the property management team structure.
+## Client
+Daniel Mason - Chapman & Fraser
 
-**Key Points**
-- Discussed marketing person role and value to business
-- Team performance issues with Shell requiring close management
-- Revenue target discussion (25% net profit margin goal)
-- Marketing metrics challenge - difficulty tracking direct impact
-- Property management team structure considerations
+## Key Topics
 
-**Action Items**
-- Next one-on-one with Shell regarding performance expectations
-- Prepare key points for strategic meeting with Parker (marketing)
-- Define marketing metrics/value to CNF
+### 1. Team Performance
+- Shell performance issues requiring close management
+- Tim training progress
+
+### 2. Marketing
+- Marketing person role and value to business
+- Marketing metrics challenge
+
+### 3. Revenue Goals
+- 25% net profit margin goal
+
+### 4. Property Management Team
+- Team structure considerations
+
+## Action Items
+- [ ] Next one-on-one with Shell regarding performance expectations
+- [ ] Prepare key points for strategic meeting with Parker
+- [ ] Define marketing metrics/value
+
+## Key Quotes
+> (No key quotes captured)
+
+## Coaching Approach
+- Team management
+- Marketing value
+
+## Content Potential
+- **Team leadership** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future

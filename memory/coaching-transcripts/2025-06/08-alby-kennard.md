@@ -1,26 +1,35 @@
----
-id: "69732854"
-client: "Alby Kennard"
-date: "2025-06-20"
-duration: "53m 41s"
-type: "Business Coaching"
-status: "Ongoing"
-topics: ["Leadership Team", "Team Performance", "Projects"]
-outcomes: ["Discussed leadership team progress and challenges"]
-tags: ["leadership", "team-performance", "projects"]
----
+# Coaching Call - Alby Kennard
 
-**Transcript Summary**
+**Date:** June 8, 2025
+**Duration:** (transcript in file)
+**Call Type:** Business Coaching
+**Energy/State:** Team focus
+**tags:** #leadership-team #team-performance #projects
 
-Alby Kennard discussed his leadership team updates, various team members' progress, and ongoing projects including operations management and sales team development.
+## Client
+Alby Kennard - Step4
 
-**Key Points**
-- Leadership team updates
-- Team member progress reviews
-- Project status discussions
-- Ops manager and sales team development
+## Key Topics
 
-**Action Items**
-- Continue monitoring team progress
-- Address project challenges
-- Support team development initiatives
+### 1. Leadership Team
+- (Details in transcript)
+
+### 2. Team Performance
+- (Details in transcript)
+
+### 3. Projects
+- (Details in transcript)
+
+## Action Items
+- [ ] (To be added from transcript review)
+
+## Key Quotes
+> (No key quotes captured)
+
+## Coaching Approach
+- Leadership
+
+## Content Potential
+- **Leadership** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future

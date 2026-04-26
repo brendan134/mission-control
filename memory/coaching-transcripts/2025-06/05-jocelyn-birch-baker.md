@@ -1,25 +1,35 @@
----
-id: "70618377"
-client: "Jocelyn Birch Baker"
-date: "2025-06-26"
-duration: "25m 13s"
-type: "Business Coaching"
-status: "Ongoing"
-topics: ["Practice Management", "Team Culture", "Confidence Building"]
-outcomes: ["Discussed confidence building and team engagement"]
-tags: ["veterinary-practice", "team-culture", "confidence"]
----
+# Coaching Call - Jocelyn Birch Baker
 
-**Transcript Summary**
+**Date:** June 5, 2025
+**Duration:** (transcript in file)
+**Call Type:** Business Coaching
+**Energy/State:** Practice focus
+**tags:** #practice-management #team-culture #confidence
 
-Jocelyn Birch Baker called to discuss her week, including adjusting appointment times and sharing positive feedback from clients about the clinic and staff.
+## Client
+Jocelyn Birch Baker - High Street Vet
 
-**Key Points**
-- Adjusted session time for convenience
-- Positive client feedback about staff kindness and animal care
-- Discussion about building confidence in practice management
-- Team culture and client experience focus
+## Key Topics
 
-**Action Items**
-- Continue building practice confidence
-- Maintain team culture improvements
+### 1. Practice Management
+- (Details in transcript)
+
+### 2. Team Culture
+- (Details in transcript)
+
+### 3. Confidence Building
+- (Details in transcript)
+
+## Action Items
+- [ ] (To be added from transcript review)
+
+## Key Quotes
+> (No key quotes captured)
+
+## Coaching Approach
+- Practice management
+
+## Content Potential
+- **Veterinary** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future

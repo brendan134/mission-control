@@ -1,27 +1,29 @@
----
-id: "70924340"
-client: "Mervyn J"
-date: "2025-06-27"
-duration: "29m 14s"
-type: "Weekly Review"
-status: "Regular"
-topics: ["Podcast Production", "Module Progress", "AI Tools"]
-outcomes: ["Episode 144 completed", "Module 5 finished"]
-tags: ["podcast", "production", "modules", "ai"]
----
+# Coaching Call - Mervyn Weekly Review
 
-**Transcript Summary**
+**Date:** June 3, 2025
+**Duration:** (transcript in file)
+**Call Type:** Weekly Review
+**Energy/State:** Weekly focus
+**tags:** #podcast #content #weekly-review
 
-Weekly review with Mervyn discussing podcast production, module completion progress, and AI tools training.
+## Client
+Mervyn J
 
-**Key Points**
-- Episode 144 completed and ready for release
-- Mervyn completed Module 5, working on Module 6
-- Discussion about Primal Video community and tools
-- AI tools and their application to business
-- Podcast release schedule
+## Key Topics
 
-**Action Items**
-- Brendan to send info and takeaways for episode
-- Brendan goal: complete Module 6 by next week
-- Consider creating roadmap for 80 tools (overwhelm issue)
+### 1. Weekly Update
+- (Details in transcript)
+
+## Action Items
+- [ ] (To be added from transcript review)
+
+## Key Quotes
+> (No key quotes captured)
+
+## Coaching Approach
+- Weekly check-in
+
+## Content Potential
+- **Podcast** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future
