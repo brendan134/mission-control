@@ -270,7 +270,7 @@ export default function Projects() {
   };
 
   const getProjectTasks = (projectId: string) => {
-    return getTasksByProject(projectId);
+    return allTasks.filter((t: Task) => t.project_id === projectId);
   };
 
   const getNextAction = (projectId: string) => {
