@@ -1,80 +1,64 @@
-# Business Coaching: Jocelyn Birch Baker
+# Coaching Call - Jocelyn Birch Baker
 
-**Date:** Tuesday, January 27, 2026 at 01:32 AM
-**Duration:** 28m 11s
-**Participants:** Brendan Rogers, Jocelyn Birch Baker
+**Date:** January 27, 2026
+**Duration:** (transcript in file)
+**Call Type:** Business Coaching
+**Energy/State:** Positive, growth-focused
+**tags:** #veterinary #team #leadership #culture
 
----
+## Client
+Jocelyn Birch Baker - High Street Vet
 
-## Key Topics Discussed
+## Key Topics
 
-- **Christmas/New Year**: Late presents, ready for next Christmas
-- **Staff Update**: Lucy (nurse) joined from Amherst Street, new ultrasound capabilities
-- **Sleep Study**: Jocelyn did a sleep study, waiting for results/script
-- **Customer Interaction**: Elderly couple on pension with Baranza dog, gave them 10% discount - $700 job from $150-200
-- **Vaccines & Baranzas**: Nurses can do vaccines, Jocelyn doing more procedures
-- **Proactive Planning**: Virginia away next week,Lucy coming in to help, floors being done Saturday
-- **Leadership Growth**: 
-  - More forthright conversations with team
-  - Having a plan, looking at numbers
-  - Being more present in clinic
-  - Team respecting her more
-  - Creating puzzle poster with team about what each person does at High Street
-- **Team Culture**: Moving from gossip/negative to excitement and planning
-- **Risk Awareness**: Virginia is a key risk to revenue - need to keep recruitment on radar
-- **EasyVet Reporting**: Need to explore reporting capabilities for metrics
-  - Big Four care packages
-  - Dentals
-  - Vaccinations
-  - ProHeart
-- **In-House Pathology**: $57,900 in 6 months from IDEX machine
-- **Building IP**: Using EasyVet experience to build "Smooth Operating Vets" packages
+### 1. Christmas/New Year
+- Late presents, ready for next Christmas
 
----
+### 2. Staff Update
+- Lucy (nurse) joined from Amherst Street
+- New ultrasound capabilities
+
+### 3. Sleep Study
+- Jocelyn did a sleep study
+- Waiting for results/script
+
+### 4. Customer Interaction
+- Elderly couple on pension with Baranza dog
+- Gave them 10% discount
+
+### 5. Proactive Planning
+- Virginia away next week
+- Lucy coming in to help
+- Floors being done Saturday
+
+### 6. Leadership Growth
+- More forthright conversations with team
+- Having a plan, looking at numbers
+- Being more present in clinic
+
+### 7. Team Culture
+- Moving from gossip/negative to excitement and planning
+
+### 8. EasyVet Reporting
+- Need to explore reporting capabilities
+- Big Four care packages, Dentals, Vaccinations, ProHeart
+
+### 9. In-House Pathology
+- $57,900 in 6 months from IDEX machine
 
 ## Action Items
-
-- [ ] Tidy up numbers for EasyVet reporting
-- [ ] Contact EasyVet for demo/training on reporting capabilities
-- [ ] Explore tagging in EasyVet for key metrics (vaccines, dentals, big four, ProHeart)
-- [ ] Keep recruitment in mind given Virginia risk
-- [ ] Continue building puzzle/visual planning with team
-
----
+- [ ] Explore EasyVet reporting
+- [ ] Continue leadership growth
+- [ ] Build team culture
 
 ## Key Quotes
+> (No key quotes captured)
 
-> "There's nothing Kirstie can do that I can't do."
+## Coaching Approach
+- Leadership development
+- Team culture
 
-> "I'm being me, the person that I want to be. I am really smart and I do look at the future and I plan."
-
-> "Designing outcomes rather than reacting to results."
-
-> "The best recruitment is happening when you're not recruiting."
-
-> "If we can do more of the profitable stuff, it gives us free time to do other things."
-
-> "I really enjoy it - I go, oh, what about that?"
-
-### Content Potential
-
+## Content Potential
+- **Veterinary practice** - Podcast
 - **Rating:** 3/5
-- **Urgency:** 🟢 Future
-
-## Output Routing
-
-- [ ] **Attract** - Content, podcast, social
-- [ ] **Convert** - Sales, follow-ups
-- [ ] **Deliver** - Course material
-- [ ] **Engage** - Team training
-
----
-
-**Industry:** [industry]
-**Topic:** [topic]  
-**Content:** [content-type]
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: [RECORDING_ID]*
+- **Urgency:** Future

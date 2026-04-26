@@ -1,73 +1,61 @@
-# Weekly Review Meeting - Mervyn
+# Coaching Call - Mervyn Weekly Review
 
-**Date:** Friday, January 30, 2026 at 05:21 AM
-**Duration:** 18m 5s
-**Participants:** Brendan Rogers, Mervyn J
+**Date:** January 30, 2026
+**Duration:** (transcript in file)
+**Call Type:** Weekly Review
+**Energy/State:** Productive, improving
+**tags:** #podcast #seo #content #youtube
 
----
+## Client
+Mervyn J
 
-## Key Topics Discussed
+## Key Topics
 
-- **Podcast Editing Quality**: Episodes getting clearer, more deliberate delivery
-- **PodSEO Tool**: New podcast SEO tool ($20/month), currently at 96/100 SEO score
-  - Helps track keywords, ranking on Apple/Spotify
-  - Takes 2-3 months to see results for new podcasts
-  - Uses custom GPT for keyword optimization in transcripts
-- **Content Schedule**: 52-week content schedule in place, staying ahead 2-3 weeks
-- **YouTube Verification**: Set up Lead Advisor channel, awaiting verification to link podcast feed
-- **Video Episodes**: Not started yet, planning 1-2 per month
-- **Webcam Discovery**: Mervyn realized there's been a sticker on his webcam lens for years!
-- **Work Update**:
-  - Craig (Castos): Sending 1-2 videos/week, basic editing
-  - Castos: Starting to give more shows from February
-  - Damon: Stopped working for now (doing internal)
-  - Chris: Getting more clients, passing work to Mervyn
-- **New Client Connection**: Ex-client (engineer) needing CAD/documentation work
-  - Connected with Chris and Nick (Chris's brother)
-  - First 24 hours working well
-- **VA Update**: Replaced general VA with Nick (Chris's brother) who has better skills/internet
-- **Chris's Personal**: His wife has thyroid issues, into herbal medicine
+### 1. Podcast Editing Quality
+- Episodes getting clearer, more deliberate delivery
 
----
+### 2. PodSEO Tool
+- New podcast SEO tool ($20/month)
+- Currently at 96/100 SEO score
+- Helps track keywords, ranking on Apple/Spotify
+
+### 3. Content Schedule
+- 52-week content schedule in place
+- Staying ahead 2-3 weeks
+
+### 4. YouTube Verification
+- Set up Lead Advisor channel
+- Awaiting verification to link podcast feed
+
+### 5. Video Episodes
+- Not started yet
+- Planning 1-2 per month
+
+### 6. Work Update
+- Craig (Castos): Sending 1-2 videos/week
+- Chris: Getting more clients, passing work to Mervyn
+
+### 7. New Client Connection
+- Ex-client (engineer) needing CAD/documentation work
+- Connected with Chris and Nick
+- First 24 hours working well
+
+### 8. VA Update
+- Replaced general VA with Nick who has better skills/internet
 
 ## Action Items
-
-- [ ] Check PodSEO results in 2-3 months
-- [ ] Continue optimizing episodes with PodSEO tool
-- [ ] Wait for YouTube verification email
-- [ ] Start planning 1-2 video episodes per month
-
----
+- [ ] Continue podcast production
+- [ ] Establish video episode routine
+- [ ] Continue client work
 
 ## Key Quotes
+> (No key quotes captured)
 
-> "The best way to get found is making sure you're ranking on Apple and Spotify."
+## Coaching Approach
+- Weekly check-in
+- Content optimization
 
-> "We've got a 52-week content schedule. I want to be at least two or three weeks ahead each time."
-
-> "When I removed the sticker, it's like very bright and clear."
-
-> "Out of sight, out of mind."
-
-### Content Potential
-
-- **Rating:** 3/5
-- **Urgency:** 🟢 Future
-
-## Output Routing
-
-- [ ] **Attract** - Content, podcast, social
-- [ ] **Convert** - Sales, follow-ups
-- [ ] **Deliver** - Course material
-- [ ] **Engage** - Team training
-
----
-
-**Industry:** [industry]
-**Topic:** [topic]  
-**Content:** [content-type]
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: [RECORDING_ID]*
+## Content Potential
+- **Podcast production** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future

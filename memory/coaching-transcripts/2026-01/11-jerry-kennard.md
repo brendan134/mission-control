@@ -1,85 +1,64 @@
-# Business Coaching: Jerry Kennard
+# Coaching Call - Jerry Kennard
 
-**Date:** Sunday, January 11, 2026 at 09:02 PM
-**Duration:** 42m 3s
-**Call Type:** Strategy
-**Energy/State:** Growth-oriented
-**Tags:** coaching, leadership, operations, strategy, team, culture
-**Client:** Jerry Kennard (Leader By Design)
+**Date:** January 11, 2026
+**Duration:** (transcript in file)
+**Call Type:** Business Coaching
+**Energy/State:** Focused, strategic
+**Tags:** #business #team #sales #2025-results #2026-goals
 
----
+## Client
+Jerry Kennard - Evoke
 
-## Key Topics Discussed
+## Key Topics
 
-- **New Team Member**: Kelsey started today, being trained by Ange
-- **Christmas Break**: Jerry did 3 days catching up, cleared inbox
-- **2025 Results**: 
-  - 21 contracts landed (down from 23 target)
-  - Two late contracts came in Dec 31st: $2.1M and $1.5M (both Perth)
-- **2026 Goals**: $38M contracts target (up from $35M)
-- **Company Meeting**: Jan 29th in-person, covered 2025 recap, 2026 big picture, challenges, 1-year goals, Q1 goals
-- **Leadership Team Updates**:
-  - Asha helping Lando - "pigeon pair" for 3 months
-  - Kim in BD role - needs to work on EQ/bluntness with designers
-  - New designer (Karen) - evaluating if she's "keeper" for Perth office
-  - Bec H returning Jan 19th
-- **Sales Strategy**: Working with YBravo on BD day
-- **Process Improvement**: Need project manager (Shari) to spearhead, 2 hours/week
-- **Streddy**: New EOS-based platform being considered (better than Traction/90)
-- **Mel Promotion**: Considering bringing Mel into SLT
-- **HR Focus**: New designer evaluation, Perth representation
+### 1. New Team Member
+- Kelsey started, being trained by Ange
 
----
+### 2. Christmas Break
+- Jerry did 3 days catching up, cleared inbox
+
+### 3. 2025 Results
+- 21 contracts landed (down from 23 target)
+- Two late contracts came in Dec 31st: $2.1M and $1.5M
+
+### 4. 2026 Goals
+- $38M contracts target (up from $35M)
+
+### 5. Company Meeting
+- Jan 29th in-person
+- Covered 2025 recap, 2026 big picture, challenges, 1-year goals, Q1 goals
+
+### 6. Leadership Team Updates
+- Asha helping Lando
+- Kim in BD role
+- New designer (Karen) evaluating
+- Bec H returning Jan 19th
+
+### 7. Sales Strategy
+- Working with YBravo on BD day
+
+### 8. Process Improvement
+- Need project manager (Shari) to spearhead
+
+### 9. Streddy
+- New EOS-based platform being considered
 
 ## Action Items
-
-- [ ] Jerry to send company meeting slides to Brendan
-- [ ] Jerry to talk to Shari about process improvement project
-- [ ] Jerry to have conversations with Bec H about role
+- [ ] Send company meeting slides to Brendan
+- [ ] Talk to Shari about process improvement project
+- [ ] Have conversations with Bec H about role
 - [ ] Plan for another salesperson in Melbourne/Brisbane
 - [ ] Evaluate new designer (Karen) over next 2 months
 - [ ] Set up 90-day goals for team by end of week
 
----
-
-## Financial Summary
-
-| Metric | 2025 Actual | 2026 Target |
-|--------|-------------|-------------|
-| Contracts | $21M | $38M |
-| Notable Deals | $2.1M + $1.5M (Dec 31) | - |
-
----
-
 ## Key Quotes
+> (No key quotes captured)
 
-> "It's probably good to, we could probably do another roundtable sometime, but it's actually working really well."
+## Coaching Approach
+- Strategic planning
+- Team development
 
-> "There's nothing more powerful for people work together than working on problems together."
-
-> "If our numbers drop at all, we have to make some decisions fast."
-
-> "The structure that will work well for a business like yours is that if you're really clear around what we call the project governance."
-
-### Content Potential
-
+## Content Potential
+- **Business growth** - Podcast
 - **Rating:** 3/5
-- **Urgency:** 🟢 Future
-
-## Output Routing
-
-- [ ] **Attract** - Content, podcast, social
-- [ ] **Convert** - Sales, follow-ups
-- [ ] **Deliver** - Course material
-- [ ] **Engage** - Team training
-
----
-
-**Industry:** [industry]
-**Topic:** [topic]  
-**Content:** [content-type]
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: [RECORDING_ID]*
+- **Urgency:** Future

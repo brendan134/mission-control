@@ -1,68 +1,53 @@
-# Meeting - Kriz & Dom (LinkedIn Local / TLL)
+# Coaching Call - Kriz & Dom Meeting
 
-**Date:** Friday, January 10, 2026 at 12:46 AM
-**Duration:** ~33m
-**Participants:** Brendan Rogers, Kriz, Dominic Mancera
+**Date:** January 10, 2026
+**Duration:** (transcript in file)
+**Call Type:** Operations/Team Meeting
+**Energy/State:** Planning, organized
+**Tags:** #linkedin #social-media #community #branding
 
----
+## Client
+Kriz & Dom Team
 
-## Key Topics Discussed
+## Key Topics
 
-- **LinkedIn Local Event Banners**: Design format using company colors, using previous event photos
-- **LinkedIn Terms & Conditions**: Review LinkedIn's official T&Cs for LinkedIn Local
-- **Sponsor Photos**: Getting photos for Ben Williamson, Alec (pending), Vuwa
-- **Social Media Posting Plan**: Clarifying which posts go on Leader By Design vs High Impact Leader
-- **LinkedIn Profile Header**: Updating header to High Impact Leader branding/colors
-- **Facebook & Instagram Headers**: Will resize from LinkedIn header
-- **Mark's Photo Access**: Waiting on Mark to provide access to event photos
-- **Trello Tasks**: Reviewing pending tasks, prioritizing event calendar and LinkedIn profile
-- **Module Development**: Need to push target deadline for whole module
-- **VA Handover**: Dominic adapting well, hoping to be fully set by February
-- **Content Balance**: Brendan balancing handing off tasks to Kriz team while working on modules
-- **TLL Community vs High Impact Leader**: Distinguishing between free community (solo entrepreneurs) vs paid program (businesses with teams)
+### 1. LinkedIn Local Event Banners
+- Design format using company colors
+- Using previous event photos
 
----
+### 2. LinkedIn Terms & Conditions
+- Review LinkedIn's official T&Cs for LinkedIn Local
+
+### 3. Sponsor Photos
+- Getting photos for Ben Williamson, Alec, Vuwa
+
+### 4. Social Media Posting Plan
+- Clarifying which posts go on Leader By Design vs High Impact Leader
+
+### 5. LinkedIn Profile Header
+- Updating header to High Impact Leader branding
+
+### 6. Module Development
+- Push target deadline for whole module
+
+### 7. VA Handover
+- Dominic adapting well
 
 ## Action Items
-
-- [ ] Check sponsor photos (Ben Williamson LinkedIn, Alec confirmation, Vuwa photo)
-- [ ] Review LinkedIn terms and conditions sent in chat
-- [ ] Wait for Mark's photo access link
-- [ ] Complete event calendar for 2026 in CC360
-- [ ] Update LinkedIn profile header with High Impact Leader branding
-- [ ] Create Facebook/Instagram headers (resize from LinkedIn)
-- [ ] Review 30-day social media posting plan
+- [ ] Check sponsor photos
+- [ ] Review LinkedIn terms and conditions
+- [ ] Complete event calendar for 2026
+- [ ] Update LinkedIn profile header
 - [ ] Push module development deadline
 
----
-
 ## Key Quotes
+> (No key quotes captured)
 
-> "The difference between the TLL community versus the high impact leader community is that the majority of people in TLL are solo entrepreneurs, micro businesses, most aren't operating with teams at all."
+## Coaching Approach
+- Event planning
+- Branding
 
-> "High impact leader is the core business - businesses and business owners who have teams."
-
-> "We don't like to compromise just for the sake of monetary reasons. We are looking at every opportunity for long-term relationship."
-
-### Content Potential
-
-- **Rating:** 3/5
-- **Urgency:** 🟢 Future
-
-## Output Routing
-
-- [ ] **Attract** - Content, podcast, social
-- [ ] **Convert** - Sales, follow-ups
-- [ ] **Deliver** - Course material
-- [ ] **Engage** - Team training
-
----
-
-**Industry:** [industry]
-**Topic:** [topic]  
-**Content:** [content-type]
-
----
-
-*Extracted: 2026-04-24*
-*Full transcript available via Fathom ID: [RECORDING_ID]*
+## Content Potential
+- **Community building** - Podcast
+- **Rating:** 2/5
+- **Urgency:** Future
