@@ -45,3 +45,6 @@
 - Identify trends: which agents improving/declining
 - Update SPECIALISTS.md prompts if needed
 - **FUTURE:** Add Agent Scorecard page to Mission Control
+
+### Cron Job Status Updates (Evening Check)
+- **Weekly Cost Audit**: Error (was ok in backup)
