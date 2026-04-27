@@ -1,7 +1,7 @@
 # Team Meeting Agenda - Initiative Focus
 
 **Date:** Wednesday April 29
-**Duration:** 30 minutes
+**Duration:** 45 minutes
 
 ---
 
