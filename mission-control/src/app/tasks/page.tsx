@@ -21,7 +21,7 @@ const STAGES = [
   { value: Stage.IN_PROGRESS, label: 'In Progress', description: 'Actively being worked on. Has immediate next step.' },
   { value: Stage.WAITING, label: 'Waiting', description: 'Blocked or pending external input. Will resume when condition clears.' },
   { value: Stage.REVIEW, label: 'Review', description: 'Work complete, awaiting approval or quality check.' },
-  { value: Stage.DONE, label: 'Done', description: 'Fully completed and delivered. No further action required.' },
+  { value: Stage.DONE, label: 'Done', aliases: ['Complete', 'Completed'], description: 'Fully completed and delivered. No further action required.' },
 ];
 
 const PRIORITIES = [
@@ -740,7 +740,10 @@ export default function Tasks() {
         /* Kanban Board View */
         <div style={{ display: 'flex', gap: '16px', overflowX: 'auto', paddingBottom: '16px' }}>
           {STAGES.map(stage => {
-            const stageTasks = sortedTasks.filter(t => t.stage === stage.value);
+            const stageTasks = sortedTasks.filter(t => {
+              const aliases = (stage as any).aliases || [];
+              return t.stage === stage.value || aliases.includes(t.stage);
+            });
             return (
               <div key={stage.value} style={{ 
                 minWidth: '280px', 
