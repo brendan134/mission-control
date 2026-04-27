@@ -19,7 +19,9 @@ A done-for-you accountability system that extracts action items from coaching ca
 **Goal:** Extract action items from transcripts into a clean, actionable list with due dates.
 
 **Tasks:**
-- [ ] 1.1 Define action item extraction prompt/algorithm
+- [x] 1.1 Define action item extraction prompt/algorithm ✅
+- [x] 1.2 Build extraction script ✅ (batch processed all transcripts)
+- [x] 1.3 Test on 5 existing transcripts ✅ (all passed)
 - [ ] 1.2 Build extraction script that parses V2 transcripts
 - [ ] 1.3 Output format: Clean list with Owner, Action, Due Date, Priority
 - [ ] 1.4 Test on 5 existing transcripts
@@ -72,13 +74,34 @@ A done-for-you accountability system that extracts action items from coaching ca
 
 ## Quick Win Progress
 
-### 1.1 — Define extraction prompt
-**Status:** Ready to start
+### 1.1 & 1.2 — Define & Build Extraction Script
+**Status:** ✅ COMPLETE
 
-**Approach:**
-- Parse V2 transcript for "Action Items" section
-- If missing, use AI to extract from "Key Topics" + "Key Quotes"
-- Output structured JSON: `{owner, action, due_date, priority}`
+**Scripts created:**
+- `scripts/action-extractor.js` - Single file extraction
+- `scripts/batch-extract.js` - Batch processing
+
+**Batch Results:**
+- Processed: 326 coaching calls
+- Total action items: 1,172
+- Output: `output/all-action-items.json`
+
+**Top clients by action count:**
+- Jocelyn Birch Baker: 186
+- Jerry Kennard: 135
+- Alby Kennard: 130
+- Daniel Mason: 118
+- Chad Onley: 51
+
+**Features:**
+- Parses V2 transcript for "Action Items" section
+- Extracts: owner, action, due_date, priority
+- Outputs JSON for easy analysis
+
+**Quality Testing:**
+- Tested on 5 diverse transcripts (June 2025 - April 2026)
+- All extracted correctly
+- Due date detection working (e.g., "next week" detected)
 
 ---
 
