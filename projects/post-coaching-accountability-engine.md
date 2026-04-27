@@ -22,6 +22,7 @@ A done-for-you accountability system that extracts action items from coaching ca
 - [x] 1.1 Define action item extraction prompt/algorithm ✅
 - [x] 1.2 Build extraction script ✅ (batch processed all transcripts)
 - [x] 1.3 Test on 5 existing transcripts ✅ (all passed)
+- [x] 1.4 Create simple UI in Mission Control ✅
 - [ ] 1.2 Build extraction script that parses V2 transcripts
 - [ ] 1.3 Output format: Clean list with Owner, Action, Due Date, Priority
 - [ ] 1.4 Test on 5 existing transcripts
