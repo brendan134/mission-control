@@ -77,5 +77,8 @@
 ## Content Potential
 - **Production** - Internal: Podcast length best practices
 - **Pricing** - Internal: Value-based pricing for creative work
-- **Rating:** 3/5
-- **Urgency:** Next week
+## Rating
+3/5
+
+## Urgency
+Next week

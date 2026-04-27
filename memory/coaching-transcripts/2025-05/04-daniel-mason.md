@@ -75,4 +75,9 @@ Daniel Mason - Mason Property Group
 - **Team Culture** - Blog: From territories to teamwork
 - **Recruitment** - Blog: Onboarding new sales talent
 - **Rating:** 3/5
-- **Urgency:** Later
+- **Urgency:** Later-e 
+## Rating
+3/5
+
+## Urgency
+Later

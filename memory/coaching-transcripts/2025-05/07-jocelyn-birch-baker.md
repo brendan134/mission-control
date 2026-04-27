@@ -53,4 +53,9 @@ Jocelyn Birch Baker - Smooth Operating Vets
 
 ## Content Potential
 - **Veterinary** - Blog: Building a vaccination program
-- **Rating:** 4/5
+- **Rating:** 4/5-e 
+## Rating
+3/5
+
+## Urgency
+Later

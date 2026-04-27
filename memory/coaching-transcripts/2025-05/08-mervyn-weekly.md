@@ -70,4 +70,9 @@ Brendan flying to Brisbane for the day with family
 ## Content Potential
 - **Program Design** - Internal doc on creating done-for-you programs
 - **Rating:** 2/5
-- **Urgency:** Later
+- **Urgency:** Later-e 
+## Rating
+3/5
+
+## Urgency
+Later

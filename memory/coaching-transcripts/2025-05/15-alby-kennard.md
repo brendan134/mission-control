@@ -92,4 +92,9 @@ Alby Kennard - Kennard's Pet Food
 - **Leadership** - Blog: Building senior leadership team
 - **Operations** - Internal: New ops manager expectations
 - **Rating:** 3/5
-- **Urgency:** This week
+- **Urgency:** This week-e 
+## Rating
+3/5
+
+## Urgency
+Later

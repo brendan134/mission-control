@@ -88,5 +88,8 @@
 ## Content Potential
 - **Events** - Blog: LinkedInLocal speaker preparation template
 - **Community** - Blog: Regional vs city LinkedInLocal vibes
-- **Rating:** 3/5
-- **Urgency:** This week (event prep)
+## Rating
+3/5
+
+## Urgency
+This week (event prep)

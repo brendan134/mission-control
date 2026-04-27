@@ -86,4 +86,9 @@ Jerry Kennard - Evercare / Whale Hunting
 ## Content Potential
 - **Leadership** - Podcast: Building resilient leadership teams
 - **Rating:** 3/5
-- **Urgency:** Now
+- **Urgency:** Now-e 
+## Rating
+3/5
+
+## Urgency
+Later

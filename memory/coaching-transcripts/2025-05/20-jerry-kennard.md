@@ -113,5 +113,8 @@
 - **Leadership** - Blog: Developing senior leadership teams
 - **Recruitment** - Internal: Remote sales hiring strategy
 - **Sales** - Internal: Design discovery to on-site process
-- **Rating:** 4/5
-- **Urgency:** This week
+## Rating
+4/5
+
+## Urgency
+This week

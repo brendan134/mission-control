@@ -71,7 +71,18 @@
 - Morning coffee catch-ups suggested
 - Service NSW could speak (neutral) - good for October
 
+## Action Items
+- [ ] Follow up sponsors and speakers as assigned
+- [ ] Promote upcoming May event
+
+## Key Quotes
+> "Direct approach works better than generic blasts."
+
 ## Content Potential
 - **Community** - Blog: Building local business communities
-- **Rating:** 2/5
-- **Urgency:** Later
+
+## Rating
+2/5
+
+## Urgency
+Later

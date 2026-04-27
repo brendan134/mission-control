@@ -64,4 +64,9 @@ Aaron More - The Glen (drug and alcohol rehabilitation)
 
 ## Content Potential
 - **Leadership** - Blog: Developing staff with different approaches
-- **Rating:** 4/5
+- **Rating:** 4/5-e 
+## Rating
+3/5
+
+## Urgency
+Later

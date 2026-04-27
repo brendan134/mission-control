@@ -83,4 +83,9 @@ Chad Onley - The Glen
 - **Team Management** - Internal: Handling resistant team members
 - **Coaching** - Case study: Scotty's transformation
 - **Rating:** 4/5
-- **Urgency:** Now
+- **Urgency:** Now-e 
+## Rating
+3/5
+
+## Urgency
+Later

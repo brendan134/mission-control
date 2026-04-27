@@ -117,5 +117,8 @@
 - **Leadership** - Internal: Building effective leadership teams
 - **Sales** - Internal: P&L per sales rep framework
 - **Onboarding** - Blog: 30-60-90 day plans for new hires
-- **Rating:** 4/5
-- **Urgency:** This week
+## Rating
+4/5
+
+## Urgency
+This week

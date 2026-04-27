@@ -145,5 +145,19 @@
 - **Leadership** - Blog: Being kind vs nice in business
 - **Vet Practice** - Internal: Team accountability framework
 - **Recruitment** - Blog: Sponsoring overseas vets
-- **Rating:** 4/5
-- **Urgency:** This week
+
+## Action Items
+- [ ] Get vaccination numbers to Brendan
+- [ ] Get June numbers (3rd and 10th)
+- [ ] Clear "what" expectations with Jamie (practice manager role)
+- [ ] Have Jamie prepare success metrics for practice manager
+- [ ] Contact Paul re: sponsorship guidance
+- [ ] Contact immigration lawyer (Sarah)
+- [ ] Talk to Makala about conversion work
+- [ ] Organise dinner with Claire (friend who looked after dog)
+
+## Rating
+4/5
+
+## Urgency
+This week

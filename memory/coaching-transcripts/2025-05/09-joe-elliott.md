@@ -82,4 +82,9 @@ Joe Elliott - The Glen (drug and alcohol rehabilitation)
 - **Leadership** - Blog: Leadership is action, not title
 - **Program Design** - Internal: Building transition packs
 - **Rating:** 4/5
-- **Urgency:** Now
+- **Urgency:** Now-e 
+## Rating
+3/5
+
+## Urgency
+Later

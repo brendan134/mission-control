@@ -112,5 +112,8 @@
 - **Product Development** - Blog: Building your product ascension funnel
 - **Productivity** - Blog: The value of being slow
 - **AI** - Internal: AI avatar building process
-- **Rating:** 5/5
-- **Urgency:** This week (podcast release)
+## Rating
+5/5
+
+## Urgency
+This week (podcast release)

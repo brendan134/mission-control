@@ -92,4 +92,9 @@ Daniel Mason - Property Management Business
 - **HR** - Internal: Performance management documentation
 - **Mindset** - Blog: Building business around values
 - **Rating:** 4/5
-- **Urgency:** Now
+- **Urgency:** Now-e 
+## Rating
+3/5
+
+## Urgency
+Later

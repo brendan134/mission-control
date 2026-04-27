@@ -84,5 +84,9 @@
 - **Leadership** - Blog: From hands-on hustler to high-impact leader
 - **Strategy** - Blog: Strategic vs operational time allocation
 - **Partnership** - Internal: Aligning partner goals
-- **Rating:** 4/5
-- **Urgency:** This week
+
+## Rating
+4/5
+
+## Urgency
+This week

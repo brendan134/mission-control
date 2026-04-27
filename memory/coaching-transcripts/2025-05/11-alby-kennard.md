@@ -66,4 +66,9 @@ Alby Kennard - Kennard's Pet Food
 - **HR/Legal** - Blog: Termination lessons
 - **Onboarding** - Internal: AI onboarding tool
 - **Rating:** 3/5
-- **Urgency:** Now
+- **Urgency:** Now-e 
+## Rating
+3/5
+
+## Urgency
+Later

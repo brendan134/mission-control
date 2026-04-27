@@ -75,4 +75,9 @@ Brendon Clements - Site Manager (operations)
 - **Leadership** - Blog: Gemba walks for leaders
 - **Operations** - Blog: Breaking through corporate bureaucracy
 - **Rating:** 4/5
-- **Urgency:** Now
+- **Urgency:** Now-e 
+## Rating
+3/5
+
+## Urgency
+Later
