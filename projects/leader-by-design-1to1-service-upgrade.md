@@ -1,19 +1,23 @@
 # Project File
 
 ## Project Name
-- Leader By Design 1:1 Service Upgrade
+- Leader By Design 1:1 Service Upgrade - Advisorli Implementation
 
 ## Purpose
-- Strengthen the service offering so 1:1 coaching clients clearly experience high-value, white-glove delivery
+- Implement Advisorli as a premium white-glove tool for 1:1 coaching clients
+- Deliver real-time financial visibility to clients in the "Building Stability" growth stage
+- Use with future mastermind clients (e.g., independent Vet practice owners)
 
 ## Desired Outcome
-- Clients understand and feel they are receiving the highest and best service offering and strong value for money
+- Clients experience high-value, tech-forward financial clarity
+- Tool provides ongoing touchpoints beyond coaching calls
+- Differentiated premium service offering
 
 ## Status
-- In progress
+- Planning
 
 ## Owner
-- [You]
+- Brendan
 
 ## Start Date
 - Q2 2026
@@ -22,30 +26,39 @@
 - 2026-06-30
 
 ## Key Milestones
-- define white-glove service standard
-- document client touchpoints
-- improve delivery experience
-- align offer messaging with actual premium experience
+- [ ] Research Advisorli pricing and features
+- [ ] Identify pilot clients (Building Stability stage)
+- [ ] Set up Advisorli account as Advisor
+- [ ] Connect pilot client bookkeeping (Xero, etc.)
+- [ ] Test with 1-2 pilot clients
+- [ ] Document client experience feedback
+- [ ] Plan mastermind rollout (Vet practice owners)
+- [ ] Integrate with existing service delivery
 
 ## Current Priorities
-- define full client journey
-- clarify premium service standard
-- identify service gaps
+- Research Advisorli pricing model
+- Identify suitable pilot clients
+- Understand integration requirements
 
 ## Next Actions
-- [ ] map current client journey
-- [ ] define white-glove touchpoints
-- [ ] identify where experience and communication can be improved
+- [ ] Review Advisorli features: advisorli.com/features
+- [ ] Contact Advisorli for pricing
+- [ ] Identify 1-2 pilot clients from existing roster
 
 ## Risks / Blockers
-- service expectations may not yet be fully documented
+- Need to understand pricing (per client? subscription?)
+- Training curve for advisor and clients
+- Integration with existing bookkeeping systems
 
 ## Dependencies
-- clear service design
-- consistency in delivery
+- Client bookkeeping access (Xero, etc.)
+- Advisorli account setup
+- Client onboarding process
 
 ## Decisions
 - [Add key decisions here]
 
 ## Notes
-- this project strengthens retention, experience, and perceived value
+- Strategic fit: Building Stability stage clients need financial clarity
+- Mastermind opportunity: Shared tool creates common language for group sessions
+- White-glove experience: Clients see financial health in real-time vs monthly reports
