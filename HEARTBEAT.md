@@ -49,3 +49,6 @@
 
 ### Cron Job Status Updates (Evening Check)
 - **Weekly Cost Audit**: Error (was ok in backup)
+## Content Pipeline Check (Evening)
+- Check content/pipeline.md for items in "Sent to Dom" > 48 hours
+- If found, prompt: "Content awaiting scheduling for [client]"

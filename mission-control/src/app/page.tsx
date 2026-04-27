@@ -252,6 +252,10 @@ export default async function Dashboard() {
               { cmd: 'pm2 restart mission-control', desc: 'Restart MC' },
               { cmd: 'openclaw gateway doctor', desc: 'Diagnostics' },
               { cmd: 'pm2 logs cloudflared --lines 5', desc: 'Tunnel status' },
+              { cmd: 'Extract latest Fathom call', desc: 'Extract + Value Add + Social' },
+              { cmd: 'Generate social media drafts', desc: 'Create LinkedIn/Insta/FB posts' },
+              { cmd: 'Run full cost audit', desc: 'Weekly cost analysis' },
+              { cmd: 'System health check', desc: 'MC, tunnel, disk, PM2' },
             ].map(({ cmd, desc }) => (
               <div key={cmd} style={{ padding: '10px 12px', background: 'var(--background-tertiary)', borderRadius: '6px', border: '1px solid var(--border)' }}>
                 <div style={{ fontSize: '12px', fontWeight: 500, color: 'var(--accent)', fontFamily: 'monospace' }}>{cmd}</div>

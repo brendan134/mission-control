@@ -1,6 +1,6 @@
 # Coaching Transcripts Index
 
-**Last Updated:** 2026-04-26
+**Last Updated:** 2026-04-27
 
 ## Naming Convention
 Format: `DD-client-name.md` (day of month + lowercase client name with hyphens)
@@ -8,9 +8,11 @@ Format: `DD-client-name.md` (day of month + lowercase client name with hyphens)
 
 ---
 
-## April 2026 Transcripts (24 extracted)
+## April 2026 Transcripts (25 extracted)
 
 | # | Date | Client/Topic | Status |
+|---|------|--------------|--------|
+| 25 | 2026-04-26 | Jocelyn Birch Baker | ✅ |
 |---|------|--------------|--------|
 | 1 | 2026-04-24 | Mervyn Weekly Review | ✅ |
 | 2 | 2026-04-24 | Carol (TGFW) | ✅ |
