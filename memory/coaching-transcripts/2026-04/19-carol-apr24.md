@@ -69,3 +69,57 @@ Carol - Women's Shelter (TGFW)
 - **Stakeholder management** - Course
 - **Rating:** 4/5 - Great leadership content
 - **Urgency:** High - Immediate action needed
+
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+The old way of doing stakeholder management is dead.
+
+If you're not measuring outcomes from your partners and vendors, you're just hoping for the best.
+
+Here's what I learned from a client this week:
+
+She was dealing with an employment provider who was enrolling her clients WITHOUT their consent. Just moving them around like chess pieces.
+
+Her response? Suspended them. Created new accountability metrics. And demanded data on actual job outcomes.
+
+"Something has to change. But don't think about the elephant - just think about the little chunk."
+
+That's leadership.
+
+#leaderbydesign #stakeholdermanagement #leadership
+
+---
+
+### Instagram Post
+
+Biggest takeaway from my week:
+
+When a partner or vendor isn't delivering - you have PERMISSION to pause and reset.
+
+Not forever. Just long enough to get your processes right.
+
+
+Sometimes the best move forward is stepping back.
+
+
+#leaderbydesign #leadershiptips #businessgrowth
+
+---
+
+### Facebook Post
+
+One of the most underrated leadership skills? Knowing when to pause a bad arrangement.
+
+I worked with a client this week who had an employment provider doing the wrong thing by her clients.
+
+
+Her call to action? "We're suspending your services for 4 weeks while we clean things up."
+
+Sometimes the strongest thing you can do is say "not anymore" and mean it.
+
+
+#leaderbydesign #communityleadership #teamwork

@@ -69,3 +69,53 @@ Mervyn - Video Editing/Podcast Production
 - **Pricing mindset** - Email for Mervyn's audience
 - **Rating:** 4/5 - Good business growth content
 - **Urgency:** Medium - Building foundation
+
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+When you hit year 5-7 in business, something strange happens.
+
+Opportunities start coming to you.
+
+Not because you figured it all out. But because you survived the messy years.
+
+A client told me this week: "Something magical happens during 5-7 years."
+
+The lesson? Keep going. Your breakthrough is probably closer than you think.
+
+#leaderbydesign #businesstips #entrepreneurlife #smallbusiness
+
+---
+
+### Instagram Post
+
+The messy years are part of the process.
+
+
+Most businesses don't fail in year 1-2. They fail in year 3-4 when the initial excitement wears off.
+
+But if you push through to year 5-7? That's when opportunities start finding you.
+
+Keep going.
+
+#leaderbydesign #businessgrowth #entrepreneur #hustle
+
+---
+
+### Facebook Post
+
+Ever wonder why some businesses suddenly take off around year 5-7?
+
+
+It's not luck. It's survival.
+
+The ones who make it through the messy early years? They're the ones who get the opportunities because they've proven they can handle it.
+
+"Something magical happens during 5-7 years."
+
+Keep going. Your breakthrough is closer than you think.
+
+#leaderbydesign #businesstips #startuplife

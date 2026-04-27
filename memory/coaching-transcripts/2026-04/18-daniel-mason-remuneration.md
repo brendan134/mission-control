@@ -77,3 +77,57 @@ Daniel Mason - Real Estate Agency
 - **Building remuneration frameworks** - Course
 - **Rating:** 5/5 - Rich content
 - **Urgency:** High - Action needed this month
+
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+The biggest mistake leaders make with remuneration changes? Treating everyone the same.
+
+Here's the thing - people are naturally averse to having things taken away. Even when you're giving them MORE, if they perceive it as a loss, they'll push back.
+
+The solution? Don't take. Instead, create a new model where everyone starts from a better position.
+
+That's what a client of mine did this week. New structure: base salary first, then commission kicks in AFTER they hit 2x their base. Everyone is better off. No one feels like they're losing something.
+
+"Simple is always the best."
+
+#leaderbydesign #remuneration #hrstrategy #leadership
+
+---
+
+### Instagram Post
+
+Biggest lesson from rolling out compensation changes:
+
+
+Don't make people feel like they're losing something.
+
+Even when the new model is better, if they think they're giving something up, they'll fight it.
+
+Instead - give more first, then let them earn beyond that.
+
+It changes the whole conversation.
+
+#leaderbydesign #businessgrowth #teamleadership
+
+---
+
+### Facebook Post
+
+One of the hardest conversations a business owner can have? Changing how people get paid.
+
+Even when it's better for everyone.
+
+
+This week I worked with a client on exactly that. New remuneration structure that actually benefits everyone more - but the rollout had to be smart.
+
+Why? Because "people generally being averse to something being taken off them" is real.
+
+The fix? Make sure everyone sees the upside first. Frame it as "here's your new starting point" not "we're changing how this works."
+
+Simple shift. Massive difference.
+
+#leaderbydesign #businesstips #teamwork
