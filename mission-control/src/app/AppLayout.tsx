@@ -16,7 +16,8 @@ import {
   Folder,
   Brain, FileText, Target,
   Building,
-  BookOpen
+  BookOpen,
+  ListTodo
 } from 'lucide-react';
 
 const navItems = [
@@ -32,6 +33,7 @@ const navItems = [
   { href: '/documents', label: 'Documents', icon: FileText },
   { href: '/knowledge', label: 'Knowledge', icon: BookOpen },
   { href: '/checklists', label: 'Checklists', icon: CheckSquare },
+  { href: '/actions', label: 'Actions', icon: ListTodo },
 ];
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
