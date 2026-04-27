@@ -70,3 +70,104 @@ Jocelyn Birch Baker - High Street Vet
 - **Workflow** - LinkedIn: Building world-class SOPs
 - **Rating:** 4/5
 - **Urgency:** Now
+
+---
+
+## VALUE ADD - Done-For-You Recommendations
+
+### 1. Team Meeting Agenda - Initiative Focus
+**What it is:** 30-minute team meeting agenda for Wednesday April 29
+**Content:**
+```
+TEAM MEETING AGENDA - Proactiveness & Initiative
+Date: Wednesday April 29
+Duration: 30 minutes
+
+WELCOME (5 min)
+- Welcome team
+- Purpose: Discuss proactiveness and each person's development focus
+
+CORE DISCUSSION (15 min)
+- What does "proactive" look like at High Street Vet?
+- Examples of thinking and doing vs waiting to be told
+- Each person shares their ONE development focus for May
+
+COMMITMENT (5 min)
+- Each person commits to one specific action
+- How they'll be more proactive this week
+
+FOLLOW-UP (5 min)
+- Next check-in date
+- How we'll measure success
+```
+
+### 2. Rep Visit Criteria One-Pager
+**What it is:** Quick reference guide for front desk on which reps to book
+**Content:**
+```
+REP VISIT GUIDELINES - High Street Vet
+
+ALWAYS BOOK:
+✓ ProVet
+✓ Zoetis
+✓ Idexx
+ Lippards
+
+HARD NO (unless they take team to dinner):
+✗ All other reps
+
+QUESTIONS? Ask Jocelyn or the shift lead.
+```
+
+### 3. Financial Hardship Policy Draft
+**What it is:** One-page policy for handling client payment difficulties
+**Content:**
+```
+FINANCIAL HARDSHIP POLICY - High Street Vet
+
+OUR APPROACH: Operate from a place of strength
+
+ANNUAL BUDGET: $[X] allocated for pro bono/charity cases
+- Approved by leadership annually
+- Not for ad-hoc decisions
+
+GUIDELINES:
+1. Heartworm treatment: Case-by-case, budget-dependent
+2. Emergency care: Assess situation, offer payment plans
+3. Charity cases: Pre-approved only, documented
+
+PROCESS:
+- Staff to discuss with Jocelyn before committing
+- Document all pro bono cases for annual review
+```
+
+### 4. Customer Journey Workflow Template
+**What it is:** Visual template for mapping patient journey
+**Content:**
+```
+CUSTOMER JOURNEY - High Street Vet
+
+STAGES:
+1. ARRIVAL
+   - Check-in process
+   - Wait time communication
+
+2. CONSULTATION
+   - Vet examination
+   - Treatment plan discussion
+
+3. TREATMENT
+   - Procedure/medication
+   - Patient care
+
+4. DISCHARGE
+   - Post-care instructions
+   - Follow-up booking
+   - Payment
+
+5. FOLLOW-UP
+   - Check-in call/email
+   - Recall reminders
+
+Goal: "World-class" SOP for each stage
+```
