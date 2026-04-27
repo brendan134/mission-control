@@ -82,7 +82,7 @@ Opportunities start coming to you.
 
 Not because you figured it all out. But because you survived the messy years.
 
-A client told me this week: "Something magical happens during 5-7 years."
+A client told me recently: "Something magical happens during 5-7 years."
 
 The lesson? Keep going. Your breakthrough is probably closer than you think.
 

@@ -76,7 +76,7 @@ Daniel Mason - Real Estate Agency
 - **70th anniversary story** - Social
 - **Building remuneration frameworks** - Course
 - **Rating:** 5/5 - Rich content
-- **Urgency:** High - Action needed this month
+- **Urgency:** High - Action needed soon
 
 ---
 
@@ -90,7 +90,7 @@ Here's the thing - people are naturally averse to having things taken away. Even
 
 The solution? Don't take. Instead, create a new model where everyone starts from a better position.
 
-That's what a client of mine did this week. New structure: base salary first, then commission kicks in AFTER they hit 2x their base. Everyone is better off. No one feels like they're losing something.
+That's what a client of mine did recently. New structure: base salary first, then commission kicks in AFTER they hit 2x their base. Everyone is better off. No one feels like they're losing something.
 
 "Simple is always the best."
 

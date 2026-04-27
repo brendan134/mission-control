@@ -80,7 +80,7 @@ The old way of doing stakeholder management is dead.
 
 If you're not measuring outcomes from your partners and vendors, you're just hoping for the best.
 
-Here's what I learned from a client this week:
+Here's what I learned from a client recently:
 
 She was dealing with an employment provider who was enrolling her clients WITHOUT their consent. Just moving them around like chess pieces.
 
@@ -114,7 +114,7 @@ Sometimes the best move forward is stepping back.
 
 One of the most underrated leadership skills? Knowing when to pause a bad arrangement.
 
-I worked with a client this week who had an employment provider doing the wrong thing by her clients.
+I worked with a client who had an employment provider doing the wrong thing by her clients.
 
 
 Her call to action? "We're suspending your services for 4 weeks while we clean things up."

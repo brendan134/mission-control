@@ -24,7 +24,6 @@ Kriz - Philippines team
 - New office space being finished in Philippines
 
 ### 4. Thursday Toolbox
-- Missed post last week
 - Resume Thursday Toolbox posts
 
 ### 5. TLL Community Posts
@@ -67,7 +66,7 @@ Quality control before handing off work.
 
 It sounds simple. But how often do we skip that final check because we're busy?
 
-A client shared this week how a small gap in their QA process caused extra work for everyone. The fix? Every piece of work gets reviewed before it leaves the team.
+A client shared recently how a small gap in their QA process caused extra work for everyone. The fix? Every piece of work gets reviewed before it leaves the team.
 
 It adds 5 minutes. Saves hours of back-and-forth.
 
@@ -95,7 +94,7 @@ Always review work before it leaves your team.
 One of the simplest fixes for operational headaches? Quality control before handover.
 
 
-A client of mine this week realized their team was sending work out without a final check. Result? Extra back-and-forth, frustrated people, wasted time.
+A client of mine recently realized their team was sending work out without a final check. Result? Extra back-and-forth, frustrated people, wasted time.
 
 
 The fix takes 5 minutes. The return is hours.

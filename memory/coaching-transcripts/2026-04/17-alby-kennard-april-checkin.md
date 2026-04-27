@@ -26,7 +26,7 @@ Alby Kennard - Manufacturing/Business Services
 ### 4. G8 Presentation
 - Sent revised pricing to Andrew for CEO presentation
 - Pricing restructure to match MTA pricing
-- Decision by mid-April
+- Decision coming up soon
 
 ### 5. Finance Restructure
 - Plan to bring Naomi in as consultant
@@ -41,7 +41,7 @@ Alby Kennard - Manufacturing/Business Services
 ## Action Items
 - [ ] Follow up on G8 outcome (CEO presentation)
 - [ ] Get Dan's green light on finance restructure
-- [ ] Meet with Tom (in town this week)
+- [ ] Meet with Tom (in town soon)
 - [ ] Web developer meeting
 - [ ] QMS audit preparation with Em
 
@@ -82,7 +82,7 @@ The biggest mistake business owners make? Trying to do everything themselves.
 
 Here's the thing - you can't scale if you're the bottleneck.
 
-A client of mine told me this week: "I need to get comfortable being uncomfortable and having tough conversations."
+A client of mine told me recently: "I need to get comfortable being uncomfortable and having tough conversations."
 
 That's the leadership shift that unlocks growth.
 
@@ -112,7 +112,7 @@ One of the hardest things for business owners? Letting go.
 
 "I need to get comfortable being uncomfortable and having tough conversations."
 
-That's what a client said to me this week.
+That's what a client said to me recently.
 
 The truth is, you can't scale if you're the bottleneck in every decision. Hire people who are better than you at specific functions, then create the space for them to actually lead.
 
