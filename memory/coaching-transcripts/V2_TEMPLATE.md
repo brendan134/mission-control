@@ -78,3 +78,35 @@ Before marking a transcript as "complete," verify:
 
 **Created:** April 26, 2026
 **Purpose:** Ensure V2 format compliance for July 2025 transcript extraction
+---
+
+## VALUE ADD SECTION (Required for all extractions)
+
+This section provides DONE-FOR-YOU items to help the client take action.
+
+### Done-For-You Recommendations (MINIMUM 3)
+
+For each recommendation:
+- **Recommendation Title:** [Descriptive title]
+- **What it is:** [e.g., Email draft, Template, Checklist, Script]
+- **The Content:** [Actual ready-to-use content]
+
+Example:
+```
+### 1. Team Meeting Agenda - Initiative Focus
+**What it is:** 30-minute team meeting agenda for Wednesday
+**Content:**
+- 5 min: Welcome & purpose
+- 10 min: What does "proactive" look like?
+- 10 min: Each person shares their May focus
+- 5 min: Commitment + follow-up
+```
+
+---
+
+### Content Potential (Updated)
+
+- **Podcast Episode:** Yes/No + Topic
+- **LinkedIn Post:** Yes/No + Hook idea
+- **Rating:** 1-5 (5 = highly shareable)
+- **Urgency:** Now / This Week / This Month / Future
