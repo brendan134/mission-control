@@ -4,7 +4,11 @@
 
 ---
 
-=== LINKEDIN POST ===
+## POST 1: LINKEDIN
+
+**Graphic suggestion:** Clean text-based image with headline "Team not thinking -> Team not doing" on white background, or photo of team in discussion
+
+**Post:**
 
 Here's a challenge I hear from business leaders all the time:
 
@@ -28,10 +32,13 @@ Drop a comment below.
 
 #Leadership #TeamBuilding #BusinessGrowth #SmallBusiness #LeaderByDesign
 
+---
 
-=== INSTAGRAM POST ===
+## POST 2: INSTAGRAM
 
-Visual suggestion: Photo of a team in discussion, or a simple workflow/chart graphic
+**Graphic suggestion:** Simple, bold text on branded background - "What's ONE thing your team could handle without asking you first?" with small Leader By Design logo
+
+**Post:**
 
 Team not thinking -> Team not doing.
 
@@ -44,8 +51,13 @@ Small shift. Big impact.
 
 #Leadership #TeamBuilding #BusinessGrowth #Entrepreneur #LeaderByDesign
 
+---
 
-=== FACEBOOK POST ===
+## POST 3: FACEBOOK
+
+**Graphic suggestion:** Quote-style image with text "The goal is not to create a team that does not need you. It is to create a team that CAN handle things without waiting." on clean background
+
+**Post:**
 
 How do you get your team to think and do - without micromanaging?
 
