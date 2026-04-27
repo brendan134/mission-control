@@ -6,6 +6,9 @@
 **Energy/State:** Brief, practical
 **tags:** #podcast-production #worksheet-development #pricing #business-essentials-kit
 
+## Client
+[Client Name] - [Organization]
+
 ## Key Topics
 
 ### 1. Brendan's Travel Context
@@ -70,6 +73,11 @@
 - [ ] Determine fair payment for Mervyn's work
 
 ## Key Quotes
+
+## Coaching Approach
+- Focused on strategic guidance and accountability
+- Used questioning to help client discover solutions
+- Provided frameworks for implementation
 > "Whatever you pay your VA, just pay me the same."
 > "This product is critical because it's your own product."
 > "If an episode goes wrong, that's alright. But we can't go wrong with this product."
@@ -79,8 +87,55 @@
 - **Production** - Internal: Podcast length best practices
 - **Pricing** - Internal: Value-based pricing for creative work
 
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Strategic Planning Template
+**What it is:** One-page planning template
+**Content:** Goals, actions, timeline, accountabilities
+
+### 2. Team Meeting Agenda
+**What it is:** 30-minute team meeting structure
+**Content:** Updates, focus area, commitments
+
+### 3. Performance Review Template
+**What it is:** Staff performance review checklist
+**Content:** Strengths, areas for improvement, next steps
+
+---
+
+### Content Potential (Updated)
+- **Podcast Episode:** Yes
+- **LinkedIn Post:** Yes
+- **Rating:** 3/5
+- **Urgency:** This Week
+
+-
+- **LinkedIn Post:** Yes
+
 ## Rating
 3/5
 
 ## Urgency
 Next week
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+--- POST 1 ---
+Key insight from today's coaching session...
+
+#LeaderByDesign #BusinessGrowth
+
+---
+
+### Instagram Post
+
+--- POST 1 ---
+Business update...
+
+#LeaderByDesign #Entrepreneur

@@ -4,7 +4,7 @@
 **Duration:** 25m 6s
 **Call Type:** Weekly Review
 **Energy/State:** Productive, focused
-**tags:** #design #resources #worksheets #templates
+**Tags:** #design #resources #worksheets #templates #leaderbydesign
 
 ## Client
 Mervyn J - Designer / Resource Developer
@@ -69,10 +69,88 @@ Mervyn J - Designer / Resource Developer
 - Discussed marketing funnels and community building
 
 ## Content Potential
-- **Rating:** 3/5
-- **Urgency:** Later-e 
+- **Workshop Templates** - Blog: Creating worksheets that work
+- **Community Building** - Blog: Using free resources to grow your community
+
 ## Rating
 3/5
 
 ## Urgency
 Later
+
+---
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Framework Title Box Design - Updated Version
+**What it is:** Redesigned framework title box with larger title and coloured border
+**Content:**
+```
+Title: [Framework Name] - Large, bold, centered
+Subtitle: [Brief description in smaller text]
+Bottom border/band: [Section header area with coloured background]
+```
+- Increase title font size by 30%
+- Add 20px coloured border at bottom of title box
+- Use brand colours consistently
+
+### 2. Worksheet Launch Checklist - First 10 Worksheets
+**What it is:** Pre-launch checklist for the first 10 worksheets
+**Content:**
+- [ ] Check alignment with framework one-pagers
+- [ ] Verify print quality in black and white
+- [ ] Test landscape vs portrait formats
+- [ ] Add to resource library with proper tagging
+- [ ] Create introduction email for community launch
+
+### 3. Community Lead Magnet Package
+**What it is:** Starter kit offer for Local Link community growth
+**Content:**
+- 10 essential worksheets (selected from first 10)
+- Downloadable PDF format
+- Print-friendly black and white version
+- Companion video explanations (optional)
+
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+What if your team had worksheets that actually helped them do their jobs better?
+
+Not generic templates - but tools built around how YOUR business operates.
+
+We've been building a resource library that pulls together years of coaching into practical, useable formats.
+
+The best part? Started with our community asking for it.
+
+If you're a business owner or leader, what's ONE tool your team wishes they had?
+
+---
+
+### Instagram Post
+
+POV: You just discovered the worksheet that finally makes sense to your team
+
+That's kind of how our Business Essentials Kit came together.
+
+After years of coaching business owners, we pulled the frameworks that actually work into simple, printable tools.
+
+No fluff. Just stuff your team can use on Monday morning.
+
+What's the one resource you wish you had for your team?
+
+---
+
+### Facebook Post
+
+We've been quietly building something that our community has been asking for - practical worksheets and templates that actually help teams get stuff done.
+
+Not the boring generic kind. The kind that come from real coaching conversations and actual business challenges.
+
+The first 10 are ready to go and we're launching to our community first.
+
+If you're leading a team and have ever thought "there must be a better way than this" - stay tuned.

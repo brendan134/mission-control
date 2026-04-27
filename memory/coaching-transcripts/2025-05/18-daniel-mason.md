@@ -6,6 +6,9 @@
 **Energy/State:** Reflective, slightly frustrated
 **tags:** #team-performance #strategic-planning #partnership-alignment #leadership-evolution #net-profit-margin #delegation
 
+## Client
+[Client Name] - [Organization]
+
 ## Key Topics
 
 ### 1. Personal Connection - Unexpected Reunion
@@ -75,6 +78,11 @@
 - [ ] Review Shell's role and CNF structure next Monday
 
 ## Key Quotes
+
+## Coaching Approach
+- Focused on strategic guidance and accountability
+- Used questioning to help client discover solutions
+- Provided frameworks for implementation
 > "You get the people you deserve."
 > "We're owners, but we've bought ourselves a job. We haven't bought ourselves the freedom."
 > "What's the point of goals if we're not going to make the change required to achieve them?"
@@ -85,8 +93,55 @@
 - **Strategy** - Blog: Strategic vs operational time allocation
 - **Partnership** - Internal: Aligning partner goals
 
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Strategic Planning Template
+**What it is:** One-page planning template
+**Content:** Goals, actions, timeline, accountabilities
+
+### 2. Team Meeting Agenda
+**What it is:** 30-minute team meeting structure
+**Content:** Updates, focus area, commitments
+
+### 3. Performance Review Template
+**What it is:** Staff performance review checklist
+**Content:** Strengths, areas for improvement, next steps
+
+---
+
+### Content Potential (Updated)
+- **Podcast Episode:** Yes
+- **LinkedIn Post:** Yes
+- **Rating:** 3/5
+- **Urgency:** This Week
+
+-
+- **LinkedIn Post:** Yes
+
 ## Rating
 4/5
 
 ## Urgency
 This week
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+--- POST 1 ---
+Key insight from today's coaching session...
+
+#LeaderByDesign #BusinessGrowth
+
+---
+
+### Instagram Post
+
+--- POST 1 ---
+Business update...
+
+#LeaderByDesign #Entrepreneur

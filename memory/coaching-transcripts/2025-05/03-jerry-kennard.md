@@ -4,7 +4,7 @@
 **Duration:** 1h 2m
 **Call Type:** Business Coaching
 **Energy/State:** Direct, analytical
-**tags:** #business #leadership #staffing #sales #election
+**Tags:** #business #leadership #staffing #sales #election #leaderbydesign
 
 ## Client
 Jerry Kennard - Evercare / Whale Hunting
@@ -85,10 +85,81 @@ Jerry Kennard - Evercare / Whale Hunting
 
 ## Content Potential
 - **Leadership** - Podcast: Building resilient leadership teams
-- **Rating:** 3/5
-- **Urgency:** Now-e 
+
 ## Rating
 3/5
 
 ## Urgency
 Later
+
+---
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Leadership Team Risk Planning Workshop Agenda
+**What it is:** 90-minute workshop agenda for engaging leadership team in risk planning
+**Content:**
+- 15 min: Current state - what's on each leader's plate
+- 20 min: Identify single biggest risk in each area
+- 20 min: Brainstorm mitigation options (not solutions yet)
+- 20 min: Prioritise top 3 risks across the business
+- 15 min: Assign owners and timeline for each priority
+
+### 2. Operations Manager Transition Checklist
+**What it is:** Checklist for smooth transition when operations manager leaves
+**Content:**
+- [ ] Schedule knowledge capture sessions (daily for first 2 weeks)
+- [ ] Document all current projects and their status
+- [ ] List key contacts (suppliers, clients, contractors)
+- [ ] Create handover document with process maps
+- [ ] Identify gaps in Steve's support needs
+- [ ] Set up weekly check-ins for first 90 days
+
+### 3. Quarterly Goals Review Template
+**What it is:** Streamlined template for 90-day goals that focuses on outcomes
+**Content:**
+- Outcome goal (what success looks like): ___________
+- Key metrics that will show we've achieved it: ___________
+- First action this week: ___________
+- Support needed from me (coach/leader): ___________
+- Check-in date: ___________
+
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+The moment you realize your leadership team needs to own risk management, not just execute tasks.
+
+When a key person resigns, it's easy to panic. But here's what I've learned - it can also be the catalyst to finally get your leadership team thinking strategically about what could go wrong BEFORE it does.
+
+What would your business look like if every leader spent 10% of their time on risk planning instead of just putting out fires?
+
+---
+
+### Instagram Post
+
+When someone on your team hands in their notice, what's your first reaction?
+
+Panic? Relief? Dread?
+
+Here's a thought - what if you used that moment to finally get your leadership team engaged in thinking about risks?
+
+Not in a fear-based way. In a "let's be proactive" way.
+
+What's the one risk you've been ignoring in your business?
+
+---
+
+### Facebook Post
+
+Big team changes are hard. When a key person leaves, it's tempting to just scramble to fill the gap.
+
+But what if you used that moment to build stronger systems?
+
+We've been working on getting leadership teams to own risk planning - not to create bureaucracy, but to actually sleep better at night.
+
+The businesses that thrive aren't the ones without problems. They're the ones with teams that spot problems coming.

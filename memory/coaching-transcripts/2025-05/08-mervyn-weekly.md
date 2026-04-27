@@ -4,10 +4,10 @@
 **Duration:** 16m 57s
 **Call Type:** Weekly Review Meeting
 **Energy/State:** Productive, focused
-**tags:** #business-essentials #worksheets #design #ai-prompts #program-launch
+**Tags:** #business-essentials #worksheets #design #ai-prompts #program-launch #leaderbydesign
 
-## Context
-Brendan flying to Brisbane for the day with family
+## Client
+[Client Name] - [Organization]
 
 ## Key Topics
 
@@ -63,16 +63,124 @@ Brendan flying to Brisbane for the day with family
 - [ ] Send progress updates to Mervyn over weekend
 
 ## Key Quotes
+
+## Coaching Approach
+- Focused on strategic guidance and accountability
+- Used questioning to help client discover solutions
+- Provided frameworks for implementation
 > "There's only so many five-step designs you can do."
 > "With Facebook, you can surgically target them."
 > "The eye immediately gets drawn there" (to colour in middle).
 
 ## Content Potential
 - **Program Design** - Internal doc on creating done-for-you programs
-- **Rating:** 2/5
-- **Urgency:** Later-e 
+
 ## Rating
 3/5
 
 ## Urgency
 Later
+
+---
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Business Essentials Phase 1 Launch Email
+**What it is:** Email to announce launch to Local Link community
+**Content:**
+Subject: Your first look - Business Essentials Starter Kit
+
+Hi [Name],
+
+You've been part of Local Link since the beginning, so you get first access to something I've been building for months.
+
+The Business Essentials Starter Kit pulls together the frameworks I use with coaching clients into simple, printable tools.
+
+What you'll get:
+- 10 core worksheets covering the basics
+- AI prompt questions for each section
+- Print-friendly format
+
+This is just the start. Your feedback will shape what's next.
+
+Get it here: [link]
+
+Let me know what you think.
+
+Best,
+Brendan
+
+### 2. Facebook Ad Setup Guide - Tradie Targeting
+**What it is:** Quick guide for setting up surgical Facebook targeting
+**Content:**
+**Targeting Settings:**
+- Location: [your city/region] + 25km radius
+- Age: 35-55
+- Interests (select 3-5):
+  - Small business ownership
+  - Trade business
+  - Construction
+  - Self-employment
+  - Business management
+
+**Ad Creative:**
+- Simple image: Before/after or problem/solution
+- Headline: "Free business tool for tradies"
+- Text: Short, punchy, mentions community
+
+**Budget:** $20/day minimum to start
+
+### 3. Worksheet Design Style Guide
+**What it is:** Consistent styling for future worksheets
+**Content:**
+- 5-step format works best
+- Use colour in middle to draw eye
+- Header: Brand colour + white text
+- Body: Clean, plenty of white space
+- Logo in top right
+- Page numbers in footer
+
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+The first 10 is like 90% of the work.
+
+Launched our Business Essentials Starter Kit to our community this week.
+
+10 worksheets. AI prompts. Print-friendly.
+
+Now it's about iterating based on feedback.
+
+What would you want in a business tools kit?
+
+---
+
+### Instagram Post
+
+POV: You've built your first 10 worksheets and you're about to launch them to your community.
+
+What I learned:
+- Reusable design elements save time
+- Feedback is more valuable than perfection
+- Your first version doesn't have to be your last
+
+The kit is live. Now we see what works.
+
+---
+
+### Facebook Post
+
+Just launched the first phase of our Business Essentials program to our Local Link community.
+
+10 worksheets + AI prompts. Built from years of coaching conversations.
+
+The key insight? Your first version doesn't have to be perfect.
+
+Launch it. Get feedback. Improve.
+
+Simple concept. Hard to execute when you want everything to be perfect.

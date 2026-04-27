@@ -4,7 +4,7 @@
 **Duration:** 1h 25m
 **Call Type:** QSGP / Monthly Development
 **Energy/State:** Direct, frustrated at times
-**tags:** #leadership #team-development #the-glen #accreditation #staff-management
+**Tags:** #leadership #team-development #the-glen #accreditation #staff-management #leaderbydesign
 
 ## Client
 Aaron More - The Glen (drug and alcohol rehabilitation)
@@ -62,11 +62,106 @@ Aaron More - The Glen (drug and alcohol rehabilitation)
 > "Leadership isn't a title, it's an action."
 > "If we're waiting until we're ready, we're waiting too long."
 
+## Coaching Approach
+- Focused on individual development plans for each team member
+- Introduced Working Genius framework
+- Encouraged direct conversations about performance
+
 ## Content Potential
 - **Leadership** - Blog: Developing staff with different approaches
-- **Rating:** 4/5-e 
+
 ## Rating
 3/5
 
 ## Urgency
 Later
+
+---
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Direct Conversation Script - Performance Dip
+**What it is:** Framework for addressing Chad's performance issues
+**Content:**
+"Aaron here. I want to chat about something I've noticed.
+
+[Specific example - e.g., "Last Tuesday, you said you'd sent the stakeholder notifications for the Men's Gathering, but I found out today they never went out."
+
+I need to understand what's going on. Is there something blocking you? Something I can help with?
+
+I value your work here and I want to help you succeed. But I need to see consistent follow-through.
+
+Can we get back on track?"
+
+### 2. Ed's Teams Communication Prompt
+**What it is:** Simple reminder for Ed to post his plans
+**Content:**
+Quick Teams message template for Ed:
+
+"Hey team - here's the plan for [month]:
+
+[Date]: [Location] outreach dinner
+[Date]: [Location] outreach dinner
+
+Let me know if you can make it - keen to see you there!"
+
+### 3. Blaine's Weekly Accountability Template
+**What it is:** Simple checklist added to existing shift report
+**Content:**
+**This Week's Focus:**
+1. ________________________________
+2. ________________________________
+
+**Plan for Tomorrow:**
+________________________________
+
+**Support Needed:**
+________________________________
+
+(To be completed each Friday as part of existing shift report process)
+
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+Different people need different types of leadership.
+
+Ed is great at planning but doesn't communicate. Solution? Get him to post on Teams - the channel he actually uses.
+
+Blaine needs basics reinforced weekly. Solution? Add a simple checklist to his existing workflow.
+
+Jimmy needs to understand his triggers. Solution? Regular check-ins and keeping him on creative projects.
+
+The best leaders don't use one approach. They match their approach to the person.
+
+---
+
+### Instagram Post
+
+Team development isn't one-size-fits-all.
+
+Ed? Great planner. Forgets to tell anyone. Now posts his plans on Teams.
+
+Blaine? Needs basics reinforced weekly. Now has a simple checklist.
+
+Jimmy? Better when on creative projects. We keep him there.
+
+Same team. Different approaches.
+
+What does YOUR team need?
+
+---
+
+### Facebook Post
+
+Quick thought on team development: you can't treat everyone the same.
+
+One of my team members is brilliant at planning but forgets to tell anyone. Solution? Get him to post updates where the team can see them.
+
+Another needs basics reinforced every week. Solution? Simple checklist added to his existing workflow.
+
+Your job as a leader is to figure out what each person needs - not to use the same approach for everyone.

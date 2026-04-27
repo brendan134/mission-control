@@ -6,6 +6,9 @@
 **Energy/State:** Migraine initially, then engaged
 **tags:** #team-performance #accountability #vet-practice #recruitment #systems #leadership-development
 
+## Client
+[Client Name] - [Organization]
+
 ## Key Topics
 
 ### 1. Personal Context
@@ -136,6 +139,11 @@
 - [ ] Organise dinner with Claire (friend who looked after dog)
 
 ## Key Quotes
+
+## Coaching Approach
+- Focused on strategic guidance and accountability
+- Used questioning to help client discover solutions
+- Provided frameworks for implementation
 > "We can't all live our life in that little world, can we?"
 > "Our strengths can be weaknesses. Too much caring sometimes."
 > "Nice doesn't get us anywhere. Kindness is that we care enough to tell them they're doing a good job, and we're also kind enough to tell that person that they need to improve."
@@ -156,8 +164,55 @@
 - [ ] Talk to Makala about conversion work
 - [ ] Organise dinner with Claire (friend who looked after dog)
 
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Strategic Planning Template
+**What it is:** One-page planning template
+**Content:** Goals, actions, timeline, accountabilities
+
+### 2. Team Meeting Agenda
+**What it is:** 30-minute team meeting structure
+**Content:** Updates, focus area, commitments
+
+### 3. Performance Review Template
+**What it is:** Staff performance review checklist
+**Content:** Strengths, areas for improvement, next steps
+
+---
+
+### Content Potential (Updated)
+- **Podcast Episode:** Yes
+- **LinkedIn Post:** Yes
+- **Rating:** 3/5
+- **Urgency:** This Week
+
+-
+- **LinkedIn Post:** Yes
+
 ## Rating
 4/5
 
 ## Urgency
 This week
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+--- POST 1 ---
+Key insight from today's coaching session...
+
+#LeaderByDesign #BusinessGrowth
+
+---
+
+### Instagram Post
+
+--- POST 1 ---
+Business update...
+
+#LeaderByDesign #Entrepreneur

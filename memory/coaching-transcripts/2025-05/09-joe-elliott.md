@@ -4,7 +4,7 @@
 **Duration:** 27m 51s
 **Call Type:** QSGP / Monthly Development
 **Energy/State:** Engaged, confident, proactive
-**tags:** #transition-program #leadership #team-building #documentation #sharepoint
+**Tags:** #transition-program #leadership #team-building #documentation #sharepoint #leaderbydesign
 
 ## Client
 Joe Elliott - The Glen (drug and alcohol rehabilitation)
@@ -66,7 +66,7 @@ Joe Elliott - The Glen (drug and alcohol rehabilitation)
 - [ ] Trial pack Monday
 - [ ] Run client feedback group (Tuesday)
 - [ ] Create SharePoint Transition folder
-- [ ] Send weekly check-ins (Friday → Monday midday)
+- [ ] Send weekly check-ins (Friday to Monday midday)
 
 ## Key Quotes
 > "Leadership isn't a title, it's an action."
@@ -81,10 +81,121 @@ Joe Elliott - The Glen (drug and alcohol rehabilitation)
 ## Content Potential
 - **Leadership** - Blog: Leadership is action, not title
 - **Program Design** - Internal: Building transition packs
-- **Rating:** 4/5
-- **Urgency:** Now-e 
+
 ## Rating
 3/5
 
 ## Urgency
 Later
+
+---
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Transition Pack Checklist - Final Review
+**What it is:** Checklist to ensure pack is ready for trial
+**Content:**
+**Essential Contacts:**
+- [ ] Internal stakeholders (all departments)
+- [ ] External service providers
+- [ ] Emergency contacts
+- [ ] Key client family contacts (with permission)
+
+**Process Documents:**
+- [ ] Daily operational checklists
+- [ ] Week 1-4 milestones
+- [ ] Common scenarios and responses
+- [ ] Escalation path
+
+**Resources:**
+- [ ] App links and login info
+- [ ] Key documents (relapse plans, exit plans)
+- [ ] Training materials
+
+**Final touches:**
+- [ ] Tested by running through with Cody
+- [ ] Feedback incorporated
+- [ ] Staff briefed on what's coming
+
+### 2. Weekly Check-In Structure
+**What it is:** Simple framework for weekly check-ins
+**Content:**
+**Check-in format:**
+- 3 questions sent Friday afternoon
+- Respond by Monday midday
+- Quick reply from coach
+
+**Question 1:** What's one win from this week?
+
+**Question 2:** What's your focus for next week?
+
+**Question 3:** What support do you need?
+
+### 3. SharePoint Transition Folder Structure
+**What it is:** Suggested folder layout for new Transition folder
+**Content:**
+```
+Transition/
+├── 01_Contacts/
+│   ├── Internal
+│   ├── External
+│   └── Emergency
+├── 02_Processes/
+│   ├── Daily routines
+│   ├── Weekly tasks
+│   └── Monthly reviews
+├── 03_Resources/
+│   ├── App links
+│   ├── Templates
+│   └── Training
+├── 04_Team/
+│   ├── Staff info
+│   └── Development plans
+└── 05_Clients/
+    ├── Active cases
+    └── Transition plans
+```
+
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+Leadership isn't a title. It's an action.
+
+I saw my name in blue on the org chart this week. First time ever.
+
+Not because of my position. Because of what I've been doing.
+
+That's the thing about leadership - you don't wait for permission. You just act.
+
+What leadership action have you taken this week?
+
+---
+
+### Instagram Post
+
+Your name shows up in blue on the org chart for the first time.
+
+Not because of your title. Because of what you've been doing.
+
+That's what leadership actually looks like.
+
+Not waiting for permission. Not waiting until you're ready.
+
+Just doing the work and showing up.
+
+---
+
+### Facebook Post
+
+Quick win from today's coaching call: Joe's name appeared in blue on the org chart for the first time.
+
+Why? Not because of his position. Because of his actions.
+
+Leadership isn't something you're given. It's something you do.
+
+The moment you start acting like a leader, people notice.

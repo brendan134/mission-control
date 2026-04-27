@@ -83,6 +83,11 @@ Alby Kennard - Kennard's Pet Food
 - [ ] Have expectations conversation with Matt about leadership development
 
 ## Key Quotes
+
+## Coaching Approach
+- Focused on strategic guidance and accountability
+- Used questioning to help client discover solutions
+- Provided frameworks for implementation
 > "Growth is expensive."
 > "I don't want to write her off before she starts."
 > "It's time to double down on expectations from the leadership group."
@@ -93,8 +98,56 @@ Alby Kennard - Kennard's Pet Food
 - **Operations** - Internal: New ops manager expectations
 - **Rating:** 3/5
 - **Urgency:** This week-e 
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Strategic Planning Template
+**What it is:** One-page planning template
+**Content:** Goals, actions, timeline, accountabilities
+
+### 2. Team Meeting Agenda
+**What it is:** 30-minute team meeting structure
+**Content:** Updates, focus area, commitments
+
+### 3. Performance Review Template
+**What it is:** Staff performance review checklist
+**Content:** Strengths, areas for improvement, next steps
+
+---
+
+### Content Potential (Updated)
+- **Podcast Episode:** Yes
+- **LinkedIn Post:** Yes
+- **Rating:** 3/5
+- **Urgency:** This Week
+
+-
+- **LinkedIn Post:** Yes
+
 ## Rating
 3/5
 
 ## Urgency
 Later
+
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+--- POST 1 ---
+Key insight from today's coaching session...
+
+#LeaderByDesign #BusinessGrowth
+
+---
+
+### Instagram Post
+
+--- POST 1 ---
+Business update...
+
+#LeaderByDesign #Entrepreneur

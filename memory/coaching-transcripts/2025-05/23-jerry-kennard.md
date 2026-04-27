@@ -6,6 +6,9 @@
 **Energy/State:** Busy, slightly frustrated
 **tags:** #team-leadership #performance-issues #hr-challenges #strategic-planning #delegation
 
+## Client
+[Client Name] - [Organization]
+
 ## Key Topics
 
 ### 1. Queensland Project - Painter Meeting
@@ -85,6 +88,11 @@
 - [ ] Schedule monthly financial review
 
 ## Key Quotes
+
+## Coaching Approach
+- Focused on strategic guidance and accountability
+- Used questioning to help client discover solutions
+- Provided frameworks for implementation
 > "He's been a valuable person in the business."
 > "I just don't like this passive-aggressive, what's he getting at?"
 > "We need to be able to see what everyone's working on, where are the gaps?"
@@ -96,8 +104,55 @@
 - **HR** - Internal: Navigating cultural sensitivities
 - **Strategy** - Internal: Financial transparency in coaching
 
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Strategic Planning Template
+**What it is:** One-page planning template
+**Content:** Goals, actions, timeline, accountabilities
+
+### 2. Team Meeting Agenda
+**What it is:** 30-minute team meeting structure
+**Content:** Updates, focus area, commitments
+
+### 3. Performance Review Template
+**What it is:** Staff performance review checklist
+**Content:** Strengths, areas for improvement, next steps
+
+---
+
+### Content Potential (Updated)
+- **Podcast Episode:** Yes
+- **LinkedIn Post:** Yes
+- **Rating:** 3/5
+- **Urgency:** This Week
+
+-
+- **LinkedIn Post:** Yes
+
 ## Rating
 3/5
 
 ## Urgency
 This week
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+--- POST 1 ---
+Key insight from today's coaching session...
+
+#LeaderByDesign #BusinessGrowth
+
+---
+
+### Instagram Post
+
+--- POST 1 ---
+Business update...
+
+#LeaderByDesign #Entrepreneur

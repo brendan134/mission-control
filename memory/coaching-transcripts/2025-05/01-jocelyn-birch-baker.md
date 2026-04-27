@@ -73,14 +73,96 @@ Jocelyn Birch Baker - High Street Vet / Smooth Operating Vets
 - Emphasised importance of consistent financial reporting
 - Encouraged mapping current processes before improving
 - Discussed building vaccine program into sellable system
+- Used questioning to help client discover solutions rather than directing
 
 ## Content Potential
 - **Vaccination Program** - LinkedIn: How to build a profitable vaccination program
 - **Veterinary Systems** - Podcast: Running a world-class vet practice
+
+---
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Financial Reporting Checklist
+**What it is:** Monthly financial review checklist for practice owners
+**Content:**
+- P&L review (revenue vs expenses)
+- Cash flow snapshot
+- Budget vs actual comparison
+- Key KPIs: revenue per vet, consultation fees, product margins
+- Action items for next month
+
+### 2. Vaccination Program SOP
+**What it is:** Standard operating procedure for vaccination appointments
+**Content:**
+- Pre-appointment: Confirm patient history, prepare vaccines
+- During: Health check, discuss preventatives, recommend products
+- After: Rebook 6-month follow-up before client leaves
+- Team accountability: Track conversion rate weekly
+
+### 3. Team Communication Script
+**What it is:** Script for contacting lapsed clients
+**Content:**
+- "Hi [name], this is [staff member] from High Street Vet. We noticed [pet name] is due for their [vaccination/health check]. We'd love to see them - we have appointments available on [day]. Would Tuesday work for you?"
+
+---
+
+### Content Potential (Updated)
+- **Podcast Episode:** Yes - Building a profitable vaccination program
+- **LinkedIn Post:** Yes - How to systemise repeat revenue
 - **Rating:** 4/5
-- **Urgency:** Now-e 
+- **Urgency:** Now
+
 ## Rating
-3/5
+4/5
 
 ## Urgency
-Later
+Now
+
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+--- POST 1 ---
+Just implemented a game-changing vaccination program at the clinic - and it's already booking out 2 weeks in advance.
+
+The secret? Making it easy for the team to rebook clients BEFORE they leave the practice.
+
+If you're not systematically rebooking your clients, you're leaving thousands of dollars on the table every year.
+
+What's your team's rebooking protocol? #LeaderByDesign #Veterinary #PracticeManagement
+
+--- POST 2 ---
+One of the biggest mistakes practice owners make? Waiting until there's a problem to look at their finances.
+
+I now have a monthly financial review checklist that keeps me ahead of cash flow, not behind it.
+
+If you want it, I've got a simple template that works - DM me and I'll share it. #LeaderByDesign #BusinessTips
+
+---
+
+### Instagram Post
+
+--- POST 1 ---
+We made $160 vaccination day a thing - and now it's our busiest day of the week 🐕
+
+The key? Making it EASY for our team to rebook clients before they walk out the door.
+
+Small systems = big revenue #LeaderByDesign #VetLife #PracticeGrowth
+
+---
+
+### Facebook Post
+
+--- POST 1 ---
+Just finished our monthly team meeting and I'm so proud of how we're systemising our patient care.
+
+The vaccination program we launched is booking out weeks in advance - all because we built a simple rebooking protocol.
+
+If you're a practice owner struggling with inconsistent revenue, it's usually not a marketing problem - it's a systems problem.
+
+Happy to share what worked for us. #LeaderByDesign #VeterinaryPractice

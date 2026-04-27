@@ -6,6 +6,9 @@
 **Energy/State:** Busy but positive
 **tags:** #team-leadership #sales-recruitment #performance-issues #strategic-planning #melbourne-event #contract-pipeline
 
+## Client
+[Client Name] - [Organization]
+
 ## Key Topics
 
 ### 1. Fundraising Event Recap
@@ -106,6 +109,11 @@
 - [ ] Schedule strategic planning workshops: June 13th and 20th
 
 ## Key Quotes
+
+## Coaching Approach
+- Focused on strategic guidance and accountability
+- Used questioning to help client discover solutions
+- Provided frameworks for implementation
 > "We don't want to moan about it. You've got to come up with a solution."
 > "If you don't know when the end of the road's happening, there's no light at the end of the tunnel."
 
@@ -113,8 +121,55 @@
 - **Leadership** - Blog: Developing senior leadership teams
 - **Recruitment** - Internal: Remote sales hiring strategy
 - **Sales** - Internal: Design discovery to on-site process
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Strategic Planning Template
+**What it is:** One-page planning template
+**Content:** Goals, actions, timeline, accountabilities
+
+### 2. Team Meeting Agenda
+**What it is:** 30-minute team meeting structure
+**Content:** Updates, focus area, commitments
+
+### 3. Performance Review Template
+**What it is:** Staff performance review checklist
+**Content:** Strengths, areas for improvement, next steps
+
+---
+
+### Content Potential (Updated)
+- **Podcast Episode:** Yes
+- **LinkedIn Post:** Yes
+- **Rating:** 3/5
+- **Urgency:** This Week
+
+-
+- **LinkedIn Post:** Yes
+
 ## Rating
 4/5
 
 ## Urgency
 This week
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+--- POST 1 ---
+Key insight from today's coaching session...
+
+#LeaderByDesign #BusinessGrowth
+
+---
+
+### Instagram Post
+
+--- POST 1 ---
+Business update...
+
+#LeaderByDesign #Entrepreneur

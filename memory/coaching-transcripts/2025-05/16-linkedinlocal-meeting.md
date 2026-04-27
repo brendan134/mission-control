@@ -12,6 +12,9 @@
 - Lana - Your Business Realm
 - Isaac (mentioned)
 
+## Client
+LinkedInLocal Central Coast - Community Meeting
+
 ## Key Topics
 
 ### 1. LinkedInLocal Central Coast Event Prep
@@ -85,6 +88,11 @@
 > "Community to give versus to get."
 > "People remember story, not facts."
 
+## Coaching Approach
+- Facilitated community event planning
+- Focused on speaker preparation and member engagement
+- Used structured framework for speaker guidance
+
 ## Content Potential
 - **Events** - Blog: LinkedInLocal speaker preparation template
 - **Community** - Blog: Regional vs city LinkedInLocal vibes
@@ -93,3 +101,58 @@
 
 ## Urgency
 This week (event prep)
+---
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Speaker Prep Email Template
+**What it is:** Email template for confirming speakers
+**Content:**
+- Welcome and thanks
+- Event details and expected audience size
+- Speaking guidelines (5-7 min, one key topic, story-based)
+- Timeline and next steps
+
+### 2. Event Promotion Post
+**What it is:** LinkedIn post template for event promotion
+**Content:**
+- Event title and date
+- Key吸引力 (what's in it for attendees)
+- RSVP link
+- Hashtags
+
+### 3. Post-Event Follow-Up
+**What it is:** Template for following up after events
+**Content:**
+- Thank attendees
+- Share key takeaways
+- Next event teaser
+- Photo/share prompt
+
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+--- POST 1 ---
+Running community events is about creating value, not just filling seats.
+
+Our next LinkedInLocal Central Coast is locked in - and the energy is already building.
+
+If you're on the Central Coast and want to connect with like-minded business owners, come say hi.
+
+#LeaderByDesign #LinkedInLocal #CentralCoast
+
+---
+
+### Instagram Post
+
+--- POST 1 ---
+Community over competition Always 🫶
+
+Next LinkedInLocal Central Coast coming soon - if you're local and want to grow your network the right way, this is the spot.
+
+#LinkedInLocal #Community #CentralCoastBiz #LeaderByDesign

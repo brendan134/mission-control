@@ -82,6 +82,11 @@ Daniel Mason - Property Management Business
 - [ ] Set date for director strategic review/planning meeting
 
 ## Key Quotes
+
+## Coaching Approach
+- Focused on strategic guidance and accountability
+- Used questioning to help client discover solutions
+- Provided frameworks for implementation
 > "What is balance? Adequate reward for the level of effort."
 > "The most difficult part of this sort of learning experience for me has been about people."
 > "If it weren't for those values and approach to helping people, I wouldn't be trying to build something."
@@ -93,8 +98,56 @@ Daniel Mason - Property Management Business
 - **Mindset** - Blog: Building business around values
 - **Rating:** 4/5
 - **Urgency:** Now-e 
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Strategic Planning Template
+**What it is:** One-page planning template
+**Content:** Goals, actions, timeline, accountabilities
+
+### 2. Team Meeting Agenda
+**What it is:** 30-minute team meeting structure
+**Content:** Updates, focus area, commitments
+
+### 3. Performance Review Template
+**What it is:** Staff performance review checklist
+**Content:** Strengths, areas for improvement, next steps
+
+---
+
+### Content Potential (Updated)
+- **Podcast Episode:** Yes
+- **LinkedIn Post:** Yes
+- **Rating:** 3/5
+- **Urgency:** This Week
+
+-
+- **LinkedIn Post:** Yes
+
 ## Rating
 3/5
 
 ## Urgency
 Later
+
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+--- POST 1 ---
+Key insight from today's coaching session...
+
+#LeaderByDesign #BusinessGrowth
+
+---
+
+### Instagram Post
+
+--- POST 1 ---
+Business update...
+
+#LeaderByDesign #Entrepreneur

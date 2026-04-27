@@ -6,6 +6,9 @@
 **Energy/State:** Reflective, methodical
 **tags:** #ai-tools #product-development #content-creation #linkedin-local #business-clarity #personal-growth
 
+## Client
+[Client Name] - [Organization]
+
 ## Key Topics
 
 ### 1. Podcast Episode Update
@@ -103,6 +106,11 @@
 - [ ] Extract LinkedIn Local data for content planning
 
 ## Key Quotes
+
+## Coaching Approach
+- Focused on strategic guidance and accountability
+- Used questioning to help client discover solutions
+- Provided frameworks for implementation
 > "The best work comes when we don't have self-awareness. We just do it."
 > "Nothing is getting done. Nothing is effective." (re: rushing)
 > "It's okay to be slow."
@@ -112,8 +120,55 @@
 - **Product Development** - Blog: Building your product ascension funnel
 - **Productivity** - Blog: The value of being slow
 - **AI** - Internal: AI avatar building process
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Strategic Planning Template
+**What it is:** One-page planning template
+**Content:** Goals, actions, timeline, accountabilities
+
+### 2. Team Meeting Agenda
+**What it is:** 30-minute team meeting structure
+**Content:** Updates, focus area, commitments
+
+### 3. Performance Review Template
+**What it is:** Staff performance review checklist
+**Content:** Strengths, areas for improvement, next steps
+
+---
+
+### Content Potential (Updated)
+- **Podcast Episode:** Yes
+- **LinkedIn Post:** Yes
+- **Rating:** 3/5
+- **Urgency:** This Week
+
+-
+- **LinkedIn Post:** Yes
+
 ## Rating
 5/5
 
 ## Urgency
 This week (podcast release)
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+--- POST 1 ---
+Key insight from today's coaching session...
+
+#LeaderByDesign #BusinessGrowth
+
+---
+
+### Instagram Post
+
+--- POST 1 ---
+Business update...
+
+#LeaderByDesign #Entrepreneur

@@ -6,6 +6,9 @@
 **Energy/State:** Focused, strategic, optimistic
 **tags:** #leadership-team #onboarding #sales-performance #profit-analysis #melbourne-showroom #team-restructure
 
+## Client
+[Client Name] - [Organization]
+
 ## Key Topics
 
 ### 1. Onboarding Updates - Matt & Tom
@@ -109,6 +112,11 @@
 - [ ] Schedule Dune catch-up for last week of June
 
 ## Key Quotes
+
+## Coaching Approach
+- Focused on strategic guidance and accountability
+- Used questioning to help client discover solutions
+- Provided frameworks for implementation
 > "What's the point of goals if we're not going to make the change required to achieve them?"
 > "You get the people you deserve."
 > "We've bought ourselves a job, not the freedom."
@@ -117,8 +125,55 @@
 - **Leadership** - Internal: Building effective leadership teams
 - **Sales** - Internal: P&L per sales rep framework
 - **Onboarding** - Blog: 30-60-90 day plans for new hires
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Strategic Planning Template
+**What it is:** One-page planning template
+**Content:** Goals, actions, timeline, accountabilities
+
+### 2. Team Meeting Agenda
+**What it is:** 30-minute team meeting structure
+**Content:** Updates, focus area, commitments
+
+### 3. Performance Review Template
+**What it is:** Staff performance review checklist
+**Content:** Strengths, areas for improvement, next steps
+
+---
+
+### Content Potential (Updated)
+- **Podcast Episode:** Yes
+- **LinkedIn Post:** Yes
+- **Rating:** 3/5
+- **Urgency:** This Week
+
+-
+- **LinkedIn Post:** Yes
+
 ## Rating
 4/5
 
 ## Urgency
 This week
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+--- POST 1 ---
+Key insight from today's coaching session...
+
+#LeaderByDesign #BusinessGrowth
+
+---
+
+### Instagram Post
+
+--- POST 1 ---
+Business update...
+
+#LeaderByDesign #Entrepreneur

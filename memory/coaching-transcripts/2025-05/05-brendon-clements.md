@@ -4,7 +4,7 @@
 **Duration:** 1h 8m
 **Call Type:** QSGP / Monthly Development
 **Energy/State:** Frustrated but engaged
-**tags:** #leadership #operations #communication #enterprise-agreement #gemba-walks #team-culture
+**Tags:** #leadership #operations #communication #enterprise-agreement #gemba-walks #team-culture #leaderbydesign
 
 ## Client
 Brendon Clements - Site Manager (operations)
@@ -74,10 +74,85 @@ Brendon Clements - Site Manager (operations)
 ## Content Potential
 - **Leadership** - Blog: Gemba walks for leaders
 - **Operations** - Blog: Breaking through corporate bureaucracy
-- **Rating:** 4/5
-- **Urgency:** Now-e 
+
 ## Rating
 3/5
 
 ## Urgency
 Later
+
+---
+
+## VALUE ADD SECTION
+
+### Done-For-You Recommendations
+
+### 1. Gemba Walk Tracking Spreadsheet Template
+**What it is:** Simple spreadsheet for tracking Gemba walks
+**Content:**
+| Date | Time | Location | Duration | Who Joined | Key Observations | Action Items |
+|------|------|----------|----------|------------|------------------|--------------|
+| | | | | | | |
+
+Weekly summary to include:
+- Total hours walked this week
+- Number of team members engaged
+- Key themes observed
+- Issues escalated
+
+### 2. Gemba Walk Conversation Starters
+**What it is:** Questions to ask during walks that build connection and gather insights
+**Content:**
+- What's the hardest part of your day?
+- Is there anything slowing you down that I can help with?
+- What's working well that we should do more of?
+- If you could change one thing about how we do X, what would it be?
+- Who on the team has been really helpful lately?
+
+### 3. Supervisor Gemba Walk Guide
+**What it is:** Quick guide for bringing supervisors along and coaching them to do the same
+**Content:**
+**Week 1-2:** Supervisors observe your walks
+**Week 3-4:** Supervisors join and take notes
+**Week 5+:** Supervisors lead walks with you observing
+**Key message:** "You're not there to fix. You're there to understand."
+
+---
+
+## SOCIAL MEDIA DRAFTS
+
+### LinkedIn Post
+
+I spent 3.5 hours this week walking through our worksite talking to people.
+
+Not in a management way. Just walking, seeing what happens, chatting.
+
+It's called a Gemba walk - and it's changed how I lead.
+
+When was the last time you actually saw what your team sees every day?
+
+---
+
+### Instagram Post
+
+Gemba walk: n. Going to the place where work happens and actually watching what's going on.
+
+Sounds simple. But most leaders don't do it.
+
+I've been doing a few hours a week walking the site, talking to people, seeing the real picture.
+
+Not to micromanage. To understand.
+
+What's happening in your business that you're not seeing?
+
+---
+
+### Facebook Post
+
+Quick leadership experiment: I've been spending a few hours each week walking through the worksite and just talking to people.
+
+Not in a "how's it going" way. Actually watching what happens, asking questions, understanding the real picture.
+
+Called a Gemba walk - it's a thing in manufacturing but works everywhere.
+
+The thing is, most leaders are stuck in offices making decisions about things they've never actually seen.
