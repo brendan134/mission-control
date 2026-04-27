@@ -110,3 +110,20 @@ Example:
 - **LinkedIn Post:** Yes/No + Hook idea
 - **Rating:** 1-5 (5 = highly shareable)
 - **Urgency:** Now / This Week / This Month / Future
+
+---
+
+## SOCIAL MEDIA DRAFTS - Required Formatting
+
+### Rules (MUST FOLLOW):
+1. **No emdashes (—)** - use hyphens (-) instead
+2. **Humanize content** - write like Brendan speaks naturally (conversational, direct, not corporate)
+3. **Generic content** - no industry specifics, no client mentions
+4. **Always include #leaderbydesign** as one of the hashtags
+5. **CC360-ready format** - clean text, clear post separators, no complex markdown
+
+### CC360 Format:
+- Use clear delimiters between posts (e.g., "--- POST 1 ---")
+- Each platform section clearly labeled
+- Remove special characters that might break CC360
+- Keep hashtags on single line at end
