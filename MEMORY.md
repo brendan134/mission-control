@@ -117,6 +117,30 @@
 - **Tier C:** Kathy, Ruby, Lawrie, Tim
 - Human team: Kriz, Dom, Lazelle, Phoenix, Eunice, Mervyn
 
+### V2 Transcript Format (11 Fields + Extras)
+**Template location:** `memory/coaching-transcripts/V2_TEMPLATE.md`
+
+**THE 11 REQUIRED FIELDS:**
+1. **Date** - Month DD, YYYY format
+2. **Duration** - approximate minutes
+3. **Call Type** - category of call
+4. **Energy/State** - atmosphere/tone
+5. **Tags** - minimum 2-3 hashtags with #
+6. **Client** - name + organization
+7. **Key Topics** - numbered list with details
+8. **Action Items** - checkbox format [ ]
+9. **Key Quotes** - quoted text, minimum 2
+10. **Coaching Approach** - summary of coaching method
+11. **Content Potential** - at least 2 content ideas
+
+**ADDITIONAL REQUIRED SECTIONS:**
+- Rating (1-5)
+- Urgency (Now/This Week/This Month/Future)
+- Value Add Section (min 3 done-for-you recommendations)
+- Social Media Drafts (LinkedIn, Instagram, Facebook)
+
+**THRESHOLD:** 10 minutes minimum
+
 ### Ruby Podcast Producer v2.0 Standards (Apr 2026)
 - Created world-class podcast producer for High-Impact Leader Podcast
 - Key features: Approval system (draft/needs_revision/approved), weighted scoring rubric (85 pass, 92 excellent), episode metadata protocol (16 fields), pre-write diagnostic (9 questions), revision protocol (12 types), strategic validation
