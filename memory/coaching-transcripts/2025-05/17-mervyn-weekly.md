@@ -1,84 +1,86 @@
-# Coaching Call - Mervyn Weekly
+# Weekly Coaching - Mervyn
 
-**Date:** Friday, May 23, 2025
-**Duration:** 14m 29s
-**Call Type:** Weekly Review Meeting
-**Energy/State:** Relaxed, collaborative
-**tags:** #podcast-production #worksheets #product-creation #pricing #value-exchange
+**Date:** Friday, May 16, 2025
+**Duration:** 20m 52s
+**Call Type:** Weekly Coaching
+**Energy/State:** Busy, productive
+**tags:** #podcast-production #business-essentials-kit #linkedin-local #delegation #team-development
 
 ## Key Topics
 
-### 1. Podcast Production Status
-- Brendan in Melbourne for client workshop
-- Mervyn sent transcript yesterday
-- Main episode work in progress
-- By Monday should have all aspects ready
-- Need intro and takeaways from Brendan to append
-- Likely to be ready by Saturday
+### 1. Mervyn's Team Development
+- Delegating more tasks to team
+- Creating spec sheets for each podcast deliverable
+- Video, audio, clips - each has own requirements
+- Brendan's podcast is most complicated due to deliverables
 
-### 2. Worksheet Development
-- Mervyn creating illustrations for middle part
-- Using varied approaches (grids, steps, etc.)
-- Different from first batch but cohesive overall
-- About 160 pages (80 modules + 80 attached pages)
-- Color coding suggestion: Body/Side - good way to differentiate modules
-- Module 4 (Leadership and Team) complete - will share folder soon
+### 2. Business Essentials Starter Kit Launch
+- Launched yesterday
+- Well received
+- Half a dozen people already jumped in
+- Good goodwill in LinkedIn Local community
+- Using as reference in client conversations - sending specific lessons/worksheets
 
-### 3. Pricing Discussion
-- Brendan wants to pay Mervyn fairly
-- Comparing to VA rates ($8/hour Australian)
-- Mervyn offered to do it for free initially
-- Brendan suggested Mervyn set his own rate based on what VA would charge
-- Mervyn: "Whatever you pay your VA, pay me the same"
-- Discussion about value of skill and time
-- Brendan acknowledges Mervyn's varied skill set
-- Mervyn: "This is critical because it's your own product"
+### 3. Module Development Progress
+- Completed modules 1 and 2 (templates and worksheets)
+- Now realigning worksheets using AI
+- Getting AI to review one-pager drafts and suggest improvements
+- "Version 2" of worksheets created through AI collaboration
 
-### 4. Product Quality
-- Podcast episodes can go wrong - recoverable
-- Worksheets/product can't go wrong - critical
-- Important to get it right
+### 4. LinkedIn Local Community Update
+- 101 members now
+- 90 posts in the community
+- Good engagement from various people
+- Haven't done targeted LinkedIn messaging yet
+- Planning to have VA send simple outreach messages
 
-### 5. Future Video Iteration
-- Next iteration: Brendan talking through process
-- Live demonstration using worksheet in own business
-- Will need video bump-in (3-4 seconds)
-- Then tension, then bump-out
-- Standard production stuff
+### 5. In-Person Connection Value
+- Mervyn met a store owner who recognized him from Instagram
+- Discussion: People feel they "know" you from social media before meeting
+- Authority built through content helps with trust
+- Free value creates reciprocity
 
-### 6. Podcast Length
-- Steve interview went long (first 35 minutes too detailed)
-- Target: 45 minutes max
-- People need to be fully invested for longer podcasts
-- Shorter is better for engagement
-- Hook from Steve's vision talk was good
+### 6. Podcast Timeline
+- Interview scheduled for next Thursday
+- Then two weeks until next episode
+- Getting back on track with time between episodes
 
-### 7. Intro Length Adjustment
-- Current intros too long
-- Needs just a few seconds bump-in then straight into interview
-- Something to adjust going forward
+### 7. Payment Discussion
+- Mervyn suggested Brendan set a dollar amount for work done
+- First 10 episodes = 90% of the work
+- Future episodes should be similar effort
+- Mervyn living "Western life" in India with clients paid in USD
 
-### 8. Craig/Podcast Clients Update
-- Still bubbling along with regular podcast work
-- New clients coming in, some given to Mervyn
-- Will grow in time
+### 8. Design Work Standards
+- Tier 1 items (cheat sheets, prompts) don't need heavy design
+- Just add logo header + disclaimer
+- Mervyn always hits the mark - captures what Brendan can't explain
+
+### 9. Community Expansion Plans
+- Target: grow to 200-300 members
+- Then add monetization (online events, recordings in vault)
+- May expand beyond Central Coast
+- Even to India in future
+
+### 10. Personal Updates
+- Mervyn's son's birthday today (turned 23)
+- Making mango cheesecake
+- Brendan had tuna with mango chili
+- Indian mangoes discussion
 
 ## Action Items
-- [ ] Brendan: Provide intro and takeaways for main episode (by Monday)
-- [ ] Brendan: Review Module 4 when shared
-- [ ] Both: Finalise pricing for worksheet work
-- [ ] Future: Adjust podcast intro length
+- [ ] Send tier one examples for Business Essentials Kit
+- [ ] Continue building LinkedIn Local community
+- [ ] Schedule monthly financial review with Jerry and Janine
 
 ## Key Quotes
-> "This is critical because it's your own product."
-> "Whatever you pay your VA, pay me the same."
-> "You don't have to stress so much."
+> "The first 10 is like 90% of the work."
+> "When people see you on screen, they think they know you. When they meet you in person, you're a stranger."
+> "We have a head start with sense of authority, so when we offer something free, they feel they have to reciprocate."
+> "This community could turn out to be something very big."
 
 ## Content Potential
-- **Production** - Internal: Podcast length best practices
-- **Pricing** - Internal: Value-based pricing for creative work
-## Rating
-3/5
-
-## Urgency
-Next week
+- **Community** - Blog: Building local business communities
+- **Production** - Internal: Podcast spec sheet process
+- **Rating:** 3/5
+- **Urgency:** Next week
