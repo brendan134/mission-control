@@ -28,6 +28,15 @@
 - **Database**: Plan for future, no rush (Q3+)
 - **Auto-routing**: Yes - Niles remains CAO, routing should learn best-fit agent assignment
 - **Testing**: Start with 50% coverage on critical API paths
+
+### Content Repurposing Rules (Locked)
+- **Weekly Social Posts Review**: Every Friday 8:30am Sydney, Niles selects 3 posts for review:
+  - 1 from podcast content
+  - 1 from coaching calls
+  - 1 from general leadership/business
+- User replies with approvals → sent to VA (Dom) for posting following week
+- Posts must be: generic (no client identifiers), timing references removed, include graphic suggestions
+- Cron Job ID: 9f32ae03-9c78-4802-858c-2cc4a41dc4c4
 - **Timeline**: Spread across Q2-Q3, may extend to Q4
 
 ### System Status (Apr 2026)
