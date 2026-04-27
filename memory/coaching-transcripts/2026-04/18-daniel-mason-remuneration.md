@@ -96,6 +96,8 @@ That's what a client of mine did recently. New structure: base salary first, the
 
 #leaderbydesign #remuneration #hrstrategy #leadership
 
+**Graphic suggestion:** Image of a scale balancing - on one side "old compensation" (taking away), on the other side "new structure" (giving more). Or a ladder climbing up showing progression from base to commission.
+
 ---
 
 ### Instagram Post
@@ -112,6 +114,8 @@ Instead - give more first, then let them earn beyond that.
 It changes the whole conversation.
 
 #leaderbydesign #businessgrowth #teamleadership
+
+**Graphic suggestion:** Before/after split or an upward arrow showing growth. Clean, simple graphic showing someone moving to a better position.
 
 ---
 
@@ -131,3 +135,5 @@ The fix? Make sure everyone sees the upside first. Frame it as "here's your new 
 Simple shift. Massive difference.
 
 #leaderbydesign #businesstips #teamwork
+
+**Graphic suggestion:** Group of people looking at a chart together showing upward growth. Could also show a handshake or agreement gesture representing the new compensation deal.

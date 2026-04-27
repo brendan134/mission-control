@@ -94,6 +94,10 @@ That's leadership.
 
 ---
 
+**Graphic suggestion:** A pause button or stop sign with "PAUSE" text, showing a vendor/partner being temporarily stopped while processes are put in place. Could also show a scale balancing vendor performance vs accountability metrics.
+
+---
+
 ### Instagram Post
 
 Biggest takeaway from my week:
@@ -107,6 +111,8 @@ Sometimes the best move forward is stepping back.
 
 
 #leaderbydesign #leadershiptips #businessgrowth
+
+**Graphic suggestion:** Simple split image - left side showing a paused state (pause icon), right side showing a reset/reboot arrow. Minimal text, bold visuals.
 
 ---
 
@@ -123,3 +129,5 @@ Sometimes the strongest thing you can do is say "not anymore" and mean it.
 
 
 #leaderbydesign #communityleadership #teamwork
+
+**Graphic suggestion:** Photo of a leader standing firm with arms crossed or a "stop" hand gesture. Strong posture, confident expression. Or a "suspended" sign on a door with a process document behind it.

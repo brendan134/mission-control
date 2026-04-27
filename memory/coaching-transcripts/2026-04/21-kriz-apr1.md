@@ -72,6 +72,8 @@ It adds 5 minutes. Saves hours of back-and-forth.
 
 #leaderbydesign #teambuilding #operations #workflow
 
+**Graphic suggestion:** Checkmark stamp or QC (quality control) stamp on a document, or a person reviewing paperwork with a magnifying glass. Shows the check process clearly.
+
 ---
 
 ### Instagram Post
@@ -86,6 +88,8 @@ Always review work before it leaves your team.
 
 
 #leaderbydesign #businesstips #teamwork
+
+**Graphic suggestion:** Clock or timer showing 5 minutes, with a checkmark overlay. Shows the quick time investment for big return.
 
 ---
 
@@ -103,3 +107,5 @@ The fix takes 5 minutes. The return is hours.
 Small habits. Big impact.
 
 #leaderbydesign #businesstips #smallbusiness
+
+**Graphic suggestion:** Before/after comparison - messy pile of corrections vs clean approved document. Shows the impact of that 5-minute check.

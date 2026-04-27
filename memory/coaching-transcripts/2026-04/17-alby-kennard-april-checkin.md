@@ -92,6 +92,8 @@ The hard part? Letting go.
 
 #leaderbydesign #businesstips #leadershipgrowth #scalingbusiness
 
+**Graphic suggestion:** Photo of hands opening/letting go, or a door opening to new opportunities. Could also show a relay race passing a baton - letting others take the lead.
+
 ---
 
 ### Instagram Post
@@ -103,6 +105,8 @@ The fix? Hire good people, then let them actually make decisions.
 It's scary at first. But that's how you build a business that runs without you.
 
 #leaderbydesign #businessgrowth #entrepreneurlife
+
+**Graphic suggestion:** Image of a bottleneck being opened - like a funnel expanding or a traffic jam clearing. Shows the flow of decisions moving freely again.
 
 ---
 
@@ -119,3 +123,5 @@ The truth is, you can't scale if you're the bottleneck in every decision. Hire p
 It feels risky. But not doing it is the real risk.
 
 #leaderbydesign #businesstips #smallbusiness
+
+**Graphic suggestion:** Photo of a business owner stepping back from a whiteboard or desk, making space for team members to take over. Shows delegation in action.

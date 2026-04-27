@@ -88,6 +88,8 @@ The lesson? Keep going. Your breakthrough is probably closer than you think.
 
 #leaderbydesign #businesstips #entrepreneurlife #smallbusiness
 
+**Graphic suggestion:** Timeline graphic showing years 1-7, with a marker at year 5-7 showing opportunity/breakthrough. Could also show a seedling growing into a tree - early years struggle, later years flourish.
+
 ---
 
 ### Instagram Post
@@ -102,6 +104,8 @@ But if you push through to year 5-7? That's when opportunities start finding you
 Keep going.
 
 #leaderbydesign #businessgrowth #entrepreneur #hustle
+
+**Graphic suggestion:** Mountaineer climbing a mountain - showing the tough early climb (years 1-4) followed by the summit view (years 5-7). Inspiring, journey-focused.
 
 ---
 
@@ -119,3 +123,5 @@ The ones who make it through the messy early years? They're the ones who get the
 Keep going. Your breakthrough is closer than you think.
 
 #leaderbydesign #businesstips #startuplife
+
+**Graphic suggestion:** Light at end of tunnel metaphor, or a sprinter approaching the finish line. Shows perseverance leading to success.
