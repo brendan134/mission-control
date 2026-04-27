@@ -82,5 +82,9 @@
 ## Content Potential
 - **Community** - Blog: Building local business communities
 - **Production** - Internal: Podcast spec sheet process
-- **Rating:** 3/5
-- **Urgency:** Next week
+
+## Rating
+3/5
+
+## Urgency
+Next week
