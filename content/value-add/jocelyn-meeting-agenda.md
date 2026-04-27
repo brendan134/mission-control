@@ -9,7 +9,7 @@
 - Welcome team
 - Purpose: Discuss proactiveness and each person's development focus
 
-## CORE DISCUSSION (15 min)
+## CORE DISCUSSION (30 min)
 - What does "proactive" look like at High Street Vet?
 - Examples of thinking and doing vs waiting to be told
 - Each person shares their ONE development focus for May
