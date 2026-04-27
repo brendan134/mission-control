@@ -11,48 +11,46 @@
 
 **Body:**
 
-Just finished a powerful coaching session with a veterinary practice owner who hit on something crucial:
+Here's a challenge I hear from business leaders all the time:
 
-**"Our team isn't thinking and doing — they're waiting to be told what to do."**
-
-Sound familiar?
+**"My team isn't thinking and doing — they're waiting to be told what to do."**
 
 It's not about working harder. It's about building a team that exercises initiative.
 
-Here are 3 things we discussed:
+3 things that make the difference:
 
-1️⃣ **Clear expectations** — What does "proactive" actually look like in YOUR practice?
+1️⃣ **Clear expectations** — What does "proactive" actually look like in YOUR business?
 
-2️⃣ **Individual focus** — Each team member articulates their ONE development focus for the month
+2️⃣ **Individual ownership** — Each team member articulates their ONE development focus
 
-3️⃣ **Accountability without micromanagement** — Check-ins that inspire, not police
+3️⃣ **Growth-oriented check-ins** — Conversations that inspire, not just track tasks
 
 The best leaders don't just give instructions — they create thinkers.
 
-What's your team struggling with when it comes to initiative?
+What does proactiveness look like on YOUR team?
 
 👇 Drop a comment below.
 
-#Leadership #TeamBuilding #Veterinary #PracticeManagement #SmallBusiness
+#Leadership #TeamBuilding #BusinessGrowth #SmallBusiness #LeaderByDesign
 
 ---
 
 ## 📸 Instagram Post
 
-**Visual suggestion:** Photo of a veterinary team in discussion, or a workflow chart
+**Visual suggestion:** Photo of a team in discussion, or a simple workflow/chart graphic
 
 **Caption:**
 
-Team not thinking 👉 team not doing.
+Team not thinking 👉 Team not doing.
 
-The gap between "waiting to be told" and "figuring it out" is where most practices lose momentum.
+The gap between "waiting to be told" and "figuring it out" is where most businesses stall.
 
 This week, try asking your team:
-*"What's ONE thing you could do without asking me first?"*
+*"What's ONE thing you could handle without asking me first?"*
 
 Small shift. Big impact.
 
-#Veterinary #TeamLeadership #PracticeGrowth #SmallBusiness #Entrepreneur
+#Leadership #TeamBuilding #BusinessGrowth #Entrepreneur #LeaderByDesign
 
 ---
 
@@ -62,20 +60,20 @@ Small shift. Big impact.
 
 **Body:**
 
-Had a great coaching session today with a client who's tackling a challenge I hear a lot:
+Here's a challenge I hear from business leaders constantly:
 
 **"My team waits to be told everything. They don't think for themselves."**
 
 It's one of the toughest parts of scaling a business — building a team that exercises initiative, not just follows instructions.
 
-Here are 3 things that helped:
+3 things that help:
 
 ✅ Define what "proactive" looks like in YOUR business
-✅ Have each person pick their own development focus
+✅ Have each person own their own development focus
 ✅ Check in on progress, not on every task
 
-The goal isn't to create a team that doesn't need you. It's to create a team that CAN handle things without waiting for you.
+The goal isn't to create a team that doesn't need you. It's to create a team that CAN handle things without waiting.
 
 What strategies have worked for you? I'd love to hear your experiences!
 
-#SmallBusiness #Leadership #TeamManagement #PracticeOwner
+#SmallBusiness #Leadership #TeamManagement #BusinessGrowth #LeaderByDesign
