@@ -43,6 +43,30 @@ fathom__fathom_get_transcript(recording_id: <ID>)
 - Save to appropriate location (transcripts/ folder or analysis repo)
 - Update tracking document with completion status
 
+### 6. MANDATORY: Log to Daily Memory BEFORE Completing
+**CRITICAL:** No extraction work is complete until it's logged. 
+
+After finishing extraction, immediately:
+1. Read today's daily log file
+2. Append entry with:
+   - Date/timestamp
+   - How many calls extracted
+   - Which month/year
+   - Format used (V2, V2 without value-add, etc.)
+   - Files created (list paths)
+   - Source (manual, cron, sub-agent)
+
+**Template:**
+```markdown
+### [TIME] - Fathom Extraction Complete
+- **Extracted:** X calls from [MONTH YEAR]
+- **Format:** V2 [with/without] Value-Add
+- **Files:** /memory/coaching-transcripts/YYYY-MM/XX-xxx.md (list)
+- **Source:** [manual/cron/sub-agent name]
+```
+
+**Enforcement:** If you don't log, the work isn't done. Go back and log first.
+
 ## Lessons Learned (July 2025)
 
 ### What Worked
@@ -68,5 +92,5 @@ Fathom recording IDs are numeric (e.g., 72389045, 77853118)
 
 ---
 
-*Last updated: 2026-04-26*
+*Last updated: 2026-04-27*
 *Used for: July 2025 (31 calls)*

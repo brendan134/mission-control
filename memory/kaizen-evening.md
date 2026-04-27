@@ -1,32 +1,25 @@
-## Kaizen Evening Suggestion - April 26, 2026
+## Kaizen Evening Suggestion - Monday, April 27, 2026
 
 ### What I Analyzed
-- **Task Ownership Distribution**: 126 total tasks. 75 (60%) owned by Brendan. 7 (5%) owned by PH Team/AI Agents. This is the dependency bottleneck.
-- **Agent Infrastructure**: 16 agents with defined specialist roles (Tier A/B/C), agent-registry.ts has capabilities, but only single-agent routing works
-- **Workflow States**: 6 stages defined (Capture → Define → In Progress → Waiting → Review → Done) but not automated—tasks sit in stages until Brendan manually advances them
-- **Signal Feed**: Blocked task escalation exists (24h flag / 48h Niles / 72h Brendan), but it only alerts—it doesn't auto-route
-- **Multi-Agent Workflow Project**: Already scoped (proj-1776207926512-awfchain) for agent chain execution, but hasn't been built
-- **Mission Control**: Visual pipeline exists but is read-only—agents can't push tasks forward without human intervention
+- 9 specialist agents and their defined roles (SPECIALISTS.md, AGENTS.md)
+- Mission Control app - agents page, automations, task system
+- Business operations: workflows, routing guide, priority map
+- Current state of content production and client delivery pipelines
+- The week's context on multi-agent workflow enhancement
 
 ### The Suggestion
-**Wire Task Stages to Agent Auto-Execution (Workflow Chain MVP)**
+**Implement Automated Agent Handoff Protocol with State Persistence**
 
-**Why this matters:** You have all the infrastructure—stages, agents, Signal Feed, priorities—but no automation connecting them. Right now every task in "Review" stage waits for Brendan. Every "In Progress" task waits for Brendan to check it. The Chief of Staff agent (Niles/Casey) routing tasks to best-fit specialists is good, but the moment work needs to move forward in the pipeline, it stops and waits for human hands. Turning the existing stage definitions into an actual execution engine—where completing one stage auto-triggers the next agent—would shift 60% of task ownership off Brendan's plate and into self-managing flow. This directly hits the North Star: self-managing teams, owner independence, scalable performance.
+**Why this matters:** Currently, complex tasks requiring multiple specialists (e.g., "create LinkedIn post + YouTube video") require manual routing between agents. This keeps you in the loop as the orchestrator. Automated handoffs would let Ethan (LinkedIn) pass to Lucas (script) pass to Jay (YouTube) pass to Sophie (review) without your intervention. This directly reduces owner dependency and builds the self-managing "team of agents" you need to scale.
 
-**What to do:**
-1. **Pick ONE task type** (e.g., Content Package: LinkedIn post + newsletter + script)
-2. **Map its stage progression** to a specific agent chain: 
-   - Capture/Define → Content Agent (Ethan) drafts LinkedIn
-   - Ethan completes → auto-handoff to Script Agent (Lucas) 
-   - Lucas completes → auto-handoff to YouTube Agent (Jay)
-   - Review stage → lands in "Brendan queue" only for final approval
-3. **Add `autoAdvance: true` field** to task types that support chains
-4. **Create simple handoff trigger**: When agent marks task complete, check `nextStage`, auto-assign to best-fit agent for that stage, notify if human approval needed
-5. **Show active chains in Mission Control**: Visual "workflow in progress" view (not just static tasks) so Brendan sees work flowing, not stalled
+**What to do:** Build a lightweight orchestration layer in Mission Control's `/automations` section (or new `/orchestrator` page) that:
+1. Accepts multi-step task definitions (e.g., "Content Package: LinkedIn + Script + YouTube + Review")
+2. Routes step 1 to the right agent, captures output
+3. Auto-passes output + context to step 2 agent
+4. Continues chain until completion or approval gate
+5. Surfaces final output to you for review/approval
 
-**Effort:** Medium  
+Start with one proven workflow: Content Package (Ethan → Lucas → Sophie). Once stable, expand to Client Delivery workflows (Jordan → Jerry → Knowledge Agent).
+
+**Effort:** Medium
 **Impact:** High
-
----
-
-*Note: This continues the workflow chains project already scoped. The difference: instead of building a new YAML format and engine from scratch, leverage what's already built (JSON tasks with stages) and make those stages mean something by connecting them to agent assignment logic.*
