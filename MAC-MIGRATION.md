@@ -63,3 +63,18 @@ obsidian/
 ---
 
 _Created: 2026-04-26_
+### Fathom Video Upload Automation
+**Priority: Post-Migration**
+
+Currently: Manual download from Fathom → manual upload to Drive
+
+Once on Mac Mini:
+- [ ] I will have direct file system access to Downloads folder
+- [ ] Configure Google Drive API credentials
+- [ ] Create automation: Monitor Downloads → Auto-upload to Drive
+- [ ] Folder: `Leader By Design/Fathom Calls`
+
+**Workflow (Future):**
+1. You download call from Fathom → Downloads
+2. I detect new file → Upload to Drive automatically
+3. No manual steps needed
