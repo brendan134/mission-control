@@ -21,8 +21,16 @@ export default function ActionsPage() {
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState('');
   const [selectedClient, setSelectedClient] = useState('');
+  const [completedActions, setCompletedActions] = useState<Set<string>>(new Set());
 
   useEffect(() => {
+    // Load completed actions from localStorage
+    const saved = localStorage.getItem('completed-actions');
+    if (saved) {
+      setCompletedActions(new Set(JSON.parse(saved)));
+    }
+    
+    // Fetch data
     fetch('/api/coaching-actions')
       .then(res => res.json())
       .then(result => {
@@ -34,9 +42,27 @@ export default function ActionsPage() {
       .catch(() => setLoading(false));
   }, []);
 
-  const clients = [...new Set(data.map(d => d.client).filter(Boolean))].sort();
+  const toggleAction = (actionKey: string) => {
+    const newCompleted = new Set(completedActions);
+    if (newCompleted.has(actionKey)) {
+      newCompleted.delete(actionKey);
+    } else {
+      newCompleted.add(actionKey);
+    }
+    setCompletedActions(newCompleted);
+    localStorage.setItem('completed-actions', JSON.stringify([...newCompleted]));
+  };
 
-  const filteredData = data.filter(record => {
+  // Sort data by date (most recent first)
+  const sortedData = [...data].sort((a, b) => {
+    const dateA = new Date(a.call_date).getTime();
+    const dateB = new Date(b.call_date).getTime();
+    return dateB - dateA; // Descending - newest first
+  });
+
+  const clients = [...new Set(sortedData.map(d => d.client).filter(Boolean))].sort();
+
+  const filteredData = sortedData.filter(record => {
     const matchesSearch = filter === '' || 
       record.client?.toLowerCase().includes(filter.toLowerCase()) ||
       record.actions.some(a => a.action.toLowerCase().includes(filter.toLowerCase()));
@@ -45,6 +71,9 @@ export default function ActionsPage() {
   });
 
   const totalActions = filteredData.reduce((sum, r) => sum + r.actions.length, 0);
+  const completedCount = filteredData.reduce((sum, r) => 
+    sum + r.actions.filter(a => completedActions.has(`${r.client}-${r.call_date}-${a.action}`)).length, 0
+  );
 
   if (loading) {
     return (
@@ -61,7 +90,7 @@ export default function ActionsPage() {
           Coaching Action Items
         </h1>
         <p style={{ color: 'var(--text-secondary)' }}>
-          {filteredData.length} calls • {totalActions} total actions
+          {filteredData.length} calls • {totalActions} total actions • {completedCount} completed
         </p>
       </div>
 
@@ -135,51 +164,78 @@ export default function ActionsPage() {
             </div>
             
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-              {record.actions.map((action, actionIdx) => (
-                <div 
-                  key={actionIdx}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'flex-start',
-                    gap: '12px',
-                    padding: '8px',
-                    background: 'var(--background-primary)',
-                    borderRadius: '8px'
-                  }}
-                >
-                  <div style={{
-                    width: '20px',
-                    height: '20px',
-                    borderRadius: '50%',
-                    border: '2px solid var(--accent)',
-                    flexShrink: 0,
-                    marginTop: '2px'
-                  }} />
-                  <div style={{ flex: 1 }}>
-                    <div style={{ fontSize: '14px', lineHeight: '1.5' }}>
-                      {action.action}
-                    </div>
-                    <div style={{ 
-                      display: 'flex', 
-                      gap: '12px', 
-                      marginTop: '6px',
-                      fontSize: '12px',
-                      color: 'var(--text-muted)'
-                    }}>
-                      <span>Owner: {action.owner}</span>
-                      {action.due_date && <span>Due: {action.due_date}</span>}
-                      <span style={{
-                        padding: '2px 8px',
-                        borderRadius: '4px',
-                        background: action.priority === 'High' ? 'var(--error)' : 'var(--background-secondary)',
-                        color: action.priority === 'High' ? 'white' : 'inherit'
+              {record.actions.map((action, actionIdx) => {
+                const actionKey = `${record.client}-${record.call_date}-${action.action}`;
+                const isCompleted = completedActions.has(actionKey);
+                
+                return (
+                  <div 
+                    key={actionIdx}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'flex-start',
+                      gap: '12px',
+                      padding: '8px',
+                      background: isCompleted ? 'var(--success-bg, rgba(34, 197, 94, 0.1))' : 'var(--background-primary)',
+                      borderRadius: '8px',
+                      opacity: isCompleted ? 0.6 : 1,
+                      transition: 'all 0.2s ease'
+                    }}
+                  >
+                    <button
+                      onClick={() => toggleAction(actionKey)}
+                      style={{
+                        width: '20px',
+                        height: '20px',
+                        borderRadius: '50%',
+                        border: isCompleted ? 'none' : '2px solid var(--accent)',
+                        background: isCompleted ? 'var(--success, #22c55e)' : 'transparent',
+                        cursor: 'pointer',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        flexShrink: 0,
+                        marginTop: '2px',
+                        padding: 0
+                      }}
+                    >
+                      {isCompleted && (
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3">
+                          <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                      )}
+                    </button>
+                    <div style={{ flex: 1 }}>
+                      <div style={{ 
+                        fontSize: '14px', 
+                        lineHeight: '1.5',
+                        textDecoration: isCompleted ? 'line-through' : 'none',
+                        color: isCompleted ? 'var(--text-muted)' : 'var(--text-primary)'
                       }}>
-                        {action.priority}
-                      </span>
+                        {action.action}
+                      </div>
+                      <div style={{ 
+                        display: 'flex', 
+                        gap: '12px', 
+                        marginTop: '6px',
+                        fontSize: '12px',
+                        color: 'var(--text-muted)'
+                      }}>
+                        <span>Owner: {action.owner}</span>
+                        {action.due_date && <span>Due: {action.due_date}</span>}
+                        <span style={{
+                          padding: '2px 8px',
+                          borderRadius: '4px',
+                          background: action.priority === 'High' ? 'var(--error)' : 'var(--background-tertiary)',
+                          color: action.priority === 'High' ? 'white' : 'inherit'
+                        }}>
+                          {action.priority}
+                        </span>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
         ))}
