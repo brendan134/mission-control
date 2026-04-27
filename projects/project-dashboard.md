@@ -29,6 +29,13 @@ Simple view of active projects, status, and next actions.
 - Next action: define the simplest waitlist growth path when capacity allows
 - File: `projects/high-impact-vet-growth-mastermind-waitlist.md`
 
+### 5. Post-Coaching Accountability Engine
+- Status: In Progress
+- Strategic Priority: Systemised Program Delivery
+- Outcome: Reduce admin burden + create standalone coach product
+- Next action: Build Phase 1 Quick Win (Post-Call Action Extractor)
+- File: `projects/post-coaching-accountability-engine.md`
+
 ## Planning Files
 - Quarterly plan: `projects/q2-2026-quarterly-plan.md`
 - Current priorities: `projects/current-priorities.md`

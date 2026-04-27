@@ -16,6 +16,13 @@
 ### Extra Priority (when time allows)
 - Add at least 100 independent vet practice owners to High-Impact Vet Growth Mastermind waitlist
 
+### New — Systemised Program Delivery
+- **Post-Coaching Accountability Engine**
+  - Strategic priority: Systemised Program Delivery
+  - Status: In progress
+  - Quick win: Post-Call Action Extractor (Phase 1)
+  - File: `projects/post-coaching-accountability-engine.md`
+
 ### Major Projects In Motion
 - High-Impact Leader Club module creation
   - Owner: [You]
