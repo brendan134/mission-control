@@ -1,47 +1,48 @@
-# POST-RESTORE RECOVERY CHECKLIST
+# POST-RESTORE-CHECKLIST - Cloudflare Tunnel Setup
 
-## Only edit files in /data/.openclaw/workspace/workspace/control/ - NEVER delete or move the mission-control directory
+## Steps to Recreate Tunnel
 
----
+### 1. Delete Old Tunnel (in Cloudflare Dashboard)
+- Go to Cloudflare Dashboard → Zero Trust → Access → Tunnels
+- Delete "Mission-Control" tunnel
 
-## IMMEDIATE AFTER RESTORE:
+### 2. Create New Tunnel
+- Click "Create a new tunnel"
+- Name: `Mission-Control`
+- Copy the token (keep this safe!)
 
-### 1. Fix tasks.json (if needed)
-Two tasks need stage changed from "Planning" to "Define":
-- Task: "Book flights to Greece" (id: task-1777175391184-uajuq1ixr)
-- Task: "Arrange initial accommodation in Athens" (id: task-1777175391209-l7dd9cvfn)
+### 3. Configure Ingress Rule
+- In the tunnel setup, add a public hostname:
+  - **Hostname:** `mc.brendanrogers.au`
+  - **Service:** `http://127.0.0.1:3003` (NOT localhost - IPv6 issue!)
+- Save the tunnel
 
-Command:
+### 4. Update Local Scripts
+After creating the tunnel, update the token in:
+- `/data/.openclaw/workspace/start-tunnel.`
+- Any PM2 configs
+
+### 5. Run the Tunnel
 ```bash
-sed -i 's/"stage": "Planning"/"stage": "Define"/g' /data/.openclaw/workspace/tasks.json
+# Stop any existing cloudflared
+pkill cloudflared
+
+# Run new tunnel (get actual token from step 2)
+/data/.openclaw/workspace/cloudflared tunnel run --token "YOUR_NEW_TOKEN"
 ```
 
-### 2. Re-add Testing Infrastructure
-In `/data/.openclaw/workspace/mission-0/`:
-- Create `jest.config.js`
-- Create `jest.setup.js` 
-- Create `tests/api.test.js`
+### 6. Verify DNS
+- Ensure DNS record exists: `mc.brendanrogers.au` → tunnel
+- **CRITICAL:** Set Proxy Status to **Proxied** (not DNS only)
 
-### 3. Start Mission Control
+### 7. Test
 ```bash
-cd /data/.openclaw/workspace/mission-0
-npm install
-npm run dev
+curl -s -o /dev/null -w "%{http_code}" https://mc.brendanrogers.au
+# Should return 200
 ```
 
----
-
-## RULES TO AVOID FUTURE DISASTERS:
-
-### DO:
-- Edit files IN PLACE using edit/write tools
-- Work within /data/.openclaw/workspace/workspace/control/ only
-- Test immediately after starting server
-- Commit changes to git regularly
-
-### DON'T:
-- DON'T run git clone inside /data/.openclaw/workspace/workspace/control/
-- DON'T delete the mission-0 directory
-- DON'T create directories with spaces in names
-- DON'T run "cd" commands that navigate away from workspace
-- DON'T use rm -rf unless absolutely certain of the path
+## Key Rules (from past mistakes)
+- ✅ Use `127.0.0.1` not `localhost` in ingress rule
+- ✅ Set DNS Proxy Status to "Proxied"
+- ✅ Use nohup or PM2 to keep tunnel running
+- ❌ Don't use localhost - causes IPv6 resolution issue
