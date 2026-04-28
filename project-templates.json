@@ -1,0 +1,23 @@
+{
+  "advisorli": [
+    {"title": "Research Advisorli Pricing & Features", "description": "Review pricing, features, per-client costs", "stage": "Define", "priority": "High", "due_days": 3},
+    {"title": "Identify Pilot Clients", "description": "Select 1-2 clients for pilot", "stage": "Define", "priority": "High", "due_days": 7},
+    {"title": "Set Up Account/Environment", "description": "Create accounts, complete onboarding", "stage": "Define", "priority": "High", "due_days": 10},
+    {"title": "Test with Pilot Clients", "description": "Connect data, test, gather feedback", "stage": "Execution", "priority": "High", "due_days": 21},
+    {"title": "Evaluate & Iterate", "description": "Review results, document learnings", "stage": "Review", "priority": "Medium", "due_days": 30}
+  ],
+  "content-campaign": [
+    {"title": "Content Audit", "description": "Review existing assets, identify gaps", "stage": "Define", "priority": "High", "due_days": 2},
+    {"title": "Create Content Briefs", "description": "Write briefs for each piece", "stage": "Define", "priority": "High", "due_days": 5},
+    {"title": "Produce Content", "description": "Draft and refine all content", "stage": "Execution", "priority": "High", "due_days": 14},
+    {"title": "Distribution Setup", "description": "Schedule and configure channels", "stage": "Execution", "priority": "Medium", "due_days": 18},
+    {"title": "Review & Optimize", "description": "Analyze performance", "stage": "Review", "priority": "Medium", "due_days": 30}
+  ],
+  "strategic-plan": [
+    {"title": "Gather Current State Data", "description": "Collect reports, team info, market data", "stage": "Define", "priority": "High", "due_days": 3},
+    {"title": "Stakeholder Interviews", "description": "Interview key stakeholders", "stage": "Define", "priority": "High", "due_days": 7},
+    {"title": "Analysis & Opportunity ID", "description": "Identify gaps and opportunities", "stage": "Define", "priority": "High", "due_days": 14},
+    {"title": "Strategy Development", "description": "Develop recommendations and roadmap", "stage": "Execution", "priority": "High", "due_days": 21},
+    {"title": "Presentation & Approval", "description": "Present and finalize", "stage": "Review", "priority": "High", "due_days": 28}
+  ]
+}
