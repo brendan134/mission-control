@@ -14,6 +14,20 @@
     "strategic_priority_id": "strat-1776047606356-otwixyfjo"
   },
   {
+    "name": "1:1 Coaching Service Upgrade",
+    "description": "Strengthen Leader By Design 1:1 offer with premium white-glove client experience. Define service standards and touchpoints.",
+    "status": "Active",
+    "priority": "High",
+    "owner": "Brendan",
+    "stage": "Planning",
+    "id": "proj-1776207926512-3lre5escn",
+    "linked_task_ids": [],
+    "progress": 0,
+    "created_at": "2026-04-14T23:05:26.512Z",
+    "updated_at": "2026-04-20T11:45:16.749Z",
+    "strategic_priority_id": "strat-1776047606356-otwixyfjo"
+  },
+  {
     "name": "Podcast SEO Growth",
     "description": "Increase podcast downloads from ~15-20/week to 500-1,000/week through SEO improvements.",
     "status": "Active",
@@ -129,33 +143,5 @@
     "progress": 0,
     "created_at": "2026-04-26T03:21:50.411Z",
     "updated_at": "2026-04-26T03:24:26.572Z"
-  },
-  {
-    "name": "Post-Coaching Accountability Engine",
-    "description": "Done-for-you accountability system that extracts action items from coaching calls, tracks client progress, and escalates only when truly blocked. Goal: reduce admin burden + create standalone coach product.",
-    "status": "Active",
-    "priority": "High",
-    "owner": "Niles",
-    "stage": "Planning",
-    "strategic_priority_id": "strat-1776047606356-otwixyfjo",
-    "id": "proj-1777282245575-jk2ow9jbo",
-    "linked_task_ids": [],
-    "progress": 0,
-    "created_at": "2026-04-27T09:30:45.575Z",
-    "updated_at": "2026-04-27T09:30:45.575Z"
-  },
-  {
-    "name": "1:1 Coaching Service Upgrade - Advisorli",
-    "description": "Implement Advisorli for Building Stability stage clients and future masterminds. Premium white-glove financial visibility tool.",
-    "status": "Active",
-    "priority": "High",
-    "owner": "Brendan",
-    "stage": "Planning",
-    "id": "proj-1776207926512-3lre5escn",
-    "linked_task_ids": [],
-    "progress": 0,
-    "created_at": "2026-04-14T23:05:26.512Z",
-    "updated_at": "2026-04-27T12:33:00.000Z",
-    "strategic_priority_id": "strat-1776047606356-otwixyfjo"
   }
 ]

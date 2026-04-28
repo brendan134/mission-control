@@ -815,7 +815,7 @@ export default function Tasks() {
                       opacity: isDone ? 0.7 : 1,
                     }}>
                       <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '4px', flexWrap: 'wrap' }}>
-                        <span style={{ fontSize: '13px', fontWeight: 500, textDecoration: isDone ? 'line-through' : 'none', color: isDone ? 'var(--text-muted)' : 'inherit' }}>{task.title}</span>
+                        <span style={{ fontSize: '13px', fontWeight: 500 }}>{task.title}</span>
                         {/* Stale Badge for Kanban */}
                         {staleLevel && (
                           <span title={`${staleLevel.toUpperCase()}: ${daysSinceUpdate} days`} style={{

@@ -177,6 +177,7 @@ export function getNextBestTask(projectId: string, tasks: Task[]): NextBestTaskR
 
 const SAMPLE_PROJECT_NAMES = [
   'High-Impact Leader Club',
+  '1:1 Coaching Service Upgrade',
   'Podcast SEO Growth',
 ];
 
@@ -191,6 +192,14 @@ export function initializeSampleProjects(): void {
       priority: Priority.HIGH,
       owner: 'Brendan',
       stage: 'Execution' as const,
+    },
+    {
+      name: '1:1 Coaching Service Upgrade',
+      description: 'Strengthen Leader By Design 1:1 offer with premium white-glove client experience. Define service standards and touchpoints.',
+      status: ProjectStatus.ACTIVE,
+      priority: Priority.HIGH,
+      owner: 'Brendan',
+      stage: 'Planning' as const,
     },
     {
       name: 'Podcast SEO Growth',

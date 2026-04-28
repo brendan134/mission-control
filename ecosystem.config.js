@@ -4,14 +4,14 @@ module.exports = {
       name: "mission-control",
       cwd: "/data/.openclaw/workspace/mission-control",
       script: "npm",
-      args: "run dev",
+      args: "start",
       env: {
         PORT: 3003,
-        NODE_ENV: "development"
+        NODE_ENV: "production"
       },
       instances: 1,
       autorestart: true,
-      watch: true,
+      watch: false,
       max_memory_restart: "500M",
       restart_delay: 5000
     },

@@ -24,6 +24,7 @@ Kriz - Philippines team
 - New office space being finished in Philippines
 
 ### 4. Thursday Toolbox
+- Missed post last week
 - Resume Thursday Toolbox posts
 
 ### 5. TLL Community Posts
@@ -53,59 +54,3 @@ Kriz - Philippines team
 ## Content Potential
 - **Rating:** 1/5 - Operational details
 - **Urgency:** Low
-
----
-
-## SOCIAL MEDIA DRAFTS
-
-### LinkedIn Post
-
-The difference between a good team and a great team?
-
-Quality control before handing off work.
-
-It sounds simple. But how often do we skip that final check because we're busy?
-
-A client shared recently how a small gap in their QA process caused extra work for everyone. The fix? Every piece of work gets reviewed before it leaves the team.
-
-It adds 5 minutes. Saves hours of back-and-forth.
-
-#leaderbydesign #teambuilding #operations #workflow
-
-**Graphic suggestion:** Checkmark stamp or QC (quality control) stamp on a document, or a person reviewing paperwork with a magnifying glass. Shows the check process clearly.
-
----
-
-### Instagram Post
-
-Quick tip for better team output:
-
-
-Always review work before it leaves your team.
-
-
-5-minute check. Hours saved.
-
-
-#leaderbydesign #businesstips #teamwork
-
-**Graphic suggestion:** Clock or timer showing 5 minutes, with a checkmark overlay. Shows the quick time investment for big return.
-
----
-
-### Facebook Post
-
-One of the simplest fixes for operational headaches? Quality control before handover.
-
-
-A client of mine recently realized their team was sending work out without a final check. Result? Extra back-and-forth, frustrated people, wasted time.
-
-
-The fix takes 5 minutes. The return is hours.
-
-
-Small habits. Big impact.
-
-#leaderbydesign #businesstips #smallbusiness
-
-**Graphic suggestion:** Before/after comparison - messy pile of corrections vs clean approved document. Shows the impact of that 5-minute check.
